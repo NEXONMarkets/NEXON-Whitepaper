@@ -1,5 +1,5 @@
 # Token Economics
 
-> **Status:** to be written
->
-> Scope of this section: Two assets, two jobs. The separation must read as structural, not as a marketing split.
+{% hint style="warning" %}
+**Draft.** This section is being written and is not final.
+{% endhint %}

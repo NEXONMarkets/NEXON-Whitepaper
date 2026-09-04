@@ -1,5 +1,5 @@
 # Marketplace — the Real Leg
 
-> **Status:** to be written
->
-> Scope of this section: Where on-chain value becomes goods. The proof that the loop closes outside crypto.
+{% hint style="warning" %}
+**Draft.** This section is being written and is not final.
+{% endhint %}

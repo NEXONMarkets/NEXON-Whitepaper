@@ -1,5 +1,5 @@
 # Glossary
 
-> **Status:** to be written
->
-> Scope of this section: The four-layer term system, published. Must stay identical to the internal terminology red-line table.
+{% hint style="warning" %}
+**Draft.** This section is being written and is not final.
+{% endhint %}

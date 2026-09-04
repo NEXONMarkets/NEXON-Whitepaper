@@ -1,7 +1,5 @@
 # Legal Disclaimer
 
-> **Status:** to be written
->
-> Scope of this section: Not investment advice, forward-looking statements, jurisdictional restrictions.
->
-> **Blocked** — needs written input from the project side before this can be written.
+{% hint style="warning" %}
+**Draft.** This section is being written and is not final.
+{% endhint %}

@@ -1,5 +1,5 @@
 # The NEXON Stack
 
-> **Status:** to be written
->
-> Scope of this section: Five products, five organs of one body. Each is defined by its role in the intent-to-settlement path, never as a standalone feature list.
+{% hint style="warning" %}
+**Draft.** This section is being written and is not final.
+{% endhint %}

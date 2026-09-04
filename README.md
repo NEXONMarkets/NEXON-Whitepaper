@@ -1,5 +1,11 @@
 # NEXON Whitepaper
 
+> ⚠️ **WORK IN PROGRESS — NOT AN OFFICIAL RELEASE.**
+> Every chapter in this repository is an unfinished draft. Nothing here is final, nothing here
+> has been reviewed or approved, and no figure in it should be quoted, cited, or relied upon.
+> Token supply, allocation and emission numbers are **not yet decided** and any value appearing
+> in a draft is a placeholder. This is not an offer, a solicitation, or investment advice.
+
 Source of truth for the NEXON whitepaper, in English and Simplified Chinese.
 Published through GitBook via Git Sync — **this file is not part of the published site.**
 

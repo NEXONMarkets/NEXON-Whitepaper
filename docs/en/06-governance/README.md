@@ -1,7 +1,5 @@
 # Governance
 
-> **Status:** to be written
->
-> Scope of this section: Who decides what, through which instrument, on what timetable.
->
-> **Blocked** — needs written input from the project side before this can be written.
+{% hint style="warning" %}
+**Draft.** This section is being written and is not final.
+{% endhint %}
