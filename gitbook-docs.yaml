@@ -1,0 +1,32 @@
+# NEXON 白皮书 · GitBook 站点级同步配置
+#
+# ⚠️ key 一经上线即为永久标识：改 key 会让 GitBook 判定为「删旧建新」，
+#    生成新的 space ID，原 space 脱离站点且无法通过改回 key 恢复。
+#    改名请改 title，改 URL 请改 path，两者都不影响 key。
+#
+# 资产不跨 space 共享：docs/en 与 docs/zh 各自维护 .gitbook/assets/。
+
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: NEXON Whitepaper
+  structure:
+    - type: section
+      key: whitepaper
+      title: Whitepaper
+      path: whitepaper
+      children:
+        - type: space
+          key: wp-en
+          title: English
+          path: docs
+          default: true
+          content:
+            directory: ./docs/en
+            language: en
+        - type: space
+          key: wp-zh
+          title: 简体中文
+          path: zh
+          content:
+            directory: ./docs/zh
+            language: zh
