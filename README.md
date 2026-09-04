@@ -26,3 +26,17 @@ Adding a chapter means adding it to **both** trees and to **both** `SUMMARY.md` 
 4. **Never change a `key` in `gitbook-docs.yaml`.** See the warning in that file.
 5. **Terminology is fixed.** Both languages follow the locked four-layer term system; the
    Chinese is the source and the English must not drift from the agreed pairings.
+
+## GitBook plan notes (verified 2026-09-04)
+
+| Feature | Free | Needed? |
+| --- | --- | --- |
+| Git Sync | ✅ included | required |
+| **Site variants** (multiple spaces on one site, for localization) | ✅ included | **this is how EN/ZH is published** |
+| Site sections | ❌ Ultimate, $249/site/mo | avoid — do not wrap the spaces in a `type: section` |
+| Custom domain (e.g. `docs.nexon.markets`) | ❌ Premium, $65/site/mo | needed before public launch |
+| PDF export | ❌ Premium | not needed — we render the PDF from this repo ourselves |
+| Redirect management (UI) | ❌ Premium | `.gitbook.yaml` redirects are git-driven, unaffected |
+
+GitBook rewrites `gitbook-docs.yaml` whenever the content mapping is saved in its UI.
+If it does, `git pull` before editing further.
