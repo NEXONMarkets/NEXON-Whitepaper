@@ -5,6 +5,7 @@
 ## Part I · The Problem
 
 * [The Split](01-the-split/README.md)
+  * [Why NEXON](01-the-split/why-nexon.md)
   * [Three Value Languages](01-the-split/three-value-languages.md)
   * [Why Bridges Failed](01-the-split/why-bridges-failed.md)
 
@@ -12,7 +13,7 @@
 
 * [The Translator](02-the-translator/README.md)
   * [Intent, Not Operation](02-the-translator/intent-over-operation.md)
-  * [Why This Is Not "AI + Payments"](02-the-translator/not-ai-plus-payments.md)
+  * [Why This Is Not "AI + Payments"](02-the-translator/not-ai-plus-payments.md "Not AI + Payments")
 
 ## Part III · Architecture
 
@@ -26,29 +27,30 @@
 ## Part IV · Products
 
 * [The NEXON Stack](04-product-stack/README.md)
-  * [Social — the Intent Layer](04-product-stack/social.md)
-  * [PayFi — the Agent's Hand](04-product-stack/payfi.md)
-  * [Wallet — Memory, Judgment, Patience](04-product-stack/wallet.md)
-  * [Marketplace — the Real Leg](04-product-stack/marketplace.md)
+  * [Social — the Intent Layer](04-product-stack/social.md "Social")
+  * [PayFi — the Agent's Hand](04-product-stack/payfi.md "PayFi")
+  * [Wallet — Memory, Judgment, Patience](04-product-stack/wallet.md "Wallet")
+  * [Marketplace — the Real Leg](04-product-stack/marketplace.md "Marketplace")
   * [Stablecoin Card](04-product-stack/stablecoin-card.md)
 
 ## Part V · Economics
 
 * [Token Economics](05-tokenomics/README.md)
-  * [Two Assets, Two Jobs](05-tokenomics/two-assets-two-jobs.md)
-  * [XO — Collateral, Not Fuel](05-tokenomics/xo.md)
-  * [EXON — Fuel and Unit of Settlement](05-tokenomics/exon.md)
-  * [Distribution & Emission](05-tokenomics/distribution.md)
+  * [Two Assets, Two Jobs](05-tokenomics/two-assets-two-jobs.md "Two Assets")
+  * [XO — Collateral, Not Fuel](05-tokenomics/xo.md "XO")
+  * [EXON — Fuel and Unit of Settlement](05-tokenomics/exon.md "EXON")
+  * [Distribution & Emission](05-tokenomics/distribution.md "Distribution")
   * [Value Flows](05-tokenomics/value-flows.md)
 * [Governance](06-governance/README.md)
 
 ## Part VI · Assurance
 
-* [Security & Risk](07-security-and-risk/README.md)
-* [Compliance & Legal Posture](08-compliance/README.md)
+* [Security & Risk](07-security-and-risk/README.md "Security")
+* [Compliance & Legal Posture](08-compliance/README.md "Compliance")
 * [Roadmap](09-roadmap/README.md)
 
 ## Appendix
 
 * [Glossary](glossary/README.md)
 * [Legal Disclaimer](legal-disclaimer/README.md)
+* [Open Parameters](open-parameters/README.md "Open Parameters")
