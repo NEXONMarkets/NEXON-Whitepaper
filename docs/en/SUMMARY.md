@@ -9,9 +9,9 @@
   * [Three Value Languages](01-the-split/three-value-languages.md)
   * [Why Bridges Failed](01-the-split/why-bridges-failed.md)
 
-## Part II · The Thesis
+## Part II · The Connection Thesis
 
-* [The Translator](02-the-translator/README.md)
+* [The Value Translator](02-the-translator/README.md)
   * [Intent, Not Operation](02-the-translator/intent-over-operation.md)
   * [Why This Is Not "AI + Payments"](02-the-translator/not-ai-plus-payments.md "Not AI + Payments")
 

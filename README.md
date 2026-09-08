@@ -30,12 +30,18 @@ Adding a chapter means adding it to **both** trees and to **both** `SUMMARY.md` 
 3. **Assets are not shared between spaces.** An image used in both languages needs a copy in
    `docs/en/.gitbook/assets/` *and* `docs/zh/.gitbook/assets/`.
 4. **Never change a `key` in `gitbook-docs.yaml`.** See the warning in that file.
-5. **Economic terminology is fixed.** XO is the Staking Principal Token; EXON is the Core
-   Value Token. Both languages must match the approved model and remain structurally aligned.
-6. **Economic source of truth.** The repository source PDF is
+5. **Narrative and mechanical roles are both fixed.** In the approved narrative, NEXON is
+   the ecosystem, XO carries long-term value and EXON drives circulation. In the current
+   economic mechanism, XO is the Staking Principal Token and EXON is the Core Value Token.
+   Governance, payments, fees and consumption utilities remain Roadmap until their rules are
+   published. Both languages must preserve this distinction and remain structurally aligned.
+6. **Two linked sources of truth.** The economic source PDF is
    `../../../raw/NEXON项目方资料/NEXON_经济模型_Tokenomics.pdf`; its machine-readable registry is
-   `../../tokenomics_assets/tokenomics.authority.json`. Run the parent workspace validator
-   before publishing.
+   `../../tokenomics_assets/tokenomics.authority.json`. The project-party narrative addendum is
+   `../../../raw/NEXON项目方资料/NEXON_项目叙事补充_2026-09-08.md`; its registry is
+   `../../narrative_assets/nexon.narrative.authority.json`. Narrative positioning may not change
+   any formula, price, ratio, release, reward, redemption or burn rule. Run both parent-workspace
+   validators before publishing.
 
 ## GitBook plan notes (verified 2026-09-04)
 

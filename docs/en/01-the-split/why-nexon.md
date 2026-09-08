@@ -1,55 +1,53 @@
 ---
-description: "Nexus names the tie itself, not the act of tying; ON switches it on. The name, its Roman origin, and the one object it fixes before anything is built."
-icon: "landmark"
+description: "NEX means nexus and cross-domain connection; ON means enabled and online. Together they name a new-generation value connection network."
+icon: "link"
 ---
 
 # Why NEXON
 
-> NEXON = a connection, switched on.
+> NEXON = NEX (Nexus) + ON (enabled and online).
 
 A name should carry the argument it fronts. This one is built from two parts, and each part does work.
 
-## Nexus — the tie itself
+## NEX — nexus and connection
 
-Nexus comes from the Latin verb nectere — to bind, to tie, to connect. Nexus is its noun: literally, "the thing that has been tied together." Note the detail. It does not name the act of tying, nor the two ends being tied. It names the connection itself — as something that exists on its own, with substance.
+NEX expresses **nexus**: a point of connection among systems that were not designed as one system. It also evokes a cross-domain link—the movement from one value context into another without flattening their differences.
 
-When the Romans established such a relation they used a rite called per aes et libram — "by bronze and scales." The parties, the witnesses and the scale-holder had to be present; bronze was weighed on the balance in public, and only then did the relation exist. In Roman law, a connection that had not been publicly witnessed did not exist.
-
-Two thousand years later, we gave this a new name: a blockchain.
-
-Set the Latin aside and two things remain. A connection is a thing, not an event: it has substance of its own, apart from the parties it joins. And it exists only once it has been witnessed in public; a private handshake between two ledgers is not a connection in this sense, however well it works. The word already described the object this paper is about. The three markets are the parties. The tie between them is the thing, and it has to exist somewhere it can be seen.
+The distinction matters. A capital-market position, a digital token and a hotel reservation can all be valuable, but they are not interchangeable objects. They have different issuers, legal meanings, settlement processes and failure modes. NEXON does not begin with the claim that one ledger can erase those differences. It begins with a more disciplined goal: make the relationship among them legible enough that a user can express an outcome and understand the route required to reach it.
 
 ## + ON
 
-\+ ON. Nexus is static — it describes a relation that already exists. ON sets it running: switched on, online, powered.
+**ON** means enabled, active and online. Connection alone describes a topology; ON adds operation. It signals that the network should not stop at a diagram of linked markets. It should expose usable pathways, permission boundaries, execution receipts and the real-world completion of an approved request.
 
 {% columns %}
 {% column %}
-**nexus — the tie itself**
+**NEX — connection**
 
-The relation, not the act: something with substance of its own between the three markets, and real only once it has been publicly witnessed. The noun.
+The nexus among capital, digital assets and real consumption: distinct systems connected through explicit routes and responsibilities.
 {% endcolumn %}
 {% column %}
-**ON — switched on**
+**ON — enabled and online**
 
-A tie that is described is not yet a tie that runs. ON is the difference between a relation on record and a relation in operation: live, reachable, powered. The verb.
+A connection becomes useful when it can be requested, checked, approved, executed and accounted for. ON names that operational ambition.
 {% endcolumn %}
 {% endcolumns %}
 
-Put together: **NEXON = a connection, switched on.** In plain terms, a next-generation value-connection network: the tie between capital markets, digital assets and real-world spending, brought into operation rather than merely recorded.
+Put together: **NEXON = NEX (Nexus) + ON.** In plain terms, a **new-generation value connection network**: an ecosystem intended to connect capital, digital finance and global consumption.
+
+That sentence defines a direction, not a declaration that every connection is already available. The approved economic mechanism is specific and current. The broader AI-Native PayFi, wallet, marketplace, Stablecoin Card and decentralized social surfaces are Roadmap. The name remains constant across those stages because it describes the value-connection problem they are intended to address.
 
 ## Where NEXON comes from
 
 NEXON is an independent, community-initiated project built within the NEX ecosystem. It is not an official NEX product, and its assets are not exchange tokens.
 
-NEX is a licensed digital-asset exchange. NEXON began as a response to it: a community that saw a licensed venue with the reach and the resources to carry a project chose to launch one on it, and chose a name that says where it stands. The closeness of the two names is deliberate, and it is the whole of the relationship this paper claims — NEXON draws on NEX's resources and its standing, and its aim is to be the project NEX is known for. What NEXON does not claim is NEX's authorship. The design in this paper and the decisions behind it are NEXON's own, and a tie that is witnessed in public is exactly what the name promises.
+NEXON is an independent, community-initiated project built within the NEX ecosystem. It is not an official NEX product, and its assets are not NEX platform tokens. The closeness of the names should not be used to imply authorship, guarantee, custody, endorsement or liability beyond what is formally documented.
 
-The name says nothing about how the tie is made or what it costs to keep running. That is deliberate: those are the questions the rest of this paper answers, and a name that answered them in advance would be a slogan. What the name fixes is the object — not three markets with a pipe between them, but one connection that is real, witnessed and on. The sections that follow show why that object does not yet exist.
+The name says nothing by itself about how a route is made, who executes it, what economic terms apply or what it costs to keep running. Those questions require separate specifications. The whitepaper therefore distinguishes three kinds of statement: the approved narrative explains what NEXON is for; the approved Tokenomics paper defines the current mechanism; Roadmap chapters describe what the ecosystem may add later. One category cannot be used as evidence for another.
 
 **Three markets. One language.**
 
 {% hint style="info" %}
-**Scope of this section.** Commits to: the derivation of the name and the definition it fixes — a connection that exists in its own right, is publicly witnessed, and is switched on — and NEXON's standing as an independent, community-initiated project within the NEX ecosystem. Does not commit to: any mechanism, asset or product; the name describes an object, not an implementation. Open items: none ([Open Parameters](../open-parameters/README.md) begins with Part III).
+**Scope of this section.** Commits to: the project-approved meaning of NEXON—NEX (Nexus) + ON (enabled/online)—and the definition of a new-generation value connection network. It also states NEXON's standing as an independent, community-initiated project within the NEX ecosystem. Does not commit to: current availability of any Roadmap product or any relationship not formally documented. Open items: product specifications and rollout gates.
 {% endhint %}
 
 *Spine: [The Translator](../02-the-translator/README.md) · Next: [Three Value Languages](three-value-languages.md)*

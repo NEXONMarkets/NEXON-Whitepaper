@@ -29,6 +29,8 @@ This Part describes that shape. It proposes nothing. It explains the name this p
 
 Everything that follows in this paper is an attempt to justify one sentence, and it is worth stating before a single mechanism has been described.
 
+This is the opening problem in the NEXON thesis: capital may create value, digital networks may move it, and consumer markets may realize it, but the user still experiences three separate worlds. A new-generation value connection network starts by preserving those differences, then making the transitions explicit.
+
 **Three markets. One language.**
 
 {% hint style="info" %}
