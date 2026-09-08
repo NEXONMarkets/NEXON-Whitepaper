@@ -21,7 +21,7 @@
   * [Intent Layer](03-architecture/intent-layer.md)
   * [Agent Runtime](03-architecture/agent-runtime.md)
   * [Settlement & Custody](03-architecture/settlement-and-custody.md)
-  * [Trust & Bonding](03-architecture/trust-and-bonding.md)
+  * [Staking & Reward Layer](03-architecture/trust-and-bonding.md)
   * [Data & Oracles](03-architecture/data-and-oracles.md)
 
 ## Part IV · Products
@@ -37,9 +37,11 @@
 
 * [Token Economics](05-tokenomics/README.md)
   * [Two Assets, Two Jobs](05-tokenomics/two-assets-two-jobs.md "Two Assets")
-  * [XO — Collateral, Not Fuel](05-tokenomics/xo.md "XO")
-  * [EXON — Fuel and Unit of Settlement](05-tokenomics/exon.md "EXON")
-  * [Distribution & Emission](05-tokenomics/distribution.md "Distribution")
+  * [XO — Staking Principal Token](05-tokenomics/xo.md "XO")
+  * [EXON — Core Value Token](05-tokenomics/exon.md "EXON")
+  * [Distribution & Release](05-tokenomics/distribution.md "Distribution")
+  * [Staking & Returns](05-tokenomics/staking-and-returns.md)
+  * [Worked Examples](05-tokenomics/worked-examples.md)
   * [Value Flows](05-tokenomics/value-flows.md)
 * [Governance](06-governance/README.md)
 

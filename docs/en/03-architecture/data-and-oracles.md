@@ -81,16 +81,16 @@ An oracle is only worth what it does on a bad day. Each kind of input can fail i
 | Deviating | Independent sources disagree beyond the band | The Route pauses; a fresh quote is taken; you approve again | `In development` |
 | Unavailable | A required source cannot be reached | The Route pauses; if the source stays unreachable past the deadline, Rollback | `In development` |
 | Spoofed | A source fails its authenticity check | The source is dropped; the Route pauses; Rollback if a leg already depended on it | `In development` |
-| Disputed | A fact is contested after a leg has landed | The dispute window opens; unresolved, the Route is Partially unwound and the Seat Council resolves it | `In development` |
+| Disputed | A fact is contested after a leg has landed | The dispute window opens; unresolved, the Route is Partially unwound and the Risk Council resolves it | `In development` |
 
 ### Circuit breaker
 
 **Status** · `In development`
 
-The circuit breaker is the component that reads the table above and acts on it. Its rungs are fixed: a quote that fails expires; a Route that loses a reading pauses; a Route that cannot regain one within its deadline unwinds; and a dispute that a rule cannot settle goes to the Seat Council. The breaker is a filter, not a decision-maker. It never proposes a leg, never changes one, and never widens a band; it only stops things. The thresholds that trip it are a `Design Target` (OP-17), and the set of providers it reads is `Open` (OP-16).
+The circuit breaker is the component that reads the table above and acts on it. Its rungs are fixed: a quote that fails expires; a Route that loses a reading pauses; a Route that cannot regain one within its deadline unwinds; and a dispute that a rule cannot settle goes to the Risk Council. The breaker is a filter, not a decision-maker. It never proposes a leg, never changes one, and never widens a band; it only stops things. The thresholds that trip it are a `Design Target` (OP-17), and the set of providers it reads is `Open` (OP-16).
 
 {% hint style="info" %}
-**Scope of this section.** Commits to: four kinds of input, no leg priced from a single source, identity held only as a reference to a licensed attestation, and a fixed escalation from quote expiry to Seat Council. Does not commit to: any provider, any threshold, or the scope of Foresight as an input. Open items: [OP-16 · OP-17 · OP-22 · OP-26](../open-parameters/README.md).
+**Scope of this section.** Commits to: four kinds of input, no leg priced from a single source, identity held only as a reference to a licensed attestation, and a fixed escalation from quote expiry to Risk Council. Does not commit to: any provider, any threshold, or the scope of Foresight as an input. Open items: [OP-16 · OP-17 · OP-22 · OP-26](../open-parameters/README.md).
 {% endhint %}
 
 *Spine: [The Translator](../02-the-translator/README.md) · Next: [The NEXON Stack](../04-product-stack/README.md)*

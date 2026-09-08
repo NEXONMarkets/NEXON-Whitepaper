@@ -21,7 +21,7 @@
   * [意图层](03-architecture/intent-layer.md)
   * [Agent 运行时](03-architecture/agent-runtime.md)
   * [结算与托管](03-architecture/settlement-and-custody.md)
-  * [信任与抵押](03-architecture/trust-and-bonding.md)
+  * [质押与奖励层](03-architecture/trust-and-bonding.md)
   * [数据与预言机](03-architecture/data-and-oracles.md)
 
 ## 第四部分 · 产品
@@ -37,9 +37,11 @@
 
 * [通证经济](05-tokenomics/README.md)
   * [双币，两份工作](05-tokenomics/two-assets-two-jobs.md "双币")
-  * [XO —— 抵押品，不是燃料](05-tokenomics/xo.md "XO")
-  * [EXON —— 燃料与结算单位](05-tokenomics/exon.md "EXON")
+  * [XO —— 质押本金代币](05-tokenomics/xo.md "XO")
+  * [EXON —— 核心价值代币](05-tokenomics/exon.md "EXON")
   * [分配与释放](05-tokenomics/distribution.md)
+  * [质押与收益](05-tokenomics/staking-and-returns.md)
+  * [完整演算案例](05-tokenomics/worked-examples.md)
   * [价值流转](05-tokenomics/value-flows.md)
 * [治理](06-governance/README.md)
 

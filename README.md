@@ -1,10 +1,10 @@
 # NEXON Whitepaper
 
-> ⚠️ **WORK IN PROGRESS — NOT AN OFFICIAL RELEASE.**
-> Every chapter in this repository is an unfinished draft. Nothing here is final, nothing here
-> has been reviewed or approved, and no figure in it should be quoted, cited, or relied upon.
-> Token supply, allocation and emission numbers are **not yet decided** and any value appearing
-> in a draft is a placeholder. This is not an offer, a solicitation, or investment advice.
+> ⚠️ **WORK IN PROGRESS — NOT AN OFFER.**
+> The economic mechanism and worked examples reproduce the project party's approved
+> 6 September 2026 Tokenomics paper. They are parameters and conditional illustrations,
+> not promises of yield, price, payback or principal protection. Numerical EXON total supply,
+> complete allocation and initial float remain unpublished. Participants may lose some or all principal.
 
 Source of truth for the NEXON whitepaper, in English and Simplified Chinese.
 Published through GitBook via Git Sync — **this file is not part of the published site.**
@@ -30,8 +30,12 @@ Adding a chapter means adding it to **both** trees and to **both** `SUMMARY.md` 
 3. **Assets are not shared between spaces.** An image used in both languages needs a copy in
    `docs/en/.gitbook/assets/` *and* `docs/zh/.gitbook/assets/`.
 4. **Never change a `key` in `gitbook-docs.yaml`.** See the warning in that file.
-5. **Terminology is fixed.** Both languages follow the locked four-layer term system; the
-   Chinese is the source and the English must not drift from the agreed pairings.
+5. **Economic terminology is fixed.** XO is the Staking Principal Token; EXON is the Core
+   Value Token. Both languages must match the approved model and remain structurally aligned.
+6. **Economic source of truth.** The repository source PDF is
+   `../../../raw/NEXON项目方资料/NEXON_经济模型_Tokenomics.pdf`; its machine-readable registry is
+   `../../tokenomics_assets/tokenomics.authority.json`. Run the parent workspace validator
+   before publishing.
 
 ## GitBook plan notes (verified 2026-09-04)
 
