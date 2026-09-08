@@ -42,12 +42,11 @@ flowchart LR
     C -->|"代币化 · 仅登记"| D
     D -->|"稳定币支付 · 单向"| R
     C -. "资本 ⇄ 现实：没有人" .- R
-    %% NEXON palette v0 · placeholder until VI locks
-    classDef navy  fill:#0B1220,stroke:#22D3EE,stroke-width:1.5px,color:#E6EDF3
-    classDef cyan  fill:#22D3EE,stroke:#0B1220,stroke-width:1.5px,color:#0B1220
-    classDef light fill:#E6EDF3,stroke:#0B1220,stroke-width:1px,color:#0B1220
-    classDef ghost fill:#FFFFFF,stroke:#22D3EE,stroke-width:1px,stroke-dasharray:4 3,color:#0B1220
-    class C,D,R light
+    classDef anchor fill:#047854,stroke:#047854,stroke-width:1.5px,color:#F5F3F0
+    classDef engine fill:#8B5CF6,stroke:#8B5CF6,stroke-width:1.5px,color:#F5F3F0
+    classDef solid  fill:#F5F3F0,stroke:#141414,stroke-width:1.2px,color:#141414
+    classDef ghost  fill:#F5F3F0,stroke:#059669,stroke-width:1.2px,stroke-dasharray:4 3,color:#141414
+    class C,D,R solid
 ```
 
 把三者摆到地图上，规律很难看不见。桥沿着一个市场跑，而不是在市场之间跑。稳定币支付覆盖一条边的一个方向。代币化把一份资本市场的权利登记进数字资产，然后就停了。上一节那个请求真正需要的那条边——从资本市场到真实消费，再回来——没有人在服务。
@@ -68,8 +67,5 @@ flowchart LR
 
 **桥搬运价值，Agent 理解价值。**
 
-{% hint style="info" %}
-**本节口径。** 本节承诺：跨链桥、稳定币支付与资产代币化各自解决了一个搬运问题；没有一个完成了三个市场之间的语义转换，这项工作至今仍由人手工完成。本节不承诺：对任何具体项目的评判，或任何替代设计。待定项：无（[待定参数汇总](../open-parameters/README.md) 自第三部分起）。
-{% endhint %}
 
 *主轴：[译者](../02-the-translator/README.md) · 下一节：[译者](../02-the-translator/README.md)*

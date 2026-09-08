@@ -9,9 +9,9 @@
   * [三种价值语言](01-the-split/three-value-languages.md)
   * [为什么桥没有解决问题](01-the-split/why-bridges-failed.md)
 
-## 第二部分 · 命题
+## 第二部分 · 价值连接命题
 
-* [译者](02-the-translator/README.md)
+* [价值翻译器](02-the-translator/README.md)
   * [表达意图，而非操作产品](02-the-translator/intent-over-operation.md)
   * [这不是「AI + 支付」](02-the-translator/not-ai-plus-payments.md)
 
@@ -26,19 +26,19 @@
 
 ## 第四部分 · 产品
 
-* [NEXON 产品栈](04-product-stack/README.md)
-  * [社交 —— 意图的源头](04-product-stack/social.md "社交")
-  * [PayFi —— Agent 的手](04-product-stack/payfi.md "PayFi")
-  * [钱包 —— 记忆、判断与耐心](04-product-stack/wallet.md "钱包")
-  * [商城 —— 落地的一端](04-product-stack/marketplace.md "商城")
+* [NEXON 产品生态](04-product-stack/README.md)
+  * [去中心化社交 App](04-product-stack/social.md "社交")
+  * [AI 原生 PayFi](04-product-stack/payfi.md "PayFi")
+  * [钱包 —— 金融主页与控制中心](04-product-stack/wallet.md "钱包")
+  * [商城 —— 真实消费环节](04-product-stack/marketplace.md "商城")
   * [稳定币卡](04-product-stack/stablecoin-card.md)
 
 ## 第五部分 · 经济模型
 
 * [通证经济](05-tokenomics/README.md)
   * [双币，两份工作](05-tokenomics/two-assets-two-jobs.md "双币")
-  * [XO —— 质押本金代币](05-tokenomics/xo.md "XO")
-  * [EXON —— 核心价值代币](05-tokenomics/exon.md "EXON")
+  * [XO —— 价值锚](05-tokenomics/xo.md "XO")
+  * [EXON —— 流通引擎](05-tokenomics/exon.md "EXON")
   * [分配与释放](05-tokenomics/distribution.md)
   * [质押与收益](05-tokenomics/staking-and-returns.md)
   * [完整演算案例](05-tokenomics/worked-examples.md)

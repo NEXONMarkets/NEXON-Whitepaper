@@ -1,91 +1,112 @@
 ---
-description: "An intent is a bounded request for an outcome—not a blank cheque for an agent—and every route remains inspectable, revocable and attributable."
-icon: "route"
+description: "An intent is a bounded request for an outcome, not a blank cheque for an agent; every route stays inspectable, revocable and attributable."
+icon: route
 ---
 
 # Express Intent, Not Operations
 
-Most financial software is organized around operations. Choose a market, select an asset, enter an amount, set an order type, move the proceeds, convert the currency and repeat the process in the next application. The software exposes every control, but the user still supplies the plan.
+Most financial software is organized around **operations**: pick a market, pick an asset, enter an amount, set an order type, move the proceeds, convert the currency, then open the next app and start over. The interface hands you every control and leaves you the entire plan.
 
-An intent begins one level higher. It describes the result a user wants and the boundaries that must hold while pursuing it. “Reserve a fixed amount, use only eligible balances, show me the total cost and ask before anything moves” is an intent. It is not an instruction to improvise with every asset or account the system can see.
+An intent starts one level up. It describes the result you want, and the boundaries that must hold while it is pursued.
 
-The distinction is the foundation of an AI-native PayFi experience. Natural language makes it easier to express the objective, but the usable object is structured and testable. Before a route exists, the system should be able to represent at least:
+> "Leave that reserve alone, use only these balances, show me the total cost, and ask me before anything moves."
 
-- the target outcome and amount;
-- the assets or accounts that may be considered;
-- assets, venues or categories that must never be used;
-- a deadline and route-expiry time;
-- acceptable price movement, fees and execution limits;
-- identity, geography and product-eligibility constraints;
-- whether each leg requires approval or whether a narrow standing rule exists;
-- fallback behavior if price, inventory or eligibility changes.
+That is an intent. It is not "improvise with any account you can see."
 
-Ambiguity is not permission. If a material field is missing, the correct response is to ask, limit the route or stop.
+Natural language makes it easier to say all of that in one breath, but the executable object has to be structured and testable. Before a route exists, an intent should be able to represent at least:
 
-## From objective to receipt
+* the target outcome and amount;
+* the assets and accounts that may be used;
+* assets, venues or categories that must **never** be touched;
+* a deadline and a route-expiry time;
+* acceptable price movement, fees and execution limits;
+* identity, geography and product-eligibility constraints;
+* whether each leg is approved individually or covered by a narrow standing rule;
+* what happens if price, inventory or eligibility changes.
 
-Consider a future Roadmap journey: a user wants to convert a defined digital-asset budget into a travel booking while preserving a separate reserve. The conversational surface may feel simple, but the underlying control path should remain explicit.
+**Ambiguity is not permission.** When a material field is missing, the correct move is to ask, narrow the route, or stop.
 
-### 1. Intent
+## One complete round trip
 
-The system records the destination, dates, budget ceiling, asset exclusions, reserve floor and approval preference. It separates preferences (“near the venue”) from hard constraints (“do not reduce the reserve below this amount”). It also records which parts of the request may contain sensitive information and how long that information may be retained.
+Take a concrete case: turn a defined digital-asset budget into a travel booking while a separate reserve stays untouched. The conversation can be simple. The controls underneath cannot be skipped.
 
-### 2. Route
+{% tabs %}
+{% tab title="1 · Intent" %}
+The system records destination, dates, budget ceiling, excluded assets, reserve floor and approval preference — and keeps **soft preferences** ("close to the venue") apart from **hard constraints** ("the reserve does not go below this").
 
-The runtime proposes candidate paths. A route might require an asset conversion, a supported payment method and a supplier reservation. Each is a separate leg. The proposal shows dependencies: if the conversion quote expires, the purchase leg must not continue using stale assumptions. If a direct supported route does not exist, the system says so instead of fabricating one.
+It also flags which parts of the request carry sensitive information and how long that information may be kept. Travel, finances and relationships are about as sensitive as data gets; the route needs the approved constraints, not the whole conversation that produced them.
+{% endtab %}
 
-### 3. Policy Check
+{% tab title="2 · Route" %}
+The runtime proposes candidate legs: an asset conversion, a supported payment method, a supplier reservation. Each is a separate leg, and they depend on each other.
 
-The route is evaluated against multiple policies, none of which can be replaced by a model's confidence score. User policy checks personal limits and allowlists. Product policy checks balances, order minimums and disclosed terms. Venue policy checks account status and jurisdictional eligibility. Supplier policy checks inventory and fulfillment conditions.
+If the conversion quote expires, the purchase leg cannot keep running on stale assumptions. If no supported route exists, the system says so — instead of inventing one that looks like it would work.
+{% endtab %}
 
-When the route concerns the approved Staking Platform, the check follows its actual mechanism. For a qualifying order, 72% establishes the XO staking/PV base and 28% is used for the required EXON purchase into Treasury Liquidity. A matching 28% EXON balance is checked as fuel but remains with the user. The interface must not reinterpret that balance check as a fee, transfer or burn.
+{% tab title="3 · Policy Check" %}
+The route passes through four layers of rules, and a model's confidence score substitutes for none of them:
 
-### 4. User Approval
+* **User policy** — personal limits, allowlists, reserve floors;
+* **Product policy** — balances, order minimums, disclosed terms;
+* **Venue policy** — account status and jurisdictional eligibility;
+* **Supplier policy** — inventory and fulfillment conditions.
 
-Approval is a comprehensible decision object. It identifies what will move, the maximum cost, the destination, the executor, the expiry and the expected receipt. A signature or confirmation that does not reveal those facts is formal consent without informed control.
+Where the Staking Platform is involved, the check follows the real mechanism: 72% establishes the XO staking/PV base, 28% buys EXON into Treasury Liquidity, and a matching 28% of EXON is checked in the user's own account and stays there. The interface does not get to call that check a fee, a transfer or a burn.
+{% endtab %}
 
-Approval should be scoped to the smallest useful authority. A user may approve one transaction, a sequence whose later legs depend on the earlier result, or a limited recurring rule. The user should be able to revoke future authority without rewriting past receipts. High-impact changes—new destination, higher amount, broader asset access or extended duration—require new approval.
+{% tab title="4 · User Approval" %}
+Approval is a decision object a person can actually read: what moves, the maximum amount, the destination, the executor, the expiry, the receipt to expect.
 
-### 5. Execution
+A confirmation button that reveals none of those is consent in form and control in name only.
 
-Only the responsible system executes each leg. The agent may prepare a transaction, compare quotes or call an approved interface, but it does not become the exchange, custodian, issuer or merchant. Execution state should be observable: proposed, approved, submitted, settled, fulfilled, failed or reversed. “Processing” is not a sufficient permanent state.
+Authority should be scoped to **the smallest thing that finishes the job**. A user can approve one transaction, a chain of dependent legs, or a standing rule with a hard amount and a hard clock. A new destination, a higher amount, a wider asset scope or a longer duration all require fresh approval.
+{% endtab %}
 
-### 6. Receipt
+{% tab title="5 · Execution" %}
+Each leg is executed by the system responsible for it. The agent may prepare a transaction, compare quotes or call an approved interface — and never becomes the exchange, custodian, issuer or merchant by doing so.
 
-The final record joins the route with what actually happened. It includes identifiers, timestamps, prices and fees where applicable, permissions used, deviations from the quote and the party responsible for follow-up. For a physical or service purchase, payment settlement and fulfillment appear as separate events.
+State has to distinguish at least: proposed, approved, submitted, settled, fulfilled, failed, refunded. **"Processing" is not a permanent state.**
+{% endtab %}
+
+{% tab title="6 · Receipt" %}
+The final record joins the route that was approved to what actually happened: identifiers, timestamps, prices and fees, permissions consumed, deviation from quote, who is responsible and who follows up.
+
+For anything physical, **payment settlement** and **fulfillment** are recorded as two separate events.
+{% endtab %}
+{% endtabs %}
 
 ## Failure is part of the route
 
-An intent system should explain the failure path before it needs one. Common cases include:
+A serious intent system explains the failure path before it needs one.
 
 | Failure | Safe default |
 |---|---|
-| Quote expires before approval | Re-price and request approval again |
-| Eligibility check fails | Stop the affected leg and explain the blocking rule |
-| Balance changes | Recalculate; never silently substitute another asset |
-| One leg settles and the next fails | Preserve receipts and invoke the disclosed refund, retry or dispute path |
-| Supplier cannot fulfill | Treat delivery as failed even if payment settled; escalate to supplier process |
-| Agent output conflicts with product rules | Product rules control; do not execute the conflicting instruction |
+| Quote expires before approval | Re-price and ask again |
+| Eligibility check fails | Stop that leg and name the rule that blocked it |
+| Balance changes | Recalculate — **never** quietly substitute another asset |
+| One leg settles, the next fails | Preserve the receipts and enter the disclosed refund, offset or dispute path |
+| Supplier does not fulfill | Mark delivery failed even though payment settled, and escalate |
+| Agent output conflicts with product rules | Product rules win; the instruction is refused |
 
-Rollback is not always technically possible. A settled market trade may be economically reversed only through a new trade at a new price. A blockchain transfer may be irreversible. A merchant refund may take time. The route must use precise language—cancel, reverse, refund, offset or retry—rather than promise a universal undo button.
+Not every action can be rolled back. A settled trade may only be reversed by a new trade at a new price. A chain transfer may be irreversible. A merchant refund takes time. So the interface has to use precise words — cancel, revoke, refund, reverse, offset, retry — instead of promising a universal undo.
 
-## A responsibility map
+## Who owns what
 
-The experience may be unified, but responsibility cannot be vague.
+| Party | Owns |
+|---|---|
+| **The user** | The objective, the bounded approval, and the disclosed market and principal risk |
+| **The orchestration layer** | Parsing intent, building candidate routes, enforcing user policy, recording decisions |
+| **The executing venue** | Its orders, settlement, custody and eligibility controls |
+| **The Staking Platform** | Applying the published mechanism at its published version |
+| **The merchant or supplier** | Inventory, delivery, cancellation and disputes |
+| **Data and model providers** | Signals. Their output is evidence to weigh, not authority to obey |
 
-- **The user** defines the objective, approves bounded authority and bears disclosed market and principal risks.
-- **The orchestration layer** parses the intent, constructs candidate routes, enforces user policy and records decisions.
-- **The executing venue** owns its order, settlement, custody and eligibility controls.
-- **The product contract or Staking Platform** applies the published mechanism exactly as defined.
-- **The merchant or service supplier** owns inventory, delivery, cancellation and dispute obligations.
-- **Data and model providers** contribute signals; their output is evidence to evaluate, not authority to obey.
+This table is why NEXON describes a connection network rather than one omnipotent application. The experience can be unified; the division of responsibility cannot be left vague.
 
-This division is why NEXON describes a connection network rather than one omnipotent application. The objective can be unified without pretending that all underlying obligations belong to one party.
+## Holding a token is not an authorization
 
-## What token ownership does not authorize
+XO is the Value Anchor and currently carries staking principal. EXON is the Circulation Engine and is currently the spot, release, purchase, check and burn asset. Holding either grants an agent no standing right to spend from an account, skip a policy check or execute a regulated transaction. **Authority comes from the user and the responsible executor — never from a balance.**
 
-XO and EXON may have ecosystem roles, but balances do not create invisible permissions. XO is the narrative Value Anchor and current staking-principal carrier; its governance and broader ecosystem rights are Roadmap. EXON is the narrative Circulation Engine and current spot/release/buy/check/burn asset; its payment, fee and consumption utilities are Roadmap. Neither token currently authorizes an agent to spend from a user account, waive a policy check or execute a regulated transaction.
+Intent is the better abstraction precisely because it still ends in visible operations. It hides repetitive navigation, not consequence. It removes manual translation, not the user's say.
 
-An intent is therefore a safer and more useful abstraction only when it ends in visible operations. It hides repetitive navigation, not consequence. It reduces manual translation, not user agency.
-
-*Previous: [The Value Translator](README.md) · Next: [Not AI Plus Payments](not-ai-plus-payments.md)*
+*Previous: [The Value Translator](README.md) · Next: [Not "AI Plus Payments"](not-ai-plus-payments.md)*

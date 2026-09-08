@@ -1,50 +1,63 @@
 ---
-description: "Four capability-gated phases from the approved economic foundation to an AI-native financial-social value connection network."
-icon: "road"
+description: "Four phases from the confirmed economic foundation to an AI-native financial-social value connection network, advanced by capability gates rather than by calendar."
+icon: road
 ---
 
 # Roadmap
 
-The NEXON roadmap is organized by evidence and capability gates, not calendar promises or token-price milestones. A phase can advance only when its rules, responsible operators, security controls and public disclosures are verifiable.
+The NEXON roadmap is organized by **evidence and capability gates**, not by calendar promises or token-price milestones. A phase is complete only when its rules, responsible operators, security controls and public disclosures are verifiable.
+
+```mermaid
+flowchart LR
+    P1["Phase 1<br/><b>Economic and account foundation</b>"] --> P2["Phase 2<br/><b>AI-Native PayFi</b>"]
+    P2 --> P3["Phase 3<br/><b>Wallet · Marketplace · Card</b>"]
+    P3 --> P4["Phase 4<br/><b>Decentralized financial-social network</b>"]
+    classDef anchor fill:#047854,stroke:#047854,stroke-width:1.5px,color:#F5F3F0
+    classDef engine fill:#8B5CF6,stroke:#8B5CF6,stroke-width:1.5px,color:#F5F3F0
+    classDef solid  fill:#F5F3F0,stroke:#141414,stroke-width:1.2px,color:#141414
+    class P1 anchor
+    class P2,P3 solid
+    class P4 engine
+```
 
 ## Phase 1 — economic and account foundation
 
-**Purpose:** implement and verify the project-approved mechanism.
+**Goal:** implement the approved economic mechanism and verify it.
 
-Completion evidence includes versioned rules that reproduce the 72/28 order split, EXON fuel-balance check, 1,095-day release, Base APY, term weights, 12-hour epochs, early exit, redemption lanes and equivalent EXON burns. NEX Main Exchange/CEX and the Staking Platform have separable permissions, ledgers and disclosures. Every order records principal, build, staking base, term, weight and parameter version.
+The evidence of completion is a versioned rule set that reproduces: the 72/28 order split, the EXON fuel-balance check, the 1,095-day release, the Base APY, term weights, 12-hour epochs, early exit, the three redemption lanes and equivalent EXON burns.
 
-This phase does not by itself deliver the five Roadmap products or broader token utility.
+NEX Main Exchange / CEX and the Staking Platform hold **separable permissions, ledgers and disclosures**. Every order records principal, build, staking base, term, weight and parameter version.
 
 ## Phase 2 — AI-Native PayFi
 
-**Purpose:** establish the secondary narrative focus: a controlled route from financial intent to execution evidence.
+**Goal:** stand up the second focus of the narrative — a controlled route from financial intent to execution evidence.
 
-Gates include a published intent schema, route preview, deterministic policy checks, scoped approval, revocation, executor allowlists, quote expiry, duplicate-execution protection, receipts, failure handling, model-risk controls, privacy terms and security review. Supported actions, assets, fees, jurisdictions and responsible executors must be named before availability.
+The gates: a published intent schema, route preview, deterministic policy checks, scoped approval, revocation, executor allowlists, quote expiry, duplicate-execution protection, receipts, failure handling, model-risk controls, privacy terms and security review. **Supported actions, assets, fees, jurisdictions and responsible executors are each named before availability.**
 
-AI assists with translation and orchestration. It does not modify the economic mechanism, guarantee returns or become the custodian or regulated executor.
+AI does translation and orchestration in this phase. It does not modify the economic mechanism, does not generate return, and does not become the custodian or the regulated executor.
 
 ## Phase 3 — Wallet, Marketplace and Stablecoin Card
 
-**Purpose:** connect decision state to real-world use.
+**Goal:** connect decision state to real-world use.
 
-Wallet gates include custody architecture, permission management, recovery, staking display and clearly separated third-party prediction-market access. Marketplace gates include supplier onboarding, inventory, payment and refund terms, fulfillment receipts, privacy and disputes. Stablecoin Card gates include a responsible licensed issuer/operator, jurisdiction coverage, accepted funding assets, fees, safeguarding, fraud controls and cardholder support.
+| Product | Gates |
+|---|---|
+| Wallet | Custody architecture, permission management, recovery, staking display, clearly separated third-party prediction-market access |
+| Marketplace | Supplier onboarding, inventory, payment and refund terms, fulfillment receipts, privacy and disputes |
+| Stablecoin Card | Responsible licensed issuer/operator, jurisdiction coverage, accepted funding assets, fees, safeguarding, fraud controls, cardholder support |
 
-Any EXON payment, fee or consumption use and any XO product benefit require explicit product terms. No universal utility is implied.
+Any EXON payment, fee or consumption use, and any XO-based product benefit, requires **explicit product terms**. No universal utility is implied here.
 
 ## Phase 4 — decentralized financial-social network
 
-**Purpose:** complete the user-controlled value loop across discovery, decision, routing, use and returning context.
+**Goal:** close the user-controlled value loop — discovery, decision, routing, use, and context returning.
 
-Gates include portable identity, community and moderation rules, strategy-content disclosures, privacy-preserving links to financial intent, user-controlled sharing, ecosystem governance specifications and safe interoperability among products. Social information remains upstream context and cannot silently authorize execution.
+The gates: portable identity, community and moderation rules, strategy-content disclosures, privacy-preserving links to financial intent, user-controlled sharing, ecosystem governance specifications, and safe interoperability among the products. **Social information remains upstream context and never silently authorizes execution.**
 
 ## Cross-phase gates
 
-Every phase also requires accountable entities, applicable legal review, incident handling, independent security evidence, monitoring, change notices and bilingual documentation aligned with the narrative and economic authority registries.
+Every phase also requires accountable entities, applicable legal review, incident handling, independent security evidence, monitoring, published change notices, and bilingual documentation aligned with the narrative and economic sources of truth.
 
-The following remain Open until formally approved: contract addresses, final TGE and round dates, numerical EXON supply, complete allocation and initial float, full dynamic-reward levels, product operators, supported jurisdictions, fees and service levels.
+The following stay [Open](../open-parameters/README.md) until formally approved: contract addresses, final TGE and round dates, the numerical EXON supply, complete allocation and initial float, the full dynamic-reward levels, product operators, supported jurisdictions, fees and service levels.
 
-{% hint style="warning" %}
-All five products—AI-Native PayFi, Wallet, Marketplace, Stablecoin Card and decentralized Social App—remain Roadmap. This sequence is a capability plan, not a launch-date commitment or forecast of adoption, demand, revenue, token price or return.
-{% endhint %}
-
-*Previous: [Compliance](../08-compliance/README.md) · Appendix: [Glossary](../glossary/README.md)*
+*Previous: [Compliance & Legal Posture](../08-compliance/README.md) · Appendix: [Glossary](../glossary/README.md)*

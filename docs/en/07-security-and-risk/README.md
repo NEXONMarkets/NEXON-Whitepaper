@@ -1,63 +1,73 @@
 ---
-description: "Risk boundaries spanning approved staking mechanics and the Roadmap AI, wallet, prediction, marketplace, card and social products."
-icon: "shield"
+description: "The distinct failure modes of the current staking mechanism and of each long-term product, and the control programme that answers them."
+icon: shield
 ---
 
 # Security & Risk
 
-NEXON connects systems with different failure modes. A unified experience can make a route easier to understand; it cannot eliminate market loss, technical failure, counterparty default, legal restriction or real-world non-performance. Risks should be evaluated per asset, product and execution leg.
+The systems NEXON connects **fail in different ways**. A unified experience can make a route easier to understand; it cannot remove market loss, technical failure, counterparty default, legal restriction or real-world non-performance. So risk is assessed **per asset, per product and per execution leg** — not as one blanket judgment about "the project."
 
-## Current economic risks
+## Risks in the current economic mechanism
 
-- **Principal risk.** The 30-day early-exit rule deducts 10%–15% of the XO staking base. Other failures may also impair principal or access.
-- **Market and liquidity risk.** EXON can fall in price, lack buyers or trade with material spread and slippage. Guide and early-round prices do not guarantee later execution.
-- **Parameter risk.** Base APY, term weights, payout ratios and round terms may change where the mechanism permits adjustment. A displayed historical parameter is not a future promise.
-- **Release pressure.** Fixed supply does not prevent selling pressure as vested EXON reaches spot accounts over 1,095 days.
-- **Dual-asset dependency.** EXON price and availability can affect order qualification and the cost of a burn-bearing redemption.
-- **Dynamic-reward uncertainty.** Complete levels, thresholds and differential rates are unpublished, so individualized projections cannot be verified from the current paper.
-- **Custody and counterparty risk.** Exchanges, Treasury operations, contracts, account providers and service providers may fail, restrict access or become unavailable.
-- **Technical and accounting risk.** Contract bugs, incorrect price inputs, reward-ledger errors, compromised credentials or faulty reconciliation can cause loss.
+| Risk | What it actually is |
+|---|---|
+| **Principal** | Early exit from the 30-day term deducts 10%–15% of the XO staking base. Other failures can also impair principal or access |
+| **Market and liquidity** | EXON can fall, lack buyers, or trade with material spread and slippage. Guide and early prices do not guarantee a later execution price |
+| **Parameter** | Base APY, term weights, payout ratios and round terms are adjustable where the mechanism permits |
+| **Release pressure** | Fixed supply does not prevent selling pressure: EXON keeps reaching spot accounts across 1,095 days |
+| **Dual-asset dependency** | EXON price and availability affect order qualification and the cost of a burn-bearing redemption |
+| **Dynamic-reward uncertainty** | Complete levels, thresholds and differential rates are unpublished, so an individual projection cannot be verified from the current paper |
+| **Custody and counterparty** | Exchanges, Treasury operations, contracts, account providers and service providers can fail, restrict access or become unavailable |
+| **Technical and accounting** | Contract bugs, bad price inputs, reward-ledger errors, compromised credentials and faulty reconciliation can all cause loss |
 
-## Roadmap application risks
+## Risks in the long-term products
 
-### AI authorization
+{% tabs %}
+{% tab title="AI authorization" %}
+A model can misread intent, hallucinate a capability, rely on stale data, or be manipulated by untrusted content.
 
-A model can misunderstand intent, hallucinate a capability, rely on stale data or be manipulated by untrusted content. Deterministic limits, simulation, scoped approval and revocation reduce risk but cannot make every route correct. Submission, settlement and fulfillment must remain distinct.
+Deterministic limits, simulation, scoped approval and revocation reduce the risk; they cannot make every route correct. **Submission, settlement and fulfillment stay separate throughout.**
+{% endtab %}
 
-### Wallet and key management
+{% tab title="Wallet and keys" %}
+Lost credentials, malicious approvals, provider compromise and failed recovery can all cause permanent loss.
 
-Loss of credentials, malicious approvals, provider compromise and recovery failure can cause permanent loss. A unified wallet view may obscure different custody models unless each balance and permission names its controlling system.
+A unified wallet view **obscures different custody models** unless each balance and permission names the system that controls it.
+{% endtab %}
 
-### Prediction markets
+{% tab title="Prediction markets" %}
+Third-party decentralized prediction markets can be restricted, illiquid, manipulated, or resolved through disputed oracles.
 
-Third-party decentralized prediction markets may be restricted, illiquid, manipulated or resolved through disputed oracles. A market price is not certainty or advice. NEXON should identify the independent operator, resolution rules and jurisdiction rather than imply control.
+**A market price is neither certainty nor advice.** NEXON names the independent operator, the resolution rules and the jurisdiction rather than implying control.
+{% endtab %}
 
-### Marketplace and delivery
+{% tab title="Marketplace and delivery" %}
+Merchants and travel suppliers can change inventory, cancel, fail to deliver or dispute a refund.
 
-Merchants and travel suppliers can change inventory, cancel, fail to deliver or dispute refunds. Payment settlement is not proof of fulfillment. Consumer rights and recovery depend on supplier and payment terms.
+**Payment settlement is not proof of fulfillment.** Consumer rights and recovery depend on supplier and payment terms.
+{% endtab %}
 
-### Stablecoin Card
+{% tab title="Stablecoin Card" %}
+Issuer, network, merchant and custodian failures can cause declines, freezes, conversion loss or delayed refunds.
 
-Issuer, network, merchant and custodian failures can cause declines, freezes, conversion loss or delayed refunds. Availability and protection vary by jurisdiction. No issuer or coverage is committed in this paper.
+Availability and protections vary by jurisdiction.
+{% endtab %}
 
-### Social and strategy content
+{% tab title="Social content" %}
+Impersonation, promotion, coordinated manipulation and selective performance claims all shape user judgment.
 
-Impersonation, promotion, coordinated manipulation and selective performance claims can influence users. Social context never authorizes a financial action, and popularity does not establish suitability.
+**Social context never authorizes a financial action, and popularity does not establish suitability.**
+{% endtab %}
+{% endtabs %}
 
 ## Cross-jurisdiction and legal risk
 
-Token, staking, payment, prediction-market, card, data and promotion rules differ across jurisdictions and may change. A product can be technically available and legally unavailable to a particular user. Licensed status in one operating domain does not automatically cover another.
+Token, staking, payment, prediction-market, card, data and promotion rules differ across jurisdictions and change over time. **A product can be technically available and legally unavailable to a particular user.** Licensed status in one operating domain does not automatically cover another.
 
-## Control program
+## The control programme
 
-Controls should include parameter versioning, role-separated approvals, least-privilege access, contract and code review, external security testing, price-source cross-checks, balance reconciliation, monitoring, incident response, backup and recovery, provider diligence, public change notices and user-facing risk disclosures.
+<table><thead><tr><th width="220">Category</th><th>Controls</th></tr></thead><tbody><tr><td><strong>Change management</strong></td><td>Parameter versioning, role-separated approvals, published change notices</td></tr><tr><td><strong>Access</strong></td><td>Least privilege, permission review, credential rotation</td></tr><tr><td><strong>Code and contracts</strong></td><td>Code review, contract audit, external security testing</td></tr><tr><td><strong>Data</strong></td><td>Price-source cross-checks, balance reconciliation, monitoring and alerting</td></tr><tr><td><strong>Operations</strong></td><td>Incident response, backup and recovery, provider diligence</td></tr><tr><td><strong>AI-specific</strong></td><td>Threat models for prompt injection and malicious content, duplicate-execution protection, privacy minimization</td></tr><tr><td><strong>Honesty</strong></td><td>An honest "unknown" state whenever native systems cannot be reconciled</td></tr></tbody></table>
 
-Roadmap products also require threat models for prompt injection and malicious content, permission review, privacy minimization, duplicate-execution protection, supplier and issuer escalation, and an honest unknown state when native systems cannot be reconciled.
+These controls reduce **specific** risks. They do not create principal protection, guaranteed delivery or guaranteed recovery — stated here so the table above reads as an engineering checklist rather than as reassurance.
 
-These controls reduce specific risks; they do not create principal protection, guaranteed delivery or guaranteed recovery.
-
-{% hint style="danger" %}
-Programmatic EXON purchases, locks and burns do not create a price floor. The published APY and worked examples are conditional mechanism descriptions, not promised outcomes. Participants may lose some or all principal.
-{% endhint %}
-
-*Previous: [Governance](../06-governance/README.md) · Next: [Compliance](../08-compliance/README.md)*
+*Previous: [Governance](../06-governance/README.md) · Next: [Compliance & Legal Posture](../08-compliance/README.md)*

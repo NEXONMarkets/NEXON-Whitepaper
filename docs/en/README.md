@@ -1,7 +1,7 @@
 ---
-description: "NEXON is a next-generation value connection network designed to connect capital, digital finance and real-world consumption."
-icon: "n"
-cover: "../../.gitbook/assets/cover.svg"
+description: "NEXON is a next-generation value connection network linking capital markets, digital finance and real-world consumption."
+icon: n
+cover: .gitbook/assets/cover.svg
 coverY: 0
 layout:
   cover:
@@ -22,39 +22,84 @@ layout:
 
 > **From Capital to Token. From Digital to Real.**
 
-**NEXON = NEX (Nexus) + ON (enabled and online).** The name describes a new-generation value connection network: an ecosystem designed to connect capital markets, digital finance and real-world consumption without pretending that those markets share the same rules.
+A position in a brokerage account, a token in a wallet and four nights in Tokyo in October are all value. None of them has ever sat on the same ledger. Turning the first into the third still takes four systems, four identity checks and about a week — and at every step, a person is manually translating one language of value into another.
 
-Capital markets organize ownership and long-term enterprise value. Digital assets make value programmable and globally transferable. Travel, hospitality, retail and other consumer markets turn value into things people can actually use. Today, a person moving between those domains must still translate accounts, assets, permissions, settlement times and supplier obligations by hand. NEXON's thesis is that this translation can become an explicit product layer—observable, permissioned and accountable—rather than a chain of hidden manual steps.
+**NEXON = NEX (Nexus) + ON (enabled and online).** The name states the job: take that translation out of human hands and make it a product layer you can see, permission and hold to account.
 
-The long-term direction is an **AI-native financial-social ecosystem**. Its Roadmap includes an AI-Native PayFi application, a wallet with staking and decentralized prediction-market interfaces, a marketplace, a Stablecoin Card and a decentralized Social App. PayFi is the secondary narrative focus because it provides the clearest route from a user's financial intent to a controlled sequence of digital and real-world actions. These products are a direction, not a claim of present availability.
+## Three markets, three languages
+
+| Market | What value means here | Rhythm | Boundary |
+|---|---|---|---|
+| Capital markets | Ownership, and a claim on future cash flow | Quarterly cadence · T+2 settlement · trading hours | Ends at a jurisdiction |
+| Digital finance | Liquidity and composability | 7×24 · finality in seconds | Borderless, but barely touches real assets |
+| Real consumption | The right to use something | A given time, a given place, usable | Ends at a supplier's inventory |
+
+Three definitions, three clocks, three borders. None is wrong, and none can be read by the other two. The markets are not split for lack of pipes — bridges, stablecoin rails and tokenization all exist, and each solved something real. What is missing is a common language in which a connection could be expressed.
+
+**That language is what NEXON builds.**
 
 ## One ecosystem, two assets
 
-NEXON uses a dual-asset narrative so that accumulated value and active circulation do not have to be described as the same job.
+{% columns %}
+{% column %}
+### XO — Value Anchor
 
-- **XO is the Value Anchor.** It represents participation, staking, ecosystem rights and long-term value accumulation in the narrative. Under the currently approved mechanism, its precise role is narrower: XO is the U-priced principal token used inside the Staking Platform. Governance and broader rights are Roadmap utilities until formal rules are published.
-- **EXON is the Circulation Engine.** It is intended to connect digital finance with payment, exchange, fees and consumption. Under the current mechanism, EXON is the public spot and release asset used in the 28% buy/check logic and redemption burns. Broader payment, fee and consumption functions are Roadmap utilities until product terms are published.
+Carries staking, participation and long-term value accumulation.
 
-In one line: **NEXON is the ecosystem, anchored by XO and circulated through EXON.** Or, in the project's approved Chinese formulation: **NEXON 是生态，XO 承载价值，EXON 驱动流通。**
+In the current mechanism, XO is the U-priced **Staking Principal Token** inside the Staking Platform: 72% of every qualifying order lands here and becomes the base for static and dynamic rewards.
+{% endcolumn %}
 
-## What is defined now
+{% column %}
+### EXON — Circulation Engine
 
-The approved economics use one account with two distinct operating layers. NEX Main Exchange/CEX handles EXON spot activity, IEO and release display; it does not distribute staking rewards. The separate Staking Platform handles single-token staking, term weighting, dynamic rewards and redemption. A qualifying staking order uses a 72/28 structure: 72% establishes the XO staking/PV base, while 28% is used to buy the required EXON amount into Treasury Liquidity. The user's matching 28% EXON balance is a qualification check and remains in the user's account. Release, reward and redemption terms are detailed in Part V.
+Connects trading, payment, exchange and consumption.
 
-That mechanism is the present economic baseline. It must not be silently rewritten by the broader product vision. AI is not a return engine; a Roadmap product is not a live product; a narrative role is not an already implemented token right.
+In the current mechanism, EXON is NEXON's **Core Value Token** and spot asset: it absorbs programmatic buying, balance checks, linear release and redemption burns.
+{% endcolumn %}
+{% endcolumns %}
 
-## How to read this paper
+In one line: **NEXON is the ecosystem, anchored by XO and circulated through EXON.**
 
-- [The Split](01-the-split/README.md) explains why capital, digital assets and real consumption remain disconnected.
-- [The Connection Thesis](02-the-translator/README.md) turns a user's intent into a controlled route.
-- [Protocol Architecture](03-architecture/README.md) separates orchestration, approval, custody and settlement.
-- [The NEXON Stack](04-product-stack/README.md) describes the five-product Roadmap and the value loop between them.
-- [Token Economics](05-tokenomics/README.md) states the currently approved XO/EXON mechanism, 72/28 flow and formulas.
-- [Worked Examples](05-tokenomics/worked-examples.md) reproduces conditional return calculations with assumptions and risks.
-- [Security & Risk](07-security-and-risk/README.md) addresses principal, market, execution and Roadmap risks.
+## The economics running today
+
+One account, two operating layers that mind their own business. **NEX Main Exchange / CEX** carries EXON spot activity, IEO and release display. The **Staking Platform** carries single-token staking, term weighting, dynamic rewards and redemption. They share an account system and a capital backend; their ledgers, permissions and disclosures stay separate.
+
+A qualifying order splits 72/28:
+
+<figure><img src=".gitbook/assets/chart-72-28-split.svg" alt="Every 100 U of principal splits two ways: 72 dots to the XO staking base, 28 dots to an EXON buy into Treasury Liquidity"><figcaption>72/28: principal establishes the XO staking base, while 28% buys EXON at the prevailing price into Treasury Liquidity</figcaption></figure>
+
+<table><thead><tr><th width="150">Parameter</th><th width="210">Value</th><th>What it does</th></tr></thead><tbody><tr><td>Capital split</td><td><code>S = 0.72 × P</code> · <code>B = 0.28 × P</code></td><td>S is the interest base; B buys EXON into Treasury Liquidity</td></tr><tr><td>Fuel check</td><td><code>F = 0.28 × P</code></td><td>Checks the EXON balance in the user's account — not transferred, charged or burned</td></tr><tr><td>Base APY</td><td>200%</td><td>Multiplied by a term weight of 1.00 / 1.10 / 1.20 / 1.35 / 1.50</td></tr><tr><td>Epoch</td><td>12 hours</td><td>Two a day; static and dynamic rewards settle on the same clock</td></tr><tr><td>Linear release</td><td>1,095 days · 2,190 epochs</td><td><code>D = A ÷ 1,095</code>, <code>R_epoch = A ÷ 2,190</code></td></tr><tr><td>Redemption lanes</td><td>T+0 / 30D / 60D</td><td>Burns an equivalent 30% / 15% / 0% of EXON; releases 70% / 85% / 100%</td></tr></tbody></table>
+
+This is the economic baseline. The larger product story sits on top of it and changes none of its numbers.
+
+## The long arc: an AI-native financial-social ecosystem
+
+Five product surfaces close one loop: **discover in Social → decide in Wallet → route through PayFi → use in Marketplace or Card → return with data and relationships.** AI-Native PayFi is the second focus of the narrative, because it is where "here is what I want" becomes a route that can be checked, approved, executed and receipted.
+
+```mermaid
+flowchart LR
+    S["Social<br/><i>discover</i>"] --> W["Wallet<br/><i>decide</i>"]
+    W --> P["AI-Native PayFi<br/><i>route and approve</i>"]
+    P --> M["Marketplace<br/><i>use</i>"]
+    P --> C["Stablecoin Card<br/><i>use</i>"]
+    M --> R["Receipts · preferences · relationships"]
+    C --> R
+    R -. "returned only if the user chooses" .-> S
+    R -. "policy and history" .-> W
+    classDef anchor fill:#047854,stroke:#047854,stroke-width:1.5px,color:#F5F3F0
+    classDef engine fill:#8B5CF6,stroke:#8B5CF6,stroke-width:1.5px,color:#F5F3F0
+    classDef solid fill:#F5F3F0,stroke:#141414,stroke-width:1.2px,color:#141414
+    class S,W,M,C solid
+    class P anchor
+    class R engine
+```
+
+## Where to start
+
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Start with the problem</strong></td><td>Why the three markets are still disconnected, and what bridges, stablecoin rails and tokenization each leave out.</td><td><a href="01-the-split/README.md">README.md</a></td></tr><tr><td><strong>Start with the thesis</strong></td><td>Intent → Route → Policy Check → User Approval → Execution → Receipt: the six stages that replace manual translation.</td><td><a href="02-the-translator/README.md">README.md</a></td></tr><tr><td><strong>Start with the numbers</strong></td><td>72/28, the 200% Base APY, term weights, the 1,095-day release, redemption burns and full worked examples.</td><td><a href="05-tokenomics/README.md">README.md</a></td></tr></tbody></table>
+
+If you want the arithmetic first, jump to [Worked Examples](05-tokenomics/worked-examples.md). If you want to know who is responsible for each leg and who resolves a failure, jump to [Protocol Architecture](03-architecture/README.md).
 
 NEXON is an independent, community-initiated project built within the NEX ecosystem. It is not an official NEX product, and EXON is not NEX's platform token.
 
-{% hint style="danger" %}
-Economic figures are parameters or conditional illustrations, not promises. Token prices and realized outcomes may vary materially, and participants may lose some or all principal.
-{% endhint %}
+*Economic parameters and calculations in this paper come from the project's Tokenomics approved on 6 September 2026. Every return calculation states the price assumption it rests on; the full legal and risk statement is in the [Legal Disclaimer](legal-disclaimer/README.md).*

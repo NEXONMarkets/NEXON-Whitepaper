@@ -1,13 +1,13 @@
 ---
-description: "The current Staking Platform boundary: XO principal, EXON checks, 12-hour reward epochs and redemption remain separate from Roadmap applications."
-icon: "layer-group"
+description: "The Staking Platform boundary — XO principal, EXON checks, 12-hour reward epochs and three redemption lanes, all separate from the application layer."
+icon: layer-group
 ---
 
 # Staking & Reward Layer
 
-This chapter preserves the link used by the earlier whitepaper draft, but the former bonding design is superseded. The authoritative economic product is the separate **Staking Platform** defined by the project party's 6 September 2026 Tokenomics paper.
+The authoritative product in this layer is the separate **Staking Platform**, defined by the Tokenomics the project approved on 6 September 2026.
 
-The platform has four core responsibilities: open single-token staking orders, validate the EXON fuel balance, calculate term-weighted rewards every 12 hours and execute one of the approved redemption schedules. It may share identity, account visibility and capital operations with NEX Main Exchange/CEX, but its reward rules do not belong to the exchange's spot-market rulebook.
+It has four core jobs: **open single-token staking orders, validate the EXON fuel balance, calculate term-weighted rewards every 12 hours, and execute one of three approved redemption lanes.** It may share identity, account visibility and capital operations with NEX Main Exchange / CEX; its reward rules do not belong to the exchange's spot rulebook.
 
 ## One account, two operating layers
 
@@ -17,73 +17,87 @@ flowchart LR
     A --> S["Staking Platform"]
     E --> X["EXON spot · IEO · release display"]
     S --> O["XO staking order"]
-    O --> F["EXON buy and fuel checks"]
+    O --> F["EXON buy and fuel check"]
     F --> R["12-hour reward ledger"]
     R --> D["T+0 · 30D · 60D redemption"]
-    D --> B["Equivalent EXON burn where required"]
+    D --> B["Equivalent EXON burn, by lane"]
+    classDef anchor fill:#047854,stroke:#047854,stroke-width:1.5px,color:#F5F3F0
+    classDef engine fill:#8B5CF6,stroke:#8B5CF6,stroke-width:1.5px,color:#F5F3F0
+    classDef solid  fill:#F5F3F0,stroke:#141414,stroke-width:1.2px,color:#141414
+    class A,E,X solid
+    class S,O,F,R anchor
+    class D,B engine
 ```
 
-NEX Main Exchange/CEX does not distribute the staking rewards described here. The Staking Platform does not turn its product-specific variables into universal payment, card, marketplace or agent rules.
+NEX Main Exchange / CEX **does not** distribute the staking rewards described here. And the Staking Platform **does not** turn its product-specific variables into universal payment, card, marketplace or agent rules.
 
 ## Opening an order
 
-For a qualifying order amount `P`, the current mechanism records:
+For a qualifying order amount `P`, the current mechanism records three quantities:
 
 ```text
-B = 0.28 × P
-S = 0.72 × P
-F = 0.28 × P
+B = 0.28 × P    EXON bought through the spot market into Treasury Liquidity
+S = 0.72 × P    XO staking / PV base
+F = 0.28 × P    matching EXON balance required in the user's account
 ```
 
-`B` is the EXON purchase made through the spot market into Treasury Liquidity. `S` is the XO staking/PV base. `F` is the matching EXON balance required in the user's account. `F` is checked, not transferred, charged or burned, and remains with the user.
+`F` is **checked** — not transferred, charged or burned — and it stays with the user. If the fuel requirement is not met, the order does not open; the check does not authorize the platform to source the shortfall from another asset. Any acquisition of EXON is a separate market action carrying its own price and liquidity exposure.
 
-The order cannot open if the fuel requirement is not met. The check does not authorize the platform to obtain the missing amount from a different asset. Any acquisition of EXON is a separate market action exposed to price and liquidity risk.
+## A parameterized reward ledger
 
-## Parameterized reward ledger
-
-Base APY is 200% under the current approved parameters. Term weights are 1.0 for 30 days, 1.1 for 90 days, 1.2 for 180 days, 1.35 for 360 days and 1.5 for 540 days. The 30-day term has a 10–15% early-exit penalty; the exact rate within that band is unpublished.
-
-The single-epoch reward is calculated twice daily:
+The Base APY parameter is **200%**, multiplied by the term weight `w` and settled every 12 hours:
 
 ```text
 Epoch Reward = (S × 200% × w) ÷ (365 × 2)
 ```
 
-Every order and epoch should record the parameter version used. A later parameter change must not silently alter a historical accrual. The ledger should preserve input principal, term, weight, epoch time, gross reward and any correction or reversal with an attributable reason.
+<figure><img src="../.gitbook/assets/chart-term-weights.svg" alt="Effective APY by term: 30 days 200%, 90 days 220%, 180 days 240%, 360 days 270%, 540 days 300%"><figcaption>Term weights lift the 200% Base APY into a 200%–300% band</figcaption></figure>
 
-The published APY and formula are mechanism parameters, not a guarantee of realized return. EXON price, liquidity, access, smart-contract operation, platform performance, penalties and other risks may materially reduce outcomes or cause principal loss.
+| Term | Weight `w` | Effective APY parameter | Liquidity condition |
+|---:|---:|---:|---|
+| 30 days | 1.00 | 200% | Flexible; early exit deducts 10%–15% of the principal base |
+| 90 days | 1.10 | 220% | Unlocks at maturity |
+| 180 days | 1.20 | 240% | Unlocks at maturity |
+| 360 days | 1.35 | 270% | Unlocks at maturity |
+| 540 days | 1.50 | 300% | The long term recommended in the approved paper |
+
+Every order and every epoch records the **parameter version** in force at the time. A later change does not silently rewrite a historical accrual. The ledger preserves input principal, term, weight, epoch time, gross reward, and any correction or reversal with an attributable reason.
 
 ## Redemption and burn
 
-Pending rewards can follow three approved lanes:
+Pending rewards take one of three lanes:
 
-| Lane | Wait | Equivalent EXON burn | Net release |
+<figure><img src="../.gitbook/assets/chart-redemption-lanes.svg" alt="Redemption lanes: T+0 releases 70% and burns 30%; 30D releases 85% and burns 15%; 60D releases 100% and burns nothing"><figcaption>Wait longer, burn less: what redeeming 1,000 U of pending reward produces</figcaption></figure>
+
+| Lane | Wait | Equivalent EXON burned | Net release |
 |---|---:|---:|---:|
 | T+0 | Immediate | 30% | 70% |
-| 30D | 30 days | 15% | 85% |
-| 60D | 60 days | 0% | 100% |
+| 30D linear | 30 days | 15% | 85% |
+| 60D linear | 60 days | 0% | 100% |
 
-For pending reward `W` and burn rate `b`, `Net = W × (1 − b)` and `Burn = W × b`. A burn-bearing redemption requires the equivalent EXON amount to be permanently destroyed. The burn is attached only to the redemption choice; it does not imply a general market-purchase program or guarantee price support.
+For pending reward `W` and burn rate `b`: `Net = W × (1 − b)` and `Burn = W × b`. A burn-bearing redemption requires the equivalent EXON to be permanently destroyed. **The burn attaches to the redemption choice** — it does not stand for an ongoing market-purchase programme.
 
 ## Dynamic rewards
 
-The approved model also contains a dynamic system built around adjacent-level Differential Matching Bonus logic. It uses a 150–200% payout range. Complete level tables, qualification thresholds, caps, timing and calculation details have not been published. The architecture can reserve versioned fields for those rules, but it must not invent the missing schedule or display a personalized projection as though it were confirmed.
+The approved model also carries a dynamic system built on an **adjacent-level Differential Matching Bonus**, with a Reward Payout Ratio band of 150%–200%, settled in the same epoch as static rewards and adjustable by issuance round and market conditions.
 
-## Separation from the ecosystem Roadmap
+The complete level table, qualification thresholds, per-level differential rates and team-performance boundaries **have not been published**. The architecture can reserve versioned fields for those rules; it should not fill in the missing table itself, and it should not display a personalized projection as a confirmed result (see [Open Parameters](../open-parameters/README.md), OP-T04).
 
-The Staking Platform can appear inside the future Wallet or be explained through the future PayFi interface, but the interface does not create a new reward source. The AI layer may explain the term choices or simulate the formula from user-provided assumptions. It cannot promise an APY outcome, change the order split or waive the EXON check.
+## How it relates to the product ecosystem
 
-Similarly, the narrative calls XO the Value Anchor and EXON the Circulation Engine. Those positions help explain the long-term ecosystem. The current staking and redemption operations remain exactly those published above. Future governance, payment, fee and consumption utilities require separate product terms.
+The Staking Platform can appear inside the Wallet and be explained through the PayFi interface, but **an interface creates no new source of reward**. The AI layer can explain the term choices, or simulate the formula from assumptions the user supplies. It cannot change the order split or waive the EXON check.
 
-## Implementation controls
+In the narrative, XO is the Value Anchor and EXON the Circulation Engine — those positions explain the long-term ecosystem. The staking and redemption operations running today are exactly the ones set out above.
 
-- parameter versions are immutable for already recorded events unless a disclosed correction is made;
-- balance checks, Treasury purchases, epoch accruals, redemption elections and burns receive independent records;
-- exchange and staking permissions remain separable;
-- every reward view distinguishes accrued, pending, redeemable and released states;
-- user-facing illustrations show price and principal-loss risk beside the result;
-- unpublished dynamic-reward details remain Open rather than inferred.
+## Six implementation controls
 
-This layer is the economic core defined today. The broader application architecture surrounds it; it does not rewrite it.
+1. Parameter versions are immutable for events already recorded, unless a disclosed correction is made.
+2. Balance checks, Treasury purchases, epoch accruals, redemption elections and burns each get their own record.
+3. Exchange permissions and staking permissions stay separable.
+4. Every reward view distinguishes **accrued / pending / redeemable / released**.
+5. A user-facing calculation states the price assumption it rests on, right next to the result.
+6. Unpublished dynamic-reward detail stays Open rather than inferred.
 
-*Previous: [Settlement & Custody](settlement-and-custody.md) · Next: [Data & Oracles](data-and-oracles.md) · Economics: [Token Economics](../05-tokenomics/README.md)*
+This layer is the most concretely defined economic core today. The broader application architecture surrounds it; it does not rewrite it.
+
+*Previous: [Settlement & Custody](settlement-and-custody.md) · Next: [Data & Oracles](data-and-oracles.md) · Full economics: [Token Economics](../05-tokenomics/README.md)*

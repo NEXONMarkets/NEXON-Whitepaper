@@ -1,49 +1,59 @@
 ---
-description: "Five Roadmap products form one financial-social value loop, with AI-Native PayFi as the secondary narrative focus."
-icon: "layer-group"
+description: "Five product surfaces close one financial-social value loop, with AI-Native PayFi as the second focus of the narrative."
+icon: layer-group
 ---
 
 # The NEXON Product Ecosystem
 
-> Discover in Social → Decide in Wallet → Route through PayFi → Use in Marketplace or Card → Return with data, relationships and activity.
+> Discover in Social → decide in Wallet → route through PayFi → use in Marketplace or Card → return with data, relationships and activity.
 
-NEXON's product direction is a **super financial-social ecosystem** built around five connected Roadmap surfaces: an AI-Native PayFi application, Wallet, Marketplace, Stablecoin Card and decentralized Social App. They are not five unrelated feature lists. Each owns a distinct moment in the user value loop and a distinct set of responsibilities.
+NEXON's product direction is a **financial-social ecosystem** built from five connected surfaces: AI-Native PayFi, the Wallet, the Marketplace, the Stablecoin Card and a decentralized Social App. They are not five unrelated feature lists — each owns **one particular moment** in the user's value loop, and each carries its own set of responsibilities.
 
-AI-Native PayFi is the **secondary focus** of the overall narrative. The primary focus remains the project-approved NEXON thesis and dual-asset architecture: NEXON connects capital, digital finance and real consumption; XO anchors value; EXON drives circulation. PayFi makes that thesis tangible by translating a user objective into a route that can be checked, approved, executed and receipted.
-
-All five products in this Part are **Roadmap**. The journey describes a target product experience, not a live transaction flow or launch commitment.
+AI-Native PayFi is the **second focus** of the overall narrative. The first remains NEXON's own thesis and dual-asset architecture: NEXON connects capital, digital finance and real consumption; XO carries value, EXON drives circulation. PayFi is what makes that thesis tangible — it turns an objective into a route that can be checked, approved, executed and receipted.
 
 ## Five surfaces, one loop
 
-| Roadmap product | Role in the loop | Does not become |
+| Product | Its place in the loop | What it does not become |
 |---|---|---|
-| Decentralized Social App | Discovery, communities, communication, strategy context and value interaction | Automatic financial authority or investment advice |
-| Wallet | Asset state, permissions, staking access, decision support and third-party application entry | A new source of yield or guarantee of liquidity |
-| AI-Native PayFi | Intent capture, route preview, policy checks, approval, execution coordination and receipts | Custodian, merchant, compliance authority or return engine |
-| Marketplace | Travel, hotel, goods and services inventory with supplier fulfillment evidence | A guarantee by NEXON of every supplier's performance |
-| Stablecoin Card | Potential everyday acceptance through a responsible licensed issuer/operator | An already issued card or proof that EXON is universal settlement fuel |
+| Decentralized Social App | Discovery, communities, communication, strategy context, value interaction | Automatic financial authority, or investment advice |
+| Wallet | Asset state, permissions, staking access, decision support, third-party entry points | A new source of yield |
+| AI-Native PayFi | Intent capture, route preview, policy checks, approval, execution coordination, receipts | Custodian, merchant, compliance authority or return engine |
+| Marketplace | Travel, hotel, goods and services inventory, with supplier fulfillment evidence | A NEXON guarantee of every supplier's performance |
+| Stablecoin Card | Everyday acceptance through a licensed issuer/operator | A card that has already been issued |
 
-## The target journey
+## The target experience
 
+{% stepper %}
+{% step %}
 ### Discover in Social
 
-A user encounters a community discussion, strategy, event or travel idea. Social context can help form an intent. It cannot spend, trade or approve on the user's behalf. A strategy shared by another person remains information, not an instruction.
+A user encounters a community discussion, a strategy, an event or a travel idea. Social context can help form an intent. It **cannot** spend, trade or approve on their behalf. A strategy someone shared is information, not an instruction.
+{% endstep %}
 
+{% step %}
 ### Decide in Wallet
 
-The user sees available balances, protected reserves, current staking positions, permissions and relevant third-party experiences. The wallet helps the user decide which resources may be considered. Prediction-market interfaces, if supported, remain third-party, jurisdiction-dependent Roadmap integrations whose outcomes are uncertain.
+The user sees available balances, protected reserves, current staking positions, permissions already granted and relevant third-party experiences. The wallet helps them decide **which resources may even be considered**.
+{% endstep %}
 
+{% step %}
 ### Route through PayFi
 
-The user states the outcome and constraints. PayFi structures the intent, compares eligible paths, applies policy and presents the costs, timing, parties and irreversible steps. The user approves a bounded route. Product-specific fees and settlement assets will be defined by the relevant product terms; they are not inferred from token narrative.
+The user states the outcome and the constraints. PayFi structures the intent, compares eligible paths, applies policy, and lays out costs, timing, parties and irreversible steps. The user approves a bounded route.
+{% endstep %}
 
+{% step %}
 ### Use in Marketplace or Card
 
-The route reaches a real-world endpoint. The Marketplace may connect to travel, hotel, goods or services inventory. A future Stablecoin Card may extend supported value through an eligible issuer. The supplier or issuer remains responsible for its leg, and payment settlement is recorded separately from fulfillment.
+The route reaches a real-world endpoint. The Marketplace connects to travel, hotel, goods or services inventory; the Stablecoin Card extends eligible value through a licensed issuer. **The supplier or issuer owns its leg, and payment settlement is booked separately from fulfillment.**
+{% endstep %}
 
+{% step %}
 ### Return with data, relationships and activity
 
-Receipts, preferences and outcomes can improve the user's future decisions, subject to consent and retention rules. A completed action can also return to the social layer as a user-chosen update. Private financial state does not become social content by default.
+Receipts, preferences and outcomes can improve the next decision, within consent and retention rules. A completed action can return to the social layer if the user chooses. **Private financial state does not become social content by default.**
+{% endstep %}
+{% endstepper %}
 
 ```mermaid
 flowchart LR
@@ -53,22 +63,34 @@ flowchart LR
     P --> C["Stablecoin Card<br/>use"]
     M --> R["Receipts · preferences · relationships"]
     C --> R
-    R -. "user-controlled context" .-> S
+    R -. "user decides" .-> S
     R -. "policy and history" .-> W
+    classDef anchor fill:#047854,stroke:#047854,stroke-width:1.5px,color:#F5F3F0
+    classDef engine fill:#8B5CF6,stroke:#8B5CF6,stroke-width:1.5px,color:#F5F3F0
+    classDef solid  fill:#F5F3F0,stroke:#141414,stroke-width:1.2px,color:#141414
+    class S,W,M,C solid
+    class P anchor
+    class R engine
 ```
 
-## Separation within connection
+## The seams inside the loop
 
-The closed loop is a product narrative, not a circular guarantee of token demand or financial return. XO and EXON keep their approved current mechanics. XO is the current staking-principal carrier; broader rights are Roadmap. EXON is the current spot/release/buy/check/burn asset; broader payment, fee and consumption uses are Roadmap.
+The loop is a product narrative, not a circular guarantee. Both assets keep their confirmed mechanical roles. XO currently carries staking principal. EXON is currently the spot, release, purchase, check and burn asset.
 
-Every surface should expose the responsible executor. A wallet view does not merge custody. A PayFi recommendation does not replace user approval. A marketplace payment does not prove delivery. A card interface does not replace the issuer's terms. Social popularity does not establish suitability.
+Every surface has to keep its **responsible executor** visible:
 
-## Capability gates
+* a wallet view does not merge custody;
+* a PayFi recommendation does not replace user approval;
+* a marketplace payment does not prove delivery;
+* a card interface does not replace the issuer's terms;
+* social popularity does not establish suitability.
 
-Progress should be measured by evidence, not calendar promises: published specifications, threat models, custody and issuer arrangements, jurisdictional review, test results, incident procedures and user-facing disclosures. A product moves beyond Roadmap only when those gates and its actual availability are documented.
+## Progress measured by capability gates
 
-{% hint style="warning" %}
-**Roadmap status.** No capability in this Part is described as live. Product names, operators, supported assets, fees, jurisdictions, release order and service levels remain subject to published implementation terms.
-{% endhint %}
+Progress is measured by evidence, not calendar promises. To move past planned, a product has to deliver: published specifications, a threat model, custody and issuer arrangements, jurisdictional review, test results, incident procedures and user-facing disclosures.
+
+**When the gates are met and availability is published, the product is live. Not before.**
+
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Decentralized Social App</strong></td><td>Discovery and context. Let relationships enrich decisions without letting social pressure bypass control.</td><td><a href="social.md">social.md</a></td></tr><tr><td><strong>AI-Native PayFi</strong></td><td>The second focus. Six stages from financial intent to execution evidence.</td><td><a href="payfi.md">payfi.md</a></td></tr><tr><td><strong>Wallet</strong></td><td>Financial home and control surface: state, permissions, staking access, decision support.</td><td><a href="wallet.md">wallet.md</a></td></tr><tr><td><strong>Marketplace</strong></td><td>The real-consumption leg. Payment and delivery are two different facts.</td><td><a href="marketplace.md">marketplace.md</a></td></tr><tr><td><strong>Stablecoin Card</strong></td><td>Everyday acceptance, resting on a licensed issuer/operator.</td><td><a href="stablecoin-card.md">stablecoin-card.md</a></td></tr></tbody></table>
 
 *Previous: [Data & Oracles](../03-architecture/data-and-oracles.md) · Next: [Decentralized Social App](social.md)*

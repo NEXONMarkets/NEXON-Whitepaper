@@ -1,72 +1,74 @@
 ---
-description: "The Roadmap Wallet is the user's financial home for assets, permissions, staking access, decision support and eligible third-party experiences."
-icon: "wallet"
+description: "The Wallet is the user's financial home inside the ecosystem — assets, permissions, staking access, decision support and eligible third-party experiences."
+icon: wallet
 ---
 
 # Wallet — Financial Home and Control
 
-**Status** · `Roadmap`
+*Product stage · Roadmap*
 
-The NEXON Wallet is planned as the user's financial home inside the ecosystem: the place to understand assets, positions, permissions, policies and pending actions before a route reaches execution. It is not merely a balance list, and it does not create a separate source of yield.
+The NEXON Wallet is designed as the user's **financial home**: the place to understand assets, positions, permissions, policies and pending actions before any route reaches execution. It is not a list of balances, and it does not manufacture a second source of yield.
 
-## State without false consolidation
+## Unified state, without pretending the assets are unified
 
-A unified view should distinguish where value actually lives. XO staking principal, pending rewards, redeemable amounts and external assets have different executors, liquidity and risk. EXON spot balances and vesting releases remain exchange-side records. The wallet identifies the responsible venue, network, contract or custodian rather than presenting all entries as equivalent cash.
+A unified view has to say where value **actually is**. XO staking principal, pending rewards, redeemable amounts and external assets each have their own executor, liquidity and risk. EXON spot balances and vesting releases are exchange-side records.
 
-For the approved Staking Platform mechanism, the wallet should show:
+The wallet names the responsible venue, network, contract or custodian — rather than presenting every row as equivalent cash.
 
-- qualifying principal `P`;
-- the 28% EXON buy into Treasury Liquidity;
-- the 72% XO staking/PV base;
-- the matching EXON fuel-balance check and the fact that it remains with the user;
-- selected term and weight;
-- 12-hour epoch accruals and parameter version;
-- early-exit condition where applicable;
-- pending reward and T+0, 30D or 60D redemption choice;
-- equivalent EXON burn and net release for a burn-bearing choice.
+For the current Staking Platform mechanism, the wallet should show:
 
-A display is not proof of executable price, liquidity or recoverability. Quotes and withdrawal conditions must be refreshed from the responsible system.
+| Display | Note |
+|---|---|
+| Qualifying principal `P` | What went into this order |
+| 28% EXON build | Bought and moved into Treasury Liquidity |
+| 72% XO staking / PV base | The interest base |
+| Matching EXON fuel check | Marked clearly as **still in the user's account** |
+| Selected term and weight | 30 / 90 / 180 / 360 / 540 days, 1.00 – 1.50 |
+| 12-hour epoch accruals and parameter version | Each accrual records the rule version in force |
+| Early-exit condition | Applies to the 30-day term only |
+| Pending reward and redemption choice | T+0 / 30D / 60D |
+| Equivalent EXON burn and net release | Shown when a burn-bearing lane is selected |
+
+**A display is not an executable quote.** Prices and withdrawal conditions have to be refreshed from the responsible system.
 
 ## Permission center
 
-The wallet should make agent authority legible. Users can inspect which application may read account state, which asset it may act on, the maximum amount, destination restrictions, expiration and whether any unused authority remains. Revocation stops future use; it cannot reverse a completed transfer or market order.
+The wallet makes agent authority legible at a glance. A user can inspect which application may read account state, which asset it may act on, the maximum amount, destination restrictions, expiry, and how much unused authority remains.
 
-Token ownership does not widen these permissions. XO's narrative role as Value Anchor and EXON's narrative role as Circulation Engine are separate from account authorization. Broader token utilities remain Roadmap until published.
+Revocation stops **future use**. It does not reverse a completed transfer or market order. Those are two separate sentences in the interface.
+
+Holding tokens does not widen any of this. XO's role as Value Anchor and EXON's as Circulation Engine are narrative positions, distinct from account authorization.
 
 ## Decision support
 
-The wallet can become the point where a user moves from discovery to decision. It may organize watchlists, risk alerts, scenario comparisons, reserve policies and route history. AI may summarize or explain. It should identify uncertainty, sources and the difference between an observed balance, estimated value and executable quote.
+The wallet is where a user crosses from discovery to decision. It can organize watchlists, risk alerts, scenario comparisons, reserve policies and route history. AI can summarize and explain — and must flag uncertainty, sources, and **the difference between an observed balance, an estimated value and an executable quote**.
 
-The planned ecosystem may also expose decentralized prediction-market experiences through third-party protocols. These markets can express forward-looking beliefs but cannot guarantee future events. NEXON should not silently act as the operator, counterparty or resolution authority for a third-party market.
+The ecosystem may also expose decentralized prediction-market experiences through third-party protocols. Those markets express a view about the future; they cannot guarantee it. NEXON provides infrastructure and an entry point, and is not the operator, counterparty or resolution authority for any of them.
 
-Before any prediction-market integration becomes available, product terms should identify:
+Before such an entry point opens, the product terms have to state:
 
-- the independent protocol and custody model;
-- eligibility and prohibited jurisdictions;
-- market creator and resolution source;
-- fees, liquidity and settlement asset;
-- dispute and invalid-market rules;
-- oracle and manipulation risks;
-- the fact that a prediction price is neither advice nor certainty.
+* the independent protocol and its custody model;
+* eligibility and prohibited jurisdictions;
+* market creator and resolution source;
+* fees, liquidity and settlement asset;
+* dispute and invalid-market rules;
+* oracle and manipulation risk;
+* that a prediction price is neither advice nor certainty.
 
-Participation would require a separate user approval. Social popularity or an AI forecast cannot open a position automatically.
+Participation requires its own user approval. **Social popularity and an AI forecast do not open a position.**
 
 ## Staking access, not new economics
 
-The wallet may provide a Roadmap interface to the existing Staking Platform. That interface should reproduce the approved mechanism and current parameter version. It cannot change the 72/28 structure, invent dynamic-reward levels or imply principal protection. Any calculated return is conditional and should be displayed beside EXON price, liquidity, contract and platform risks.
+The wallet can provide an interface to the existing Staking Platform. That interface reproduces the confirmed mechanism at its current parameter version: it cannot change 72/28, invent dynamic-reward levels, or imply principal protection. Any calculated return states the price assumption it rests on.
 
-## Connection to the product loop
+## Its place in the loop
 
-The Social App can supply user-chosen context; the Wallet holds financial state and policy; PayFi builds the approved route. After execution, receipts return to the wallet so the user can reconcile what changed. Marketplace or card delivery remains visible as a separate fulfillment state.
+The Social App supplies context the user chose. The Wallet holds financial state and policy. PayFi builds the approved route. After execution, receipts return to the wallet so the user can reconcile what actually changed. Marketplace or card delivery stays visible as **a separate fulfillment state**.
 
-This makes the wallet a control surface between discovery and action, not an autonomous trader. It helps the user remember constraints, judge alternatives and preserve reserves while the executors underneath retain their native responsibilities.
+That makes the wallet a control surface between discovery and action — not an autonomous trader.
 
-## Launch gates
+## What has to ship before launch
 
-Required evidence includes a documented custody model, key recovery and incident procedures, permission and revocation specifications, supported networks and assets, independent security review, privacy and retention terms, third-party integration disclosures and jurisdictional controls. Until those gates are met and availability is published, the Wallet and prediction-market interfaces remain Roadmap.
-
-{% hint style="danger" %}
-Wallet software, custody providers, smart contracts, oracle systems and prediction markets can fail. Users may lose access or principal. A unified view and AI explanation do not guarantee asset value, market resolution or recovery.
-{% endhint %}
+A documented custody model, key recovery and incident procedures, permission and revocation specifications, supported networks and assets, independent security review, privacy and retention terms, third-party integration disclosures and jurisdictional controls.
 
 *Previous: [AI-Native PayFi](payfi.md) · Next: [Marketplace](marketplace.md)*

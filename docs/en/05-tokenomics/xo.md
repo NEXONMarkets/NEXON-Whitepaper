@@ -1,23 +1,25 @@
 ---
-description: "XO is NEXON's narrative Value Anchor and, in the current approved mechanism, the protocol-priced Staking Principal Token."
-icon: "circle-x"
+description: "XO is NEXON's narrative Value Anchor and, in the current mechanism, the protocol-priced Staking Principal Token."
+icon: circle-x
 ---
 
 # XO — Value Anchor
 
-XO combines a long-term narrative position with a precise current function. In the approved NEXON narrative, XO is the **Value Anchor**: the asset associated with staking, participation, ecosystem rights and long-term value accumulation. In the approved economic mechanism, XO is the **Staking Principal Token** used inside the Staking Platform.
+XO holds a long-term position and a precise current function under one name.
 
-The second statement defines what happens now. The first describes why that function matters to the broader ecosystem.
+In the NEXON narrative, XO is the **Value Anchor**: the side associated with staking, participation, ecosystem rights and long-term value accumulation. In the approved economic mechanism, XO is the **Staking Principal Token** used inside the Staking Platform.
+
+The second sentence defines what happens now. The first explains why that function matters to the ecosystem.
 
 ## Name and narrative role
 
-`X` represents cross-domain connection and possibility. `O` represents the ecosystem loop and value accumulation. Together, XO names the core asset around which durable participation can be organized.
+`X` stands for cross-domain connection and possibility. `O` stands for the ecosystem loop and value accumulation. Together, XO names the asset **around which durable participation can be organized**.
 
-“Value Anchor” does not mean a fixed market price, guaranteed backing or legal claim on a reserve. It describes an ecosystem role: XO is intended to hold the long-duration side of the dual-asset model while EXON handles active circulation.
+"Value Anchor" describes an ecosystem role, not a price commitment: XO carries the long-duration half of the dual-asset model while EXON handles active circulation.
 
-## Current mechanical role
+## The current mechanical role
 
-A user acquires XO from Treasury at a U-denominated price managed by the protocol. XO circulates internally under that mechanism and is independent of EXON's public secondary-market price.
+A user acquires XO from Treasury at a U-denominated price managed by the protocol. XO circulates internally under that mechanism, independent of EXON's public secondary-market price.
 
 For qualifying principal `P`, the staking base is:
 
@@ -25,44 +27,40 @@ For qualifying principal `P`, the staking base is:
 S = 0.72 × P
 ```
 
-`S` is the XO staking and reward/PV base used in static reward calculation and dynamic reward accounting. The separate 28% EXON purchase does not increase `S`, and the matching EXON fuel-balance check does not become XO principal.
+`S` is the XO staking / PV base used in static reward calculation and dynamic reward accounting. **The separate 28% EXON purchase does not increase `S`**, and the matching EXON balance check does not become XO principal.
 
-An order also records the term and weight. The current terms are 30, 90, 180, 360 and 540 days with weights 1.00, 1.10, 1.20, 1.35 and 1.50. Rewards accrue in 12-hour epochs using the published Base APY and selected weight. The 30-day term supports early exit with a 10%–15% deduction from `S`; the exact percentage within the band remains unpublished.
+The order also records term and weight:
 
-Calling XO principal does not mean the principal is protected. Protocol operation, contract failure, accounting error, custody, access, parameter change and legal restrictions can affect participation and recovery.
+| Term | 30 days | 90 days | 180 days | 360 days | 540 days |
+|---|---:|---:|---:|---:|---:|
+| Weight `w` | 1.00 | 1.10 | 1.20 | 1.35 | 1.50 |
 
-## Roadmap utility
+Rewards accrue in 12-hour epochs using the published Base APY parameter and the selected weight. That parameter is adjustable and may change by issuance round, so an accrual is always read against the parameter version recorded on the order. The 30-day term supports early exit with a 10%–15% deduction from `S`; the exact rate inside that band has not been published.
 
-The narrative anticipates broader participation, rights and governance utility for XO. These functions are **Roadmap**, not current rights. Before any becomes operational, a formal design should state:
+## Long-term direction (Roadmap)
 
-- which decisions, products or communities are in scope;
-- eligibility, thresholds and delegation rules;
-- how conflicts of interest and concentrated holdings are handled;
-- proposal, quorum, voting and execution processes if voting is used;
-- whether rights are transferable or tied to verified participation;
-- how emergency action, appeals and parameter changes work;
-- which legal entity or contract is responsible.
+The narrative anticipates broader participation, rights and governance utility for XO. Those belong to the **long-term direction**, not to current rights. Before any of them goes live, a formal design has to state:
 
-Until those rules are published, holding XO should not be described as granting a live vote, revenue share, executive authority, product access guarantee or claim on NEXON or NEX assets.
+* what governance covers and what it does not;
+* eligibility, thresholds and delegation rules;
+* how conflicts of interest and concentrated holdings are handled;
+* if voting is used: proposal, quorum, voting and execution processes;
+* whether rights are transferable or tied to verified participation;
+* how emergency action, appeals and parameter changes work;
+* which legal entity or contract is responsible.
 
-## Relationship to the Roadmap products
+Until those rules are published, holding XO is not a live vote, a revenue share, an executive authority, or a claim on NEXON or NEX assets (see [Open Parameters](../open-parameters/README.md), OP-G01).
 
-The future Wallet may display XO positions, term choices, epoch history and redemption state. PayFi may explain or simulate a staking order. The Social App may provide participation context. None of those interfaces creates a second reward mechanism or changes the approved calculation.
+## Relationship to the product ecosystem
 
-If future marketplace, card or social products grant an XO-based benefit, the relevant product terms must define the benefit, funding source, eligibility, duration and change process. A narrative association with rights is insufficient on its own.
+The Wallet can display XO positions, term choices, epoch history and redemption state. PayFi can explain or simulate a staking order. The Social App can supply participation context. **None of those interfaces creates a second reward mechanism or alters the confirmed calculation.**
 
-## What remains unpublished
+If a future marketplace, card or social product grants an XO-based benefit, its product terms have to define what the benefit is, what funds it, who qualifies, how long it lasts and how it changes. A narrative association with "rights" is not enough on its own.
 
-The approved paper does not provide a numerical XO supply, external listing plan, comprehensive distribution, governance design or broader-rights schedule. XO's protocol-managed price should not be described as a public market guarantee. These fields remain Open.
-
-## XO statement hierarchy
+## XO in three sentences
 
 1. **Narrative:** XO is NEXON's Value Anchor and carries long-term ecosystem value.
 2. **Current mechanism:** XO is the U-priced Staking Principal Token and carries `S = 0.72 × P` inside the Staking Platform.
-3. **Roadmap:** broader participation, rights and governance require separate published rules.
-
-{% hint style="danger" %}
-XO is not equity, debt, a deposit or a guaranteed income claim. The protocol-priced mechanism does not ensure redemption value or principal protection. Participants may lose some or all principal.
-{% endhint %}
+3. **Long-term direction:** broader participation, rights and governance require separately published rules.
 
 *Previous: [Two Assets, Two Jobs](two-assets-two-jobs.md) · Next: [EXON — Circulation Engine](exon.md)*

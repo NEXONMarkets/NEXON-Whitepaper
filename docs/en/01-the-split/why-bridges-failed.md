@@ -42,12 +42,11 @@ flowchart LR
     C -->|"Tokenization · registration only"| D
     D -->|"Stablecoin rails · one way"| R
     C -. "capital ⇄ real: nobody" .- R
-    %% NEXON palette v0 · placeholder until VI locks
-    classDef navy  fill:#0B1220,stroke:#22D3EE,stroke-width:1.5px,color:#E6EDF3
-    classDef cyan  fill:#22D3EE,stroke:#0B1220,stroke-width:1.5px,color:#0B1220
-    classDef light fill:#E6EDF3,stroke:#0B1220,stroke-width:1px,color:#0B1220
-    classDef ghost fill:#FFFFFF,stroke:#22D3EE,stroke-width:1px,stroke-dasharray:4 3,color:#0B1220
-    class C,D,R light
+    classDef anchor fill:#047854,stroke:#047854,stroke-width:1.5px,color:#F5F3F0
+    classDef engine fill:#8B5CF6,stroke:#8B5CF6,stroke-width:1.5px,color:#F5F3F0
+    classDef solid  fill:#F5F3F0,stroke:#141414,stroke-width:1.2px,color:#141414
+    classDef ghost  fill:#F5F3F0,stroke:#059669,stroke-width:1.2px,stroke-dasharray:4 3,color:#141414
+    class C,D,R solid
 ```
 
 Lay the three on the map and the pattern is hard to miss. Bridges run along one market, not between markets. Stablecoin rails cover one direction of one edge. Tokenization registers a capital-market claim inside digital assets and stops. The edge the request in the last section actually needed — capital markets to real-world spending, and back — is served by nobody.
@@ -68,8 +67,5 @@ That is the diagnosis Part I set out to reach. The three markets are joined by c
 
 **Bridges move value. Agents understand it.**
 
-{% hint style="info" %}
-**Scope of this section.** Commits to: bridges, stablecoin rails and tokenization each solve one carrying problem; none performs the semantic conversion between the three markets, which remains manual. Does not commit to: any judgment of a specific project, or any replacement design. Open items: none ([Open Parameters](../open-parameters/README.md) begins with Part III).
-{% endhint %}
 
 *Spine: [The Translator](../02-the-translator/README.md) · Next: [The Translator](../02-the-translator/README.md)*

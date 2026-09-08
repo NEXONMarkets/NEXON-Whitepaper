@@ -1,77 +1,66 @@
 ---
-description: "意图从哪里来：Circle（圈层）是 NEXON 社交层的基本单位，在那里说出的一句话如何变成一个可执行的 Intent。"
-icon: "comments"
+description: "一个把发现、社区、策略语境和用户自主的价值互动放在一起的去中心化社交 App。"
+icon: comments
 ---
 
-# 社交 —— 意图的源头
+# 去中心化社交 App —— 发现与语境
 
-> 社交层是意图的源头——因为意图诞生在对话里，不在表单里。
+*产品阶段 · Roadmap*
 
-意图不是凭空产生的。你想去东京，是因为朋友发了照片；你想加仓，是因为群里在讨论。意图诞生在关系里。所以社交层不是「顺便做个聊天工具」，它是 NEXON 里 Agent 的意图入口——在这里，一句话就能直接变成一个可执行的 Intent，不需要你切到另一个 app 重新组织语言。
+金融意图常常起于一段关系：社区在聊一件事，朋友分享了一趟旅行，一群人在比较对某个市场的看法。NEXON 的去中心化社交 App 要把这份语境接进生态里，同时**不让对话变成看不见的金融权限**。
 
-这就是「金融社交」四个字背后的全部机制——把它当机制来讲，而不是当标签来贴。不是往对话里加钱。而是：一条 Route（路径）的理由最先存在于对话之中，Agent 就守在那个理由变成一句话的地方听着。
+产品方向是把沟通、社区、策略分享与用户自主的价值互动放在同一个地方。「去中心化」在这里指的是身份自持、可携带、关系可验证、参与开放；最终采用的协议、内容治理模型与去中心化程度是[待定参数](../open-parameters/README.md)（OP-P06）。
 
-## 这一层做的三件事 <a href="#three-things-the-layer-does" id="three-things-the-layer-does"></a>
+## 从发现到意图 <a href="#from-discovery-to-intent" id="from-discovery-to-intent"></a>
 
-### Circle <a href="#circle" id="circle"></a>
+用户可以选择把一条消息、一个帖子、一场活动或一份分享的策略，变成一条**意图草稿**。应用把可能的目标抽出来，然后问他：金额多少、用哪些资产、储备下限是多少、什么时候截止、怎么审批。
 
-**状态** · `In development`
-
-**Circle（圈层）** 是社交层的基本单位，也是意图的来源。它不是群，也不是聊天频道，而这个区别不是修辞上的。群是一份人员名单加一条消息流。Circle 是一个语境：里面有哪些人，他们持有什么、正在讨论什么、以前一起做过什么，以及当其中一个人说出一句听起来像 Intent（意图）的话时，Agent 可以调用哪些东西。正是这个语境，让一句话不经表单就能被解析。
-
-### 从一句话到一个 Intent <a href="#from-a-sentence-to-an-intent" id="from-a-sentence-to-an-intent"></a>
-
-**状态** · `In development`
-
-在 Circle 里，一句表达目标的话会作为候选 Intent 交给 Nexus Agent（连接体）。Parse（解析）就在这里运行，以 Circle 为语境；句子有歧义时，Agent 追问一次，而不是猜。Intent 就绪（Ready）后交给执行层，Route 预览就出现在那句话被说出的地方。你没有离开对话，也没有把话重说一遍。
+**社交 App 里什么都不会动。** 这条结构化请求只有在它的所有者确认之后，才进入钱包与 PayFi 的控制。
 
 ```mermaid
 flowchart LR
-    C["Circle<br/><i>语境</i>"] --> U["一句话<br/><i>utterance</i>"]
-    U -->|"Parse"| I["Intent<br/><i>结构化 · Ready</i>"]
-    I -->|"交给执行层"| P["PayFi<br/><i>Route 预览</i>"]
-    %% NEXON palette v0 · placeholder until VI locks
-    classDef navy  fill:#0B1220,stroke:#22D3EE,stroke-width:1.5px,color:#E6EDF3
-    classDef cyan  fill:#22D3EE,stroke:#0B1220,stroke-width:1.5px,color:#0B1220
-    classDef light fill:#E6EDF3,stroke:#0B1220,stroke-width:1px,color:#0B1220
-    classDef ghost fill:#FFFFFF,stroke:#22D3EE,stroke-width:1px,stroke-dasharray:4 3,color:#0B1220
-    class C,P navy
-    class U,I cyan
+    C["社区语境"] --> D["用户选择起草意图"]
+    D --> I["结构化目标与约束"]
+    I --> W["钱包状态与策略"]
+    W --> P["PayFi 路径与审批"]
+    classDef anchor fill:#047854,stroke:#047854,stroke-width:1.5px,color:#F5F3F0
+    classDef engine fill:#8B5CF6,stroke:#8B5CF6,stroke-width:1.5px,color:#F5F3F0
+    classDef solid  fill:#F5F3F0,stroke:#141414,stroke-width:1.2px,color:#141414
+    class C,D solid
+    class I,W anchor
+    class P engine
 ```
 
-### 留在 Circle 里的东西 <a href="#what-stays-in-the-circle" id="what-stays-in-the-circle"></a>
+这个顺序防的是一件具体的事：**一个社交信号变成一次执行触发。** 一份被广泛转发的策略不会因此就适合你。一个预测不是保证。创作者、管理员或任何社区成员都不能替另一个人的账户批准一条路径。
 
-**状态** · `In development`
+## 策略分享，但没有暗中委托 <a href="#strategy-sharing-without-hidden-delegation" id="strategy-sharing-without-hidden-delegation"></a>
 
-Circle 的内容永远不上链。进入 Route 日志的只是一个引用——Intent 的标识符，加一个指向它所来自的那个 Circle 的指针——这样一条 Route 可以追溯到源头，却不暴露当时说了什么。其他成员只有在 Intent 的所有者主动展示时，才看得到从对话里形成的那个 Intent。任何一条 Route 的审批只属于所有者本人，在 PayFi 里完成；Circle 里任何人说的任何话，都不算审批。
+产品可以让人发布分析、模拟组合、路径模板或市场观点。模板能帮别人理解一个序列——但**导入模板只会在接收者自己的策略下生成一份新草稿**。金额、合格场所、成本与风险，都要按那个人、在那个时刻重新算一遍。
 
-## 方向是社交 → 意图 → 执行 <a href="#the-direction-is-social-intent-execution" id="the-direction-is-social-intent-execution"></a>
+系统应该把**科普、个人观点、推广、受监管的建议**区分开。赞助、返佣或任何影响排序的路由激励都要披露。展示历史表现时，要写明来源、时间区间、是否扣费，以及那是已实现、模拟还是精选出来的结果。
 
-两种设计用的是同样三个词，却不是同一台机器。本文只认其中一种。
+## 社交里的价值互动 <a href="#value-interaction-inside-social" id="value-interaction-inside-social"></a>
 
-{% columns %}
-{% column %}
-**反过来的那一种。** 有些产品从一笔支付出发，再把人围上去：转账附一句留言、朋友之间分账、一条「别人买了什么」的动态。支付是主体，社交层是它的包装。这种设计里，没有任何东西知道这笔支付为什么发生。
-{% endcolumn %}
-{% column %}
-**NEXON 的这一种。** 对话在前，因为意图在那里成形。Intent 从对话里被提取出来。执行是结果。社交层从不碰结算；它把一个结构化的 Intent 交给 Agent，然后停下。在这里，社交永远在金融的上游，从不在下游。
-{% endcolumn %}
-{% endcolumns %}
+将来的互动可能包括受许可的转账、团购、活动准入、商城发现与社区参与。它们各自的支付资产、费用、限额与资格，由负责的产品条款定义。
 
-顺序就是重点。在第一种设计里，更好的社交层让支付更顺手。在第二种设计里，它让 Agent 的 Intent 更准——更接近你的本意、更早成形、你花在重述上的力气更少。
+EXON「流通引擎」的叙事角色**不会**让它自动变成一个通用的社交支付代币；XO「价值锚」的角色也不会给社区管理员任何控制别人仓位的能力。
 
-<details>
+每一次价值动作都会离开对话，进入和别处一样的六段控制路径：意图 → 路径 → 策略校验 → 用户审批 → 执行 → 凭证。界面可以把用户挑选的结果送回对话，但**余额与交易细节默认保持私密**。
 
-<summary>Circle 不是什么</summary>
+## 身份、隐私与治理 <a href="#identity-privacy-and-moderation" id="identity-privacy-and-moderation"></a>
 
-- **不是加了付款按钮的群聊。** Circle 产出 Intent；它不搬运、不持有、不结算价值。
-- **不是一条照着别人交易的频道。** Circle 产出的是你的 Intent，用你自己的话。里面没有任何东西是推荐，Agent 也不复制任何人。
-- **不是权威。** Circle 里没有人能替你审批一条 Route。审批逐条进行，由所有者本人在执行层完成。
+一个去中心化的社交产品仍然需要能问责的规则。用户应该清楚：哪些身份要素是公开的、可携带的、私密的、已验证的；谁能删内容；举报滥用和欺诈怎么走；哪些数据会共享给金融执行方。**金融资格信息不应该变成一个公开的声誉分数。**
 
-</details>
+社区会被冒名、协同操纵、恶意链接和虚假声明攻击。对应的控制包括签名身份或来源信号、链接权限处理、明确的推广标注、频率限制、治理申诉，以及一条独立的账户失陷处理通道。
 
-{% hint style="info" %}
-**本节口径。** 本节承诺：Circle 是意图的来源，Parse 在其中运行，Circle 内容不上链、只有 Intent 引用进入 Route 日志。本节不承诺：社交产品的最终形态，或 Circle 内容对执行产生超出其所产出 Intent 之外的影响。待定项：[OP-29](../open-parameters/README.md)。
-{% endhint %}
+## 它在闭环里的位置 <a href="#its-place-in-the-loop" id="its-place-in-the-loop"></a>
 
-*主轴：[译者](../02-the-translator/README.md) · 下一节：[PayFi —— Agent 的手](payfi.md)*
+社交 App 拥有**发现与语境**；钱包拥有金融状态与权限；PayFi 拥有路径准备与审批；商城供应商和卡运营方拥有现实执行。完成之后，用户自己决定这份凭证是变成一段私人记录、一条公开动态，还是根本不产生任何社交对象。
+
+**这层分离让关系可以丰富决策，而不让人气绕过控制。**
+
+## 上线之前要交付什么 <a href="#what-has-to-ship-before-launch" id="what-has-to-ship-before-launch"></a>
+
+<table><thead><tr><th width="200">交付项</th><th>为什么</th></tr></thead><tbody><tr><td>身份与数据架构</td><td>用户要能分清什么是公开的、什么是可携带的</td></tr><tr><td>内容与治理规则</td><td>冒名与协同操纵需要有处理流程</td></tr><tr><td>金融推广政策</td><td>把科普、观点、推广与受监管建议分开</td></tr><tr><td>隐私与留存条款</td><td>对话可能含高度敏感的财务与行程信息</td></tr><tr><td>安全审查与滥用响应</td><td>社交面是攻击的第一入口</td></tr><tr><td>可携带性设计与辖区控制</td><td>「去中心化」要能被检验</td></tr></tbody></table>
+
+*上一节：[NEXON 产品生态](README.md) · 下一节：[AI 原生 PayFi](payfi.md)*

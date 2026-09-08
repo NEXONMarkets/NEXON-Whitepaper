@@ -25,12 +25,11 @@ flowchart LR
         D["数字资产<br/><i>流动性 · 可组合性</i><br/>7×24 · 秒级 · 无国界"]
         R["真实消费<br/><i>使用权 · 体验</i><br/>时间 · 地点 · 可用性"]
     end
-    %% NEXON palette v0 · placeholder until VI locks
-    classDef navy  fill:#0B1220,stroke:#22D3EE,stroke-width:1.5px,color:#E6EDF3
-    classDef cyan  fill:#22D3EE,stroke:#0B1220,stroke-width:1.5px,color:#0B1220
-    classDef light fill:#E6EDF3,stroke:#0B1220,stroke-width:1px,color:#0B1220
-    classDef ghost fill:#FFFFFF,stroke:#22D3EE,stroke-width:1px,stroke-dasharray:4 3,color:#0B1220
-    class C,D,R light
+    classDef anchor fill:#047854,stroke:#047854,stroke-width:1.5px,color:#F5F3F0
+    classDef engine fill:#8B5CF6,stroke:#8B5CF6,stroke-width:1.5px,color:#F5F3F0
+    classDef solid  fill:#F5F3F0,stroke:#141414,stroke-width:1.2px,color:#141414
+    classDef ghost  fill:#F5F3F0,stroke:#059669,stroke-width:1.2px,stroke-dasharray:4 3,color:#141414
+    class C,D,R solid
 ```
 
 {% tabs %}
@@ -85,8 +84,5 @@ T+2 结算。仓位变成了现金——一笔你还碰不到的现金。
 
 下一节看的是这条路上已经存在的那些解法，并对每一种问同一个问题：这场翻译里，它究竟做了哪一部分。
 
-{% hint style="info" %}
-**本节口径。** 本节承诺：三个市场对「价值」的定义、节拍与边界各不相同；今天把一笔仓位变成一间房，要付出四个系统、四次身份验证和约一个星期的人工翻译。本节不承诺：任何弥合这道缝隙的机制；本节只陈述问题。待定项：无（[待定参数汇总](../open-parameters/README.md) 自第三部分起）。
-{% endhint %}
 
 *主轴：[译者](../02-the-translator/README.md) · 下一节：[为什么桥没有解决问题](why-bridges-failed.md)*

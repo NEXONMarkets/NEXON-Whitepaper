@@ -1,84 +1,96 @@
 ---
-description: "五个产品是同一具身体的五个器官：Circle、PayFi、钱包与落地端，各由它在「从意图到结算」这条路径上的位置来定义。"
-icon: "layer-group"
+description: "五个产品面组成一个金融社交价值闭环，AI 原生 PayFi 是其中的第二重点。"
+icon: layer-group
 ---
 
-# NEXON 产品栈
+# NEXON 产品生态
 
-> 意图诞生在对话里，所以 NEXON 从社交开始。它经过一个由 Agent 操作、由你确认的支付应用。它在一个钱包里思考——那里存着你的记忆、读着市场、也知道什么时候该等。最后它落进商城和一张卡，价值在那里真正碰到现实世界。
+> 在社交里发现 → 在钱包里决策 → 通过 PayFi 成路 → 在商城或卡上使用 → 带着数据、关系与行为回来。
 
-第三部分讲的是神经：把一个 Intent（意图）从一句话送到一条已结算的 Route（路径）的五个子系统。这一部分讲的是这些神经穿过的身体。NEXON 以五个产品的形态到达你手上，而本章只有一条规矩：没有一个产品被写成功能清单。每一个都由它在「你想要的」到「已经结算的」这条路径上的位置来定义，由 Nexus Agent（连接体）在那个位置需要它做什么来定义。
+NEXON 的产品方向是一个**超级金融社交综合体**，由五个彼此连着的面组成：AI 原生 PayFi、钱包、商城、稳定币卡、去中心化社交 App。它们不是五张互不相干的功能清单——每一个都占据用户价值闭环里的**一个特定时刻**，并且各自扛一组特定的责任。
 
-请把它当解剖图读，不要当产品目录读。一个器官在那里，不是因为它单独拿出来有多好看，而是因为少了它，身体就完不成某一项功能；评判它的标准也只有一条：这项功能，它做没做到。
+AI 原生 PayFi 是整体叙事的**第二重点**。第一重点仍然是 NEXON 本身的命题和双币架构：NEXON 连接资本、数字金融与真实消费；XO 承载价值，EXON 驱动流通。PayFi 让这个命题变得可触摸——它把一个目标翻译成一条能被校验、被审批、被执行、被出具凭证的路径。
 
-## 一条路径，四层 <a href="#one-path-four-layers" id="one-path-four-layers"></a>
+## 五个面，一个闭环 <a href="#five-surfaces-one-loop" id="five-surfaces-one-loop"></a>
 
-第二部分的那条路径上，有四个位置必须有产品存在。意图得从某处来。得有东西去执行它。执行期间，得有东西替你记住、替你判断、替你等。最后一段，得碰到现实世界。这四个位置就是产品栈的四层，由五个产品填满。
-
-| 层 | 产品 | 在主轴里是什么 |
+| 产品 | 在闭环里的位置 | 它不会变成 |
 |---|---|---|
-| 意图层 | 去中心化社交 app | Agent 的意图源头 |
-| 执行层 | AI 原生 PayFi app ★ 主角 | Agent 的手 |
-| 认知层 | 钱包应用 ★ 主角 | Agent 的记忆、判断与耐心 |
-| 落地层 | 商城 · Stablecoin Card | Agent 触达现实的末端 |
+| 去中心化社交 App | 发现、社区、沟通、策略语境与价值互动 | 自动的金融权限，或投资建议 |
+| 钱包 | 资产状态、权限、质押入口、决策支持与第三方应用入口 | 一个新的收益来源 |
+| AI 原生 PayFi | 意图捕获、路径预览、策略校验、审批、执行协调与凭证 | 托管人、商户、合规权威或收益引擎 |
+| 商城 | 旅游、酒店、商品与服务库存，以及供应商履约证据 | NEXON 对每一家供应商履约的担保 |
+| 稳定币卡 | 通过持牌发卡 / 运营方延伸到日常受理 | 一张已经发出的卡 |
 
-有两个名字要先固定下来，后面的小节才好用。**Circle（圈层）** 是社交层的基本单位，也是意图的来源；它不是群，也不是聊天频道，本文从头到尾不会这么叫它。**Storefront（落地端）** 是商城与 Stablecoin Card（稳定币卡，`Roadmap`）的统称——一条 Route 在这两端不再是链上的价值，而变成你能拿在手里、用得上、或者能住进去的东西。
+## 目标体验 <a href="#the-target-experience" id="the-target-experience"></a>
+
+{% stepper %}
+{% step %}
+### 在社交里发现
+
+用户碰到一场社区讨论、一个策略、一次活动或一个旅行的念头。社交语境可以帮他形成意图，但它**不能**替他花钱、交易或审批。别人分享的策略是信息，不是指令。
+{% endstep %}
+
+{% step %}
+### 在钱包里决策
+
+用户看到可用余额、受保护的储备、当前质押仓位、已授出的权限，以及相关的第三方体验。钱包帮他决定**哪些资源可以被纳入考虑**。
+{% endstep %}
+
+{% step %}
+### 通过 PayFi 成路
+
+用户说出结果和约束。PayFi 结构化这条意图，比较合格路径，跑策略，把成本、时间、参与方和不可逆步骤摆出来。用户批准一条有边界的路径。
+{% endstep %}
+
+{% step %}
+### 在商城或卡上使用
+
+路径抵达一个现实终点。商城接上旅游、酒店、商品或服务库存；稳定币卡通过合格发卡方延伸可用价值。**供应商或发卡机构对自己那一段负责，支付结算与履约分开记账。**
+{% endstep %}
+
+{% step %}
+### 带着数据、关系与行为回来
+
+凭证、偏好与结果可以改善用户下一次的决策——在同意与留存规则之内。一次完成的动作也可以由用户自己决定要不要回流到社交层。**私人金融状态默认不会变成社交内容。**
+{% endstep %}
+{% endstepper %}
 
 ```mermaid
 flowchart LR
-    C["Circle<br/><i>意图层</i>"] -->|"Intent"| P["PayFi<br/><i>执行层</i>"]
-    W["钱包<br/><i>认知层</i>"] -->|"记忆 · 判断 · 耐心"| P
-    P -->|"Real Leg"| M["商城<br/><i>落地层</i>"]
-    P -.->|"Real Leg"| K["稳定币卡<br/><i>落地层</i>"]
-    %% NEXON palette v0 · placeholder until VI locks
-    classDef navy  fill:#0B1220,stroke:#22D3EE,stroke-width:1.5px,color:#E6EDF3
-    classDef cyan  fill:#22D3EE,stroke:#0B1220,stroke-width:1.5px,color:#0B1220
-    classDef light fill:#E6EDF3,stroke:#0B1220,stroke-width:1px,color:#0B1220
-    classDef ghost fill:#FFFFFF,stroke:#22D3EE,stroke-width:1px,stroke-dasharray:4 3,color:#0B1220
-    class C,W navy
-    class P cyan
-    class M light
-    class K ghost
+    S["社交<br/>发现"] --> W["钱包<br/>决策"]
+    W --> P["PayFi<br/>成路与审批"]
+    P --> M["商城<br/>使用"]
+    P --> C["稳定币卡<br/>使用"]
+    M --> R["凭证 · 偏好 · 关系"]
+    C --> R
+    R -. "由用户决定" .-> S
+    R -. "策略与历史" .-> W
+    classDef anchor fill:#047854,stroke:#047854,stroke-width:1.5px,color:#F5F3F0
+    classDef engine fill:#8B5CF6,stroke:#8B5CF6,stroke-width:1.5px,color:#F5F3F0
+    classDef solid  fill:#F5F3F0,stroke:#141414,stroke-width:1.2px,color:#141414
+    class S,W,M,C solid
+    class P anchor
+    class R engine
 ```
 
-## 为什么是器官，不是功能 <a href="#why-organs-not-features" id="why-organs-not-features"></a>
+## 闭环里的分界 <a href="#the-seams-inside-the-loop" id="the-seams-inside-the-loop"></a>
 
-这样定义产品，会带来三个结果。
+闭环是一条产品叙事，不是一份循环担保。XO 与 EXON 保持它们已确认的机制角色：XO 当前承载质押本金；EXON 当前是现货、释放、买入、校验与销毁资产。
 
-第一，没有一个产品是「功能」意义上的可选项。去掉 Circle，Agent 照样执行，只是它执行的 Intent 得由你在表单里敲出来。去掉 Storefront，每一条 Route 都终结在另一种代币上。身体还能动，只是不再能干活。
+每一个面都要把**责任执行方**露出来：
 
-第二，五个之中有两个分量更重。PayFi 是每一条 Route 被执行、计价、结算的地方；钱包是 Agent 决定怎么做、做多少、什么时候做的地方。它们是这一部分的主角，得到的描述也最具体。
+* 钱包视图不合并托管；
+* PayFi 的推荐不替代用户审批；
+* 商城的付款不证明交付；
+* 卡片界面不替代发卡机构的条款；
+* 社交人气不等于适合这个用户。
 
-第三，一个产品在主轴上的位置，比它的形态更稳定。即使某个产品在上线前改了样子，它服务的那一层不会挪，Agent 在那一层需要的东西也不会变。这就是本章从位置出发来论证的原因，也是产品名只出现在标题和下面那张状态表里的原因。
+## 用能力门槛衡量进度 <a href="#progress-measured-by-capability-gates" id="progress-measured-by-capability-gates"></a>
 
-## 五个器官 <a href="#the-five-organs" id="the-five-organs"></a>
+进度按证据衡量，不按日历承诺衡量。一个产品要跨过「规划中」，需要交付：已发布的规格、威胁模型、托管与发卡安排、辖区审查、测试结果、事件处理流程、面向用户的披露。
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>社交 —— 意图的源头</strong></td><td>在 Circle 里说的一句话，不离开对话就变成一个 Intent。</td><td><a href="social.md">social.md</a></td></tr><tr><td><strong>PayFi —— Agent 的手</strong></td><td>每一条 Route 都在这里执行、计价、结算——在你批准之后。</td><td><a href="payfi.md">payfi.md</a></td></tr><tr><td><strong>钱包 —— 记忆、判断与耐心</strong></td><td>Agent 决定怎么做、做多少、什么时候做的时候，它知道些什么。</td><td><a href="wallet.md">wallet.md</a></td></tr><tr><td><strong>商城 —— 落地的一端</strong></td><td>生态内的落地：一件商品、一笔预订、一张 Landing Receipt。</td><td><a href="marketplace.md">marketplace.md</a></td></tr><tr><td><strong>稳定币卡</strong></td><td>生态外的落地，由持牌发卡机构提供。Roadmap。</td><td><a href="stablecoin-card.md">stablecoin-card.md</a></td></tr></tbody></table>
+**门槛齐了，并且可用性被公布了，这个产品才算真的上线。**
 
-## 本版本的状态 <a href="#status-at-this-version" id="status-at-this-version"></a>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>去中心化社交 App</strong></td><td>发现与语境。让关系丰富决策，同时不让社交压力绕过控制。</td><td><a href="social.md">social.md</a></td></tr><tr><td><strong>AI 原生 PayFi</strong></td><td>叙事第二重点。从金融意图到执行证据的六段路径。</td><td><a href="payfi.md">payfi.md</a></td></tr><tr><td><strong>钱包</strong></td><td>金融主页与控制中心：状态、权限、质押入口与决策支持。</td><td><a href="wallet.md">wallet.md</a></td></tr><tr><td><strong>商城</strong></td><td>真实消费的那一环。付款和交付是两件事。</td><td><a href="marketplace.md">marketplace.md</a></td></tr><tr><td><strong>稳定币卡</strong></td><td>日常受理的延伸，依赖一个持牌发卡 / 运营方。</td><td><a href="stablecoin-card.md">stablecoin-card.md</a></td></tr></tbody></table>
 
-{% hint style="info" %}
-**这一部分的徽章怎么读。** 下表每一项能力都带着本文开头介绍的五个状态徽章之一。这一部分没有任何能力被写成已上线。整张矩阵的确认是一个待定项：[OP-29](../open-parameters/README.md)。
-{% endhint %}
-
-| 能力 | 器官 | 状态 |
-|---|---|---|
-| Circle 与 Intent 捕获 | 社交 | `In development` |
-| Route 预览 · 审批 · 数字资产腿 | PayFi | `In development` |
-| Rebate（抵扣） | PayFi | `In development` |
-| 预批额度包（pre-approved envelope） | PayFi | `Roadmap` |
-| 记忆 —— 资产与历史 | 钱包 | `In development` |
-| Foresight（前瞻） | 钱包 | `Roadmap` |
-| Patience（耐心） | 钱包 | `Roadmap` |
-| 商城与 Landing Receipt（落地凭证） | 落地端 | `In development` |
-| 旅行兑换（travel redemption） | 落地端 | `Roadmap` |
-| Stablecoin Card（稳定币卡） | 落地端 | `Roadmap` |
-| 资本市场腿 · 股权挂钩结算 | PayFi · 落地端 | `Roadmap` |
-
-{% hint style="info" %}
-**本节口径。** 本节承诺：五个产品由「从意图到结算」路径上的四个位置来定义，每项能力的状态以本版本为准写明。本节不承诺：任何产品的最终形态、名称或上线顺序，也不承诺任何能力已经上线。待定项：[OP-29](../open-parameters/README.md)。
-{% endhint %}
-
-*主轴：[译者](../02-the-translator/README.md) · 下一节：[社交 —— 意图的源头](social.md)*
-
-*把你想要的，变成已经结算的。*
+*上一节：[数据与预言机](../03-architecture/data-and-oracles.md) · 下一节：[去中心化社交 App](social.md)*

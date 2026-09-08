@@ -1,20 +1,36 @@
 ---
-description: "Legal, financial and risk limitations applicable to the NEXON whitepaper and every economic illustration it contains."
-icon: "triangle-exclamation"
+description: "The legal, financial and risk boundaries applicable to this whitepaper and to every economic calculation in it."
+icon: triangle-exclamation
 ---
 
 # Legal Disclaimer
 
-This whitepaper is informational and describes a developing project. It is not an offer, solicitation, investment recommendation, legal opinion, tax opinion or promise of availability in any jurisdiction. Nothing in it creates a contract unless incorporated into separately binding product terms.
+This whitepaper is informational and describes a project under construction. It is not an offer, a solicitation, investment advice, a legal opinion or a tax opinion, and it is not a promise of availability in any jurisdiction. It creates no contract unless incorporated into separately binding product terms.
 
-XO is described narratively as the Value Anchor and mechanically as the Staking Principal Token. EXON is described narratively as the Circulation Engine and mechanically as NEXON's Core Value Token and spot asset. These descriptions are not a definitive legal classification. Neither asset represents equity, debt, a deposit, a claim on NEX or guaranteed entitlement to income.
+## On the two assets
 
-All APY, reward, price, ROI and static-payback figures are protocol parameters or conditional illustrations from the project paper. They omit or simplify material factors, including price movement, liquidity, slippage, fees, taxes, custody, counterparty performance, technical failure, rule changes and legal restrictions. Actual outcomes may differ materially.
+XO is described narratively as the Value Anchor and mechanically as the Staking Principal Token. EXON is described narratively as the Circulation Engine and mechanically as NEXON's Core Value Token and spot asset. **Neither description is a definitive legal classification in any jurisdiction.** Neither asset represents equity, debt, a deposit, a claim on NEX, or a guaranteed entitlement to income.
 
-NEXON is an independent, community-initiated project built within the NEX ecosystem and is not an official NEX product. NEX status or licences do not protect principal or guarantee Staking Platform performance.
+## On the numbers
 
-AI-Native PayFi, Wallet, third-party prediction-market interfaces, Marketplace, Stablecoin Card and decentralized Social App are Roadmap. Their descriptions do not promise launch, functionality, service availability, operator coverage or regulatory eligibility. AI output may be incorrect and never substitutes for user approval or professional advice. Merchants, issuers, custodians, venues and third-party protocols operate under their own terms and risks.
+All APY, reward, price, ROI and static-payback figures are **protocol parameters or conditional calculations from the project paper**. They omit or simplify material factors, including price movement, liquidity, slippage, fees, taxes, custody, counterparty performance, technical failure, rule changes and legal restrictions. Actual outcomes may differ materially.
 
-Digital-asset transfers and market orders may be irreversible. Card or marketplace recovery depends on the responsible issuer, payment provider or supplier. Programmatic purchases and burns do not guarantee price support. A unified interface does not make NEXON custodian or guarantor for every displayed balance or route.
+## On the project relationship
 
-Participation may be restricted or unavailable. Anyone considering participation should assess the applicable terms and obtain independent professional advice. Participants may lose some or all principal.
+NEXON is an independent, community-initiated project built within the NEX ecosystem and is not an official NEX product. **NEX status or licences do not protect principal and do not guarantee Staking Platform performance.**
+
+## On the long-term products
+
+AI-Native PayFi, the Wallet, third-party prediction-market interfaces, the Marketplace, the Stablecoin Card and the decentralized Social App are planned directions. Their descriptions promise no launch, functionality, service availability, operator coverage or regulatory eligibility.
+
+AI output can be incorrect. It never substitutes for user approval or for professional advice. Merchants, issuers, custodians, venues and third-party protocols operate under their own terms and risks.
+
+## On irreversibility and recovery
+
+Digital-asset transfers and market orders may be irreversible. Card or marketplace recovery depends on the responsible issuer, payment provider or supplier. **Programmatic purchases and burns do not guarantee price support.** A unified interface does not make NEXON the custodian or guarantor of every balance or route it displays.
+
+## On participation
+
+Participation may be restricted or unavailable. Anyone considering it should assess the applicable terms and obtain independent professional advice. **Participants may lose some or all principal.**
+
+*Previous: [Glossary](../glossary/README.md) · Next: [Open Parameters](../open-parameters/README.md)*

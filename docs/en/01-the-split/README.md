@@ -33,9 +33,6 @@ This is the opening problem in the NEXON thesis: capital may create value, digit
 
 **Three markets. One language.**
 
-{% hint style="info" %}
-**Scope of this section.** Commits to: the three markets are separate because they lack a shared language of value, not because they lack pipes between them. Does not commit to: any solution, asset or product; those are introduced from Part II onward. Open items: none ([Open Parameters](../open-parameters/README.md) begins with Part III).
-{% endhint %}
 
 *Spine: [The Translator](../02-the-translator/README.md) · Next: [Why NEXON](why-nexon.md)*
 

@@ -1,75 +1,79 @@
 ---
-description: "The Roadmap AI-Native PayFi application is NEXON's secondary focus: a controlled route from financial intent to digital and real-world execution."
-icon: "hand-holding-dollar"
+description: "AI-Native PayFi is the second focus of the NEXON narrative — a controlled route from financial intent to digital and real-world execution."
+icon: hand-holding-dollar
 ---
 
 # AI-Native PayFi
 
-**Status** · `Roadmap` · **Narrative priority** · `secondary focus`
+*Product stage · Roadmap · Narrative priority · secondary focus*
 
-AI-Native PayFi is the clearest product expression of NEXON's value-connection thesis. It starts with the outcome a user wants and turns it into a visible sequence: **Intent → Route → Policy Check → User Approval → Execution → Receipt.** It can coordinate supported financial and consumption actions while each venue, custodian, issuer or supplier remains responsible for its native leg.
+AI-Native PayFi is the clearest product expression of the value-connection thesis. It starts from the outcome a user wants and turns it into a visible sequence:
 
-The application is “AI-native” because meaning comes before menu navigation. It is PayFi because financial state and payment or use are considered in one controlled journey. Neither term means the AI can freely spend, guarantee execution or manufacture a return.
+**Intent → Route → Policy Check → User Approval → Execution → Receipt.**
 
-## 1. Capture the goal
+It can coordinate supported financial and consumption actions while every venue, custodian, issuer and supplier stays responsible for its own leg.
 
-The user specifies the objective, budget, deadline, eligible balances, protected reserves, cost limits and approval preference. Natural language is useful for expressing these together. The application converts them into a structured intent and surfaces ambiguities.
+It is "AI-native" because **meaning comes before the menu**. It is PayFi because financial state and payment or use are considered inside one controlled journey.
 
-Examples may eventually include preparing a permitted conversion, entering an approved staking order, reserving a travel product or funding a supported everyday purchase. Availability depends on product support and jurisdiction. A request for an unsupported or ineligible action ends with an explanation, not a simulated success.
+## Six steps, unpacked
 
-## 2. Preview the route
+{% tabs %}
+{% tab title="1 · Capture the goal" %}
+The user states the outcome, budget, deadline, eligible balances, protected reserves, cost limits and approval preference. Natural language is good at getting all of that out in one breath.
 
-PayFi proposes one or more eligible routes without moving value. The preview separates each leg and identifies:
+The application turns it into a structured intent and surfaces whatever is ambiguous. For an unsupported or ineligible request, it returns an explanation — **not a simulated success**.
+{% endtab %}
 
-- source asset and destination;
-- amount, quote, estimated cost and expiry;
-- venue, contract, issuer or supplier responsible;
-- identity and jurisdiction requirements;
-- permissions required;
-- irreversible or refund-dependent steps;
-- expected settlement and fulfillment receipts;
-- behavior if price, balance, inventory or policy changes.
+{% tab title="2 · Preview the route" %}
+PayFi proposes one or more eligible routes and **moves nothing**. The preview separates every leg:
 
-Comparisons should follow the user's constraints. The platform must disclose any routing incentive that could affect ordering or recommendation.
+* source asset and destination;
+* amount, quote, estimated cost and expiry;
+* the venue, contract, issuer or supplier responsible;
+* identity and jurisdiction requirements;
+* permissions to be granted;
+* which steps are irreversible and which depend on a refund;
+* the settlement and fulfillment receipts to expect;
+* behavior if price, balance, inventory or policy changes.
 
-## 3. Apply policy checks
+Comparisons follow the user's constraints. Any routing incentive that could affect ordering or recommendation must be disclosed.
+{% endtab %}
 
-Hard controls sit outside model judgment. They test account status, identity references, allowlists, blocklists, spend limits, quote freshness, reserve floors and product-specific rules. A high model confidence cannot override a failed rule.
+{% tab title="3 · Apply policy checks" %}
+Hard controls sit outside model judgment: account status, identity references, allowlists, blocklists, spend limits, quote freshness, reserve floors and each product's own rules. **A high confidence score does not override a failed rule.**
 
-For a current Staking Platform order, PayFi may explain and validate the approved 72/28 structure: 72% establishes the XO staking/PV base, 28% purchases EXON into Treasury Liquidity and a matching 28% EXON balance is checked while remaining with the user. The product interface does not modify those values or treat the fuel check as a fee.
+Where a current Staking Platform order is involved, PayFi can explain and validate 72/28: 72% establishes the XO staking/PV base, 28% buys EXON into Treasury Liquidity, and a matching 28% of EXON is checked in the user's account and stays there. The interface does not modify those values, and does not call the check a fee.
+{% endtab %}
 
-## 4. Request scoped authority
+{% tab title="4 · Request scoped authority" %}
+Approval names the action, maximum amount, asset, destination, executor, expiry and the follow-on legs permitted. Unused authority is revocable before it is consumed. A standing rule needs its own amount and time ceilings and an obvious off switch.
 
-Approval names the action, maximum amount, asset, destination, executor, expiry and permitted follow-on legs. It should be revocable before unused authority is consumed. A recurring rule, if later supported, must have its own amount and time ceilings and an obvious off switch.
+**XO and EXON balances give PayFi no standing authority.** Account permission comes from the user and the responsible execution system.
+{% endtab %}
 
-XO and EXON balances do not grant PayFi standing authority. XO's broader participation and rights utility is Roadmap; EXON's broader payment and fee utility is Roadmap. Account permission comes from the user and the responsible execution system.
+{% tab title="5 · Coordinate execution" %}
+PayFi sends only the approved instruction to each executor, and re-checks dependencies before proceeding. A conversion may settle at a venue, an on-chain transfer on a network, a merchant order only on supplier confirmation.
 
-## 5. Coordinate execution
+**The application presents one route and never labels "submitted" as "completed."** If a quote expires, it re-prices and asks again. If a balance changes, it recalculates rather than quietly substituting another asset. If the first leg settles and a later one fails, it stops, preserves the partial state, and enters the disclosed refund, offset or dispute path.
+{% endtab %}
 
-PayFi sends only the approved instruction to each executor and re-checks dependencies before proceeding. A conversion may settle at a venue; an on-chain transfer may settle on a network; a merchant order may require supplier confirmation. The application presents one route but never labels submission as completion.
+{% tab title="6 · Produce receipts" %}
+A route receipt answers six questions: **what was requested, what was approved, who executed each leg, what settled, what was fulfilled, and what is still open.** Native identifiers and timestamps keep the account auditable.
 
-If a quote expires, the system re-prices and asks again. If a balance changes, it recalculates without silently substituting another asset. If the first leg settles and a later leg fails, it stops, preserves the partial state and invokes the disclosed refund, offset or dispute path. Some irreversible actions cannot be rolled back.
+Receipts are also the feedback edge of the loop: the Wallet can use authorized history to improve future policy and warnings, and the user can choose to share selected outcomes into Social. **Financial and identity data stay private by default.**
+{% endtab %}
+{% endtabs %}
 
-## 6. Produce receipts
+## Product economics belong to the product
 
-A route receipt answers six questions: what was requested, what was approved, who executed each leg, what settled, what was fulfilled and what remains unresolved. Native identifiers and timestamps make the account auditable. Sensitive intent context is retained only as required by disclosed policy.
+The approved Tokenomics defines the Staking Platform's economics — not the economics of every future PayFi route. PayFi fees, spreads, payment assets, issuer charges, merchant costs and refund terms, where they exist, are stated in the relevant product terms before execution.
 
-Receipts also create the feedback side of the ecosystem loop. The Wallet can use the user's authorized history to improve future policy and warnings. The user may choose to share selected outcomes in Social. Financial and identity data remain private by default.
-
-## Product economics remain product-specific
-
-The approved Tokenomics paper defines the Staking Platform economics, not every future PayFi route. PayFi fees, spreads, payment assets, issuer charges, merchant costs and refund terms—if any—must be stated in the relevant product terms before execution. EXON should not be described as a current universal settlement or fee token. A future EXON payment or fee role requires published support and rules.
-
-AI also does not generate staking yield. The Base APY, term weights, epochs, early-exit treatment, dynamic rewards and redemption burns are mechanism parameters applied by the Staking Platform. A PayFi simulation must reproduce those parameters, name its assumptions and show principal and market risk next to any illustration.
+AI does not generate staking yield either. The Base APY, term weights, epochs, early-exit treatment, dynamic rewards and redemption burns are mechanism parameters applied by the Staking Platform. **A PayFi simulation reproduces those parameters and names the assumptions it used.**
 
 ## Safety and accountability
 
-The Roadmap product requires at least least-privilege permissions, simulation, quote expiry, deterministic policy checks, revocation, transaction limits, provider allowlists, anomaly detection, duplicate-execution protection, auditable receipts and incident escalation. Model prompts or hidden reasoning are not a substitute for these controls.
+The product needs, at minimum: least-privilege permissions, simulation, quote expiry, deterministic policy checks, revocation, transaction limits, provider allowlists, anomaly detection, duplicate-execution protection, auditable receipts and an incident escalation path. **Prompts and hidden reasoning are not a substitute for any of these.**
 
-The responsible party must remain visible for every leg. PayFi coordinates; the venue settles; the custodian controls assets under its terms; the issuer authorizes a card; the merchant or travel supplier fulfills. Where responsibility cannot be identified, the route should not be presented as ready.
-
-{% hint style="danger" %}
-AI output can be incorrect, manipulated or stale. Automated execution can amplify an error. Digital assets, staking and conversions can lose value, and suppliers can fail to deliver. Roadmap design controls reduce specific risks; they do not guarantee returns, price, liquidity, execution or recovery.
-{% endhint %}
+The responsible party stays visible for every leg: PayFi coordinates; the venue settles; the custodian controls assets under its own terms; the issuer authorizes a card transaction; the merchant or travel supplier fulfills. **A route whose responsible party cannot be named should not be presented as ready to walk.**
 
 *Previous: [Decentralized Social App](social.md) · Next: [Wallet](wallet.md)*

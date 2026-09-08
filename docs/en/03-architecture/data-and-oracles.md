@@ -1,13 +1,15 @@
 ---
-description: "What the agent reads before it acts — prices, identity attestations, off-chain facts and a Foresight signal — and what a Route does when any of them goes bad."
-icon: "satellite-dish"
+description: "What the agent reads before it acts — prices, identity attestations, off-chain facts and market expectation — and what a route does when any of them goes bad."
+icon: satellite-dish
 ---
 
 # Data & Oracles
 
-> No human does that well. An agent does.
+> A route has to be watched while it is in flight. No human does that well. An agent does.
 
-Watching every leg while it is in flight is the part of translation a person cannot do, and it is the part that depends entirely on what the agent can see. This subsystem is the agent's eyes: the sources it reads before proposing a Route, while executing one, and when deciding that a Route can no longer be trusted. The protocol produces none of this data itself. It chooses where to read it, checks one source against another, and fixes what a Route does when the reading goes wrong.
+Watching every leg mid-flight is the part of translation a person cannot do, and the part that depends entirely on what the agent can see. This subsystem is the agent's eyes: what it reads before proposing a route, what it reads while executing one, and what it uses to decide a route can no longer be trusted.
+
+The protocol produces none of this data. It decides **where to read it**, **how sources check each other**, and **what a route does when a reading goes wrong.**
 
 ## Four kinds of input
 
@@ -15,82 +17,72 @@ Watching every leg while it is in flight is the part of translation a person can
 flowchart LR
     P["Price<br/><i>on-chain sources · licensed market data</i>"] --> CB["Circuit breaker<br/><i>cross-check · thresholds</i>"]
     ID["Identity<br/><i>licensed KYC attestation · reference only</i>"] --> CB
-    F["Off-chain facts<br/><i>inventory · booking · card authorisation</i>"] --> CB
-    FS["Foresight signal<br/><i>Roadmap</i>"] -.-> CB
-    CB --> RS["Route state<br/><i>quote valid · paused · Unwinding</i>"]
-    %% NEXON palette v0 · placeholder until VI locks
-    classDef navy  fill:#0B1220,stroke:#22D3EE,stroke-width:1.5px,color:#E6EDF3
-    classDef cyan  fill:#22D3EE,stroke:#0B1220,stroke-width:1.5px,color:#0B1220
-    classDef light fill:#E6EDF3,stroke:#0B1220,stroke-width:1px,color:#0B1220
-    classDef ghost fill:#FFFFFF,stroke:#22D3EE,stroke-width:1px,stroke-dasharray:4 3,color:#0B1220
-    class P,ID,F light
+    F["Off-chain facts<br/><i>inventory · booking · card authorization</i>"] --> CB
+    FS["Market expectation<br/><i>third-party prediction markets</i>"] -.-> CB
+    CB --> RS["Route state<br/><i>quote valid · paused · stopped</i>"]
+    classDef anchor fill:#047854,stroke:#047854,stroke-width:1.5px,color:#F5F3F0
+    classDef engine fill:#8B5CF6,stroke:#8B5CF6,stroke-width:1.5px,color:#F5F3F0
+    classDef solid  fill:#F5F3F0,stroke:#141414,stroke-width:1.2px,color:#141414
+    classDef ghost  fill:#F5F3F0,stroke:#059669,stroke-width:1.2px,stroke-dasharray:4 3,color:#141414
+    class P,ID,F solid
     class FS ghost
-    class CB navy
-    class RS cyan
+    class CB anchor
+    class RS engine
 ```
 
-### Price
-
-**Status** · `Roadmap`
-
-Every leg that moves an asset needs a price, and no leg is priced from a single source. Digital-asset legs read on-chain sources; anything a capital-market leg would touch reads licensed market data, and that leg is `Roadmap`. A quote is accepted when independent sources agree within a band, and it carries an expiry from the moment it is taken. Which providers are read is `Open` (OP-16).
-
-### Identity
-
-**Status** · `Roadmap`
-
-Some Leg Executors will not act for an unverified party. Verification is done by licensed KYC and AML providers, who issue an attestation; the protocol stores a reference to that attestation and nothing underneath it. No document, no personal record and no Circle content is held by NEXON. A Leg Executor that needs to know checks the reference. Which providers are accepted is `Open` (OP-22).
-
-### Off-chain facts
-
-**Status** · `Roadmap`
-
-A Real Leg depends on facts that live in a supplier's system: that the room is available, that the item is in stock, that the booking is confirmed, that a card authorisation went through. These are read through the Leg Executor for that leg, and the last of them — the confirmation — becomes the Landing Receipt. Card authorisation is a fact the protocol will read once a stablecoin card exists, and that is `Roadmap`.
-
-### Foresight signal
-
-**Status** · `Roadmap`
-
-**Foresight** is the wallet's decentralised market for forward-looking views: a reading of what the market expects, which the agent can consult to decide whether to execute now or wait. NEXON provides only the infrastructure and the entry point for it; it does not operate the market and it does not take positions in it. As an input, Foresight is a judgment signal and never a gate. It can delay a Route; it cannot by itself start or stop a leg. Its scope is `Open` (OP-26).
-
 {% tabs %}
-{% tab title="Parse" %}
-Reads nothing external. Parse resolves what you meant, not what it costs.
+{% tab title="Price" %}
+Every leg that moves an asset needs a price, and **no leg is priced from a single source.** Digital-asset legs read on-chain sources; anything touching a capital market reads licensed market data.
+
+A quote is accepted only when independent sources agree inside a band, and it starts expiring the moment it is taken. Which providers are read, how wide the band is and how long a quote lives are [Open Parameters](../open-parameters/README.md) (OP-D01).
 {% endtab %}
 
-{% tab title="Route" %}
-Reads price, to quote each leg; identity, to know which Leg Executors may act; off-chain facts, to confirm the Real Leg can be landed at all. Reads the Foresight signal, once it exists, to decide timing.
+{% tab title="Identity" %}
+Some executors will not act for an unverified party. Verification is done by licensed KYC and AML providers, who issue an attestation. **The protocol stores a reference to that attestation and nothing underneath it.**
+
+No document, no personal record and no conversation content is held on the NEXON side. An executor that needs to know checks the reference. Which providers are accepted is Open (OP-D02).
 {% endtab %}
 
-{% tab title="Execute" %}
-Re-reads price before each leg is instructed and checks the quote is still inside its band and its expiry. Re-reads identity if a delegation has been revoked.
+{% tab title="Off-chain facts" %}
+A real-world leg depends on facts that live in a supplier's system: that the room is available, that the item is in stock, that the booking is confirmed, that a card authorization went through.
+
+These are read through the executor responsible for that leg. The last of them — the confirmation — becomes the fulfillment receipt for that leg.
 {% endtab %}
 
-{% tab title="Land" %}
-Reads the supplier's confirmation and writes it into the Landing Receipt. Reads it again if the fact is disputed inside the dispute window.
+{% tab title="Market expectation" %}
+The wallet can expose third-party decentralized prediction markets so the agent can consult what the market expects when deciding whether to **act now or wait**.
+
+NEXON provides the infrastructure and the entry point. It does not operate the market and it takes no positions in it. As an input, this is a judgment signal and **never a gate**: it can delay a route; it cannot start or stop a leg on its own. Its scope is Open (OP-P03).
 {% endtab %}
 {% endtabs %}
 
+## What each stage reads
+
+| Stage | Reads |
+|---|---|
+| Intent | Nothing external. This step resolves what you meant, not what it costs |
+| Route | Price, to quote each leg; identity, to know which executors may act; off-chain facts, to confirm the real-world leg can land at all. Optionally market expectation, for timing |
+| Policy Check | Reuses the readings taken during routing and confirms they are still inside their band and their expiry |
+| User Approval | Introduces no new external reading. What is approved must be exactly what was shown |
+| Execution | Re-reads price before instructing each leg and confirms the quote still holds; re-reads identity if a delegation has been revoked |
+| Receipt | Reads the supplier's confirmation and writes it into the receipt; reads it again if the fact is contested inside the dispute window |
+
 ## When the data is wrong
 
-An oracle is only worth what it does on a bad day. Each kind of input can fail in five ways, and each failure has a response fixed in advance. The responses form a ladder, and the Route climbs it one rung at a time.
+An oracle is worth what it does on a bad day. Each kind of input fails in five ways, and each failure has a response fixed **in advance**. The responses form a ladder, and a route climbs it one rung at a time.
 
-| Failure mode | What it looks like | Response | Status |
-|---|---|---|---|
-| Stale | A source has not updated within its window | The quote expires; no Route is proposed on it | `Roadmap` |
-| Deviating | Independent sources disagree beyond the band | The Route pauses; a fresh quote is taken; you approve again | `Roadmap` |
-| Unavailable | A required source cannot be reached | The Route pauses; if the source stays unreachable past the deadline, follow the disclosed failure path | `Roadmap` |
-| Spoofed | A source fails its authenticity check | The source is dropped; the Route pauses; stop if a leg already depended on it | `Roadmap` |
-| Disputed | A fact is contested after a leg has landed | Open the responsible provider's dispute path and preserve the partial state | `Roadmap` |
+| Failure mode | What it looks like | Response |
+|---|---|---|
+| **Stale** | A source has not updated inside its window | The quote expires; no route is proposed on it |
+| **Deviating** | Independent sources disagree beyond the band | The route pauses; a fresh quote is taken; the user approves again |
+| **Unavailable** | A required source cannot be reached | The route pauses; if it stays unreachable past the deadline, follow the disclosed failure path |
+| **Spoofed** | A source fails its authenticity check | Drop the source; pause the route; stop if a leg already depended on it |
+| **Disputed** | A fact is contested after a leg has landed | Open the responsible provider's dispute path and preserve the partial state |
 
 ### Circuit breaker
 
-**Status** · `Roadmap`
+The circuit breaker is the component that reads the table above and acts on it. Its response order is deliberately conservative: **a failed quote expires → a route missing a required reading pauses → a route that cannot regain one before its deadline follows the disclosed failure path → a disputed external fact goes to the responsible provider.**
 
-The circuit breaker is the proposed component that reads the table above and acts on it. Its response order is conservative: a quote that fails expires; a Route that loses a required reading pauses; a Route that cannot regain one within its deadline follows its disclosed failure path; and a disputed external fact goes to the responsible provider's dispute process. The breaker is a filter, not a decision-maker. It never proposes a leg, changes one or widens a band. Thresholds and providers remain `Open` (OP-16 and OP-17).
+It is a filter, not a decision-maker. It never proposes a leg, modifies one, or widens a band. Thresholds and providers are Open (OP-D01, OP-A01).
 
-{% hint style="info" %}
-**Scope of this section.** Commits to: four kinds of input, no leg priced from a single source, identity held only as a reference to a licensed attestation, and a fixed escalation from quote expiry to Risk Council. Does not commit to: any provider, any threshold, or the scope of Foresight as an input. Open items: [OP-16 · OP-17 · OP-22 · OP-26](../open-parameters/README.md).
-{% endhint %}
-
-*Spine: [The Translator](../02-the-translator/README.md) · Next: [The NEXON Stack](../04-product-stack/README.md)*
+*Previous: [Staking & Reward Layer](trust-and-bonding.md) · Next: [The NEXON Product Ecosystem](../04-product-stack/README.md)*

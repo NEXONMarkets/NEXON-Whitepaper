@@ -25,12 +25,11 @@ flowchart LR
         D["Digital assets<br/><i>liquidity · composability</i><br/>7×24 · seconds · borderless"]
         R["Real-world spending<br/><i>right of use · experience</i><br/>time · place · availability"]
     end
-    %% NEXON palette v0 · placeholder until VI locks
-    classDef navy  fill:#0B1220,stroke:#22D3EE,stroke-width:1.5px,color:#E6EDF3
-    classDef cyan  fill:#22D3EE,stroke:#0B1220,stroke-width:1.5px,color:#0B1220
-    classDef light fill:#E6EDF3,stroke:#0B1220,stroke-width:1px,color:#0B1220
-    classDef ghost fill:#FFFFFF,stroke:#22D3EE,stroke-width:1px,stroke-dasharray:4 3,color:#0B1220
-    class C,D,R light
+    classDef anchor fill:#047854,stroke:#047854,stroke-width:1.5px,color:#F5F3F0
+    classDef engine fill:#8B5CF6,stroke:#8B5CF6,stroke-width:1.5px,color:#F5F3F0
+    classDef solid  fill:#F5F3F0,stroke:#141414,stroke-width:1.2px,color:#141414
+    classDef ghost  fill:#F5F3F0,stroke:#059669,stroke-width:1.2px,stroke-dasharray:4 3,color:#141414
+    class C,D,R solid
 ```
 
 {% tabs %}
@@ -85,8 +84,5 @@ And what is actually consumed on this path is not the fees. It is you — at eve
 
 The next section looks at the solutions that already exist along this path and asks, of each one, which part of the translation it actually performed.
 
-{% hint style="info" %}
-**Scope of this section.** Commits to: the three markets differ in what they mean by value, in rhythm and in boundary, and that turning a position into a room today costs four systems, four identity checks and roughly a week of human translation. Does not commit to: any mechanism for closing that gap; this section states the problem only. Open items: none ([Open Parameters](../open-parameters/README.md) begins with Part III).
-{% endhint %}
 
 *Spine: [The Translator](../02-the-translator/README.md) · Next: [Why Bridges Failed](why-bridges-failed.md)*
