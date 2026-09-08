@@ -26,6 +26,10 @@ A position in a brokerage account, a token in a wallet and four nights in Tokyo 
 
 **NEXON = NEX (Nexus) + ON (enabled and online).** The name states the job: take that translation out of human hands and make it a product layer you can see, permission and hold to account.
 
+As a product, NEXON is a **super financial-social ecosystem**: AI-Native PayFi, a Wallet, a Marketplace, a Stablecoin Card and a decentralized Social App — five entry points sharing one account system and one pair of assets. What binds them is a layer of AI that **reads what you mean but cannot move your assets**: you state an outcome and its boundaries, and it returns a route naming the amount, the destination, the executor and the expiry, for you to accept or decline.
+
+To see why it has to be built this way, start with where the three markets actually break.
+
 ## Three markets, three languages
 
 | Market | What value means here | Rhythm | Boundary |

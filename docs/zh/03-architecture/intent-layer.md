@@ -50,7 +50,7 @@ icon: comment-dots
 {% column %}
 **待确认的假设**
 
-系统提出的推断，需要用户点头。
+系统提出的推断，需要用户确认。
 {% endcolumn %}
 {% endcolumns %}
 
