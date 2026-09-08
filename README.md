@@ -24,9 +24,12 @@ whitepaper site — `gitbook-docs.yaml` does not reference it, so the whitepaper
 unaffected by anything in that directory.
 
 It is generated, not hand-written. Source lives in the parent workspace
-(`output/叙事/`), and `to_gitbook.py` there converts and copies it here:
+(`output/叙事/`, internal), and `to_gitbook.py` there converts and copies it here:
 Yuque `:::` cards → `{% hint %}`, `img/` → `.gitbook/assets/`, plus explicit heading anchors.
 **Edit the generator, not `docs/overview/README.md`** — a regeneration overwrites it.
+
+Outward-facing names use **Project Overview / 项目总览**, never the internal word 叙事 —
+a filename is the first thing a recipient sees.
 
 ### Publishing it on its own domain
 
