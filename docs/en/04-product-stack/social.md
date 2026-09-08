@@ -1,77 +1,60 @@
 ---
-description: "Where intent is born: Circle as the basic unit of NEXON's social layer, and how one sentence spoken there becomes an executable Intent."
+description: "A Roadmap decentralized Social App for communication, communities, strategy context and user-controlled value interactions."
 icon: "comments"
 ---
 
-# Social — the Intent Layer
+# Decentralized Social App — Discovery and Context
 
-> A social layer as the source of intent — because intent is born in conversation, not in a form.
+**Status** · `Roadmap`
 
-Intent does not come from nowhere. You want to go to Tokyo because a friend posted photos; you want to add to a position because a Circle is discussing it. Intent is born in relationships. So the social layer is not a chat tool built on the side. It is the agent's entry point for intent on NEXON — the place where one sentence becomes an executable Intent directly, without you switching to another app to reorganise your words.
+Financial intent often begins in a relationship: a community discusses an event, a friend shares a trip, or a group compares views about a market. NEXON's planned decentralized Social App brings that context into the ecosystem without allowing conversation to become invisible financial authority.
 
-That is the whole mechanism behind the phrase "financial social", stated as a mechanism rather than worn as a label. Money is not being added to a conversation. The conversation is where the reason for a Route first exists, and the agent is listening at the point where that reason becomes a sentence.
+The product direction combines communication, communities, strategy sharing and user-controlled value interactions. “Decentralized” describes a target for user identity, portability, verifiable relationships and open participation; the final protocol, moderation model and degree of decentralization remain Open.
 
-## Three things the layer does
+## From discovery to intent
 
-### Circle
-
-**Status** · `In development`
-
-A **Circle** is the basic unit of the social layer and the source of intent. It is not a group and not a chat room, and the difference is not cosmetic. A group is a list of people and a stream of messages. A Circle is a context: the people in it, what they hold and are discussing, what they have already done together, and what the agent may draw on when one of them says something that sounds like an Intent. That context is what lets a sentence be parsed without a form.
-
-### From a sentence to an Intent
-
-**Status** · `In development`
-
-Inside a Circle, a sentence that expresses a goal is offered to the Nexus Agent as a candidate Intent. Parse runs on it there, with the Circle as its context; if the sentence is ambiguous, the agent asks once rather than guessing. When the Intent is Ready it is handed to the execution layer, and the Route preview appears where the sentence was said. You did not leave the conversation, and you did not restate yourself.
+A user may choose to turn a message, post, event or shared strategy into a draft intent. The application extracts the possible objective and asks the user to set amount, source assets, reserve limits, deadline and approval mode. Nothing moves in the Social App. The structured request proceeds to Wallet and PayFi controls only after its owner confirms it.
 
 ```mermaid
 flowchart LR
-    C["Circle<br/><i>context</i>"] --> U["Utterance<br/><i>one sentence</i>"]
-    U -->|"Parse"| I["Intent<br/><i>structured · Ready</i>"]
-    I -->|"to the execution layer"| P["PayFi<br/><i>Route preview</i>"]
-    %% NEXON palette v0 · placeholder until VI locks
-    classDef navy  fill:#0B1220,stroke:#22D3EE,stroke-width:1.5px,color:#E6EDF3
-    classDef cyan  fill:#22D3EE,stroke:#0B1220,stroke-width:1.5px,color:#0B1220
-    classDef light fill:#E6EDF3,stroke:#0B1220,stroke-width:1px,color:#0B1220
-    classDef ghost fill:#FFFFFF,stroke:#22D3EE,stroke-width:1px,stroke-dasharray:4 3,color:#0B1220
-    class C,P navy
-    class U,I cyan
+    C["Community context"] --> D["User chooses to draft intent"]
+    D --> I["Structured objective and constraints"]
+    I --> W["Wallet state and policy"]
+    W --> P["PayFi route and approval"]
 ```
 
-### What stays in the Circle
+This order prevents a social signal from becoming an execution trigger. A widely shared strategy is not automatically suitable. A prediction is not a guarantee. A creator, administrator or other community member cannot approve a route for the user's account unless a separate, explicit authorization product is later specified.
 
-**Status** · `In development`
+## Strategy sharing without hidden delegation
 
-The content of a Circle never goes on-chain. What enters the Route log is a reference — the Intent's identifier and a pointer to the Circle it came from — so a Route can be traced to its origin without exposing what was said. Other members see the Intent formed from a conversation only if its owner shows them. Approval of any Route belongs to the owner alone, in PayFi; nothing said in a Circle, by anyone, counts as approval.
+The Roadmap may let people publish analyses, model portfolios, route templates or market views. A template can help another user understand a sequence, but importing it should create a new draft under the recipient's policy. Amounts, eligible venues, costs and risks must be recalculated for that user at that time.
 
-## The direction is social → intent → execution
+The system should distinguish education, personal opinion, promotion and regulated advice where applicable. Sponsorship, referral or routing incentives require disclosure. Performance history, if displayed, should state its source, time range, fees and whether results are realized, simulated or selected.
 
-Two designs use the same three words and are not the same machine. This paper commits to one of them.
+## Social value interactions
 
-{% columns %}
-{% column %}
-**The other way round.** Some products start from a payment and grow people around it: a transfer with a message attached, a bill split among friends, a feed of what others paid for. The payment is the object and the social layer is its wrapper. Nothing in that design knows why the payment happened.
-{% endcolumn %}
-{% column %}
-**The NEXON way.** Conversation comes first, because that is where intent forms. The Intent is extracted from it. Execution is the consequence. The social layer never touches settlement; it hands a structured Intent to the agent and stops. Social is upstream of finance here, never downstream.
-{% endcolumn %}
-{% endcolumns %}
+Future interactions might include permitted transfers, group purchasing, event access, marketplace discovery or community participation. Their payment assets, fees, limits and eligibility will be defined by the responsible product terms. The narrative role of EXON as Circulation Engine does not make it a current universal social payment token. XO's Value Anchor role does not give a community administrator control over another member's position.
 
-The order is the point. In the first design a better social layer makes payments more pleasant. In the second, it makes the agent's Intents more accurate — closer to what you meant, formed earlier, with less of you spent restating them.
+Every value action leaves the conversation and enters the same six-stage control path used elsewhere: intent, route, policy check, user approval, native execution and receipt. The interface may return a user-selected outcome to the conversation, but private balances and transaction details stay private by default.
 
-<details>
+## Identity, privacy and moderation
 
-<summary>What a Circle is not</summary>
+A decentralized social product still needs accountable rules. Users should understand which identity elements are public, portable, private or verified; who can remove content; how abuse and fraud reports work; and which data is shared with financial executors. Financial eligibility information should not become a public reputation score.
 
-- **Not a group chat with a pay button.** The Circle produces Intents; it does not move, hold or settle value.
-- **Not a channel for following someone else's trades.** A Circle produces your Intent, in your words. Nothing in it is a recommendation, and the agent mirrors no one.
-- **Not an authority.** No one in a Circle can approve a Route on your behalf. Approval is per Route, by its owner, on the execution layer.
+Communities can be attacked through impersonation, coordinated manipulation, malicious links and false claims. Relevant controls include signed identity or provenance signals, permissioned link handling, clear promotion labels, rate limits, moderation appeals and a distinct security path for suspected account compromise.
 
-</details>
+## Connection to the loop
 
-{% hint style="info" %}
-**Scope of this section.** Commits to: the Circle as the source of intent, Parse running inside it, and Circle content staying off-chain with only an Intent reference entering the Route log. Does not commit to: the final form of the social product, or to Circle content influencing execution beyond the Intent it produced. Open items: [OP-29](../open-parameters/README.md).
+The Social App owns discovery and context. The Wallet owns financial state and permissions. PayFi owns route preparation and approval. Marketplace suppliers and card operators own real-world execution. After completion, the user can choose whether a receipt becomes a private memory, a public activity update or no social object at all.
+
+This separation lets relationships enrich decisions without allowing social pressure or popularity to bypass control.
+
+## Launch gates
+
+Before moving beyond Roadmap, the Social App requires published identity and data architecture, content and moderation rules, financial-promotion policy, privacy and retention terms, security review, portability design, abuse response and jurisdictional controls. No launch date, protocol or governance arrangement is committed here.
+
+{% hint style="danger" %}
+Social and community content can be wrong, manipulated or conflicted. It is not a promise of return or a substitute for independent judgment. Users remain responsible for reviewing and approving any financial action under its own terms and risks.
 {% endhint %}
 
-*Spine: [The Translator](../02-the-translator/README.md) · Next: [PayFi — the Agent's Hand](payfi.md)*
+*Previous: [The NEXON Product Ecosystem](README.md) · Next: [AI-Native PayFi](payfi.md)*

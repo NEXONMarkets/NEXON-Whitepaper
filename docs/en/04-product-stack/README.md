@@ -1,84 +1,74 @@
 ---
-description: "Five products as five organs of one body: Circle, PayFi, Wallet and the Storefront, each defined by its place on the path from intent to settlement."
+description: "Five Roadmap products form one financial-social value loop, with AI-Native PayFi as the secondary narrative focus."
 icon: "layer-group"
 ---
 
-# The NEXON Stack
+# The NEXON Product Ecosystem
 
-> Intent is born in conversation, so NEXON starts social. It runs through a payments app that agents operate and you approve. It thinks with a wallet that holds your memory, reads the market, and knows when to wait. And it lands in a marketplace and a card, where value finally touches the real world.
+> Discover in Social → Decide in Wallet → Route through PayFi → Use in Marketplace or Card → Return with data, relationships and activity.
 
-Part III described the nerves: the five subsystems that carry an Intent from a sentence to a settled Route. This Part describes the body those nerves run through. NEXON reaches you as five products, and the one rule of this chapter is that none of them is presented as a list of features. Each is defined by where it sits on the path from what you mean to what gets settled, and by what the Nexus Agent needs from it there.
+NEXON's product direction is a **super financial-social ecosystem** built around five connected Roadmap surfaces: an AI-Native PayFi application, Wallet, Marketplace, Stablecoin Card and decentralized Social App. They are not five unrelated feature lists. Each owns a distinct moment in the user value loop and a distinct set of responsibilities.
 
-Read it as anatomy, not as a catalogue. An organ is not there because it is impressive on its own. It is there because the body cannot complete one function without it, and it is judged by whether it performs that function.
+AI-Native PayFi is the **secondary focus** of the overall narrative. The primary focus remains the project-approved NEXON thesis and dual-asset architecture: NEXON connects capital, digital finance and real consumption; XO anchors value; EXON drives circulation. PayFi makes that thesis tangible by translating a user objective into a route that can be checked, approved, executed and receipted.
 
-## One path, four layers
+All five products in this Part are **Roadmap**. The journey describes a target product experience, not a live transaction flow or launch commitment.
 
-The path from Part II has four positions at which a product has to exist. Intent has to come from somewhere. Something has to execute it. Something has to remember, judge and wait on your behalf while it does. And the last leg has to touch the real world. Those four positions are the four layers of the stack, and five products fill them.
+## Five surfaces, one loop
 
-| Layer | Product | Its place on the spine |
+| Roadmap product | Role in the loop | Does not become |
 |---|---|---|
-| Intent layer | Circle — the social app | The agent's source of intent |
-| Execution layer | PayFi — the AI-native payments app · **lead** | The agent's hand |
-| Cognition layer | Wallet · **lead** | The agent's memory, judgment and patience |
-| Landing layer | Storefront — Marketplace · Stablecoin Card | Where the agent reaches the real world |
+| Decentralized Social App | Discovery, communities, communication, strategy context and value interaction | Automatic financial authority or investment advice |
+| Wallet | Asset state, permissions, staking access, decision support and third-party application entry | A new source of yield or guarantee of liquidity |
+| AI-Native PayFi | Intent capture, route preview, policy checks, approval, execution coordination and receipts | Custodian, merchant, compliance authority or return engine |
+| Marketplace | Travel, hotel, goods and services inventory with supplier fulfillment evidence | A guarantee by NEXON of every supplier's performance |
+| Stablecoin Card | Potential everyday acceptance through a responsible licensed issuer/operator | An already issued card or proof that EXON is universal settlement fuel |
 
-Two names in this table are fixed before the sub-sections use them. A **Circle** is the basic unit of the social layer and the source of intent; it is not a group or a chat room, and this paper never calls it one. The **Storefront** is the collective name for the Marketplace and the Stablecoin Card — the two ends at which a Route stops being on-chain value and becomes something you can hold, use or sleep in.
+## The target journey
+
+### Discover in Social
+
+A user encounters a community discussion, strategy, event or travel idea. Social context can help form an intent. It cannot spend, trade or approve on the user's behalf. A strategy shared by another person remains information, not an instruction.
+
+### Decide in Wallet
+
+The user sees available balances, protected reserves, current staking positions, permissions and relevant third-party experiences. The wallet helps the user decide which resources may be considered. Prediction-market interfaces, if supported, remain third-party, jurisdiction-dependent Roadmap integrations whose outcomes are uncertain.
+
+### Route through PayFi
+
+The user states the outcome and constraints. PayFi structures the intent, compares eligible paths, applies policy and presents the costs, timing, parties and irreversible steps. The user approves a bounded route. Product-specific fees and settlement assets will be defined by the relevant product terms; they are not inferred from token narrative.
+
+### Use in Marketplace or Card
+
+The route reaches a real-world endpoint. The Marketplace may connect to travel, hotel, goods or services inventory. A future Stablecoin Card may extend supported value through an eligible issuer. The supplier or issuer remains responsible for its leg, and payment settlement is recorded separately from fulfillment.
+
+### Return with data, relationships and activity
+
+Receipts, preferences and outcomes can improve the user's future decisions, subject to consent and retention rules. A completed action can also return to the social layer as a user-chosen update. Private financial state does not become social content by default.
 
 ```mermaid
 flowchart LR
-    C["Circle<br/><i>intent layer</i>"] -->|"Intent"| P["PayFi<br/><i>execution layer</i>"]
-    W["Wallet<br/><i>cognition layer</i>"] -->|"memory · judgment · patience"| P
-    P -->|"Real Leg"| M["Marketplace<br/><i>landing layer</i>"]
-    P -.->|"Real Leg"| K["Stablecoin Card<br/><i>landing layer</i>"]
-    %% NEXON palette v0 · placeholder until VI locks
-    classDef navy  fill:#0B1220,stroke:#22D3EE,stroke-width:1.5px,color:#E6EDF3
-    classDef cyan  fill:#22D3EE,stroke:#0B1220,stroke-width:1.5px,color:#0B1220
-    classDef light fill:#E6EDF3,stroke:#0B1220,stroke-width:1px,color:#0B1220
-    classDef ghost fill:#FFFFFF,stroke:#22D3EE,stroke-width:1px,stroke-dasharray:4 3,color:#0B1220
-    class C,W navy
-    class P cyan
-    class M light
-    class K ghost
+    S["Social<br/>discover"] --> W["Wallet<br/>decide"]
+    W --> P["PayFi<br/>route and approve"]
+    P --> M["Marketplace<br/>use"]
+    P --> C["Stablecoin Card<br/>use"]
+    M --> R["Receipts · preferences · relationships"]
+    C --> R
+    R -. "user-controlled context" .-> S
+    R -. "policy and history" .-> W
 ```
 
-## Why organs, not features
+## Separation within connection
 
-Three things follow from defining products this way.
+The closed loop is a product narrative, not a circular guarantee of token demand or financial return. XO and EXON keep their approved current mechanics. XO is the current staking-principal carrier; broader rights are Roadmap. EXON is the current spot/release/buy/check/burn asset; broader payment, fee and consumption uses are Roadmap.
 
-First, no product is optional in the way a feature is optional. Remove the Circle and the agent still executes, but it executes Intents that had to be typed into a form. Remove the Storefront and every Route ends in another token. The body would still move; it would no longer do the job.
+Every surface should expose the responsible executor. A wallet view does not merge custody. A PayFi recommendation does not replace user approval. A marketplace payment does not prove delivery. A card interface does not replace the issuer's terms. Social popularity does not establish suitability.
 
-Second, two of the five carry more weight. PayFi is where every Route is executed, priced and settled; the Wallet is where the agent decides how, how much and when. They are the lead products of this Part and get the most concrete treatment.
+## Capability gates
 
-Third, a product's place on the spine is more stable than its shape. If a product changes form before it ships, the layer it serves does not move, and neither does what the agent needs from it. That is why this chapter argues from position, and why product names appear only in headings and in the status table below.
+Progress should be measured by evidence, not calendar promises: published specifications, threat models, custody and issuer arrangements, jurisdictional review, test results, incident procedures and user-facing disclosures. A product moves beyond Roadmap only when those gates and its actual availability are documented.
 
-## The five organs
-
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Social — the Intent Layer</strong></td><td>A sentence in a Circle becomes an Intent without leaving the conversation.</td><td><a href="social.md">social.md</a></td></tr><tr><td><strong>PayFi — the Agent's Hand</strong></td><td>Every Route is executed, priced and settled here — after you approve it.</td><td><a href="payfi.md">payfi.md</a></td></tr><tr><td><strong>Wallet — Memory, Judgment, Patience</strong></td><td>What the agent knows when it decides how, how much and when.</td><td><a href="wallet.md">wallet.md</a></td></tr><tr><td><strong>Marketplace — the Real Leg</strong></td><td>The landing inside the ecosystem: a good, a booking, a Landing Receipt.</td><td><a href="marketplace.md">marketplace.md</a></td></tr><tr><td><strong>Stablecoin Card</strong></td><td>The landing outside the ecosystem, provided by a licensed issuer. Roadmap.</td><td><a href="stablecoin-card.md">stablecoin-card.md</a></td></tr></tbody></table>
-
-## Status at this version
-
-{% hint style="info" %}
-**How to read the badges in this Part.** Every capability below carries one of the five status badges introduced at the front of this paper. No capability in this Part is described as live. Confirmation of the whole matrix is an open item, [OP-29](../open-parameters/README.md).
+{% hint style="warning" %}
+**Roadmap status.** No capability in this Part is described as live. Product names, operators, supported assets, fees, jurisdictions, release order and service levels remain subject to published implementation terms.
 {% endhint %}
 
-| Capability | Organ | Status |
-|---|---|---|
-| Circle and Intent capture | Social | `In development` |
-| Route preview · approval · digital-asset legs | PayFi | `In development` |
-| Rebate | PayFi | `In development` |
-| Pre-approved envelope | PayFi | `Roadmap` |
-| Memory — assets and history | Wallet | `In development` |
-| Foresight | Wallet | `Roadmap` |
-| Patience | Wallet | `Roadmap` |
-| Marketplace and Landing Receipt | Storefront | `In development` |
-| travel redemption | Storefront | `Roadmap` |
-| Stablecoin Card | Storefront | `Roadmap` |
-| Capital-market leg · equity-linked settlement | PayFi · Storefront | `Roadmap` |
-
-{% hint style="info" %}
-**Scope of this section.** Commits to: five products defined by four positions on the intent-to-settlement path, with the status of each capability stated as of this version. Does not commit to: the final form, name or launch order of any product, or to any capability being live. Open items: [OP-29](../open-parameters/README.md).
-{% endhint %}
-
-*Spine: [The Translator](../02-the-translator/README.md) · Next: [Social — the Intent Layer](social.md)*
-
-*Turning what you mean into what gets settled.*
+*Previous: [Data & Oracles](../03-architecture/data-and-oracles.md) · Next: [Decentralized Social App](social.md)*

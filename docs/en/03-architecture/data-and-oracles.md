@@ -31,19 +31,19 @@ flowchart LR
 
 ### Price
 
-**Status** · `In development`
+**Status** · `Roadmap`
 
 Every leg that moves an asset needs a price, and no leg is priced from a single source. Digital-asset legs read on-chain sources; anything a capital-market leg would touch reads licensed market data, and that leg is `Roadmap`. A quote is accepted when independent sources agree within a band, and it carries an expiry from the moment it is taken. Which providers are read is `Open` (OP-16).
 
 ### Identity
 
-**Status** · `In development`
+**Status** · `Roadmap`
 
 Some Leg Executors will not act for an unverified party. Verification is done by licensed KYC and AML providers, who issue an attestation; the protocol stores a reference to that attestation and nothing underneath it. No document, no personal record and no Circle content is held by NEXON. A Leg Executor that needs to know checks the reference. Which providers are accepted is `Open` (OP-22).
 
 ### Off-chain facts
 
-**Status** · `In development`
+**Status** · `Roadmap`
 
 A Real Leg depends on facts that live in a supplier's system: that the room is available, that the item is in stock, that the booking is confirmed, that a card authorisation went through. These are read through the Leg Executor for that leg, and the last of them — the confirmation — becomes the Landing Receipt. Card authorisation is a fact the protocol will read once a stablecoin card exists, and that is `Roadmap`.
 
@@ -77,17 +77,17 @@ An oracle is only worth what it does on a bad day. Each kind of input can fail i
 
 | Failure mode | What it looks like | Response | Status |
 |---|---|---|---|
-| Stale | A source has not updated within its window | The quote expires; no Route is proposed on it | `In development` |
-| Deviating | Independent sources disagree beyond the band | The Route pauses; a fresh quote is taken; you approve again | `In development` |
-| Unavailable | A required source cannot be reached | The Route pauses; if the source stays unreachable past the deadline, Rollback | `In development` |
-| Spoofed | A source fails its authenticity check | The source is dropped; the Route pauses; Rollback if a leg already depended on it | `In development` |
-| Disputed | A fact is contested after a leg has landed | The dispute window opens; unresolved, the Route is Partially unwound and the Risk Council resolves it | `In development` |
+| Stale | A source has not updated within its window | The quote expires; no Route is proposed on it | `Roadmap` |
+| Deviating | Independent sources disagree beyond the band | The Route pauses; a fresh quote is taken; you approve again | `Roadmap` |
+| Unavailable | A required source cannot be reached | The Route pauses; if the source stays unreachable past the deadline, follow the disclosed failure path | `Roadmap` |
+| Spoofed | A source fails its authenticity check | The source is dropped; the Route pauses; stop if a leg already depended on it | `Roadmap` |
+| Disputed | A fact is contested after a leg has landed | Open the responsible provider's dispute path and preserve the partial state | `Roadmap` |
 
 ### Circuit breaker
 
-**Status** · `In development`
+**Status** · `Roadmap`
 
-The circuit breaker is the component that reads the table above and acts on it. Its rungs are fixed: a quote that fails expires; a Route that loses a reading pauses; a Route that cannot regain one within its deadline unwinds; and a dispute that a rule cannot settle goes to the Risk Council. The breaker is a filter, not a decision-maker. It never proposes a leg, never changes one, and never widens a band; it only stops things. The thresholds that trip it are a `Design Target` (OP-17), and the set of providers it reads is `Open` (OP-16).
+The circuit breaker is the proposed component that reads the table above and acts on it. Its response order is conservative: a quote that fails expires; a Route that loses a required reading pauses; a Route that cannot regain one within its deadline follows its disclosed failure path; and a disputed external fact goes to the responsible provider's dispute process. The breaker is a filter, not a decision-maker. It never proposes a leg, changes one or widens a band. Thresholds and providers remain `Open` (OP-16 and OP-17).
 
 {% hint style="info" %}
 **Scope of this section.** Commits to: four kinds of input, no leg priced from a single source, identity held only as a reference to a licensed attestation, and a fixed escalation from quote expiry to Risk Council. Does not commit to: any provider, any threshold, or the scope of Foresight as an input. Open items: [OP-16 · OP-17 · OP-22 · OP-26](../open-parameters/README.md).

@@ -26,11 +26,11 @@
 
 ## Part IV · Products
 
-* [The NEXON Stack](04-product-stack/README.md)
-  * [Social — the Intent Layer](04-product-stack/social.md "Social")
-  * [PayFi — the Agent's Hand](04-product-stack/payfi.md "PayFi")
-  * [Wallet — Memory, Judgment, Patience](04-product-stack/wallet.md "Wallet")
-  * [Marketplace — the Real Leg](04-product-stack/marketplace.md "Marketplace")
+* [The NEXON Product Ecosystem](04-product-stack/README.md)
+  * [Decentralized Social App](04-product-stack/social.md "Social")
+  * [AI-Native PayFi](04-product-stack/payfi.md "PayFi")
+  * [Wallet — Financial Home and Control](04-product-stack/wallet.md "Wallet")
+  * [Marketplace — The Real-Consumption Leg](04-product-stack/marketplace.md "Marketplace")
   * [Stablecoin Card](04-product-stack/stablecoin-card.md)
 
 ## Part V · Economics
