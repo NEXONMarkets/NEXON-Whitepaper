@@ -66,7 +66,7 @@ EXON，从 TGE 起在现货市场流通。
 
 ## 对外表述必须守住的边界 <a href="#boundaries-that-public-copy-has-to-hold" id="boundaries-that-public-copy-has-to-hold"></a>
 
-<table><thead><tr><th width="60">#</th><th>边界</th></tr></thead><tbody><tr><td>1</td><td>XO 不是 NEX 官方平台币，也不是股权、债权或收益索取权</td></tr><tr><td>2</td><td>EXON 是 NEXON 的项目资产，不是 NEX 平台币</td></tr><tr><td>3</td><td>进 Treasury 的 28% <code>B</code> 与用户账户里被校验的 28% <code>F</code>，<strong>不是同一笔余额</strong></td></tr><tr><td>4</td><td>EXON 的赎回销毁是永久销毁，不是转给某个运营方</td></tr><tr><td>5</td><td>持有任何一种资产，都不授权 AI、PayFi、钱包或别的用户动这个账户</td></tr><tr><td>6</td><td>长期代币用途需要一个受支持的产品、已发布的规则、资格与一个能问责的运营方</td></tr></tbody></table>
+<table><thead><tr><th width="60">#</th><th>边界</th></tr></thead><tbody><tr><td>1</td><td>XO 不是股权、债权或收益索取权</td></tr><tr><td>2</td><td>EXON 是 NEXON 的项目资产</td></tr><tr><td>3</td><td>进 Treasury 的 28% <code>B</code> 与用户账户里被校验的 28% <code>F</code>，<strong>不是同一笔余额</strong></td></tr><tr><td>4</td><td>EXON 的赎回销毁是永久销毁，不是转给某个运营方</td></tr><tr><td>5</td><td>持有任何一种资产，都不授权 AI、PayFi、钱包或别的用户动这个账户</td></tr><tr><td>6</td><td>长期代币用途需要一个受支持的产品、已发布的规则、资格与一个能问责的运营方</td></tr></tbody></table>
 
 ## 一句对外的话 <a href="#one-sentence-for-external-use" id="one-sentence-for-external-use"></a>
 

@@ -66,7 +66,7 @@ Calling EXON the Circulation Engine explains why this asset can connect digital 
 
 ## Boundaries that public copy has to hold
 
-<table><thead><tr><th width="60">#</th><th>Boundary</th></tr></thead><tbody><tr><td>1</td><td>XO is not an official NEX platform token, nor equity, debt or a claim on income</td></tr><tr><td>2</td><td>EXON is a NEXON project asset, not NEX's platform token</td></tr><tr><td>3</td><td>The 28% <code>B</code> into Treasury and the 28% <code>F</code> checked in the user's account are <strong>not the same balance</strong></td></tr><tr><td>4</td><td>An EXON redemption burn is permanent destruction, not a transfer to an operator</td></tr><tr><td>5</td><td>Holding either asset authorizes no AI, PayFi surface, wallet or other user to act on an account</td></tr><tr><td>6</td><td>Long-term token utility requires a supported product, published rules, eligibility and an accountable operator</td></tr></tbody></table>
+<table><thead><tr><th width="60">#</th><th>Boundary</th></tr></thead><tbody><tr><td>1</td><td>XO is not equity, debt or a claim on income</td></tr><tr><td>2</td><td>EXON is a NEXON project asset</td></tr><tr><td>3</td><td>The 28% <code>B</code> into Treasury and the 28% <code>F</code> checked in the user's account are <strong>not the same balance</strong></td></tr><tr><td>4</td><td>An EXON redemption burn is permanent destruction, not a transfer to an operator</td></tr><tr><td>5</td><td>Holding either asset authorizes no AI, PayFi surface, wallet or other user to act on an account</td></tr><tr><td>6</td><td>Long-term token utility requires a supported product, published rules, eligibility and an accountable operator</td></tr></tbody></table>
 
 ## One sentence for external use
 
