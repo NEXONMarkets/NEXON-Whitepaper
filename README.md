@@ -6,14 +6,39 @@ Published through GitBook via Git Sync — **this file is not part of the publis
 ## Layout
 
 ```
-gitbook-docs.yaml            site-level mapping (spaces, languages)
+gitbook-docs.yaml            site-level mapping for the whitepaper site (en + zh)
 docs/en/                     English space   → .gitbook.yaml · README.md · SUMMARY.md
 docs/zh/                     Chinese space   → .gitbook.yaml · README.md · SUMMARY.md
 docs/{en,zh}/.gitbook/assets/  cover + data charts (one copy per space)
+docs/overview/               Project Overview — a standalone single-page space
 ```
 
-The two trees use identical file paths, so every chapter has a 1:1 counterpart.
+The `en` / `zh` trees use identical file paths, so every chapter has a 1:1 counterpart.
 Adding a chapter means adding it to **both** trees and to **both** `SUMMARY.md` files.
+
+## docs/overview — the standalone Project Overview
+
+One page, Chinese, 19 figures: what the split is, what NEXON builds, the five entry points,
+the dual-asset design, why now, and how value closes the loop. It is **not** part of the
+whitepaper site — `gitbook-docs.yaml` does not reference it, so the whitepaper site is
+unaffected by anything in that directory.
+
+It is generated, not hand-written. Source lives in the parent workspace
+(`output/叙事/`), and `to_gitbook.py` there converts and copies it here:
+Yuque `:::` cards → `{% hint %}`, `img/` → `.gitbook/assets/`, plus explicit heading anchors.
+**Edit the generator, not `docs/overview/README.md`** — a regeneration overwrites it.
+
+### Publishing it on its own domain
+
+To serve this at its own subdomain (e.g. `project-overview.nexon.markets`):
+
+1. Create a **new space** in GitBook, and point its Git Sync at this repo with
+   **project directory `docs/overview`**. It picks up `docs/overview/.gitbook.yaml`;
+   the root `gitbook-docs.yaml` is only read when the project directory is the repo root.
+2. Publish that space as its **own site** (not a variant of the whitepaper site — variants
+   are for localization, and this is a different document).
+3. Add the custom domain on that site. **A custom domain is a paid GitBook feature and is
+   billed per site**, so this is a second paid site alongside the whitepaper's.
 
 ## Assets
 
@@ -26,6 +51,9 @@ Adding a chapter means adding it to **both** trees and to **both** `SUMMARY.md` 
 | `chart-redemption-lanes.svg` | Staking & Reward Layer · Worked Examples |
 | `chart-linear-release.svg` | Distribution & Release |
 | `chart-early-round-tiers.svg` | Distribution & Release |
+
+`docs/overview/.gitbook/assets/` holds its own 19 PNGs, generated separately; every one of
+them carries the NEXON logo, stamped after render rather than drawn into each figure.
 
 Charts are standalone SVG — no script, no webfont, no external request — so they render
 identically in GitBook, in a PDF export and in a plain browser. Every figure in them comes
