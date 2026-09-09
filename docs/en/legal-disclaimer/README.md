@@ -17,7 +17,7 @@ All APY, reward, price, ROI and static-payback figures are **protocol parameters
 
 ## On the project relationship
 
-NEXON is an independent, community-initiated project built within the NEX ecosystem and is not an official NEX product. **NEX status or licences do not protect principal and do not guarantee Staking Platform performance.**
+NEXON is an independent, community-initiated project built within the NEX ecosystem. **NEX status or licences do not protect principal and do not guarantee Staking Platform performance.**
 
 ## On the long-term products
 

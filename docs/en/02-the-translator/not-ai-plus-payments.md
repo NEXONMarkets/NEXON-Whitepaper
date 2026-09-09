@@ -7,7 +7,7 @@ icon: not-equal
 
 Put a chat box on a payment button and the software gets easier to use. It does not become a value connection network.
 
-Payments answer one action: move an accepted unit of value to a recipient. The NEXON problem starts earlier and ends later. **Earlier:** what is the user actually trying to do, which sources of value may be used, which constraints are hard. **Later:** an asset settling and a hotel, a product or a service actually arriving are two different facts. In between sit identity, policy, liquidity, custody, permissions and failure handling.
+Payments answer one action: move an accepted unit of value to a recipient. The NEXON problem starts earlier and ends later. **Earlier:** what is the user actually trying to do, which sources of value may be used, which constraints are hard. **Later:** an asset settling and a product or a service actually arriving are two different facts. In between sit identity, policy, liquidity, custody, permissions and failure handling.
 
 AI-Native PayFi is the second focus of the NEXON narrative because AI happens to be good at collapsing the translation cost between those steps: read the request, ask for the missing constraint, compare eligible routes, explain the tradeoff, prepare something that can be approved.
 

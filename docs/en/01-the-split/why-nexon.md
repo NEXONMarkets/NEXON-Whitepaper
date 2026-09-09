@@ -13,7 +13,7 @@ A name should carry the sentence in front of it. This one is built from two halv
 
 NEX comes from **nexus**: the point where things that were never designed as one system are joined. It also carries the sense of crossing a domain — value moving from one context into another where the rules are not the same.
 
-The distinction matters. A capital-market position, a token in a wallet and a hotel reservation can all hold value, but they are not interchangeable instances of one object. They have different issuers, different legal meanings, different settlement processes and different ways of going wrong. NEXON does not start from the claim that one chain or one app can erase those differences. It starts somewhere plainer: make the relationship among them legible enough that a person can state the outcome they want and follow the route that reaches it.
+The distinction matters. A capital-market position, a token in a wallet and an offline purchase can all hold value, but they are not interchangeable instances of one object. They have different issuers, different legal meanings, different settlement processes and different ways of going wrong. NEXON does not start from the claim that one chain or one app can erase those differences. It starts somewhere plainer: make the relationship among them legible enough that a person can state the outcome they want and follow the route that reaches it.
 
 ## + ON — enabled and online
 
@@ -50,7 +50,7 @@ The same `ON` appears in NEXON and in EXON, and it means the same thing in both:
 
 ## Where NEXON stands relative to NEX
 
-NEXON is an independent, community-initiated project built within the NEX ecosystem. It is not an official NEX product, and its assets are not exchange tokens. That formulation stays constant throughout this paper.
+NEXON is an independent, community-initiated project built within the NEX ecosystem. That formulation stays constant throughout this paper.
 
 The name by itself settles nothing about how a route is built, who executes it or what economic terms apply. Those need their own specifications. So this paper keeps three kinds of statement apart: the **narrative** explains why NEXON exists, the **Tokenomics** defines the economics operating now, and the **Roadmap** describes what the ecosystem may grow next. None of the three is evidence for either of the others.
 

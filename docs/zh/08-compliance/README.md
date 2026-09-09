@@ -5,7 +5,7 @@ icon: building-shield
 
 # 合规立场
 
-NEXON 是基于 NEX 生态、由社区发起的独立项目，不是 NEX 官方产品。XO 与 EXON 是 NEXON 的项目资产。**名称接近、集成关系或账户连接，都不能被用来暗示一份没有正式文件支撑的署名、批准、责任或本金保护。**
+NEXON 是基于 NEX 生态、由社区发起的独立项目。XO 与 EXON 是 NEXON 的项目资产。**名称接近、集成关系或账户连接，都不能被用来暗示一份没有正式文件支撑的署名、批准、责任或本金保护。**
 
 ## 当前的运营分离 <a href="#operational-separation-today" id="operational-separation-today"></a>
 

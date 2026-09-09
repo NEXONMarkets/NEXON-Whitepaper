@@ -30,7 +30,7 @@ A route preview should answer six things, leg by leg:
 
 <table><thead><tr><th width="170">Attribute</th><th>Must be disclosed</th></tr></thead><tbody><tr><td>Holder or controller</td><td>User wallet, exchange account, contract, issuer or other provider</td></tr><tr><td>Source of authority</td><td>Signature, account instruction, delegated permission or supplier order</td></tr><tr><td>Settlement evidence</td><td>Transaction hash, venue order, internal ledger entry or supplier confirmation</td></tr><tr><td>Reversibility</td><td>Irreversible / cancellable / refundable / disputable</td></tr><tr><td>Counterparty risk</td><td>The entity or protocol whose failure affects this leg</td></tr><tr><td>Recovery route</td><td>The support, refund, dispute or remediation process that applies</td></tr></tbody></table>
 
-Where a route crosses between two custody models, **the boundary needs a fresh explanation**. An on-chain transfer may be irreversible. An exchange order is final under venue rules. A card transaction may support chargeback under issuer terms. A hotel booking may be cancellable only until a supplier deadline. "Rollback" is not the same word in any two of those cases.
+Where a route crosses between two custody models, **the boundary needs a fresh explanation**. An on-chain transfer may be irreversible. An exchange order is final under venue rules. A card transaction may support chargeback under issuer terms. A booking may be cancellable only until a supplier deadline. "Rollback" is not the same word in any two of those cases.
 
 ## Three states, three facts
 

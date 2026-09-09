@@ -17,7 +17,7 @@ XO 在叙事上被描述为价值锚，在机制上是质押本金代币。EXON 
 
 ## 关于项目关系 <a href="#on-the-project-relationship" id="on-the-project-relationship"></a>
 
-NEXON 是基于 NEX 生态、由社区发起的独立项目，不是 NEX 官方产品。**NEX 的资质或牌照不保护本金，也不担保 Staking Platform 的表现。**
+NEXON 是基于 NEX 生态、由社区发起的独立项目。**NEX 的资质或牌照不保护本金，也不担保 Staking Platform 的表现。**
 
 ## 关于长期产品 <a href="#on-the-long-term-products" id="on-the-long-term-products"></a>
 

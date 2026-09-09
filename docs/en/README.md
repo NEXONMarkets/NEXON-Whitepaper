@@ -22,7 +22,7 @@ layout:
 
 > **From Capital to Token. From Digital to Real.**
 
-A position in a brokerage account, a token in a wallet and four nights in Tokyo in October are all value. None of them has ever sat on the same ledger. Turning the first into the third still takes four systems, four identity checks and about a week — and at every step, a person is manually translating one language of value into another.
+A position in a brokerage account, a token in a wallet and a real cross-border payment are all value. None of them has ever sat on the same ledger. Turning the first into the third still takes four systems, four identity checks and about a week — and at every step, a person is manually translating one language of value into another.
 
 **NEXON = NEX (Nexus) + ON (enabled and online).** The name states the job: take that translation out of human hands and make it a product layer you can see, permission and hold to account.
 
@@ -104,6 +104,6 @@ flowchart LR
 
 If you want the arithmetic first, jump to [Worked Examples](05-tokenomics/worked-examples.md). If you want to know who is responsible for each leg and who resolves a failure, jump to [Protocol Architecture](03-architecture/README.md).
 
-NEXON is an independent, community-initiated project built within the NEX ecosystem. It is not an official NEX product.
+NEXON is an independent, community-initiated project built within the NEX ecosystem.
 
 *Economic parameters and calculations in this paper come from the project's Tokenomics approved on 6 September 2026. Every return calculation states the price assumption it rests on; the full legal and risk statement is in the [Legal Disclaimer](legal-disclaimer/README.md).*

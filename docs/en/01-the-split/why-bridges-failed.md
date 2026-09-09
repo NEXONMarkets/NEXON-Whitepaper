@@ -1,5 +1,5 @@
 ---
-description: "Bridges, stablecoin rails and tokenization each solved a real problem. None of them turns ownership into a room. Every one of them is a pipe."
+description: "Bridges, stablecoin rails and tokenization each solved a real problem. None of them turns ownership into money you can spend. Every one of them is a pipe."
 icon: "bridge"
 layout:
   width: wide
@@ -15,7 +15,7 @@ Three families of solutions have grown up along the path in the previous section
 |---|---|---|
 | Cross-chain bridges | Carrying one language between its dialects (a stablecoin on chain A → the same stablecoin on chain B) | It never handles a cross-language problem such as ownership → right of use. And bridges are the most heavily attacked class of infrastructure in the history of crypto |
 | Stablecoin payments | The last mile — turning on-chain value into money that can be spent | Covers only one direction among the three markets (digital → spending), and only one way. It does not ask where the money came from, and it does not come back |
-| RWA / asset tokenization | The registration problem of bringing a real-world asset on-chain | Tokenizing a share does not let you book a hotel with it. It brought the asset up; it did not translate the language |
+| RWA / asset tokenization | The registration problem of bringing a real-world asset on-chain | Tokenizing a share does not let you pay for something abroad with it. It brought the asset up; it did not translate the language |
 
 {% tabs %}
 {% tab title="Bridges" %}
@@ -27,7 +27,7 @@ A stablecoin rail solves the last mile: on-chain value becomes money a merchant 
 {% endtab %}
 
 {% tab title="Tokenization" %}
-Tokenizing a real-world asset solves a registration problem: a claim that lived in one system now has a representation in another. The asset has been brought on-chain; its language has not been translated. A tokenized share is still a claim on ownership and future cash flow, subject to the jurisdiction that issued it — a new address, not a new grammar. Tokenizing a share does not let you book a hotel with it.
+Tokenizing a real-world asset solves a registration problem: a claim that lived in one system now has a representation in another. The asset has been brought on-chain; its language has not been translated. A tokenized share is still a claim on ownership and future cash flow, subject to the jurisdiction that issued it — a new address, not a new grammar. Tokenizing a share does not let you pay for something abroad with it.
 {% endtab %}
 {% endtabs %}
 
@@ -53,7 +53,7 @@ Lay the three on the map and the pattern is hard to miss. Bridges run along one 
 
 ## The common flaw
 
-The three share one flaw, and it is not a flaw of execution. They are all pipes. A pipe carries; it does not understand. What goes in is what comes out, and anything that has to change kind along the way — a claim into cash, cash into a room — is done outside the pipe, by a person, at each end. That semantic conversion is the actual work, and to this day it is still done by hand.
+The three share one flaw, and it is not a flaw of execution. They are all pipes. A pipe carries; it does not understand. What goes in is what comes out, and anything that has to change kind along the way — a claim into cash, cash into money that can be spent — is done outside the pipe, by a person, at each end. That semantic conversion is the actual work, and to this day it is still done by hand.
 
 <details>
 

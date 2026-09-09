@@ -77,7 +77,7 @@ The order exists to prevent three very common confusions:
 * **Permission is not settlement.** An instruction sent is not an order filled.
 * **Settlement is not delivery.** Money reaching a merchant does not mean the room is booked.
 
-A user can authorize an EXON spot order without authorizing a hotel purchase. A digital payment can settle while the merchant never fulfills. Keeping those three apart in the record is the most practical thing this structure buys.
+A user can authorize an EXON spot order without authorizing that purchase. A digital payment can settle while the merchant never fulfills. Keeping those three apart in the record is the most practical thing this structure buys.
 
 ## Connection without erasure
 
@@ -102,7 +102,7 @@ The relationship between the two is architectural, not permissional. An agent do
 
 <summary>Why not just build one app that does everything</summary>
 
-Because an interface cannot absorb responsibility. An app can merge four screens into one; it cannot merge four legal obligations into one. When a hotel booking fails, the party that can fix it is still the hotel. When an on-chain transfer is irreversible, no interface can call it back.
+Because an interface cannot absorb responsibility. An app can merge four screens into one; it cannot merge four legal obligations into one. When a supplier fails to deliver, the party that can fix it is still the supplier. When an on-chain transfer is irreversible, no interface can call it back.
 
 A unified experience and unified responsibility are different things, and a product that conflates them drops the user into an accountability gap the first time something fails. That is why NEXON describes a connection network rather than an omnipotent app: **the experience can be one; responsibility stays where it is, and says whose it is.**
 

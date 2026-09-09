@@ -5,7 +5,7 @@ icon: building-shield
 
 # Compliance & Legal Posture
 
-NEXON is an independent, community-initiated project built within the NEX ecosystem; it is not an official NEX product. XO and EXON are NEXON project assets. **A similar name, an integration or an account connection cannot be used to imply authorship, approval, liability or principal protection that no document supports.**
+NEXON is an independent, community-initiated project built within the NEX ecosystem. XO and EXON are NEXON project assets. **A similar name, an integration or an account connection cannot be used to imply authorship, approval, liability or principal protection that no document supports.**
 
 ## Operational separation today
 

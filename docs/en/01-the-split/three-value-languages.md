@@ -1,5 +1,5 @@
 ---
-description: "Ownership, liquidity, right of use: three languages of value with no shared grammar — and one hotel room that still takes four systems and a week."
+description: "Ownership, liquidity, right of use: three languages of value with no shared grammar — and one cross-border payment that still takes four systems and a week."
 icon: "comments"
 ---
 
@@ -42,15 +42,15 @@ Value here is liquidity: how quickly and how cheaply one position can become ano
 {% endtab %}
 
 {% tab title="Real-world spending" %}
-Value here is the right to use something: a room on the night you arrive, a table at eight, a parcel at your door. It is measured in time, place and availability, and it lives in a supplier's inventory system, the only place it can be confirmed. This grammar has no word for a position or a token. It recognizes money already turned into money it accepts, and a person who has proved who they are.
+Value here is the right to use something: an itinerary for the day you arrive, a table at eight, a parcel at your door. It is measured in time, place and availability, and it lives in a supplier's inventory system, the only place it can be confirmed. This grammar has no word for a position or a token. It recognizes money already turned into money it accepts, and a person who has proved who they are.
 {% endtab %}
 {% endtabs %}
 
 Read the three tabs again and notice that none of them is describing the same thing. A claim, a rate of exchange and a right of use are not three prices for one object. They are three objects, each of which the other two grammars cannot even name.
 
-## One position, one hotel room
+## One position, one cross-border payment
 
-You hold a position in an equities account and want to turn part of what it earned into a hotel in Tokyo in October. Today, the request travels like this.
+You hold a position in an equities account and want to turn part of what it earned into money you can actually spend in another country. Today, the request travels like this.
 
 {% stepper %}
 {% step %}
@@ -70,7 +70,7 @@ Spread + fees. A third system, a third set of credentials.
 
 {% step %}
 ### Book on a travel site
-The fourth identity check. Only here does the value finally become a room.
+The fourth identity check. Only here can the value finally be spent.
 {% endstep %}
 {% endstepper %}
 
@@ -80,7 +80,7 @@ Sell. Wait for settlement. Wire it out. Convert the currency. Then start over on
 
 And what is actually consumed on this path is not the fees. It is you — at every step, you are the one manually translating one language of value into another. This is not a technical problem. It is a translation problem.
 
-> Turning a position into a hotel room still takes four systems, four identity checks and a week. Every step is a human manually translating one language into another. That was tolerable when software could only move value. It stopped being tolerable the moment software could understand it.
+> Turning a position into money you can spend still takes four systems, four identity checks and a week. Every step is a human manually translating one language into another. That was tolerable when software could only move value. It stopped being tolerable the moment software could understand it.
 
 The next section looks at the solutions that already exist along this path and asks, of each one, which part of the translation it actually performed.
 
