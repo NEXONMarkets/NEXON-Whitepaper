@@ -67,7 +67,7 @@ Every order and every epoch records the **parameter version** in force at the ti
 
 Pending rewards take one of three lanes:
 
-<figure><img src="../.gitbook/assets/chart-redemption-lanes.svg" alt="Redemption lanes: T+0 releases 70% and burns 30%; 30D releases 85% and burns 15%; 60D releases 100% and burns nothing"><figcaption>Wait longer, burn less: what redeeming 1,000 U of pending reward produces</figcaption></figure>
+<figure><img src="../.gitbook/assets/chart-redemption-lanes.svg" alt="Redemption lanes: T+0 releases 70% and burns 30%; 30D releases 85% and burns 15%; 60D releases 100% and burns nothing"><figcaption>Wait longer, burn less: what redeeming 1,000 USDT of pending reward produces</figcaption></figure>
 
 | Lane | Wait | Equivalent EXON burned | Net release |
 |---|---:|---:|---:|

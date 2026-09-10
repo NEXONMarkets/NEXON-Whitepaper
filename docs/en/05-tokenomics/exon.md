@@ -19,7 +19,7 @@ In the NEXON narrative, EXON is the **Circulation Engine**, connecting digital f
 
 EXON can be acquired three ways: **early-round subscription, the automatic 28% build attached to a qualifying order, and secondary-market purchase.**
 
-From TGE, released EXON appears in the NEX spot account and can be held or traded. The early price is `0.1 U`; the TGE guide price is `1.0 U`.
+From TGE, released EXON appears in the NEX spot account and can be held or traded. The early price is `0.1 USDT`; the TGE guide price is `1.0 USDT`.
 
 ## Three current supply-and-demand mechanisms
 
@@ -27,13 +27,13 @@ From TGE, released EXON appears in the NEX spot account and can be held or trade
 {% tab title="① Order build" %}
 Every qualifying order routes `B = 0.28 × P` into an EXON purchase at the prevailing price, and the EXON acquired moves into Treasury Liquidity.
 
-Because it executes at the prevailing price, **the quantity of tokens acquired depends on the execution price**, not on the U amount alone.
+Because it executes at the prevailing price, **the quantity of tokens acquired depends on the execution price**, not on the USDT amount alone.
 {% endtab %}
 
 {% tab title="② Fuel balance check" %}
-Before a staking order opens, the user's account must hold EXON with a U value of `F = 0.28 × P`.
+Before a staking order opens, the user's account must hold EXON with a USDT value of `F = 0.28 × P`.
 
-That balance **stays in the user's account**. Under the approved mechanism it is not a fee, a transfer, a lock or a burn. When the market price moves, the quantity needed to satisfy the same U value moves with it.
+That balance **stays in the user's account**. Under the approved mechanism it is not a fee, a transfer, a lock or a burn. When the market price moves, the quantity needed to satisfy the same USDT value moves with it.
 {% endtab %}
 
 {% tab title="③ Redemption burn" %}

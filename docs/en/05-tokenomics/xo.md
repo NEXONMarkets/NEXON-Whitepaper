@@ -19,7 +19,7 @@ The second sentence defines what happens now. The first explains why that functi
 
 ## The current mechanical role
 
-A user acquires XO from Treasury at a U-denominated price managed by the protocol. XO circulates internally under that mechanism, independent of EXON's public secondary-market price.
+A user acquires XO from Treasury at a USDT-denominated price managed by the protocol. XO circulates internally under that mechanism, independent of EXON's public secondary-market price.
 
 For qualifying principal `P`, the staking base is:
 
@@ -60,7 +60,7 @@ If a future marketplace, card or social product grants an XO-based benefit, its 
 ## XO in three sentences
 
 1. **Narrative:** XO is NEXON's Value Anchor and carries long-term ecosystem value.
-2. **Current mechanism:** XO is the U-priced Staking Principal Token and carries `S = 0.72 × P` inside the Staking Platform.
+2. **Current mechanism:** XO is the USDT-priced Staking Principal Token and carries `S = 0.72 × P` inside the Staking Platform.
 3. **Long-term direction:** broader participation, rights and governance require separately published rules.
 
 *Previous: [Two Assets, Two Jobs](two-assets-two-jobs.md) · Next: [EXON — Circulation Engine](exon.md)*

@@ -9,7 +9,6 @@ icon: book
 
 | Term | 中文 | Definition |
 |---|---|---|
-| U | U | The accounting unit pegged to USDT in the approved paper |
 | NEX Main Exchange / CEX | NEX 主交易所 / 合规现货层 | EXON spot trading, IEO and release display; excludes the staking reward model |
 | Staking Platform | 质押与奖励层 | Single-token staking, term weighting, dynamic rewards and redemption |
 | Epoch | 结算周期 | The 12-hour reward and release interval; two per day |

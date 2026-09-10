@@ -41,7 +41,7 @@ Only the 30-day term supports early exit:
 Refund = S × (1 − λ), where λ is 10%–15%
 ```
 
-The exact value of λ inside that band has not been published. With `S = 21,600 U`, an early exit returns **18,360–19,440 U**.
+The exact value of λ inside that band has not been published. With `S = 21,600 USDT`, an early exit returns **18,360–19,440 USDT**.
 
 ## Dynamic rewards
 

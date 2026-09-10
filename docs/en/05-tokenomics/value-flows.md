@@ -11,7 +11,7 @@ A principal split is not a fee. A user balance check is not Treasury custody. An
 
 ## Flow ① — qualifying principal
 
-<figure><img src="../.gitbook/assets/chart-72-28-split.svg" alt="Every 100 U of principal splits two ways: 72 dots to the XO staking base, 28 dots to an EXON buy into Treasury Liquidity"><figcaption>Principal arrives and immediately forks: one path becomes the interest base, the other becomes EXON in Treasury</figcaption></figure>
+<figure><img src="../.gitbook/assets/chart-72-28-split.svg" alt="Every 100 USDT of principal splits two ways: 72 dots to the XO staking base, 28 dots to an EXON buy into Treasury Liquidity"><figcaption>Principal arrives and immediately forks: one path becomes the interest base, the other becomes EXON in Treasury</figcaption></figure>
 
 ```text
 B = 0.28 × P   → EXON spot purchase → Treasury Liquidity
@@ -19,7 +19,7 @@ S = 0.72 × P   → XO staking and reward / PV base
 B + S = P
 ```
 
-`B` executes at the prevailing EXON price, so **the number of tokens acquired is not determined by the U amount alone**. `S` becomes the accounting base for static and dynamic rewards inside the Staking Platform.
+`B` executes at the prevailing EXON price, so **the number of tokens acquired is not determined by the USDT amount alone**. `S` becomes the accounting base for static and dynamic rewards inside the Staking Platform.
 
 ## Flow ② — the fuel balance in the user's hands
 
@@ -29,7 +29,7 @@ Opening the order additionally requires:
 F = 0.28 × P of EXON value
 ```
 
-`F` **stays in the user's account**. It is a qualification check, and it is booked separately from the `B` owned by Treasury Liquidity. When EXON's price moves, the quantity needed to satisfy the same U value moves with it. A shortfall stops the order — it does not trigger an automatic sale of another asset.
+`F` **stays in the user's account**. It is a qualification check, and it is booked separately from the `B` owned by Treasury Liquidity. When EXON's price moves, the quantity needed to satisfy the same USDT value moves with it. A shortfall stops the order — it does not trigger an automatic sale of another asset.
 
 ## Flow ③ — time and reward accrual
 

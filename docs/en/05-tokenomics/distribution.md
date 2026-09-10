@@ -9,22 +9,22 @@ icon: chart-pie
 
 | Stage | Pricing mechanism | Release |
 |---|---|---|
-| **Early round** | Fixed at `0.1 U`, in capped tiers | Enters the common 1,095-day release from TGE |
-| **TGE** | Guide price `1.0 U`; the NEX spot market opens | Linear release begins |
+| **Early round** | Fixed at `0.1 USDT`, in capped tiers | Enters the common 1,095-day release from TGE |
+| **TGE** | Guide price `1.0 USDT`; the NEX spot market opens | Linear release begins |
 | **Later rounds** | Issued at a discount to the prevailing market price, disclosed per round | Release begins T+1 |
 
 ## The three early tiers
 
-<figure><img src="../.gitbook/assets/chart-early-round-tiers.svg" alt="Three early tiers: the 1,000 U tier has 10,000 shares totalling 10 million U; the 5,000 U tier 1,000 shares totalling 5 million U; the 10,000 U tier 500 shares totalling 5 million U"><figcaption>Three tiers, 11,500 shares, 20 million U in total. The larger the ticket, the fewer the shares</figcaption></figure>
+<figure><img src="../.gitbook/assets/chart-early-round-tiers.svg" alt="Three early tiers: the 1,000 USDT tier has 10,000 shares totalling 10 million USDT; the 5,000 USDT tier 1,000 shares totalling 5 million USDT; the 10,000 USDT tier 500 shares totalling 5 million USDT"><figcaption>Three tiers, 11,500 shares, 20 million USDT in total. The larger the ticket, the fewer the shares</figcaption></figure>
 
 | Order size | Shares | Tier total |
 |---:|---:|---:|
-| 1,000 U | 10,000 | 10,000,000 U |
-| 5,000 U | 1,000 | 5,000,000 U |
-| 10,000 U | 500 | 5,000,000 U |
-| **Total** | **11,500** | **20,000,000 U** |
+| 1,000 USDT | 10,000 | 10,000,000 USDT |
+| 5,000 USDT | 1,000 | 5,000,000 USDT |
+| 10,000 USDT | 500 | 5,000,000 USDT |
+| **Total** | **11,500** | **20,000,000 USDT** |
 
-At the early price of `0.1 U`, 20 million U corresponds to 200 million EXON entering the same release curve.
+At the early price of `0.1 USDT`, 20 million USDT corresponds to 200 million EXON entering the same release curve.
 
 ## Linear release
 

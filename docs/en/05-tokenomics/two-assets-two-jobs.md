@@ -17,12 +17,12 @@ NEXON uses two assets because **value accumulation and active circulation are no
 | Narrative role | Value Anchor | Circulation Engine |
 | Narrative function | Staking, participation, ecosystem rights, long-term value accumulation | Trading, payment, exchange, fees, consumption circulation |
 | Current canonical label | Staking Principal Token | Core Value Token |
-| Current acquisition | Treasury subscription at a protocol-managed U price | Early rounds, the 28% order build, or spot purchase |
+| Current acquisition | Treasury subscription at a protocol-managed USDT price | Early rounds, the 28% order build, or spot purchase |
 | Current market | Internal circulation, protocol-priced | Public NEX spot activity from TGE |
 | Current mechanical job | Carries the 72% staking and reward / PV base | Absorbs programmatic buying, balance checks, linear release and redemption burns |
 | Long-term boundary | Governance and broader rights await published design | Payment, fee and consumption utility await product-specific support and terms |
 
-`U` is the accounting unit pegged to USDT in the approved paper. XO's protocol-managed price and internal circulation are **deliberately separate** from EXON's public secondary-market price.
+All amounts in this paper are denominated in USDT. XO's protocol-managed price and internal circulation are **deliberately separate** from EXON's public secondary-market price.
 
 ## Why the split is not optional
 

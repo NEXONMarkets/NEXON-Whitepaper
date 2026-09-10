@@ -50,7 +50,7 @@ Three definitions, three clocks, three borders. None is wrong, and none can be r
 
 Carries staking, participation and long-term value accumulation.
 
-In the current mechanism, XO is the U-priced **Staking Principal Token** inside the Staking Platform: 72% of every qualifying order lands here and becomes the base for static and dynamic rewards.
+In the current mechanism, XO is the USDT-priced **Staking Principal Token** inside the Staking Platform: 72% of every qualifying order lands here and becomes the base for static and dynamic rewards.
 {% endcolumn %}
 
 {% column %}
@@ -70,7 +70,7 @@ One account, two operating layers that mind their own business. **NEX Main Excha
 
 A qualifying order splits 72/28:
 
-<figure><img src=".gitbook/assets/chart-72-28-split.svg" alt="Every 100 U of principal splits two ways: 72 dots to the XO staking base, 28 dots to an EXON buy into Treasury Liquidity"><figcaption>72/28: principal establishes the XO staking base, while 28% buys EXON at the prevailing price into Treasury Liquidity</figcaption></figure>
+<figure><img src=".gitbook/assets/chart-72-28-split.svg" alt="Every 100 USDT of principal splits two ways: 72 dots to the XO staking base, 28 dots to an EXON buy into Treasury Liquidity"><figcaption>72/28: principal establishes the XO staking base, while 28% buys EXON at the prevailing price into Treasury Liquidity</figcaption></figure>
 
 <table><thead><tr><th width="150">Parameter</th><th width="210">Value</th><th>What it does</th></tr></thead><tbody><tr><td>Capital split</td><td><code>S = 0.72 × P</code> · <code>B = 0.28 × P</code></td><td>S is the interest base; B buys EXON into Treasury Liquidity</td></tr><tr><td>Fuel check</td><td><code>F = 0.28 × P</code></td><td>Checks the EXON balance in the user's account — not transferred, charged or burned</td></tr><tr><td>Base APY</td><td>200%</td><td>Multiplied by a term weight of 1.00 / 1.10 / 1.20 / 1.35 / 1.50</td></tr><tr><td>Epoch</td><td>12 hours</td><td>Two a day; static and dynamic rewards settle on the same clock</td></tr><tr><td>Linear release</td><td>1,095 days · 2,190 epochs</td><td><code>D = A ÷ 1,095</code>, <code>R_epoch = A ÷ 2,190</code></td></tr><tr><td>Redemption lanes</td><td>T+0 / 30D / 60D</td><td>Burns an equivalent 30% / 15% / 0% of EXON; releases 70% / 85% / 100%</td></tr></tbody></table>
 

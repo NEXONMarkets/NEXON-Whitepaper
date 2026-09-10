@@ -14,7 +14,7 @@ This Part implements the economic model the project approved on 6 September 2026
 | Level | XO | EXON |
 |---|---|---|
 | **Narrative** | Value Anchor: participation, staking, rights and long-term value accumulation | Circulation Engine: connecting digital finance, exchange, payments, fees and consumption |
-| **Current mechanism** | U-priced Staking Principal Token, used inside the Staking Platform | Core Value Token; the public spot / release / buy / check / burn asset |
+| **Current mechanism** | USDT-priced Staking Principal Token, used inside the Staking Platform | Core Value Token; the public spot / release / buy / check / burn asset |
 | **Long-term direction** | Broader ecosystem rights and governance, pending published rules | Payment, exchange, fee and consumption utility, pending published product terms |
 
 The narrative says what each asset is **meant** to contribute. The mechanism says what it **does now**. Say both, in that order.
@@ -33,7 +33,7 @@ F = 0.28 × P   → matching EXON balance check; stays with the user
 ```
 
 {% hint style="info" %}
-`B` and `F` have **the same U value and completely different ownership and function**. `B` is EXON bought into Treasury Liquidity. `F` is a balance checked in the user's own account — not transferred, charged or burned when the order opens. Conflating the two is the single most common misreading of this mechanism.
+`B` and `F` have **the same USDT value and completely different ownership and function**. `B` is EXON bought into Treasury Liquidity. `F` is a balance checked in the user's own account — not transferred, charged or burned when the order opens. Conflating the two is the single most common misreading of this mechanism.
 {% endhint %}
 
 ## The economic lifecycle
