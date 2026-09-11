@@ -13,20 +13,52 @@ coverY: 0
 
 ## 1. The first flagship project on the NEX exchange
 
-NEX is an AI-native asset exchange operating out of Macau. On 17–18 June 2026 it co-hosted the 6th Digital Trade Innovation and Application Summit, with more than 400 attendees. Registrations and licences on the ecosystem side:
+NEX is an AI-native asset exchange operating out of Macau, with five strategic hubs: Australia for global capital markets, Macau as the Asia-Pacific operations and compliance centre, Malaysia for national-grade AI compute, Dubai for Gulf capital, and Europe and the Americas for FX clearing and derivatives.
 
-| Registration / licence | Authority or entity | Status |
+One exchange, two layers: the spot layer trades XO and EXON, and the staking platform carries NEXON's reward model. Both share one account system and one back office — open one account, move between the two.
+
+![](../.gitbook/assets/onepage-01-placement.svg)
+
+### The summit: co-hosted by NEX
+
+17–18 June 2026, Macau. The 6th Digital Trade Innovation and Application Summit was organised by abcd Summit (APAC Blockchain Day) together with the Macau Quality Brand International Certification League, with NEX on stage as co-host and more than 400 attendees.
+
+![](../.gitbook/assets/onepage-p1-summit.jpg)
+
+### Core team
+
+The NEX core team, presented on the summit's main stage:
+
+![](../.gitbook/assets/onepage-p2-team.jpg)
+
+|  | Role |  |
+| :-- | :-- | :-- |
+| Dato' Joseph | Co-founder · Chief Executive Officer | Main-stage speaker at the summit |
+| Winsman | Co-founder · Chief Operating Officer | Also CEO of the NEXON project |
+| Nick | Chief Marketing Officer |  |
+| Batter | Dean, Global Business School |  |
+| Robart | Director of Market Expansion, Europe and the Americas |  |
+
+### Two awards, two officials on the same stage
+
+The Macau Quality Brand International Certification League (MQBICL) presented NEXON with the Most Innovative Potential Award and the Best Design of the Year Award; Ho King Lun, member of the Macau Legislative Assembly, and Gao Jian, Vice Mayor of Yichun, spoke at the same event.
+
+![](../.gitbook/assets/onepage-p3-awards.jpg)
+
+### Licences and registrations
+
+Four credentials across mainland China, Macau, the United States and Dubai:
+
+| Registration / licence | Issuing or registering authority | Status |
 | :-- | :-- | --: |
-| Xinghuo BIF official accreditation and national node credential | China Academy of Information and Communications Technology (CAICT) | Obtained |
+| Digital-asset issuer authorization (Xinghuo BIF) | China Academy of Information and Communications Technology (CAICT) | Issued Aug 2026 · valid two years |
 | Commercial registration (No. 97762) | Macau Ronguan International Brand Exchange Co., Ltd. | Completed |
 | MSB money services business licence | U.S. Financial Crimes Enforcement Network (FinCEN) | Obtained |
 | Virtual-asset compliance service provider onboarding | Dubai Virtual Assets Regulatory Authority (VARA) | In progress |
 
-**NEXON is the first flagship project on the NEX exchange**, launched on NEX's account system, spot market and ecosystem resources, and sharing one account and one back office with it.
+![](../.gitbook/assets/onepage-p4-certificates.jpg)
 
-![](../.gitbook/assets/onepage-01-placement.svg)
-
-Exchange, licences and team are all in place. On top of them sits an economic engine that puts money to work and only ever shrinks supply: stake XO for **time compounding**, subscribe to EXON for a 10× open, and burn on every withdrawal so that EXON moves in **one direction**.
+**NEXON is the first flagship project on the NEX exchange**, launched on NEX's account system, spot market and ecosystem resources. Exchange, licences and team are all in place. On top of them sits an economic engine that puts money to work and only ever shrinks supply: stake XO for **time compounding**, subscribe to EXON for a 10× open, and burn on every withdrawal so that EXON moves in **one direction**.
 
 ## 2. NEXON is the ecosystem. XO carries value. EXON drives circulation.
 
