@@ -1,6 +1,7 @@
 # Table of contents
 
 * [NEXON Whitepaper](README.md)
+* [NEXON in One Page](one-page/README.md)
 
 ## Part I · The Problem
 
