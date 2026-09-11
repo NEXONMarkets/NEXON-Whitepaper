@@ -1,5 +1,5 @@
 ---
-description: "项目方定稿的 NEXON 经济：双币叙事角色，原封不动地映射到 7228、释放、收益与赎回机制上。"
+description: "NEXON 现行经济机制：双币角色，每 12 小时结算的 XO 质押，只进不出的 EXON 燃料钱包，提取即销毁，私募 0.1 U 上线 1.0 U。"
 icon: coins
 ---
 
@@ -7,47 +7,49 @@ icon: coins
 
 > NEXON 是生态，XO 承载价值，EXON 驱动流通。
 
-这一部分实现的是项目方 2026 年 9 月 6 日定稿的经济模型，并把叙事定位——XO 是**价值锚**、EXON 是**流通引擎**——映射到这套模型上，**不改动它的任何一处算术**。
+这一部分写的是 NEXON 现行的经济机制（2026 年 9 月 10 日定稿，9 月 11 日逐条确认），并把叙事定位——XO 是**价值锚**、EXON 是**流通引擎**——落到每一个数字上。
 
 ## 每种资产读三层 <a href="#read-each-asset-on-three-levels" id="read-each-asset-on-three-levels"></a>
 
 | 层级 | XO | EXON |
 |---|---|---|
-| **叙事** | 价值锚：参与、质押、权益与长期价值沉淀 | 流通引擎：连接数字金融、交易所、支付、费用与消费 |
-| **当前机制** | 以 U 计价的质押本金代币，用在 Staking Platform 内 | 核心价值代币，公开现货 / 释放 / 买入 / 校验 / 销毁资产 |
-| **长期方向** | 更广的生态权益与治理，等待规则发布 | 支付、兑换、费用与消费用途，等待产品条款发布 |
+| **叙事** | 价值锚：质押、参与、治理与长期价值沉淀 | 流通引擎：连接交易所、支付、兑换、费用与消费 |
+| **当前机制** | 质押本金代币；静态收益、推广奖励、领导奖金一律以 XO 发放；在 NEX 二级市场自由交易 | 核心价值代币；私募 0.1 U 是唯一获取渠道，上线 1.0 U；只能卖、不能买；入金的 28% 买入存入燃料钱包，提取收益时销毁 |
+| **随入口开放** | 治理规则与更广的生态权益（Roadmap） | 交易、支付、兑换与手续费随五个入口逐个接入（Roadmap） |
 
-叙事说的是每种资产**打算**为生态贡献什么，机制说的是它**现在**在做什么。这两句话都要说，顺序不要颠倒。
+叙事说的是每种资产**为生态承担什么**，机制说的是它**今天怎么运转**。两句一起说。
 
 ## 一个账户，两个运营层 <a href="#one-account-two-operating-layers" id="one-account-two-operating-layers"></a>
 
-**NEX Main Exchange / CEX** 是现货层，承载 EXON 交易、IEO 与释放呈现。独立的 **Staking Platform** 处理单币质押、期限权重、动态奖励与赎回。它们可以共享账户体系和资金后台；质押参数不会变成交易所的现货规则，交易所也不发放这里所说的质押奖励。
+**NEX 交易所**是现货层：XO 自由交易，EXON 只挂卖单、不挂买单，上线当日起呈现每日释放。**质押与奖励层（Staking Platform）**处理 XO 质押、每 12 小时结算、期限加成、推广奖励、领导奖金与收益提取。两层共用同一套账户与资金后台，一次开户、两层切换。
 
-每一笔合格本金 `P` 走同一条 7228 路径：
+## 一笔入金怎么拆 <a href="#how-a-deposit-splits" id="how-a-deposit-splits"></a>
+
+每一笔质押入金 `P` 开单即分成两份，系统自动完成：
 
 ```text
-B = 0.28 × P   → 按实时价买入 EXON → Treasury Liquidity
-S = 0.72 × P   → XO 质押本金与收益 / PV 基数
-B + S = P
-F = 0.28 × P   → 等值 EXON 余额校验；仍归用户
+燃料  = 0.28 × P   → 按当时 1 U 等值买入 EXON → 燃料钱包（只能销毁）
+质押  = 其余部分   → 兑换 XO → 进入质押，每 12 小时结算
 ```
 
-{% hint style="info" %}
-`B` 和 `F` 的 **U 价值相同，归属和作用完全不同**。`B` 是买入并注入 Treasury Liquidity 的 EXON；`F` 是在用户账户里被校验的余额，开单时不转走、不收费、不销毁。把这两笔混为一谈，是读这套机制最容易犯的错。
+<figure><img src="../.gitbook/assets/onepage-04-fuel-wallet.svg" alt="入金 1,000 U：28% 即 280 U，按 1 U 等值买入 280 枚 EXON 存入燃料钱包，只能销毁、不能转出、不能交易"><figcaption>入金 1,000 U：280 枚 EXON 进燃料钱包，其余兑换 XO 开始计息</figcaption></figure>
+
+{% hint style="success" %}
+**燃料钱包只进不出。** 里面的 EXON 不能转出、不能交易，只有一个去处：提取收益时销毁。质押越多，买入越多；提取越多，烧得越多。
 {% endhint %}
 
 ## 经济生命周期 <a href="#the-economic-lifecycle" id="the-economic-lifecycle"></a>
 
-早期轮 EXON 从 TGE 起进入统一的 **1,095 天线性释放**，分 2,190 个 12 小时 Epoch 完成。XO 质押收益按 **200% 基础年化**参数、**1.00 – 1.50** 的期限权重、每天两个 Epoch 计算。30 天期限提前退出，从 72% 的质押基数中扣除 10% – 15%。
+**质押。** XO 质押每 12 小时结算一次，单次 0.3% – 1.0%，北京时间 08:00 / 20:00；质押 1,000 U，一天 6 – 20 U。期限 30 / 90 / 180 / 360 / 540 天，加成基础 / +10% / +20% / +30% / +50%，只看期限不看金额。30 天档第 31 天是退出窗口，本金加收益一起领，不收违约金；错过自动续期 90 → 180 → 360 → 540 天。
 
-收益赎回有 T+0、30D、60D 三档，分别净释放 70%、85%、100%，并对应永久销毁等值的 30%、15%、0% EXON。动态奖励采用相邻等级的 Differential Matching Bonus，Reward Payout Ratio 区间 150% – 200%。
+**提取。** 收益以 XO 到账，随时可提取。到账方式三选一：立即到账销毁 30%、30 天到账销毁 20%、60 天到账销毁 10%，销毁的是燃料钱包里等值的 EXON，永久退出流通。
 
-## 还没有公布的部分 <a href="#what-has-not-been-published" id="what-has-not-been-published"></a>
+**私募与释放。** EXON 总量 10 亿枚，私募只放 2 亿枚，按 0.1 U 认购，三档 1,000 / 5,000 / 10,000 U 共 11,500 份；认购与质押按 3:1 配置。上线 1.0 U，当日起 1,095 天逐日释放，每 12 小时到账一次，共 2,190 次。
 
-EXON 的数字总量、完整分配、初始流通量、后续轮次额度与折扣、最终日期，以及完整的动态奖励等级表，在定稿来源里没有给出。这些字段保持[待定](../open-parameters/README.md)状态，不由任何其他文件替它补齐。
+**动态。** 推广奖励最多 20 代、合计 76%，按下级每日静态产出计算；领导奖金 V1 – V12 按等级极差发放，V10 – V12 分享全球 XO 入金 3% 的奖金池。全部以 XO 发放，与静态收益同一个周期结算，提取时同样销毁。
 
 ## 这一部分包含 <a href="#in-this-part" id="in-this-part"></a>
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>双币，两份工作</strong></td><td>为什么价值沉淀和活跃流通不能是同一份工作。</td><td><a href="two-assets-two-jobs.md">two-assets-two-jobs.md</a></td></tr><tr><td><strong>分配与释放</strong></td><td>早期档位、TGE 指导价、1,095 天线性释放。</td><td><a href="distribution.md">distribution.md</a></td></tr><tr><td><strong>质押与收益</strong></td><td>200% 基础年化、期限权重、续期阶梯与提前退出。</td><td><a href="staking-and-returns.md">staking-and-returns.md</a></td></tr><tr><td><strong>完整演算案例</strong></td><td>三个案例，把每一个数字连同它的假设一起摆出来。</td><td><a href="worked-examples.md">worked-examples.md</a></td></tr><tr><td><strong>价值流转</strong></td><td>六条流，各自记账，不合并成一个故事。</td><td><a href="value-flows.md">value-flows.md</a></td></tr><tr><td><strong>XO 与 EXON</strong></td><td>两种资产各自的名字、角色与当前机制。</td><td><a href="xo.md">xo.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>双币，两份工作</strong></td><td>为什么价值沉淀和活跃流通不能是同一份工作。</td><td><a href="two-assets-two-jobs.md">two-assets-two-jobs.md</a></td></tr><tr><td><strong>分配与释放</strong></td><td>私募三档、3:1 配置、1.0 U 上线、1,095 天线性释放。</td><td><a href="distribution.md">distribution.md</a></td></tr><tr><td><strong>质押与收益</strong></td><td>每 12 小时 0.3% – 1.0%、期限加成、退出窗口、提取三档、20 代与 V1 – V12。</td><td><a href="staking-and-returns.md">staking-and-returns.md</a></td></tr><tr><td><strong>完整演算案例</strong></td><td>四个案例：释放价值、质押收益、提取销毁、团队奖励，每个数字都能复算。</td><td><a href="worked-examples.md">worked-examples.md</a></td></tr><tr><td><strong>价值流转</strong></td><td>六条流各自记账，最后汇成同一个飞轮。</td><td><a href="value-flows.md">value-flows.md</a></td></tr><tr><td><strong>XO 与 EXON</strong></td><td>两种资产各自的名字、角色与当前机制。</td><td><a href="xo.md">xo.md</a></td></tr></tbody></table>
 
 *下一节：[双币，两份工作](two-assets-two-jobs.md)*

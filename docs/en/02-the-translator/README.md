@@ -88,13 +88,13 @@ The translator coordinates responsibility. It does not absorb it.
 | Capital markets | Show how many steps sit between a position, available funds and a later use | Trading hours, settlement cycles, broker controls, securities rules |
 | Digital finance | Compare routes, prepare transactions, surface on-chain and venue evidence | Liquidity, finality, oracles, asset price |
 | Real consumption | Match an approved budget to eligible inventory | The inventory itself, merchant identity, fulfillment |
-| NEXON economics | Explain 72/28, eligibility, rewards and redemption choices | The approved formulas themselves |
+| NEXON economics | Explains the fuel split, term bonuses, rewards and settlement speeds | The mechanism's own formulas |
 
 The exchange owns its leg. The Staking Platform applies its published staking and redemption rules. A wallet holds or delegates keys according to its own design. Issuers, merchants and travel suppliers each own their regulated or physical leg. The route's job is to **put those borders on the surface** — not hide them behind a chat window.
 
 ## Where today's mechanism sits inside this
 
-The economics already running are specific: one account system connecting NEX Main Exchange / CEX and the Staking Platform. The first carries EXON spot, IEO and release display; the second carries XO principal, term-weighted rewards and redemption. That is the **current mechanism**. "XO as Value Anchor, EXON as Circulation Engine" is the long-term position laid over it.
+The economics already running are specific: one account system connecting NEX Main Exchange / CEX and the Staking Platform. The first carries XO and EXON spot and the daily EXON release display; the second carries XO staking, term bonuses, referral and leadership rewards and reward withdrawal. That is the **current mechanism**. "XO as Value Anchor, EXON as Circulation Engine" is the long-term position laid over it.
 
 The relationship between the two is architectural, not permissional. An agent does not need a staking position to read intent. Holding XO grants an agent no execution authority. EXON is not a general route fee. The application layer helps a user understand and navigate; the economic layer keeps running on its own published parameters.
 

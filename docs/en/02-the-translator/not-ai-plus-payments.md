@@ -11,7 +11,7 @@ Payments answer one action: move an accepted unit of value to a recipient. The N
 
 AI-Native PayFi is the second focus of the NEXON narrative because AI happens to be good at collapsing the translation cost between those steps: read the request, ask for the missing constraint, compare eligible routes, explain the tradeoff, prepare something that can be approved.
 
-What it is not good at is producing yield. The 72/28 split, the staking APY, term weights, release, dynamic rewards and redemption burns all come from the [approved economic mechanism](../05-tokenomics/README.md). Not one parameter comes from a model.
+What it is not good at is producing yield. The fuel split, per-settlement yield, term bonuses, release, referral and leadership rewards and withdrawal burns all come from the [approved economic mechanism](../05-tokenomics/README.md). Not one parameter comes from a model.
 
 ## Four layers that stay separate
 

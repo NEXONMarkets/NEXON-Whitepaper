@@ -62,7 +62,7 @@ The runtime should never ask one component both to propose an action and to poli
 | Native contracts and venue APIs | Enforce the product mechanics themselves |
 | Independent telemetry | Record what actually happened |
 
-Applied to an approved Staking Platform order, the runtime **validates** the published fields rather than improvising them. It verifies the 72% XO staking/PV base, the 28% EXON buy into Treasury Liquidity and the matching `F = 0.28 × P` EXON balance. The fuel stays in the user's account. A failed balance check stops the order — it does not quietly authorize selling something else to cover it.
+Applied to an approved Staking Platform order, the runtime **validates** the published fields rather than improvising them. It verifies the two records: 28% bought into EXON at 1 USDT each in the fuel wallet, and the rest swapped into XO and staked. The fuel wallet can only be burned; when fuel runs short at withdrawal, the order takes a slower settlement speed — the runtime never authorises selling another asset to cover it.
 
 ## Revocation and recovery
 

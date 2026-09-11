@@ -11,13 +11,13 @@ The systems NEXON connects **fail in different ways**. A unified experience can 
 
 | Risk | What it actually is |
 |---|---|
-| **Principal** | Early exit from the 30-day term deducts 10%–15% of the XO staking base. Other failures can also impair principal or access |
+| **Principal** | Day 31 is the only exit window of the 30-day term; missed, the order renews. Other failures can also impair principal or access |
 | **Market and liquidity** | EXON can fall, lack buyers, or trade with material spread and slippage. Guide and early prices do not guarantee a later execution price |
-| **Parameter** | Base APY, term weights, payout ratios and round terms are adjustable where the mechanism permits |
+| **Parameter** | The per-settlement range, term bonuses and leadership execution rates are set by market stage where the mechanism permits |
 | **Release pressure** | Fixed supply does not prevent selling pressure: EXON keeps reaching spot accounts across 1,095 days |
-| **Dual-asset dependency** | EXON price and availability affect order qualification and the cost of a burn-bearing redemption |
-| **Dynamic-reward uncertainty** | Complete levels, thresholds and differential rates are unpublished, so an individual projection cannot be verified from the current paper |
-| **Custody and counterparty** | Exchanges, Treasury operations, contracts, account providers and service providers can fail, restrict access or become unavailable |
+| **Dual-asset dependency** | EXON price and fuel-wallet balance set how much a withdrawal burns and which settlement speed is available |
+| **Dynamic rewards** | Referral rewards follow each downline's daily static output, so team size moves individual payouts directly; leadership rates are published as ranges |
+| **Custody and counterparty** | Exchanges, fuel-wallet operations, contracts, account providers and service providers can fail, restrict access or become unavailable |
 | **Technical and accounting** | Contract bugs, bad price inputs, reward-ledger errors, compromised credentials and faulty reconciliation can all cause loss |
 
 ## Risks in the long-term products

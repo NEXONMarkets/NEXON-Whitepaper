@@ -14,7 +14,7 @@ NEXON 被设计成一层**协调层**，架在价值本来就待着的那些链�
 | 责任域 | 主要负责 | 边界在哪 |
 |---|---|---|
 | 统一身份与账户服务 | 会话、账户视图、资格引用、权限与用户策略 | 视图统一，不代表托管和法律义务被合并 |
-| NEX Main Exchange / CEX | EXON 现货、IEO 与释放呈现 | 不发放本文所述的质押奖励 |
+| NEX 交易所 / 现货层 | XO 自由交易、EXON 现货（只卖不买）与逐日释放呈现 | 不发放本文所述的质押奖励 |
 | Staking Platform | XO 质押本金、订单校验、期限权重、Epoch 收益与赎回 | 它的规则不会变成 PayFi 或商城的通用规则 |
 | 应用编排 | 意图捕获、路径构造、策略校验、审批与凭证 | 它提议和协调，不会因此获得托管权或执行权 |
 | 持牌或第三方执行 | 受监管结算、发卡、商户供货、旅行库存等外部环节 | 各自按自己的条款与辖区担责 |
@@ -25,7 +25,7 @@ NEXON 被设计成一层**协调层**，架在价值本来就待着的那些链�
 flowchart TB
     U["用户"] --> ACC["统一身份与账户服务"]
     ACC --> APP["应用编排<br/><i>意图 · 路径 · 策略 · 审批 · 凭证</i>"]
-    ACC --> CEX["NEX Main Exchange / CEX<br/><i>EXON 现货 · IEO · 释放呈现</i>"]
+    ACC --> CEX["NEX Main Exchange / CEX<br/><i>XO · EXON 现货 · 释放呈现</i>"]
     ACC --> STK["Staking Platform<br/><i>XO 本金 · 期限权重 · Epoch · 赎回</i>"]
     APP --> EXT["持牌 / 第三方执行<br/><i>结算 · 发卡 · 商户 · 旅行库存</i>"]
     APP -. "只发已批准指令" .-> CEX
@@ -54,9 +54,9 @@ flowchart TB
 
 ## 当前的经济边界 <a href="#the-economic-boundary-that-exists-now" id="the-economic-boundary-that-exists-now"></a>
 
-经济架构比产品 Roadmap 更窄，也更确定。NEX Main Exchange / CEX 承载 EXON 现货、IEO 与释放呈现；Staking Platform 承载单币质押、期限权重、动态奖励与赎回。两边可以共享身份、账户可见性和资金操作，但账本、权限与披露各自独立。
+经济架构比产品 Roadmap 更窄，也更确定。NEX 交易所承载 XO 与 EXON 现货、以及 EXON 逐日释放呈现；Staking Platform 承载 XO 质押、期限加成、推广奖励、领导奖金与收益提取。两边可以共享身份、账户可见性和资金操作，但账本、权限与披露各自独立。
 
-一笔 Staking Platform 订单按 7228 走：72% 建立 XO 质押 / PV 基数，28% 买入 EXON 注入 Treasury Liquidity；另有等值 28% 的 EXON 在用户账户里接受校验，校验完仍归用户。**这是这个产品自己的规则**——不是通用架构模式，也不是未来应用的费率模型。
+一笔 Staking Platform 订单开单即分两份：28% 按当时 1 U 等值买入 EXON 存入燃料钱包（只能销毁），其余兑换 XO 进入质押、每 12 小时结算。**这是这个产品自己的规则**——不是通用架构模式，也不是未来应用的费率模型。
 
 ## 一条跨越边界的路径 <a href="#one-route-across-the-boundaries" id="one-route-across-the-boundaries"></a>
 

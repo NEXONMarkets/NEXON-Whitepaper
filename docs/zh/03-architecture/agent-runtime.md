@@ -62,7 +62,7 @@ flowchart TD
 | 原生合约与场所 API | 强制执行产品机制本身 |
 | 独立遥测 | 记录实际结果 |
 
-放到一笔已批准的 Staking Platform 订单上：运行时**校验**已发布的字段，而不是自己发挥。它核对 72% 的 XO 质押 / PV 基数、28% 买入 EXON 注入 Treasury Liquidity，以及等值 `F = 0.28 × P` 的 EXON 余额。燃料留在用户账户里。余额校验没过，订单停下——它不会顺手授权卖掉另一种资产去补。
+放到一笔已批准的 Staking Platform 订单上：运行时**校验**已发布的字段，而不是自己发挥。它核对 28% 按 1 U 等值买入 EXON 存入燃料钱包、其余兑换 XO 进入质押这两笔记录。燃料钱包只能销毁；提取时燃料不够，订单换更慢的到账方式——它不会顺手授权卖掉另一种资产去补。
 
 ## 撤销与恢复 <a href="#revocation-and-recovery" id="revocation-and-recovery"></a>
 

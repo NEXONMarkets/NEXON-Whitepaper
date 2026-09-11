@@ -11,7 +11,7 @@ icon: not-equal
 
 AI 原生 PayFi 是 NEXON 叙事的第二重点，因为 AI 恰好擅长把这些环节之间的翻译成本压下去：理解请求、追问缺失条件、比较合格路径、解释取舍、准备一个可以审批的动作。
 
-它擅长的不是产生收益。7228、质押年化、期限权重、释放、动态奖励、赎回销毁，全部来自[项目方定稿的经济机制](../05-tokenomics/README.md)，一个参数都不来自模型。
+它擅长的不是产生收益。燃料拆分、单次产出、期限加成、释放、推广与领导奖金、提取销毁，全部来自[项目方定稿的经济机制](../05-tokenomics/README.md)，一个参数都不来自模型。
 
 ## 四层必须分开 <a href="#four-layers-that-stay-separate" id="four-layers-that-stay-separate"></a>
 

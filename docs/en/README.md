@@ -50,7 +50,7 @@ Three definitions, three clocks, three borders. None is wrong, and none can be r
 
 Carries staking, participation and long-term value accumulation.
 
-In the current mechanism, XO is the USDT-priced **Staking Principal Token** inside the Staking Platform: 72% of every qualifying order lands here and becomes the base for static and dynamic rewards.
+In the current mechanism, XO is the **Staking Principal Token** inside the Staking Platform: a staking deposit is swapped into XO and starts earning at once, settled every 12 hours, with static rewards, referral rewards and leadership bonuses all paid in XO.
 {% endcolumn %}
 
 {% column %}
@@ -58,23 +58,23 @@ In the current mechanism, XO is the USDT-priced **Staking Principal Token** insi
 
 Connects trading, payment, exchange and consumption.
 
-In the current mechanism, EXON is NEXON's **Core Value Token** and spot asset: it absorbs programmatic buying, balance checks, linear release and redemption burns.
+In the current mechanism, EXON is NEXON's **Core Value Token**: the private sale at 0.1 USDT is the only way to acquire it, it lists at 1.0 USDT, it is sell-only, and 28% of every deposit buys EXON into the fuel wallet to be burned on withdrawal.
 {% endcolumn %}
 {% endcolumns %}
 
 In one line: **NEXON is the ecosystem, anchored by XO and circulated through EXON.**
 
-## The economics running today
+## The economics running today <a href="#the-economics-running-today" id="the-economics-running-today"></a>
 
-One account, two operating layers that mind their own business. **NEX Main Exchange / CEX** carries EXON spot activity, IEO and release display. The **Staking Platform** carries single-token staking, term weighting, dynamic rewards and redemption. They share an account system and a capital backend; their ledgers, permissions and disclosures stay separate.
+One account, two operating layers that mind their own business. The **NEX exchange** is the spot layer: XO trades freely, EXON lists sell orders only with no buy orders, and the daily release is displayed from listing day. The **Staking Platform** handles XO staking, settlement every 12 hours, term bonuses, referral rewards, leadership bonuses and reward withdrawal. Both share the account system and the back office, but ledgers, permissions and disclosures stay separate.
 
-A qualifying order splits 72/28:
+A staking deposit is split in two the moment the order opens:
 
-<figure><img src=".gitbook/assets/chart-72-28-split.svg" alt="Every 100 USDT of principal splits two ways: 72 dots to the XO staking base, 28 dots to an EXON buy into Treasury Liquidity"><figcaption>72/28: principal establishes the XO staking base, while 28% buys EXON at the prevailing price into Treasury Liquidity</figcaption></figure>
+<figure><img src=".gitbook/assets/onepage-04-fuel-wallet.svg" alt="A 1,000 USDT deposit: 28%, or 280 USDT, buys 280 EXON at 1 USDT each into the fuel wallet — burn only, no transfer, no trading"><figcaption>A 1,000 USDT deposit: 280 EXON into the fuel wallet, the rest swapped into XO and earning</figcaption></figure>
 
-<table><thead><tr><th width="150">Parameter</th><th width="210">Value</th><th>What it does</th></tr></thead><tbody><tr><td>Capital split</td><td><code>S = 0.72 × P</code> · <code>B = 0.28 × P</code></td><td>S is the interest base; B buys EXON into Treasury Liquidity</td></tr><tr><td>Fuel check</td><td><code>F = 0.28 × P</code></td><td>Checks the EXON balance in the user's account — not transferred, charged or burned</td></tr><tr><td>Base APY</td><td>200%</td><td>Multiplied by a term weight of 1.00 / 1.10 / 1.20 / 1.35 / 1.50</td></tr><tr><td>Epoch</td><td>12 hours</td><td>Two a day; static and dynamic rewards settle on the same clock</td></tr><tr><td>Linear release</td><td>1,095 days · 2,190 epochs</td><td><code>D = A ÷ 1,095</code>, <code>R_epoch = A ÷ 2,190</code></td></tr><tr><td>Redemption lanes</td><td>T+0 / 30D / 60D</td><td>Burns an equivalent 30% / 15% / 0% of EXON; releases 70% / 85% / 100%</td></tr></tbody></table>
+<table><thead><tr><th width="150">Parameter</th><th width="230">Value</th><th>What it does</th></tr></thead><tbody><tr><td>Deposit split</td><td>28% fuel · the rest into XO</td><td>28% buys EXON at 1 USDT each into the fuel wallet (burn only); the rest is swapped into XO and staked</td></tr><tr><td>Static settlement</td><td>0.3% – 1.0% every 12 hours</td><td>At 08:00 and 20:00 Beijing time; 1,000 USDT staked earns 6 – 20 USDT a day, paid in XO</td></tr><tr><td>Term bonus</td><td>base / +10% / +20% / +30% / +50%</td><td>30 / 90 / 180 / 360 / 540 days, set by term alone; day 31 is the 30-day term's exit window</td></tr><tr><td>Withdrawal and burn</td><td>30% / 20% / 10%</td><td>Immediate / 30-day / 60-day settlement; the equivalent EXON burns from the fuel wallet, gone for good</td></tr><tr><td>Private sale and listing</td><td><code>0.1 USDT → 1.0 USDT</code></td><td>Three tiers of 1,000 / 5,000 / 10,000 USDT, 11,500 allocations, 200 million EXON; paired with an XO stake at 3:1; sell only, never buy</td></tr><tr><td>Linear release</td><td>1,095 days · 2,190 payouts</td><td>Daily from listing day, <code>D = A ÷ 1,095</code></td></tr><tr><td>Dynamic rewards</td><td>20 generations at 76% · V1 – V12</td><td>On each downline's daily static output, paid on the level differential, settled in XO, burning on withdrawal</td></tr></tbody></table>
 
-This is the economic baseline. The larger product story sits on top of it and changes none of its numbers.
+This mechanism is the current economic baseline. The larger product narrative sits on top of it without rewriting a single number.
 
 ## The long arc: an AI-native financial-social ecosystem
 
@@ -100,10 +100,10 @@ flowchart LR
 
 ## Where to start
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Start with the problem</strong></td><td>Why the three markets are still disconnected, and what bridges, stablecoin rails and tokenization each leave out.</td><td><a href="01-the-split/README.md">README.md</a></td></tr><tr><td><strong>Start with the thesis</strong></td><td>Intent → Route → Policy Check → User Approval → Execution → Receipt: the six stages that replace manual translation.</td><td><a href="02-the-translator/README.md">README.md</a></td></tr><tr><td><strong>Start with the numbers</strong></td><td>72/28, the 200% Base APY, term weights, the 1,095-day release, redemption burns and full worked examples.</td><td><a href="05-tokenomics/README.md">README.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Start with the problem</strong></td><td>Why the three markets are still disconnected, and what bridges, stablecoin rails and tokenization each leave out.</td><td><a href="01-the-split/README.md">README.md</a></td></tr><tr><td><strong>Start with the thesis</strong></td><td>Intent → Route → Policy Check → User Approval → Execution → Receipt: the six stages that replace manual translation.</td><td><a href="02-the-translator/README.md">README.md</a></td></tr><tr><td><strong>Start with the numbers</strong></td><td>0.3% – 1.0% every 12 hours, term bonuses, the private sale at 0.1 USDT listing at 1.0 USDT, the 1,095-day release, burn on withdrawal and the worked examples.</td><td><a href="05-tokenomics/README.md">README.md</a></td></tr></tbody></table>
 
 If you want the arithmetic first, jump to [Worked Examples](05-tokenomics/worked-examples.md). If you want to know who is responsible for each leg and who resolves a failure, jump to [Protocol Architecture](03-architecture/README.md).
 
 NEXON is the first flagship project on the NEX exchange.
 
-*Economic parameters and calculations in this paper come from the project's Tokenomics approved on 6 September 2026. Every return calculation states the price assumption it rests on; the full legal and risk statement is in the [Legal Disclaimer](legal-disclaimer/README.md).*
+*The economic parameters and calculations in this paper follow the current mechanism finalised on 10 September 2026; the legal and risk boundaries are in the [Legal Disclaimer](legal-disclaimer/README.md).*

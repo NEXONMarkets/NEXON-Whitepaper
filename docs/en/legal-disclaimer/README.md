@@ -9,7 +9,7 @@ This paper describes a project under construction. It is not an offer, a solicit
 
 **The two assets.** XO is the Value Anchor in narrative and the staking principal token in mechanism; EXON is the Circulation Engine in narrative and the core value token and spot instrument in mechanism. Neither represents equity, debt or a deposit.
 
-**The numbers.** APY, reward, price, ROI and static payback figures are protocol parameters, or calculations made under the price assumption stated inside the sentence. Outcomes depend on price, liquidity, fees, rules and execution.
+**The numbers.** Per-settlement yield, reward, price, ROI and subscription-recovery figures are protocol parameters, or calculations made under the price assumption stated inside the sentence. Outcomes depend on price, liquidity, fees, rules and execution.
 
 **Product status.** AI-Native PayFi is live; the Wallet, Marketplace and decentralized Social App are in development; the Stablecoin Card is a roadmap direction. Merchants, issuers, custodians, venues and third-party protocols operate under their own terms and risks. AI output can be wrong and does not replace user approval or professional advice.
 

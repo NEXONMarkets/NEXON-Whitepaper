@@ -5,9 +5,9 @@ icon: scale-balanced
 
 # Governance
 
-Governance cannot be inferred from token ownership. The approved economic paper defines XO as the Staking Principal Token and EXON as the Core Value Token and spot asset. It does not publish an on-chain voting mechanism, and it does not give either asset a current vote.
+Governance is one of the functions of XO (Roadmap). The current mechanism defines XO as the Staking Principal Token and EXON as the Core Value Token; the specific rules for proposals, voting and execution are published together with the governance framework.
 
-The narrative positions XO as the Value Anchor, associated with staking, participation, rights and long-term value accumulation. Governance utility inside that position belongs to the **long-term direction**. Until a formal framework is published, governance is **administration** by accountable project operators under disclosed controls.
+The narrative positions XO as the Value Anchor, associated with staking, participation, governance and long-term value. Until the governance framework is published, parameters are **administered** by accountable project operators under disclosed controls.
 
 ## How parameters are administered today
 
@@ -69,7 +69,7 @@ Some decisions stay with regulated providers or contractual operators regardless
 
 ## Disclosure discipline
 
-An unpublished field is not a decided field. The numerical EXON total supply, complete allocation, initial float, later-round caps and the complete Differential Matching Bonus table stay [Open](../open-parameters/README.md). So do the governance thresholds, scope and participation rewards described above.
+Execution rates for leadership bonuses V1 – V12 are published externally as ranges, set by market stage and recorded by parameter version; the switch to 1:1 pairing after listing and the thresholds and scope of XO governance are listed under [Open Parameters](../open-parameters/README.md).
 
 When a future written decision takes effect, it updates the authority registry, both language trees, the user interfaces and the calculation tests **together**. Conflicting historical material stays archived and is not reused as current copy.
 

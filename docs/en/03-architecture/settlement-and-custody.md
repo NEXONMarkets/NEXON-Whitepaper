@@ -61,7 +61,7 @@ The approved mechanism implies at least three separable record domains:
 |---|---|
 | Exchange records | EXON purchases, sales and vesting release display |
 | Staking records | XO principal, the order parameter version, term weight, every 12-hour epoch, the selected redemption schedule |
-| Treasury records | EXON acquired through the 28% build into Treasury Liquidity |
+| Fuel-wallet records | EXON bought with 28% of each deposit at 1 USDT each; burn only |
 
 When a burn-bearing lane is chosen, reward redemption produces two explicit outputs:
 
@@ -70,9 +70,9 @@ Net  = W × (1 − b)
 Burn = W × b
 ```
 
-`W` is the pending reward and `b` the selected burn rate: 30% for T+0, 15% for 30D, 0% for 60D. The system must verify the equivalent EXON burn and write a permanent destruction record before completing a redemption that requires one. **That mechanism belongs to the redemption choice** — it is not a PayFi route fee, a card fee or a marketplace charge.
+`W` is the reward withdrawn and `b` the burn share of the chosen settlement speed: 30% immediate, 20% for 30-day, 10% for 60-day. The system burns the equivalent EXON from the fuel wallet and writes a permanent destruction record before completing the withdrawal. **This mechanism belongs to the withdrawal choice itself** — it is not a PayFi route fee, a card fee or a marketplace charge.
 
-The `F = 0.28 × P` fuel balance is likewise not custody transferred to Treasury. It is a qualification check, and the asset stays in the user's account. The ledger must keep **Treasury's B** and **the user's checked F** apart.
+The fuel wallet is likewise not custody transferred to an operator: it is the user's EXON, bought with 28% of the deposit, and it can only be burned. The ledger must keep **the EXON in the fuel wallet** and **the XO under stake** apart.
 
 ## Partial failure and recovery
 
@@ -87,7 +87,7 @@ No architecture guarantees recovery from every failure. What it can do is **defi
 | After incorrect model advice | Stop unexecuted legs. Model error alone does not reverse a native settlement |
 | After account or provider compromise | Revoke future permissions, isolate affected routes, follow the custodian's incident process |
 
-Treasury balances, token burns and automatic retry are not a user-level recovery guarantee. **Recovery depends on the native leg, available liquidity, contract behavior, the responsible operator and the applicable terms.**
+**Recovery depends on the native leg, available liquidity, contract behavior, the responsible operator and the applicable terms.**
 
 ## Six commitments for this layer
 

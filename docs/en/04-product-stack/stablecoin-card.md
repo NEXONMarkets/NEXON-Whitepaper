@@ -61,7 +61,7 @@ Offline authorization, recurring merchant charges, tips, reversals and chargebac
 
 The approved Tokenomics does not designate EXON as current card settlement fuel, nor XO as card collateral. EXON's payment and fee roles belong to the long-term direction. If a future card supports EXON directly or uses it in a disclosed conversion path, that support must name the price source, liquidity, spread, fee, custody and refund treatment.
 
-Card economics and Staking Platform rewards and EXON redemption burns **run on separate tracks**. A card transaction does not earn the staking APY because it shares an ecosystem, and a merchant refund is not governed by a redemption burn.
+Card economics and Staking Platform rewards and EXON redemption burns **run on separate tracks**. A card transaction does not earn staking rewards because it shares an ecosystem, and a merchant refund is not governed by a redemption burn.
 
 ## What has to ship before launch
 

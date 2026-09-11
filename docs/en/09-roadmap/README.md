@@ -24,7 +24,7 @@ flowchart LR
 
 **Goal:** implement the approved economic mechanism and verify it.
 
-The evidence of completion is a versioned rule set that reproduces: the 72/28 order split, the EXON fuel-balance check, the 1,095-day release, the Base APY, term weights, 12-hour epochs, early exit, the three redemption lanes and equivalent EXON burns.
+The evidence of completion is a versioned rule set that reproduces: the order split into 28% fuel and the rest into XO, the 1,095-day release, settlement every 12 hours at 0.3% – 1.0%, term bonuses, the day-31 exit window, three settlement speeds with fuel-wallet burns, 20 generations of referral rewards and V1 – V12 leadership bonuses.
 
 NEX Main Exchange / CEX and the Staking Platform hold **separable permissions, ledgers and disclosures**. Every order records principal, build, staking base, term, weight and parameter version.
 
@@ -58,6 +58,6 @@ The gates: portable identity, community and moderation rules, strategy-content d
 
 Every phase also requires accountable entities, applicable legal review, incident handling, independent security evidence, monitoring, published change notices, and bilingual documentation aligned with the narrative and economic sources of truth.
 
-The following stay [Open](../open-parameters/README.md) until formally approved: contract addresses, final TGE and round dates, the numerical EXON supply, complete allocation and initial float, the full dynamic-reward levels, product operators, supported jurisdictions, fees and service levels.
+The following stay [Open](../open-parameters/README.md) until formally approved: contract addresses, the switch to 1:1 pairing after listing, leadership execution rates, product operators, supported jurisdictions, fees and service levels.
 
 *Previous: [Compliance & Legal Posture](../08-compliance/README.md) · Appendix: [Glossary](../glossary/README.md)*

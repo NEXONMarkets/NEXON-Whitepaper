@@ -14,7 +14,7 @@ NEXON is designed as a **coordination layer** above the chains, venues, account 
 | Domain | Owns | Where its edge is |
 |---|---|---|
 | Unified identity and account services | Session, account view, eligibility references, permissions, user policy | A unified view does not merge custody or legal obligation |
-| NEX Main Exchange / CEX | EXON spot activity, IEO, release display | Does not distribute the staking rewards described here |
+| NEX exchange / spot layer | XO trades freely; EXON spot (sell only) and daily release display | Does not distribute the staking rewards described here |
 | Staking Platform | XO staking principal, order validation, term weighting, epoch rewards, redemption | Its rules never become universal PayFi or marketplace rules |
 | Application orchestration | Intent capture, route construction, policy checks, approval, receipts | It proposes and coordinates; it does not acquire custody or authority by doing so |
 | Licensed or third-party execution | Regulated settlement, card issuance, merchant supply, travel inventory | Each operator answers under its own terms and jurisdiction |
@@ -25,7 +25,7 @@ One account makes these five easier to navigate. It does not fuse them into one 
 flowchart TB
     U["User"] --> ACC["Unified identity and account services"]
     ACC --> APP["Application orchestration<br/><i>intent · route · policy · approval · receipt</i>"]
-    ACC --> CEX["NEX Main Exchange / CEX<br/><i>EXON spot · IEO · release display</i>"]
+    ACC --> CEX["NEX Main Exchange / CEX<br/><i>XO · EXON spot · release display</i>"]
     ACC --> STK["Staking Platform<br/><i>XO principal · term weight · epoch · redemption</i>"]
     APP --> EXT["Licensed / third-party execution<br/><i>settlement · issuing · merchants · travel inventory</i>"]
     APP -. "approved instructions only" .-> CEX
@@ -54,9 +54,9 @@ They map one-to-one onto the six-stage path: **Intent → Route → Policy Check
 
 ## The economic boundary that exists now
 
-The economic architecture is narrower and more settled than the product roadmap. NEX Main Exchange / CEX carries EXON spot trading, IEO and release display. The Staking Platform carries single-token staking, term weighting, dynamic rewards and redemption. They may share identity, account visibility and capital operations; their ledgers, permissions and disclosures stay distinct.
+The economic architecture is narrower and more settled than the product roadmap. The NEX exchange carries XO and EXON spot trading and the daily EXON release display. The Staking Platform carries XO staking, term bonuses, referral rewards, leadership bonuses and reward withdrawal. They may share identity, account visibility and capital operations; their ledgers, permissions and disclosures stay distinct.
 
-A Staking Platform order runs 72/28: 72% establishes the XO staking/PV base, 28% buys EXON into Treasury Liquidity, and a matching 28% of EXON is checked in the user's account and stays there. **That is this product's own rule** — not a general architectural pattern, and not a fee model for future applications.
+A Staking Platform order splits the moment it opens: 28% buys EXON at 1 USDT each into the fuel wallet (burn only), and the rest is swapped into XO and staked, settling every 12 hours. **That is this product's own rule** — not a general architectural pattern, and not a fee model for future applications.
 
 ## One route across the boundaries
 

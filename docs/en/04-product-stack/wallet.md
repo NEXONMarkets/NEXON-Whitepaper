@@ -20,9 +20,9 @@ For the current Staking Platform mechanism, the wallet should show:
 | Display | Note |
 |---|---|
 | Qualifying principal `P` | What went into this order |
-| 28% EXON build | Bought and moved into Treasury Liquidity |
-| 72% XO staking / PV base | The interest base |
-| Matching EXON fuel check | Marked clearly as **still in the user's account** |
+| 28% fuel | Buys EXON at 1 USDT each into the fuel wallet |
+| The rest into XO | Staked, settled every 12 hours |
+| Fuel wallet | Burned only when rewards are withdrawn; no transfer, no trading |
 | Selected term and weight | 30 / 90 / 180 / 360 / 540 days, 1.00 – 1.50 |
 | 12-hour epoch accruals and parameter version | Each accrual records the rule version in force |
 | Early-exit condition | Applies to the 30-day term only |
@@ -59,7 +59,7 @@ Participation requires its own user approval. **Social popularity and an AI fore
 
 ## Staking access, not new economics
 
-The wallet can provide an interface to the existing Staking Platform. That interface reproduces the confirmed mechanism at its current parameter version: it cannot change 72/28, invent dynamic-reward levels, or imply principal protection. Any calculated return states the price assumption it rests on.
+The wallet can provide an interface to the existing Staking Platform. That interface reproduces the confirmed mechanism at its current parameter version: it cannot change the 28% fuel split or the 20-generation and V1 – V12 rates, and it never implies principal protection. Any calculated return states the price assumption it rests on.
 
 ## Its place in the loop
 

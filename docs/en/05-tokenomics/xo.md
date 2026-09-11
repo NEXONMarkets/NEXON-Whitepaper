@@ -1,66 +1,58 @@
 ---
-description: "XO is NEXON's narrative Value Anchor and, in the current mechanism, the protocol-priced Staking Principal Token."
+description: "XO is the Value Anchor of the NEXON narrative and, today, the Staking Principal Token: settled every 12 hours, with all three reward streams paid in XO."
 icon: circle-x
 ---
 
 # XO — Value Anchor
 
-XO holds a long-term position and a precise current function under one name.
+XO carries a long-term positioning and a precise current function under one name.
 
-In the NEXON narrative, XO is the **Value Anchor**: the side associated with staking, participation, ecosystem rights and long-term value accumulation. In the approved economic mechanism, XO is the **Staking Principal Token** used inside the Staking Platform.
+In the NEXON narrative, XO is the **Value Anchor**: the side associated with staking, participation, governance and long-term value. In the current mechanism, XO is the **Staking Principal Token** used inside the Staking Platform.
 
-The second sentence defines what happens now. The first explains why that function matters to the ecosystem.
+The second sentence defines what happens now; the first explains why that function matters to the ecosystem.
 
-## Name and narrative role
+## Name and narrative role <a href="#name-and-narrative-role" id="name-and-narrative-role"></a>
 
-`X` stands for cross-domain connection and possibility. `O` stands for the ecosystem loop and value accumulation. Together, XO names the asset **around which durable participation can be organized**.
+`X` stands for cross-domain connection and possibility. `O` stands for the closed loop and settled value. Together, XO names an asset that **durable participation can be organised around.**
 
-"Value Anchor" describes an ecosystem role, not a price commitment: XO carries the long-duration half of the dual-asset model while EXON handles active circulation.
+"Value Anchor" describes the ecosystem role: XO carries the long-cycle half of the two-asset model, and EXON carries active circulation.
 
-## The current mechanical role
+## The current mechanical role <a href="#the-current-mechanical-role" id="the-current-mechanical-role"></a>
 
-A user acquires XO from Treasury at a USDT-denominated price managed by the protocol. XO circulates internally under that mechanism, independent of EXON's public secondary-market price.
+XO supply is 1 billion, trading freely on the NEX secondary market. When a deposit is staked, everything beyond the 28% fuel portion is swapped into XO and staked; earning starts on staking.
 
-For qualifying principal `P`, the staking base is:
-
-```text
-S = 0.72 × P
-```
-
-`S` is the XO staking / PV base used in static reward calculation and dynamic reward accounting. **The separate 28% EXON purchase does not increase `S`**, and the matching EXON balance check does not become XO principal.
-
-The order also records term and weight:
+**Settlement every 12 hours, 0.3% – 1.0% each time, at 08:00 and 20:00 Beijing time.** 1,000 USDT staked earns 6 – 20 USDT a day. The longer the term, the higher the bonus — set by term alone, never by amount:
 
 | Term | 30 days | 90 days | 180 days | 360 days | 540 days |
 |---|---:|---:|---:|---:|---:|
-| Weight `w` | 1.00 | 1.10 | 1.20 | 1.35 | 1.50 |
+| Bonus | base | +10% | +20% | +30% | +50% |
+| 1,000 USDT staked · per day | 6 – 20 USDT | 6.6 – 22 USDT | 7.2 – 24 USDT | 7.8 – 26 USDT | 9 – 30 USDT |
+| Cumulative lock | 1,200 days | 1,170 days | 1,080 days | 900 days | 540 days |
 
-Rewards accrue in 12-hour epochs using the published Base APY parameter and the selected weight. That parameter is adjustable and may change by issuance round, so an accrual is always read against the parameter version recorded on the order. The 30-day term supports early exit with a 10%–15% deduction from `S`; the exact rate inside that band has not been published.
+Static rewards, referral rewards and leadership bonuses are **all paid in XO**, settled in the same cycle as static rewards. Rewards can be withdrawn at any time; once 100 USDT has accrued it can be staked as a new order, and the principal keeps compounding.
 
-## Long-term direction (Roadmap)
+Day 31 is the exit window of the 30-day term: principal plus 30 days of rewards, no penalty. Miss the window and the order renews automatically, 90 → 180 → 360 → 540 days. Open a 540-day term directly and the bonus is +50% with a cumulative lock of only 540 days. Minimum order 100 USDT.
 
-The narrative anticipates broader participation, rights and governance utility for XO. Those belong to the **long-term direction**, not to current rights. Before any of them goes live, a formal design has to state:
+## Governance and wider rights (Roadmap) <a href="#governance-and-wider-rights" id="governance-and-wider-rights"></a>
 
-* what governance covers and what it does not;
-* eligibility, thresholds and delegation rules;
-* how conflicts of interest and concentrated holdings are handled;
-* if voting is used: proposal, quorum, voting and execution processes;
-* whether rights are transferable or tied to verified participation;
-* how emergency action, appeals and parameter changes work;
-* which legal entity or contract is responsible.
+Governance is one of the functions of XO (Roadmap). The rules for proposals, voting and execution are published together with the governance framework, and at minimum they spell out:
 
-Until those rules are published, holding XO is not a live vote, a revenue share, an executive authority, or a claim on NEXON or NEX assets (see [Open Parameters](../open-parameters/README.md), OP-G01).
+* what is in scope and what is not;
+* eligibility, thresholds and delegation;
+* proposal, quorum, voting and execution flow;
+* conflicts of interest and concentration of holdings;
+* emergency actions, appeals and parameter changes.
 
-## Relationship to the product ecosystem
+Rights based on XO in the Marketplace, the card or the Social App are defined by that product's terms: what the right is, what funds it, who is eligible, how long it lasts, how it changes.
 
-The Wallet can display XO positions, term choices, epoch history and redemption state. PayFi can explain or simulate a staking order. The Social App can supply participation context. **None of those interfaces creates a second reward mechanism or alters the confirmed calculation.**
+## Relationship to the product ecosystem <a href="#relationship-to-the-product-ecosystem" id="relationship-to-the-product-ecosystem"></a>
 
-If a future marketplace, card or social product grants an XO-based benefit, its product terms have to define what the benefit is, what funds it, who qualifies, how long it lasts and how it changes. A narrative association with "rights" is not enough on its own.
+The Wallet shows XO positions, terms, settlement history and withdrawal status; PayFi can explain or simulate a staking order; the Social App provides participation context. **None of these interfaces creates a second reward mechanism or changes the confirmed calculation.**
 
-## XO in three sentences
+## XO in three sentences <a href="#xo-in-three-sentences" id="xo-in-three-sentences"></a>
 
-1. **Narrative:** XO is NEXON's Value Anchor and carries long-term ecosystem value.
-2. **Current mechanism:** XO is the USDT-priced Staking Principal Token and carries `S = 0.72 × P` inside the Staking Platform.
-3. **Long-term direction:** broader participation, rights and governance require separately published rules.
+1. **Narrative**: XO is NEXON's Value Anchor, carrying long-term ecosystem value.
+2. **Current mechanism**: XO is the Staking Principal Token, settled every 12 hours at 0.3% – 1.0%, with all three reward streams paid in XO, trading freely on NEX.
+3. **Opening with each entry point**: governance and wider ecosystem rights, as their rules are published (Roadmap).
 
 *Previous: [Two Assets, Two Jobs](two-assets-two-jobs.md) · Next: [EXON — Circulation Engine](exon.md)*

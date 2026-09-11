@@ -1,5 +1,5 @@
 ---
-description: "The approved NEXON economy — dual-asset narrative roles mapped, without alteration, onto the 72/28 order, release, reward and redemption mechanism."
+description: "NEXON's current economics: two asset roles, XO staking settled every 12 hours, a fuel wallet that only fills, burn on withdrawal, and a 0.1 → 1.0 USDT sale."
 icon: coins
 ---
 
@@ -7,49 +7,49 @@ icon: coins
 
 > NEXON is the ecosystem. XO carries value. EXON drives circulation.
 
-This Part implements the economic model the project approved on 6 September 2026, and maps the narrative positions — XO as **Value Anchor**, EXON as **Circulation Engine** — onto that model **without changing a single piece of its arithmetic**.
+This part sets out NEXON's current economic mechanism (finalised 10 September 2026, confirmed line by line on 11 September) and maps the narrative positioning — XO as **Value Anchor**, EXON as **Circulation Engine** — onto every number in it.
 
-## Read each asset on three levels
+## Read each asset on three levels <a href="#read-each-asset-on-three-levels" id="read-each-asset-on-three-levels"></a>
 
 | Level | XO | EXON |
 |---|---|---|
-| **Narrative** | Value Anchor: participation, staking, rights and long-term value accumulation | Circulation Engine: connecting digital finance, exchange, payments, fees and consumption |
-| **Current mechanism** | USDT-priced Staking Principal Token, used inside the Staking Platform | Core Value Token; the public spot / release / buy / check / burn asset |
-| **Long-term direction** | Broader ecosystem rights and governance, pending published rules | Payment, exchange, fee and consumption utility, pending published product terms |
+| **Narrative** | Value Anchor: staking, participation, governance and long-term value | Circulation Engine: connecting the exchange, payment, exchange, fees and consumption |
+| **Current mechanism** | Staking Principal Token; static rewards, referral rewards and leadership bonuses are all paid in XO; trades freely on NEX | Core Value Token; the private sale at 0.1 USDT is the only way to acquire it, listing at 1.0 USDT; sell only, never buy; 28% of every deposit buys EXON into the fuel wallet, burned on withdrawal |
+| **Opening with each entry point** | Governance rules and wider ecosystem rights (Roadmap) | Trading, payment, exchange and fees, connected as each of the five entry points goes live (Roadmap) |
 
-The narrative says what each asset is **meant** to contribute. The mechanism says what it **does now**. Say both, in that order.
+The narrative says what each asset **carries for the ecosystem**; the mechanism says how it **runs today**. Say both.
 
-## One account, two operating layers
+## One account, two operating layers <a href="#one-account-two-operating-layers" id="one-account-two-operating-layers"></a>
 
-**NEX Main Exchange / CEX** is the spot layer for EXON trading, IEO activity and release display. The separate **Staking Platform** handles single-token staking, term weighting, dynamic rewards and redemption. They may share an account system and a capital backend; staking parameters do not become exchange spot rules, and the exchange does not distribute the staking rewards described here.
+The **NEX exchange** is the spot layer: XO trades freely, EXON lists sell orders only with no buy orders, and the daily release is displayed from listing day. The **Staking Platform** handles XO staking, settlement every 12 hours, term bonuses, referral rewards, leadership bonuses and reward withdrawal. Both share one account system and one back office — open one account, move between the two.
 
-Every qualifying principal `P` follows the same 72/28 path:
+## How a deposit splits <a href="#how-a-deposit-splits" id="how-a-deposit-splits"></a>
+
+Every staking deposit `P` is split in two the moment the order opens, automatically:
 
 ```text
-B = 0.28 × P   → buy EXON at the prevailing price → Treasury Liquidity
-S = 0.72 × P   → XO staking principal and reward / PV base
-B + S = P
-F = 0.28 × P   → matching EXON balance check; stays with the user
+Fuel  = 0.28 × P   → buys EXON at 1 USDT each → fuel wallet (burn only)
+Stake = the rest   → swapped into XO → staked, settled every 12 hours
 ```
 
-{% hint style="info" %}
-`B` and `F` have **the same USDT value and completely different ownership and function**. `B` is EXON bought into Treasury Liquidity. `F` is a balance checked in the user's own account — not transferred, charged or burned when the order opens. Conflating the two is the single most common misreading of this mechanism.
+<figure><img src="../.gitbook/assets/onepage-04-fuel-wallet.svg" alt="A 1,000 USDT deposit: 28%, or 280 USDT, buys 280 EXON at 1 USDT each into the fuel wallet — burn only, no transfer, no trading"><figcaption>A 1,000 USDT deposit: 280 EXON into the fuel wallet, the rest swapped into XO and earning</figcaption></figure>
+
+{% hint style="success" %}
+**The fuel wallet only ever fills.** Nothing in it can be transferred out or traded; its EXON has one destination — burned when rewards are withdrawn. The more is staked, the more is bought; the more is withdrawn, the more is burned.
 {% endhint %}
 
-## The economic lifecycle
+## The economic lifecycle <a href="#the-economic-lifecycle" id="the-economic-lifecycle"></a>
 
-Early-round EXON enters the common **1,095-day linear release** from TGE, across 2,190 twelve-hour epochs. XO staking rewards use a **200% Base APY** parameter, a term weight from **1.00 to 1.50**, and two epochs per day. Early exit from the 30-day term deducts 10%–15% from the 72% staking base.
+**Staking.** XO staking settles every 12 hours at 0.3% – 1.0% per settlement, at 08:00 and 20:00 Beijing time; 1,000 USDT staked earns 6 – 20 USDT a day. Terms of 30 / 90 / 180 / 360 / 540 days carry bonuses of base / +10% / +20% / +30% / +50%, set by term alone. Day 31 is the exit window of the 30-day term — principal plus rewards, no penalty; miss it and the order renews 90 → 180 → 360 → 540 days.
 
-Reward redemption offers T+0, 30D and 60D lanes, releasing 70%, 85% and 100% and permanently burning an equivalent 30%, 15% or 0% of EXON. Dynamic rewards use an adjacent-level Differential Matching Bonus with a Reward Payout Ratio band of 150%–200%.
+**Withdrawal.** Rewards land in XO and can be withdrawn at any time, through one of three settlement speeds: immediate with a 30% burn, 30-day with 20%, 60-day with 10%. What burns is the equivalent EXON in the fuel wallet, gone from circulation for good.
 
-The Base APY and the payout band are adjustable protocol parameters and may change by issuance round and market conditions. Every figure derived from them is conditional on the parameter version and the price assumption in force at the time.
+**Private sale and release.** EXON supply is 1 billion; the private sale offers only 200 million at 0.1 USDT, in three tiers of 1,000 / 5,000 / 10,000 USDT and 11,500 allocations, each paired with an XO stake at 3:1. Listing is at 1.0 USDT, followed by 1,095 days of daily release — one payout every 12 hours, 2,190 in total.
 
-## What has not been published
+**Dynamic rewards.** Referral rewards reach 20 generations and 76% in total, calculated on each downline's daily static output; leadership bonuses V1 – V12 are paid on the level differential, and V10 – V12 share a global pool of 3% of XO deposits. All are paid in XO, settled in the same cycle as static rewards, and burn on withdrawal in the same way.
 
-The numerical EXON total supply, complete allocation, initial circulating amount, later-round quotas and discounts, final dates and the complete dynamic-reward level table are not given in the approved source. Those fields stay [Open](../open-parameters/README.md), and no other document fills them in.
+## In this part <a href="#in-this-part" id="in-this-part"></a>
 
-## In this Part
-
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Two Assets, Two Jobs</strong></td><td>Why value accumulation and active circulation cannot be the same job.</td><td><a href="two-assets-two-jobs.md">two-assets-two-jobs.md</a></td></tr><tr><td><strong>Distribution &#x26; Release</strong></td><td>Early tiers, the TGE guide price, and the 1,095-day linear release.</td><td><a href="distribution.md">distribution.md</a></td></tr><tr><td><strong>Staking &#x26; Returns</strong></td><td>The 200% Base APY, term weights, the renewal ladder and early exit.</td><td><a href="staking-and-returns.md">staking-and-returns.md</a></td></tr><tr><td><strong>Worked Examples</strong></td><td>Three examples, each number shown next to the assumption it rests on.</td><td><a href="worked-examples.md">worked-examples.md</a></td></tr><tr><td><strong>Value Flows</strong></td><td>Six flows, booked separately, never collapsed into one story.</td><td><a href="value-flows.md">value-flows.md</a></td></tr><tr><td><strong>XO and EXON</strong></td><td>Each asset's name, role and current mechanism.</td><td><a href="xo.md">xo.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Two Assets, Two Jobs</strong></td><td>Why storing value and moving it cannot be the same job.</td><td><a href="two-assets-two-jobs.md">two-assets-two-jobs.md</a></td></tr><tr><td><strong>Distribution &amp; Release</strong></td><td>Three sale tiers, the 3:1 pairing, listing at 1.0 USDT, 1,095 days of linear release.</td><td><a href="distribution.md">distribution.md</a></td></tr><tr><td><strong>Staking &amp; Returns</strong></td><td>0.3% – 1.0% every 12 hours, term bonuses, the exit window, three settlement speeds, 20 generations and V1 – V12.</td><td><a href="staking-and-returns.md">staking-and-returns.md</a></td></tr><tr><td><strong>Worked Examples</strong></td><td>Four cases — release value, staking income, withdrawal burn, team rewards — every number reproducible.</td><td><a href="worked-examples.md">worked-examples.md</a></td></tr><tr><td><strong>Value Flows</strong></td><td>Six flows, each on its own ledger, converging on one flywheel.</td><td><a href="value-flows.md">value-flows.md</a></td></tr><tr><td><strong>XO and EXON</strong></td><td>Each asset's name, role and current mechanism.</td><td><a href="xo.md">xo.md</a></td></tr></tbody></table>
 
 *Next: [Two Assets, Two Jobs](two-assets-two-jobs.md)*

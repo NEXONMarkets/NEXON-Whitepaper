@@ -42,7 +42,7 @@ Comparisons follow the user's constraints. Any routing incentive that could affe
 {% tab title="3 · Apply policy checks" %}
 Hard controls sit outside model judgment: account status, identity references, allowlists, blocklists, spend limits, quote freshness, reserve floors and each product's own rules. **A high confidence score does not override a failed rule.**
 
-Where a current Staking Platform order is involved, PayFi can explain and validate 72/28: 72% establishes the XO staking/PV base, 28% buys EXON into Treasury Liquidity, and a matching 28% of EXON is checked in the user's account and stays there. The interface does not modify those values, and does not call the check a fee.
+Where a current Staking Platform order is involved, PayFi can explain and validate the deposit split: 28% buys EXON at 1 USDT each into the fuel wallet, and the rest is swapped into XO and staked. The product interface does not alter these values and does not present the fuel purchase as a fee.
 {% endtab %}
 
 {% tab title="4 · Request scoped authority" %}
@@ -68,7 +68,7 @@ Receipts are also the feedback edge of the loop: the Wallet can use authorized h
 
 The approved Tokenomics defines the Staking Platform's economics — not the economics of every future PayFi route. PayFi fees, spreads, payment assets, issuer charges, merchant costs and refund terms, where they exist, are stated in the relevant product terms before execution.
 
-AI does not generate staking yield either. The Base APY, term weights, epochs, early-exit treatment, dynamic rewards and redemption burns are mechanism parameters applied by the Staking Platform. **A PayFi simulation reproduces those parameters and names the assumptions it used.**
+AI does not generate staking yield either. The per-settlement yield, term bonuses, settlement cycle, exit window, referral and leadership rewards and withdrawal burns are mechanism parameters applied by the Staking Platform. **A PayFi simulation reproduces those parameters and names the assumptions it used.**
 
 ## Safety and accountability
 

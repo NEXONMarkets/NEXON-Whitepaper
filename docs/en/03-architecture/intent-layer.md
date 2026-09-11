@@ -68,9 +68,8 @@ For a staking order, the recorded variables are:
 
 ```text
 P = qualifying order principal
-B = 0.28 × P   EXON purchase into Treasury Liquidity
-S = 0.72 × P   XO staking / PV base
-F = 0.28 × P   matching EXON balance check; stays with the user
+Fuel  = 0.28 × P   → buys EXON at 1 USDT each → fuel wallet (burn only)
+Stake = the rest   → swapped into XO → staked, settled every 12 hours
 ```
 
 The order also records term, weight, the 12-hour epoch schedule and the redemption choice once selected. **These variables belong to the Staking Platform.** The Intent Layer does not reuse EXON as an execution-cost unit for unrelated routes, and does not reinterpret the fuel check as a payment.
