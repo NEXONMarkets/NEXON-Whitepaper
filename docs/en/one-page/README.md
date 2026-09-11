@@ -8,7 +8,7 @@ coverY: 0
 # NEXON in One Page
 
 {% hint style="success" %}
-**The first EXON private sale opens on 15 September.** Subscription price 0.1 USDT, listing price 1.0 USDT — a 10× open. XO staking settles every 12 hours, twice a day. EXON can be sold but never bought, and every withdrawal burns it. All amounts are in **USDT**.
+**The first EXON private sale opens on 15 September.** Subscription price 0.1 USDT, listing price 1.0 USDT — a 10× open. XO staking settles every 12 hours, twice a day. EXON can be sold on NEX but never bought there, and every reward withdrawal burns it. All amounts are in **USDT**.
 {% endhint %}
 
 ## 1. The first flagship project on the NEX exchange
@@ -52,8 +52,8 @@ Four credentials across mainland China, Macau, the United States and Dubai:
 | Registration / licence | Issuing or registering authority | Status |
 | :-- | :-- | --: |
 | Digital-asset issuer authorization (Xinghuo BIF) | China Academy of Information and Communications Technology (CAICT) | Issued Aug 2026 · valid two years |
-| Commercial registration (No. 97762) | Macau Ronguan International Brand Exchange Co., Ltd. | Completed |
-| MSB money services business licence | U.S. Financial Crimes Enforcement Network (FinCEN) | Obtained |
+| Commercial registration (No. 97762) | Macau Direch International Brand Exchange Limited | Completed |
+| Money Services Business (MSB) licence | U.S. Financial Crimes Enforcement Network (FinCEN) | Obtained |
 | Virtual-asset compliance service provider onboarding | Dubai Virtual Assets Regulatory Authority (VARA) | In progress |
 
 ![](../.gitbook/assets/onepage-p4-certificates.jpg)
@@ -72,7 +72,7 @@ Four credentials across mainland China, Macau, the United States and Dubai:
 | In the mechanism | Static rewards, referral rewards and leadership bonuses are all paid in XO | 28% of every deposit buys EXON into the fuel wallet; burned on withdrawal |
 | Supply | 1 billion | 1 billion, of which only 200M enters the private sale |
 
-On the product side NEXON is a **financial-social super ecosystem**: AI-native PayFi is live; the Wallet, the Marketplace and the decentralized Social App are in mid-development; the Stablecoin Card is on the roadmap. Five entry points share one account and this pair of assets. Running today: staking fuel, burn on withdrawal, NEX spot and PayFi settlement. Opening with each entry point: trading, payment, exchange and fees. Every unit of circulation moves through EXON.
+On the product side NEXON is a **super financial-social ecosystem**: AI-native PayFi is live; the Wallet, the Marketplace and the decentralized Social App are in mid-development; the Stablecoin Card is on the roadmap. Five entry points share one account and this pair of assets. Running today: staking fuel, burn on withdrawal, NEX spot and PayFi settlement. Opening with each entry point: trading, payment, exchange and fees. Every unit of circulation moves through EXON.
 
 ## 3. One deposit, two income lines
 
@@ -80,7 +80,7 @@ On the product side NEXON is a **financial-social super ecosystem**: AI-native P
 
 Take a 1,000 USDT deposit. It is split in two the moment the order opens, automatically:
 
-- **28% buys EXON.** 280 EXON, bought at 1 USDT each, go into the fuel wallet. The fuel wallet only fills: no transfers, no trading, burned only when rewards are withdrawn.
+- **28% buys EXON.** 280 EXON, bought at 1 USDT each, go into the fuel wallet. The fuel wallet only ever fills: nothing in it can be transferred out or traded, and its EXON is spent in one way only — burned when rewards are withdrawn.
 - **The rest is swapped into XO and staked.** It settles every 12 hours — 6 – 20 USDT a day — and the rewards land in XO, withdrawable at any time.
 
 ![](../.gitbook/assets/onepage-04-fuel-wallet.svg)
@@ -103,7 +103,7 @@ The longer the term, the higher the bonus — set by term alone, never by amount
 | 360 days | +30% | 7.8 – 26 USDT | 2,340 – 7,800 USDT | 900 days |
 | 540 days | +50% | 9 – 30 USDT | 2,700 – 9,000 USDT | 540 days |
 
-Rewards arrive in XO and can be withdrawn at any time; once 100 USDT has accrued, it can open a new order, and the principal keeps growing — time works for the staker.
+Rewards arrive in XO and can be withdrawn at any time; once 100 USDT of rewards has accrued it can be staked as a new order, so the principal keeps compounding — time works for the staker.
 
 The exit is your choice:
 
@@ -113,7 +113,7 @@ The exit is your choice:
 
 ## 5. Yield projection: subscribe at 0.1 USDT, list at 1.0 USDT
 
-EXON supply is 1 billion. The private sale releases only 200M — 20% of supply — in 11,500 allocations, closed when sold out. Subscription and staking are paired 3:1: **the subscription earns the release, the stake earns the settlement, and both income lines start together.**
+EXON supply is 1 billion. The private sale offers only 200 million — 20% of supply — in 11,500 allocations, closed once sold out. Each subscription is paired with an XO stake at 3:1: **the subscription earns the release, the stake earns the settlement, and both income lines start together.**
 
 ![](../.gitbook/assets/onepage-06-sale-tiers.svg)
 
@@ -138,7 +138,7 @@ From listing day EXON is released daily for 1,095 days, one payout every 12 hour
 
 - The NEX secondary market lists sell orders only, never buy orders, and EXON is not listed on decentralized exchanges — there is no "buy EXON" route anywhere in the market.
 - EXON sits in only two places: the accounts of private-sale participants, and the fuel wallets of stakers. Fuel-wallet EXON can only be burned.
-- The sale releases only 200M, paid out daily over 1,095 days after listing — 182.6k a day, a supply schedule that is fully predictable.
+- The sale offers only 200 million EXON, paid out daily over 1,095 days after listing — 182.6k a day, a supply schedule that is fully predictable.
 - Sell fee 2%.
 
 ## 7. The burn-and-appreciate flywheel
@@ -149,7 +149,7 @@ Withdraw rewards through one of three settlement speeds — the faster the settl
 
 ![](../.gitbook/assets/onepage-08-withdrawal-lanes.svg)
 
-| Settlement | Burn share | EXON burned on a 1,000 USDT withdrawal (at 1.0 USDT) |
+| Settlement | Burned | EXON burned on a 1,000 USDT withdrawal (at 1.0 USDT) |
 | :-- | --: | --: |
 | Immediate | 30% | 300 |
 | 30-day | 20% | 200 |
@@ -168,7 +168,7 @@ If the fuel wallet holds enough, settle immediately; if not, pick a slower settl
 | 100M USDT | 600k – 2M USDT | 180k – 600k EXON | 65.7M – 219M EXON |
 | **Reference: early-bird release** |  | **182.6k EXON** | **66.67M EXON** |
 
-From 50M USDT staked, a year burns more than a year releases; at 100M USDT, a single day burns up to 600k EXON — 3.3× the daily release. Referral rewards and leadership bonuses burn on withdrawal too, and the table above does not yet count them.
+From 50 million USDT staked, a year's burn exceeds a year's release; at 100 million USDT, a single day burns up to 600k EXON — 3.3× the daily release. Referral rewards and leadership bonuses burn on withdrawal too, and the table above does not yet count them.
 
 ![](../.gitbook/assets/onepage-10-flywheel.svg)
 
@@ -188,7 +188,7 @@ Referral rewards are calculated on each downline's daily static output, across u
 | Gen 9–12 | 2% |
 | Gen 13–20 | 1% |
 
-Unlocking takes two numbers: how much you stake yourself, and how many people you refer directly.
+Unlocking depends on two numbers: how much you stake yourself, and how many people you refer directly.
 
 | Generations unlocked | Own stake | Direct referrals (cumulative) | Each referral's order |
 | :-- | --: | --: | --: |
