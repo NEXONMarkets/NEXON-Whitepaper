@@ -50,7 +50,7 @@ The same `ON` appears in NEXON and in EXON, and it means the same thing in both:
 
 ## Where NEXON stands relative to NEX
 
-NEXON is an independent, community-initiated project built within the NEX ecosystem. That formulation stays constant throughout this paper.
+NEXON is the first flagship project on the NEX exchange. That formulation stays constant throughout this paper.
 
 The name by itself settles nothing about how a route is built, who executes it or what economic terms apply. Those need their own specifications. So this paper keeps three kinds of statement apart: the **narrative** explains why NEXON exists, the **Tokenomics** defines the economics operating now, and the **Roadmap** describes what the ecosystem may grow next. None of the three is evidence for either of the others.
 

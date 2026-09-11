@@ -75,6 +75,6 @@ When a future written decision takes effect, it updates the authority registry, 
 
 ## Independence and accountability
 
-NEXON is an independent, community-initiated project built within the NEX ecosystem. NEX exchange status, licences or personnel do not approve or guarantee Staking Platform outcomes or future NEXON product governance. **Responsibility is named per operating entity and per product.**
+NEXON is the first flagship project on the NEX exchange. NEX exchange status, licences or personnel do not approve or guarantee Staking Platform outcomes or future NEXON product governance. **Responsibility is named per operating entity and per product.**
 
 *Previous: [Value Flows](../05-tokenomics/value-flows.md) · Next: [Security & Risk](../07-security-and-risk/README.md)*

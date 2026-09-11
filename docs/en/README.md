@@ -104,6 +104,6 @@ flowchart LR
 
 If you want the arithmetic first, jump to [Worked Examples](05-tokenomics/worked-examples.md). If you want to know who is responsible for each leg and who resolves a failure, jump to [Protocol Architecture](03-architecture/README.md).
 
-NEXON is an independent, community-initiated project built within the NEX ecosystem.
+NEXON is the first flagship project on the NEX exchange.
 
 *Economic parameters and calculations in this paper come from the project's Tokenomics approved on 6 September 2026. Every return calculation states the price assumption it rests on; the full legal and risk statement is in the [Legal Disclaimer](legal-disclaimer/README.md).*

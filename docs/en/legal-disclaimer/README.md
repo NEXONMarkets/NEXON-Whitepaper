@@ -1,36 +1,20 @@
 ---
-description: "The legal, financial and risk boundaries applicable to this whitepaper and to every economic calculation in it."
+description: "The legal and risk boundaries that apply to this paper and to every economic calculation in it."
 icon: triangle-exclamation
 ---
 
-# Legal Disclaimer
+# Legal Notice
 
-This whitepaper is informational and describes a project under construction. It is not an offer, a solicitation, investment advice, a legal opinion or a tax opinion, and it is not a promise of availability in any jurisdiction. It creates no contract unless incorporated into separately binding product terms.
+This paper describes a project under construction. It is not an offer, a solicitation, investment advice, a legal opinion or a tax opinion. Unless incorporated into separately binding product terms, it forms no contract.
 
-## On the two assets
+**The two assets.** XO is the Value Anchor in narrative and the staking principal token in mechanism; EXON is the Circulation Engine in narrative and the core value token and spot instrument in mechanism. Neither represents equity, debt or a deposit.
 
-XO is described narratively as the Value Anchor and mechanically as the Staking Principal Token. EXON is described narratively as the Circulation Engine and mechanically as NEXON's Core Value Token and spot asset. **Neither description is a definitive legal classification in any jurisdiction.** Neither asset represents equity, debt, a deposit, a claim on NEX, or a guaranteed entitlement to income.
+**The numbers.** APY, reward, price, ROI and static payback figures are protocol parameters, or calculations made under the price assumption stated inside the sentence. Outcomes depend on price, liquidity, fees, rules and execution.
 
-## On the numbers
+**Product status.** AI-Native PayFi is live; the Wallet, Marketplace and decentralized Social App are in development; the Stablecoin Card is a roadmap direction. Merchants, issuers, custodians, venues and third-party protocols operate under their own terms and risks. AI output can be wrong and does not replace user approval or professional advice.
 
-All APY, reward, price, ROI and static-payback figures are **protocol parameters or conditional calculations from the project paper**. They omit or simplify material factors, including price movement, liquidity, slippage, fees, taxes, custody, counterparty performance, technical failure, rule changes and legal restrictions. Actual outcomes may differ materially.
+**Irreversibility and recovery.** Digital asset transfers and market orders may be irreversible. Card or Marketplace recovery depends on the responsible issuer, payment service provider or supplier.
 
-## On the project relationship
-
-NEXON is an independent, community-initiated project built within the NEX ecosystem. **NEX status or licences do not protect principal and do not guarantee Staking Platform performance.**
-
-## On the long-term products
-
-AI-Native PayFi, the Wallet, third-party prediction-market interfaces, the Marketplace, the Stablecoin Card and the decentralized Social App are planned directions. Their descriptions promise no launch, functionality, service availability, operator coverage or regulatory eligibility.
-
-AI output can be incorrect. It never substitutes for user approval or for professional advice. Merchants, issuers, custodians, venues and third-party protocols operate under their own terms and risks.
-
-## On irreversibility and recovery
-
-Digital-asset transfers and market orders may be irreversible. Card or marketplace recovery depends on the responsible issuer, payment provider or supplier. **Programmatic purchases and burns do not guarantee price support.** A unified interface does not make NEXON the custodian or guarantor of every balance or route it displays.
-
-## On participation
-
-Participation may be restricted or unavailable. Anyone considering it should assess the applicable terms and obtain independent professional advice. **Participants may lose some or all principal.**
+**Participation.** Participation may be restricted or unavailable. Anyone considering it should assess the applicable terms and obtain independent professional advice.
 
 *Previous: [Glossary](../glossary/README.md) · Next: [Open Parameters](../open-parameters/README.md)*

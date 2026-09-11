@@ -1,11 +1,11 @@
 ---
-description: "AI-Native PayFi is the second focus of the NEXON narrative — a controlled route from financial intent to digital and real-world execution."
+description: "AI-Native PayFi is NEXON's Value Router — a controlled route from financial intent to digital and real-world execution, already delivered and running."
 icon: hand-holding-dollar
 ---
 
 # AI-Native PayFi
 
-*Product stage · Roadmap · Narrative priority · secondary focus*
+*Product stage · Live · Product role · Value Router*
 
 AI-Native PayFi is the clearest product expression of the value-connection thesis. It starts from the outcome a user wants and turns it into a visible sequence:
 

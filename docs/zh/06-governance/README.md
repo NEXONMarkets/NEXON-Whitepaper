@@ -75,6 +75,6 @@ XO 治理属于 Roadmap。在它上线之前，项目必须先定义**治理的�
 
 ## 独立性与问责 <a href="#independence-and-accountability" id="independence-and-accountability"></a>
 
-NEXON 是基于 NEX 生态、由社区发起的独立项目。NEX 交易所的资质、牌照或人员，不构成对 Staking Platform 结果或未来 NEXON 产品治理的批准或担保。**责任要按运营实体和产品逐一指名。**
+NEXON 是 NEX 交易所的第一个明星项目。NEX 交易所的资质、牌照或人员，不构成对 Staking Platform 结果或未来 NEXON 产品治理的批准或担保。**责任要按运营实体和产品逐一指名。**
 
 *上一节：[价值流转](../05-tokenomics/value-flows.md) · 下一节：[安全与风险](../07-security-and-risk/README.md)*

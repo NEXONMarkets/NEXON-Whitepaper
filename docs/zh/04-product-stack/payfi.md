@@ -1,11 +1,11 @@
 ---
-description: "AI 原生 PayFi 是 NEXON 叙事的第二重点：一条从金融意图到数字与现实执行的受控路径。"
+description: "AI 原生 PayFi 是 NEXON 的价值路由器：一条从金融意图到数字与现实执行的受控路径，已经交付并在运行。"
 icon: hand-holding-dollar
 ---
 
 # AI 原生 PayFi
 
-*产品阶段 · Roadmap · 叙事优先级 · 第二重点*
+*产品阶段 · 已上线 · 产品角色 · 价值路由器（Value Router）*
 
 AI 原生 PayFi 是价值连接命题最清楚的一次产品表达。它从用户想要的结果出发，把它变成一个看得见的序列：
 

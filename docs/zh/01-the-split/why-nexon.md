@@ -50,7 +50,7 @@ NEX 取自 **Nexus**：一批原本不是按同一个系统设计的东西，在
 
 ## NEXON 与 NEX 的关系 <a href="#where-nexon-stands-relative-to-nex" id="where-nexon-stands-relative-to-nex"></a>
 
-NEXON 是在 NEX 生态内由社区发起的独立项目。这一点在本文中始终按同一口径表述。
+NEXON 是 NEX 交易所的第一个明星项目。这一点在本文中始终按同一口径表述。
 
 名字本身不决定路径怎么构造、由谁执行、按什么经济条款运行。这些都要靠各自的规格来定义。所以这份白皮书把三类陈述分得很开：**叙事**说明 NEXON 为什么存在，**Tokenomics** 定义当前经济计算，**Roadmap** 描述生态后面可能长出什么。三者互相不能当作对方的证据。
 

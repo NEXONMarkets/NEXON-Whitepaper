@@ -5,7 +5,7 @@ icon: building-shield
 
 # Compliance & Legal Posture
 
-NEXON is an independent, community-initiated project built within the NEX ecosystem. XO and EXON are NEXON project assets. **A similar name, an integration or an account connection cannot be used to imply authorship, approval, liability or principal protection that no document supports.**
+NEXON is the first flagship project on the NEX exchange. XO and EXON are NEXON project assets. **A similar name, an integration or an account connection cannot be used to imply authorship, approval, liability or principal protection that no document supports.**
 
 ## Operational separation today
 
@@ -28,11 +28,11 @@ This is the **format discipline** this paper applies to all external copy:
 | Class | How it must be written |
 |---|---|
 | **Confirmed current parameter** | State the value, source, effective version, and whether it is adjustable |
-| **Conditional calculation** | State every price and execution assumption next to the result |
+| **Calculation with assumptions** | Write the price and execution assumption into the sentence itself ("At 2.0 U, monthly ROI is 54.79%"), with no separate disclaimer |
 | **Long-term direction** | Label it as direction, and name the specifications, operators and eligibility still required |
 | **Open field** | Keep it visibly Open; never complete it from a conflicting document |
 
-Market outcomes form their own class: **price, liquidity, return, payback, fulfillment and recovery are never guaranteed.**
+Market outcomes form their own class: never written as guarantees, and never given a separate disclaimer — the assumption goes into the sentence, and the sentence stops there.
 
 ## Product and jurisdiction gates
 

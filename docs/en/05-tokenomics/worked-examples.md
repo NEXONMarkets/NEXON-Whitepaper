@@ -5,7 +5,7 @@ icon: calculator
 
 # Worked Examples
 
-These three examples come from the approved economic model, and exist to **show the method of calculation**. Each one is a conditional calculation: every result states the price assumption it rests on, and a result may differ materially once that assumption changes.
+These three examples come from the approved economic model. Every result carries its price assumption inside the sentence.
 
 ## Example A — the release value of early-round EXON
 

@@ -5,7 +5,7 @@ icon: calculator
 
 # 完整演算案例
 
-下面三个案例来自定稿的经济模型，用途是**说明计算方法**。三个都是条件化演算：每一处结果都标注了它依赖的价格假设，假设一变，结果可能显著不同。
+下面三个案例来自定稿的经济模型。每一处结果都把它依赖的价格假设写在句子里。
 
 ## 案例 A —— 早期轮 EXON 的释放价值 <a href="#example-a-the-release-value-of-early-round-exon" id="example-a-the-release-value-of-early-round-exon"></a>
 

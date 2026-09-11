@@ -104,6 +104,6 @@ flowchart LR
 
 想直接看钱怎么算的，跳到[完整演算案例](05-tokenomics/worked-examples.md)。想知道每个产品由谁负责、失败了找谁，跳到[协议架构](03-architecture/README.md)。
 
-NEXON 是基于 NEX 生态、由社区发起的独立项目。
+NEXON 是 NEX 交易所的第一个明星项目。
 
 *本文的经济参数与演算取自项目方 2026 年 9 月 6 日定稿的 Tokenomics。所有收益演算都写明了它所依赖的价格假设；完整的法律与风险说明见[法律声明](legal-disclaimer/README.md)。*
