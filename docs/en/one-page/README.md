@@ -11,7 +11,7 @@ coverY: 0
 **The first EXON private sale opens on 15 September.** Subscription price 0.1 USDT, listing price 1.0 USDT — a 10× open. XO staking settles every 12 hours, twice a day. EXON can be sold but never bought, and every withdrawal burns it. All amounts are in **USDT**.
 {% endhint %}
 
-## 1. Start with what has already happened
+## 1. The first flagship project on the NEX exchange
 
 NEX is an AI-native asset exchange operating out of Macau. On 17–18 June 2026 it co-hosted the 6th Digital Trade Innovation and Application Summit, with more than 400 attendees. Registrations and licences on the ecosystem side:
 
@@ -22,13 +22,11 @@ NEX is an AI-native asset exchange operating out of Macau. On 17–18 June 2026 
 | MSB money services business licence | U.S. Financial Crimes Enforcement Network (FinCEN) | Obtained |
 | Virtual-asset compliance service provider onboarding | Dubai Virtual Assets Regulatory Authority (VARA) | In progress |
 
-**NEXON is the first flagship project on the NEX exchange**, launched on NEX's account system, spot market and ecosystem resources.
+**NEXON is the first flagship project on the NEX exchange**, launched on NEX's account system, spot market and ecosystem resources, and sharing one account and one back office with it.
 
 ![](../.gitbook/assets/onepage-01-placement.svg)
 
-The exchange is there, the licences are there, the people are there. What comes next?
-
-An economic engine that puts money to work and only ever shrinks supply: stake XO for **time compounding**, subscribe to EXON for a 10× open, and burn on every withdrawal so that EXON moves in **one direction**. Every step below comes with a number.
+Exchange, licences and team are all in place. On top of them sits an economic engine that puts money to work and only ever shrinks supply: stake XO for **time compounding**, subscribe to EXON for a 10× open, and burn on every withdrawal so that EXON moves in **one direction**.
 
 ## 2. NEXON is the ecosystem. XO carries value. EXON drives circulation.
 
