@@ -15,7 +15,7 @@ This part sets out NEXON's current economic mechanism (finalised 10 September 20
 |---|---|---|
 | **Narrative** | Value Anchor: staking, participation, governance and long-term value | Circulation Engine: connecting the exchange, payment, exchange, fees and consumption |
 | **Current mechanism** | Staking Principal Token; static rewards, referral rewards and leadership bonuses are all paid in XO; trades freely on NEX | Core Value Token; the private sale at 0.1 USDT is the only way to acquire it, listing at 1.0 USDT; sell only, never buy; 28% of every deposit buys EXON into the fuel wallet, burned on withdrawal |
-| **Opening with each entry point** | Governance rules and wider ecosystem rights (Roadmap) | Trading, payment, exchange and fees, connected as each of the five entry points goes live (Roadmap) |
+| **Opening with each entry point** | Governance rules and wider ecosystem rights (Roadmap) | Trading, payment and exchange, connected as each of the five entry points goes live (Roadmap) |
 
 The narrative says what each asset **carries for the ecosystem**; the mechanism says how it **runs today**. Say both.
 
@@ -32,7 +32,7 @@ Fuel  = 0.28 × P   → buys EXON at 1 USDT each → fuel wallet (burn only)
 Stake = the rest   → swapped into XO → staked, settled every 12 hours
 ```
 
-<figure><img src="../.gitbook/assets/onepage-04-fuel-wallet.svg" alt="A 1,000 USDT deposit: 28%, or 280 USDT, buys 280 EXON at 1 USDT each into the fuel wallet — burn only, no transfer, no trading"><figcaption>A 1,000 USDT deposit: 280 EXON into the fuel wallet, the rest swapped into XO and earning</figcaption></figure>
+<figure><img src="../.gitbook/assets/onepage-04-fuel-wallet.svg" alt="A 10,000 USDT deposit: 28%, or 2,800 USDT, buys 2,800 EXON at 1 USDT each into the fuel wallet — burn only, no transfer, no trading"><figcaption>A 10,000 USDT deposit: 2,800 EXON into the fuel wallet, the rest swapped into XO and earning</figcaption></figure>
 
 {% hint style="success" %}
 **The fuel wallet only ever fills.** Nothing in it can be transferred out or traded; its EXON has one destination — burned when rewards are withdrawn. The more is staked, the more is bought; the more is withdrawn, the more is burned.
@@ -40,7 +40,7 @@ Stake = the rest   → swapped into XO → staked, settled every 12 hours
 
 ## The economic lifecycle <a href="#the-economic-lifecycle" id="the-economic-lifecycle"></a>
 
-**Staking.** XO staking settles every 12 hours at 0.3% – 1.0% per settlement, at 08:00 and 20:00 Beijing time; 1,000 USDT staked earns 6 – 20 USDT a day. Terms of 30 / 90 / 180 / 360 / 540 days carry bonuses of base / +10% / +20% / +30% / +50%, set by term alone. Day 31 is the exit window of the 30-day term — principal plus rewards, no penalty; miss it and the order renews 90 → 180 → 360 → 540 days.
+**Staking.** XO staking settles every 12 hours at 0.1% – 1.0% per settlement, at 08:00 and 20:00 Beijing time; 10,000 USDT staked earns 20 – 200 USDT a day. Terms of 30 / 90 / 180 / 360 / 540 days carry bonuses of base / +10% / +20% / +30% / +50%, set by term alone. Day 31 is the exit window of the 30-day term — principal plus rewards, no penalty; miss it and the order renews 90 → 180 → 360 → 540 days.
 
 **Withdrawal.** Rewards land in XO and can be withdrawn at any time, through one of three settlement speeds: immediate with a 30% burn, 30-day with 20%, 60-day with 10%. What burns is the equivalent EXON in the fuel wallet, gone from circulation for good.
 
@@ -50,6 +50,6 @@ Stake = the rest   → swapped into XO → staked, settled every 12 hours
 
 ## In this part <a href="#in-this-part" id="in-this-part"></a>
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Two Assets, Two Jobs</strong></td><td>Why storing value and moving it cannot be the same job.</td><td><a href="two-assets-two-jobs.md">two-assets-two-jobs.md</a></td></tr><tr><td><strong>Distribution &amp; Release</strong></td><td>Three sale tiers, the 3:1 pairing, listing at 1.0 USDT, 1,095 days of linear release.</td><td><a href="distribution.md">distribution.md</a></td></tr><tr><td><strong>Staking &amp; Returns</strong></td><td>0.3% – 1.0% every 12 hours, term bonuses, the exit window, three settlement speeds, 20 generations and V1 – V12.</td><td><a href="staking-and-returns.md">staking-and-returns.md</a></td></tr><tr><td><strong>Worked Examples</strong></td><td>Four cases — release value, staking income, withdrawal burn, team rewards — every number reproducible.</td><td><a href="worked-examples.md">worked-examples.md</a></td></tr><tr><td><strong>Value Flows</strong></td><td>Six flows, each on its own ledger, converging on one flywheel.</td><td><a href="value-flows.md">value-flows.md</a></td></tr><tr><td><strong>XO and EXON</strong></td><td>Each asset's name, role and current mechanism.</td><td><a href="xo.md">xo.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Two Assets, Two Jobs</strong></td><td>Why storing value and moving it cannot be the same job.</td><td><a href="two-assets-two-jobs.md">two-assets-two-jobs.md</a></td></tr><tr><td><strong>Distribution &amp; Release</strong></td><td>Three sale tiers, the 3:1 pairing, listing at 1.0 USDT, 1,095 days of linear release.</td><td><a href="distribution.md">distribution.md</a></td></tr><tr><td><strong>Staking &amp; Returns</strong></td><td>0.1% – 1.0% every 12 hours, term bonuses, the exit window, three settlement speeds, 20 generations and V1 – V12.</td><td><a href="staking-and-returns.md">staking-and-returns.md</a></td></tr><tr><td><strong>Worked Examples</strong></td><td>Four cases — release value, staking income, withdrawal burn, team rewards — every number reproducible.</td><td><a href="worked-examples.md">worked-examples.md</a></td></tr><tr><td><strong>Value Flows</strong></td><td>Six flows, each on its own ledger, converging on one flywheel.</td><td><a href="value-flows.md">value-flows.md</a></td></tr><tr><td><strong>XO and EXON</strong></td><td>Each asset's name, role and current mechanism.</td><td><a href="xo.md">xo.md</a></td></tr></tbody></table>
 
 *Next: [Two Assets, Two Jobs](two-assets-two-jobs.md)*

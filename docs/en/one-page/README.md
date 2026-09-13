@@ -13,7 +13,7 @@ coverY: 0
 
 ## 1. The first flagship project on the NEX exchange
 
-NEX is an AI-native asset exchange operating out of Macau, with five strategic hubs: Australia for global capital markets, Macau as the Asia-Pacific operations and compliance centre, Malaysia for national-grade AI compute, Dubai for Gulf capital, and Europe and the Americas for FX clearing and derivatives.
+NEX is an AI-native asset exchange operating out of Macau, with seven strategic hubs: Macau as the Asia-Pacific operations and compliance centre, mainland China for domestic business, Australia for global capital markets, Malaysia for national-grade AI compute, Dubai for Gulf capital, Africa for emerging markets, and Europe and the Americas for FX clearing and derivatives.
 
 One exchange, two layers: the spot layer trades XO and EXON, and the staking platform carries NEXON's reward model. Both share one account system and one back office — open one account, move between the two.
 
@@ -33,8 +33,8 @@ The NEX core team, presented on the summit's main stage:
 
 |  | Role |  |
 | :-- | :-- | :-- |
-| Dato' Joseph | Co-founder · Chief Executive Officer | Main-stage speaker at the summit |
-| Winsman | Co-founder · Chief Operating Officer | Also CEO of the NEXON project |
+| Dato' Winsman | Co-founder · Chief Executive Officer |  |
+| Dato' Joseph | Co-founder · Chief Operating Officer | Main-stage speaker at the summit |
 | Nick | Chief Marketing Officer |  |
 | Batter | Dean, Global Business School |  |
 | Robart | Director of Market Expansion, Europe and the Americas |  |

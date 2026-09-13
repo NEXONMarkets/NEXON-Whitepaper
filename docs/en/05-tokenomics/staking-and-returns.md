@@ -1,30 +1,30 @@
 ---
-description: "0.3% – 1.0% every 12 hours, term bonuses, the day-31 exit window, three settlement speeds with their burns, 20 generations of referrals and V1 – V12."
+description: "0.1% – 1.0% every 12 hours, term bonuses, the day-31 exit window, three settlement speeds with their burns, 20 generations of referrals and V1 – V12."
 icon: chart-line
 ---
 
 # Staking & Returns
 
-A staking deposit is swapped into XO and starts earning at once. **Settlement every 12 hours, 0.3% – 1.0% each time, at 08:00 and 20:00 Beijing time, twice a day.** Rewards land directly in XO.
+A staking deposit is swapped into XO and starts earning at once. **Settlement every 12 hours, 0.1% – 1.0% each time, at 08:00 and 20:00 Beijing time, twice a day.** Rewards land directly in XO.
 
 ```text
-Per settlement = staked amount × (0.3% – 1.0%) × (1 + term bonus)
+Per settlement = staked amount × (0.1% – 1.0%) × (1 + term bonus)
 Per day        = per settlement × 2
 ```
 
-1,000 USDT staked earns 6 – 20 USDT a day; on the 540-day term with its +50% bonus, 9 – 30 USDT a day.
+10,000 USDT staked earns 20 – 200 USDT a day; on the 540-day term with its +50% bonus, 30 – 300 USDT a day. What maturity pays, and how far restaking every 100 USDT of rewards takes it, is Example B in [Worked Examples](worked-examples.md): up to 17.2× the principal on the 540-day term.
 
 ## Five terms <a href="#five-terms" id="five-terms"></a>
 
-<figure><img src="../.gitbook/assets/onepage-05-term-ladder.svg" alt="Term ladder: 30 days base, 90 days +10%, 180 days +20%, 360 days +30%, 540 days +50%; 1,000 USDT staked earns 6–20, 6.6–22, 7.2–24, 7.8–26 and 9–30 USDT a day"><figcaption>The longer the term, the higher the bonus — set by term alone, never by amount</figcaption></figure>
+<figure><img src="../.gitbook/assets/onepage-05-term-ladder.svg" alt="Term ladder: 30 days base, 90 days +10%, 180 days +20%, 360 days +30%, 540 days +50%; 10,000 USDT staked earns 20–200, 22–220, 24–240, 26–260 and 30–300 USDT a day"><figcaption>The longer the term, the higher the bonus — set by term alone, never by amount</figcaption></figure>
 
-| Term | Bonus | 1,000 USDT staked · per day | 10,000 USDT staked · per month | At maturity | Cumulative lock |
+| Term | Bonus | 10,000 USDT staked · per day | 10,000 USDT staked · per month | At maturity | Cumulative lock |
 |---:|---:|---:|---:|---|---:|
-| 30 days | base | 6 – 20 USDT | 1,800 – 6,000 USDT | Day-31 exit window | 1,200 days |
-| 90 days | +10% | 6.6 – 22 USDT | 1,980 – 6,600 USDT | Rolls into the next term | 1,170 days |
-| 180 days | +20% | 7.2 – 24 USDT | 2,160 – 7,200 USDT | Rolls into the next term | 1,080 days |
-| 360 days | +30% | 7.8 – 26 USDT | 2,340 – 7,800 USDT | Rolls into the next term | 900 days |
-| 540 days | +50% | 9 – 30 USDT | 2,700 – 9,000 USDT | Principal returned | 540 days |
+| 30 days | base | 20 – 200 USDT | 600 – 6,000 USDT | Day-31 exit window | 1,200 days |
+| 90 days | +10% | 22 – 220 USDT | 660 – 6,600 USDT | Rolls into the next term | 1,170 days |
+| 180 days | +20% | 24 – 240 USDT | 720 – 7,200 USDT | Rolls into the next term | 1,080 days |
+| 360 days | +30% | 26 – 260 USDT | 780 – 7,800 USDT | Rolls into the next term | 900 days |
+| 540 days | +50% | 30 – 300 USDT | 900 – 9,000 USDT | Principal returned | 540 days |
 
 ## Exit and renewal <a href="#exit-and-renewal" id="exit-and-renewal"></a>
 
@@ -36,13 +36,13 @@ Per day        = per settlement × 2
 
 Rewards can be withdrawn at any time, through one of three settlement speeds — the faster the settlement, the larger the burn:
 
-<figure><img src="../.gitbook/assets/onepage-08-withdrawal-lanes.svg" alt="Withdraw 1,000 USDT: immediate settlement burns 300 EXON, 30-day burns 200, 60-day burns 100 (at 1.0 USDT)"><figcaption>How much EXON each settlement speed burns on a 1,000 USDT withdrawal</figcaption></figure>
+<figure><img src="../.gitbook/assets/onepage-08-withdrawal-lanes.svg" alt="Withdraw 10,000 USDT: immediate settlement burns 3,000 EXON, 30-day burns 2,000, 60-day burns 1,000 (at 1.0 USDT)"><figcaption>How much EXON each settlement speed burns on a 10,000 USDT withdrawal</figcaption></figure>
 
-| Settlement | Burned | EXON burned on a 1,000 USDT withdrawal (at 1.0 USDT) |
+| Settlement | Burned | EXON burned on a 10,000 USDT withdrawal (at 1.0 USDT) |
 |---|---:|---:|
-| Immediate | 30% | 300 |
-| 30-day linear | 20% | 200 |
-| 60-day linear | 10% | 100 |
+| Immediate | 30% | 3,000 |
+| 30-day linear | 20% | 2,000 |
+| 60-day linear | 10% | 1,000 |
 
 What burns is EXON from the fuel wallet, gone from circulation for good. If the fuel wallet holds enough, settle immediately; if not, pick a slower settlement or top up fuel through the private sale. Static rewards, referral rewards and leadership bonuses each burn on every withdrawal.
 

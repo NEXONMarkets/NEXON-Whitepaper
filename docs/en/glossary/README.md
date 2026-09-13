@@ -31,7 +31,7 @@ icon: book
 | Term | 中文 | Definition |
 |---|---|---|
 | Deposit split | 入金拆分 | 28% of a deposit buys EXON into the fuel wallet; the rest is swapped into XO and staked |
-| Per-settlement yield | 单次产出 | 0.3% – 1.0% every 12 hours; 1,000 USDT staked earns 6 – 20 USDT a day |
+| Per-settlement yield | 单次产出 | 0.1% – 1.0% every 12 hours; 10,000 USDT staked earns 20 – 200 USDT a day |
 | Term bonus | 期限加成 | base / +10% / +20% / +30% / +50% for 30 / 90 / 180 / 360 / 540 days, set by term alone |
 | Exit window | 退出窗口 | Day 31 of the 30-day term: principal plus rewards, no penalty; missed, the order renews |
 | Settlement speed | 到账方式 | The three withdrawal lanes: immediate with a 30% burn, 30-day with 20%, 60-day with 10% |

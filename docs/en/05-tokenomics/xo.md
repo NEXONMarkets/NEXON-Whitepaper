@@ -21,12 +21,12 @@ The second sentence defines what happens now; the first explains why that functi
 
 XO supply is 1 billion, trading freely on the NEX secondary market. When a deposit is staked, everything beyond the 28% fuel portion is swapped into XO and staked; earning starts on staking.
 
-**Settlement every 12 hours, 0.3% – 1.0% each time, at 08:00 and 20:00 Beijing time.** 1,000 USDT staked earns 6 – 20 USDT a day. The longer the term, the higher the bonus — set by term alone, never by amount:
+**Settlement every 12 hours, 0.1% – 1.0% each time, at 08:00 and 20:00 Beijing time.** 10,000 USDT staked earns 20 – 200 USDT a day. The longer the term, the higher the bonus — set by term alone, never by amount:
 
 | Term | 30 days | 90 days | 180 days | 360 days | 540 days |
 |---|---:|---:|---:|---:|---:|
 | Bonus | base | +10% | +20% | +30% | +50% |
-| 1,000 USDT staked · per day | 6 – 20 USDT | 6.6 – 22 USDT | 7.2 – 24 USDT | 7.8 – 26 USDT | 9 – 30 USDT |
+| 10,000 USDT staked · per day | 20 – 200 USDT | 22 – 220 USDT | 24 – 240 USDT | 26 – 260 USDT | 30 – 300 USDT |
 | Cumulative lock | 1,200 days | 1,170 days | 1,080 days | 900 days | 540 days |
 
 Static rewards, referral rewards and leadership bonuses are **all paid in XO**, settled in the same cycle as static rewards. Rewards can be withdrawn at any time; once 100 USDT has accrued it can be staked as a new order, and the principal keeps compounding.
@@ -52,7 +52,7 @@ The Wallet shows XO positions, terms, settlement history and withdrawal status; 
 ## XO in three sentences <a href="#xo-in-three-sentences" id="xo-in-three-sentences"></a>
 
 1. **Narrative**: XO is NEXON's Value Anchor, carrying long-term ecosystem value.
-2. **Current mechanism**: XO is the Staking Principal Token, settled every 12 hours at 0.3% – 1.0%, with all three reward streams paid in XO, trading freely on NEX.
+2. **Current mechanism**: XO is the Staking Principal Token, settled every 12 hours at 0.1% – 1.0%, with all three reward streams paid in XO, trading freely on NEX.
 3. **Opening with each entry point**: governance and wider ecosystem rights, as their rules are published (Roadmap).
 
 *Previous: [Two Assets, Two Jobs](two-assets-two-jobs.md) · Next: [EXON — Circulation Engine](exon.md)*

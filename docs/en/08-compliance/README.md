@@ -44,7 +44,7 @@ KYC, AML, sanctions screening, custody, exchange execution, payment, card issuan
 
 XO's Value Anchor role establishes no equity, debt, deposit status, current voting right or income guarantee. EXON's Circulation Engine role does not make it a current universal payment or fee token. **Future rights and utilities require published product terms and jurisdictional review.**
 
-Likewise, "fixed supply," "programmatic purchase" and "burn" cannot be written as price assurance. The 0.3% – 1.0% per-settlement yield and the worked examples are mechanism parameters and arithmetic, never written as a promised return.
+Likewise, "fixed supply," "programmatic purchase" and "burn" cannot be written as price assurance. The 0.1% – 1.0% per-settlement yield and the worked examples are mechanism parameters and arithmetic, never written as a promised return.
 
 ## Data and AI
 

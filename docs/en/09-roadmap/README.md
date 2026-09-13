@@ -24,7 +24,7 @@ flowchart LR
 
 **Goal:** implement the approved economic mechanism and verify it.
 
-The evidence of completion is a versioned rule set that reproduces: the order split into 28% fuel and the rest into XO, the 1,095-day release, settlement every 12 hours at 0.3% – 1.0%, term bonuses, the day-31 exit window, three settlement speeds with fuel-wallet burns, 20 generations of referral rewards and V1 – V12 leadership bonuses.
+The evidence of completion is a versioned rule set that reproduces: the order split into 28% fuel and the rest into XO, the 1,095-day release, settlement every 12 hours at 0.1% – 1.0%, term bonuses, the day-31 exit window, three settlement speeds with fuel-wallet burns, 20 generations of referral rewards and V1 – V12 leadership bonuses.
 
 NEX Main Exchange / CEX and the Staking Platform hold **separable permissions, ledgers and disclosures**. Every order records principal, build, staking base, term, weight and parameter version.
 

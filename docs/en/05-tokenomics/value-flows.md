@@ -16,7 +16,7 @@ Fuel  = 0.28 × P   → buys EXON at 1 USDT each → fuel wallet
 Stake = the rest   → swapped into XO → staked, settled every 12 hours
 ```
 
-Deposit 1,000 USDT: 280 EXON go into the fuel wallet, the rest is swapped into XO and earns 6 – 20 USDT a day. **Every deposit buys.**
+Deposit 10,000 USDT: 2,800 EXON go into the fuel wallet, the rest is swapped into XO and earns 20 – 200 USDT a day. **Every deposit buys.**
 
 ## Flow ② The fuel wallet <a href="#flow-2-the-fuel-wallet" id="flow-2-the-fuel-wallet"></a>
 
@@ -27,7 +27,7 @@ The fuel wallet only ever fills: no transfers out, no trading, burned only when 
 The staked XO enters the chosen term of 30 / 90 / 180 / 360 / 540 days, with bonuses of base / +10% / +20% / +30% / +50%. Settlement every 12 hours:
 
 ```text
-Per settlement = staked amount × (0.3% – 1.0%) × (1 + bonus)
+Per settlement = staked amount × (0.1% – 1.0%) × (1 + bonus)
 ```
 
 Rewards land in XO and can be withdrawn at any time; once 100 USDT has accrued it can be staked as a new order — time compounding.
@@ -70,7 +70,7 @@ flowchart LR
     P["Staking deposit P"] --> B["28% buys EXON"]
     P --> S["Rest swapped into XO and staked"]
     B --> W["Fuel wallet · in only"]
-    S --> R["Settled every 12 h at 0.3% – 1.0%"]
+    S --> R["Settled every 12 h at 0.1% – 1.0%"]
     R --> C{"Settlement speed"}
     C --> N["Rewards land in XO"]
     C --> X["Fuel wallet burns 10% – 30% EXON"]
@@ -90,7 +90,7 @@ The more is staked, the more is bought; the more is withdrawn, the more is burne
 
 ## The long-term product loop <a href="#the-long-term-product-loop" id="the-long-term-product-loop"></a>
 
-The wider narrative overlays a second, **user-experience loop**: social discovery → wallet decision → PayFi route → marketplace / card use → data and relationships flowing back under the user's control. EXON's uses in trading, payment, exchange and fees connect as the five entry points go live (Roadmap), and each one that connects adds another way EXON is consumed.
+The wider narrative overlays a second, **user-experience loop**: social discovery → wallet decision → PayFi route → marketplace / card use → data and relationships flowing back under the user's control. EXON's uses in trading, payment and exchange connect as the five entry points go live (Roadmap), and each one that connects adds another way EXON is consumed.
 
 ## Six questions reconciliation must answer <a href="#six-questions-reconciliation-must-answer" id="six-questions-reconciliation-must-answer"></a>
 

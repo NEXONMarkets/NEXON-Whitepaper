@@ -18,7 +18,7 @@ NEXON uses two assets because **storing value and moving it are not the same job
 | Narrative function | Staking, participation, governance and long-term value | Trading, payment, exchange, fees and consumption |
 | Current formal name | Staking Principal Token | Core Value Token |
 | How it is acquired today | Trades freely on NEX; swapped automatically when a deposit is staked | Private-sale subscription at 0.1 USDT — the only route |
-| Current market | Free buying and selling on NEX | Lists at 1.0 USDT; NEX lists sell orders only, no buy orders; 2% sell fee |
+| Current market | Free buying and selling on NEX | Lists at 1.0 USDT; NEX lists sell orders only, no buy orders |
 | Current mechanical job | Carries the staking principal; static rewards, referral rewards and leadership bonuses are all paid in XO | 28% of every deposit buys EXON into the fuel wallet; burned on reward withdrawal, gone from circulation for good |
 | Supply | 1 billion | 1 billion, of which only 200 million enters the private sale |
 
@@ -34,7 +34,7 @@ The two-asset structure keeps four questions apart:
 {% step %}
 ### What earns?
 
-The XO that a staking deposit is swapped into. It settles every 12 hours at 0.3% – 1.0%; 1,000 USDT staked earns 6 – 20 USDT a day.
+The XO that a staking deposit is swapped into. It settles every 12 hours at 0.1% – 1.0%; 10,000 USDT staked earns 20 – 200 USDT a day.
 {% endstep %}
 
 {% step %}
@@ -62,7 +62,7 @@ Four questions, four different answers. No statement should merge any two of the
 
 Calling XO the "Value Anchor" keeps it from being read as a disposable ledger entry — it links staking participation to the long-term ecosystem thesis. Its settled function today is **Staking Principal Token**: the principal earns on it, and all three reward streams are paid in it.
 
-Calling EXON the "Circulation Engine" explains why this asset can, over time, connect digital and real-world activity. Its confirmed operations today are: private-sale subscription, spot listing (sell only), 1,095 days of daily release, fuel-wallet purchase, burn on withdrawal. Trading, payment, exchange and fees connect as each of the five entry points goes live (Roadmap).
+Calling EXON the "Circulation Engine" explains why this asset can, over time, connect digital and real-world activity. Its confirmed operations today are: private-sale subscription, spot listing (sell only), 1,095 days of daily release, fuel-wallet purchase, burn on withdrawal. Trading, payment and exchange connect as each of the five entry points goes live (Roadmap).
 
 ## Boundaries that public copy has to hold <a href="#boundaries-that-public-copy-has-to-hold" id="boundaries-that-public-copy-has-to-hold"></a>
 
