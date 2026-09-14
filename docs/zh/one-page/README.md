@@ -273,4 +273,4 @@ NEXON 要做的，是把资本、数字资产与真实消费接进同一套账�
 
 **参与私募，三步完成：** 联系介绍人完成 NEX 开户，选择认购档位，完成认购与配套质押。
 
-**海报、一页图、PDF 与 Logo 下载：** [项目资料库](https://library.nexon.markets/)
+**海报、一页图、PDF 与 Logo 下载：** [项目资料库](https://docbay.nexon.markets/)

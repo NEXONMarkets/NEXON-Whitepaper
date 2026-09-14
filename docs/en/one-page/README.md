@@ -273,4 +273,4 @@ What NEXON builds is one account that connects capital, digital assets and real-
 
 **Join the private sale in three steps:** open a NEX account through your referrer, choose a tier, and complete the subscription with its paired stake.
 
-**Posters, one-pagers, PDFs and logos:** [Project Materials](https://library.nexon.markets/)
+**Posters, one-pagers, PDFs and logos:** [Project Materials](https://docbay.nexon.markets/)

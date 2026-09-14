@@ -104,7 +104,7 @@ flowchart LR
 
 想直接看钱怎么算的，跳到[完整演算案例](05-tokenomics/worked-examples.md)。想知道每个产品由谁负责、失败了找谁，跳到[协议架构](03-architecture/README.md)。
 
-海报、一页图、PDF 与 Logo 等物料，可在[项目资料库](https://library.nexon.markets/)下载。
+海报、一页图、PDF 与 Logo 等物料，可在[项目资料库](https://docbay.nexon.markets/)下载。
 
 NEXON 是 NEX 交易所的第一个明星项目。
 
