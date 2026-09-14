@@ -104,6 +104,8 @@ flowchart LR
 
 If you want the arithmetic first, jump to [Worked Examples](05-tokenomics/worked-examples.md). If you want to know who is responsible for each leg and who resolves a failure, jump to [Protocol Architecture](03-architecture/README.md).
 
+Posters, one-pagers, PDFs and logos are available in [Project Materials](https://library.nexon.markets/).
+
 NEXON is the first flagship project on the NEX exchange.
 
 *The economic parameters and calculations in this paper follow the current mechanism finalised on 10 September 2026; the legal and risk boundaries are in the [Legal Disclaimer](legal-disclaimer/README.md).*

@@ -272,3 +272,5 @@ V10 – V12 share a global pool of 3% of all XO deposits, weighted 20 / 30 / 50 
 What NEXON builds is one account that connects capital, digital assets and real-world consumption; XO carries the value in that account, and EXON drives every unit of circulation through it.
 
 **Join the private sale in three steps:** open a NEX account through your referrer, choose a tier, and complete the subscription with its paired stake.
+
+**Posters, one-pagers, PDFs and logos:** [Project Materials](https://library.nexon.markets/)
