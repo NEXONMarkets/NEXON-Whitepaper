@@ -264,7 +264,7 @@ From V3, each level must meet its daily X Points spend to claim that day's platf
 - During relief, the spend is 50% of the level's standard
 - After 3 months, the level's full 100% standard applies
 
-**Example: V8 → V9.** Promotion grants 30 points, added to your balance; for the first 3 months V9 spends 7.5 points a day (50% of the V9 standard), then 15 points a day.
+**Example: V8 → V9.** Promotion grants 30 points, and the X Points balance is capped at 30; for the first 3 months V9 spends 7.5 points a day (50% of the V9 standard), then 15 points a day.
 
 ## 9. Two months, three dates
 
