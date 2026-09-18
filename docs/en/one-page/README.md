@@ -192,7 +192,7 @@ If the fuel holds enough, settle immediately; if not, pick a slower settlement. 
 | 100M USDT | 400k – 1.2M USDT | 120k – 360k EXON | 43.8M – 131.4M EXON |
 | **Reference: early-bird release** |  | **182.6k EXON** | **66.67M EXON** |
 
-At 100 million USDT staked, a year's burn approaches two years of release, and a single day burns up to 360k EXON — 2.0× the daily release. Referral rewards and leadership bonuses burn on withdrawal too, and the table above does not yet count them.
+At 100 million USDT staked, a year's burn approaches two years of release, and a single day burns up to 360k EXON — 2.0× the daily release.
 
 ![](../.gitbook/assets/onepage-10-flywheel.svg)
 
