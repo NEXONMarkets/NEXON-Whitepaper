@@ -27,17 +27,17 @@ One exchange, two layers: the spot layer trades XO and EXON, and the staking pla
 
 ### Core team
 
-The NEX core team, presented on the summit's main stage:
+The NEX core team, photographed on the summit main stage:
 
 ![](../.gitbook/assets/onepage-p2-team.jpg)
 
-|  | Role |  |
-| :-- | :-- | :-- |
-| Dato' Winsman | Co-founder · Chief Executive Officer |  |
-| Dato' Joseph | Co-founder · Chief Operating Officer | Main-stage speaker at the summit |
-| Nick | Chief Marketing Officer |  |
-| Batter | Dean, Global Business School |  |
-| Robart | Director of Market Expansion, Europe and the Americas |  |
+|  | Role |
+| :-- | :-- |
+| Dato' Winsman | Co-founder · Chief Executive Officer |
+| Dato' Joseph | Co-founder · Chief Operating Officer |
+| Nick | Chief Marketing Officer |
+| Batter | Dean, Global Business School |
+| Robart | Director of Market Expansion, Europe and the Americas |
 
 ### Two awards, two officials on the same stage
 
