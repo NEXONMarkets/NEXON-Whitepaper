@@ -243,6 +243,29 @@ Leadership bonuses V1 – V12 are paid on the differential (your rate minus your
 
 V10 – V12 share a global pool of 3% of all XO deposits, weighted 20 / 30 / 50 and split equally within each level.
 
+### X Points: meet the day's spend, claim the day's rewards
+
+From V3, each level must meet its daily X Points spend to claim that day's platform rewards. X Points are bought with EXON: **1 point = 10 USD worth of EXON** at the price at purchase, fixed pricing. X Points only concern dynamic rewards; static yield and principal follow their own rules.
+
+| Level | V1 | V2 | V3 | V4 | V5 | V6 | V7 | V8 | V9 | V10 | V11 | V12 |
+| :-- | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: |
+| Daily spend (points) | 0 | 0 | 1 | 2 | 3 | 5 | 7 | 10 | 15 | 20 | 25 | 30 |
+
+**How X Points are spent**
+
+- The system refreshes the X Points spend parameters every 24 hours
+- Meet your level's daily X Points spend to claim that day's platform rewards
+- Miss the day's spend and that day's rewards cannot be claimed
+
+**Level-up bonus**
+
+- Every level up grants 30 X Points automatically
+- Newly promoted members get a 3-month relief period
+- During relief, the spend is 50% of the level's standard
+- After 3 months, the level's full 100% standard applies
+
+**Example: V8 → V9.** Promotion grants 30 points, added to your balance; for the first 3 months V9 spends 7.5 points a day (50% of the V9 standard), then 15 points a day.
+
 ## 9. Two months, three dates
 
 ![](../.gitbook/assets/onepage-12-timeline.svg)
