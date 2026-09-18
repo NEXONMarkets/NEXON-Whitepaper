@@ -299,3 +299,5 @@ NEXON 要做的，是把资本、数字资产与真实消费接进同一套账�
 **参与私募，三步完成：** 联系介绍人完成 NEX 开户，选择认购档位，完成认购与配套质押。
 
 **海报、一页图、PDF 与 Logo 下载：** [项目资料库](https://docbay.nexon.markets/)
+
+**官方渠道，请认准：** [官网](https://nexon.markets/) · [X（推特）](https://x.com/NexonMarkets) · [Telegram 官方社群](https://t.me/NexonMarkets) · [Telegram 公告频道](https://t.me/NexonMarketsAnn) · [YouTube](https://www.youtube.com/@NEXONMarkets) · [白皮书](https://nexon-3.gitbook.io/nexon-docs/) · [全部链接](https://linktr.ee/NEXONMarkets)

@@ -299,3 +299,5 @@ What NEXON builds is one account that connects capital, digital assets and real-
 **Join the private sale in three steps:** open a NEX account through your referrer, choose a tier, and complete the subscription with its paired stake.
 
 **Posters, one-pagers, PDFs and logos:** [Project Materials](https://docbay.nexon.markets/)
+
+**Official channels:** [Website](https://nexon.markets/) · [X / Twitter](https://x.com/NexonMarkets) · [Telegram community](https://t.me/NexonMarkets) · [Telegram announcements](https://t.me/NexonMarketsAnn) · [YouTube](https://www.youtube.com/@NEXONMarkets) · [Whitepaper](https://nexon-3.gitbook.io/nexon-docs/) · [All links](https://linktr.ee/NEXONMarkets)
