@@ -107,8 +107,8 @@ Static yield arrives in XO and can be withdrawn at any time; rewards can be rein
 
 The exit is your choice:
 
-- **30-day term**: principal plus 30 days of rewards come back at maturity, no penalty. Left in place, the order renews automatically, 90 → 180 → 360 → 540 days, for a cumulative lock of 1,200 days.
-- **540-day term**: one step, +50% bonus, and a cumulative lock of only 540 days — the shortest lock and the largest bonus.
+- **30-day term**: principal plus 30 days of rewards come back at maturity, no penalty. Left in place, the order renews automatically, 90 → 180 → 360 → 540 days.
+- **540-day term**: one step, +50% bonus — the highest of the five tiers, with principal and rewards returned together at maturity.
 - Minimum order 100 USDT.
 
 ### 10,000 USDT staked: what maturity pays
