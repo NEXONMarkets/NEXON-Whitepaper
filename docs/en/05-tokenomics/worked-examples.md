@@ -34,10 +34,10 @@ Deposit `P = 10,000 USDT`. The order splits on opening: `2,800 USDT` of fuel buy
 
 | Term | Term bonus | Daily output with bonus | Rewards at maturity | Principal + rewards at maturity | Multiple of principal |
 | :-- | --: | --: | --: | --: | --: |
-| 30 days | none | 40 – 120 USDT | 1,200 – 3,600 USDT | 11,200 – 13,600 USDT | 1.1× – 1.6× |
-| 90 days | +10% | 44 – 132 USDT | 3,960 – 11,880 USDT | 13,960 – 21,880 USDT | 1.2× – 3.0× |
-| 360 days | +30% | 52 – 156 USDT | 18,720 – 56,160 USDT | 28,720 – 66,160 USDT | 6.0 × – 10.4× |
-| 540 days | +50% | 60 – 180 USDT | 32,400 – 97,200 USDT | 42,400 – 107,200 USDT | 2.6× – 10.7 × |
+| 30 days | none | 40 – 120 USDT | 1,200 – 3,600 USDT | 11,200 – 13,600 USDT | 1.1× – 1.4× |
+| 90 days | +10% | 44 – 132 USDT | 3,960 – 11,880 USDT | 13,960 – 21,880 USDT | 1.4× – 2.2× |
+| 360 days | +30% | 52 – 156 USDT | 18,720 – 56,160 USDT | 28,720 – 66,160 USDT | 2.9× – 6.6× |
+| 540 days | +50% | 60 – 180 USDT | 32,400 – 97,200 USDT | 42,400 – 107,200 USDT | 4.2× – 10.7× |
 
 **Reinvest and compound.** Rewards are reinvested as they land: a reinvested order carries the same term bonus as the original, settles every 12 hours, and its own rewards keep compounding — all the way to the original order's maturity. Total at maturity = principal + original order rewards + reinvested rewards. At 0.2% per settlement:
 
@@ -48,7 +48,7 @@ Deposit `P = 10,000 USDT`. The order splits on opening: `2,800 USDT` of fuel buy
 | 360 days | 18,720 USDT | 35,945 USDT | **64,665 USDT** | **6.5×** | 2.9× |
 | 540 days | 32,400 USDT | 211,006 USDT | **253,406 USDT** | **25.3×** | 4.2× |
 
-The longer the term, the more it compounds: the 540-day term ends at **253,406 USDT, 25.3 × the principal**, against 2.6× on the original order alone. Time works for the staker.
+The longer the term, the more it compounds: the 540-day term ends at **253,406 USDT, 25.3× the principal**, against 4.2× on the original order alone. Time works for the staker.
 
 ## Example C — withdrawing 10,000 USDT of rewards <a href="#example-c-withdrawing-10-000-usdt-of-rewards" id="example-c-withdrawing-10-000-usdt-of-rewards"></a>
 
