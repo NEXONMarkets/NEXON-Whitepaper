@@ -44,13 +44,13 @@ Static yield burns on every withdrawal, and what is burned leaves circulation fo
 {% endtab %}
 
 {% tab title="③ Burn scenarios" %}
-With all rewards withdrawn immediately and EXON at 1.0 USDT: 10 million USDT staked burns 6k – 60k EXON a day; 50 million burns 30k – 300k; 100 million burns 60k – 600k. The early-bird release is 182.6k a day.
+With all rewards withdrawn immediately and EXON at 1.0 USDT: 10 million USDT staked burns 12k – 36k EXON a day; 50 million burns 60k – 180k; 100 million burns 120k – 360k. The early-bird release is 182.6k a day.
 
-From 50 million USDT staked, a year's burn exceeds a year's release; at 100 million, a single day burns up to 600k — 2.0 × the daily release.
+At 100 million USDT staked, a single day burns up to 360k EXON — 2.0× the daily release — and a year's burn approaches two years of release.
 {% endtab %}
 {% endtabs %}
 
-<figure><img src="../.gitbook/assets/onepage-09-burn-vs-release.svg" alt="Daily burn ranges at three staking totals: 10M USDT 6k–60k EXON, 50M USDT 30k–300k, 100M USDT 60k–600k, against a daily early-bird release of 182.6k"><figcaption>The more is staked, the more burns every day; at 100M USDT the top of the range is 2.0 × the daily release</figcaption></figure>
+<figure><img src="../.gitbook/assets/onepage-09-burn-vs-release.svg" alt="Daily burn ranges at three staking totals: 10M USDT 12k–36k EXON, 50M USDT 60k–180k, 100M USDT 120k–360k, against a daily early-bird release of 182.6k"><figcaption>The more is staked, the more burns every day; at 100M USDT the top of the range is 2.0× the daily release</figcaption></figure>
 
 Buying never stops, burning never stops, the release schedule is fixed, and the float only gets smaller — this is the engine behind EXON.
 
