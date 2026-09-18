@@ -8,7 +8,7 @@ coverY: 0
 # NEXON in One Page
 
 {% hint style="success" %}
-**The first EXON private sale opens on 15 September.** Subscription price 0.1 USDT, listing price 1.0 USDT — a 10× open. XO staking settles every 12 hours, twice a day. EXON can be sold on NEX but never bought there, and every reward withdrawal burns it. All amounts are in **USDT**.
+**The first EXON early-bird private sale:** subscription price 0.1 USDT, listing price 1.0 USDT — a 10× open. XO staking settles every 12 hours, twice a day. EXON can be sold on NEX but never bought there, and every reward withdrawal burns it. All amounts are in **USDT**.
 {% endhint %}
 
 ## 1. The first flagship project on the NEX exchange
@@ -27,15 +27,14 @@ One exchange, two layers: the spot layer trades XO and EXON, and the staking pla
 
 ### Core team
 
-The NEX core team, photographed on the summit main stage:
+The NEX core team:
 
 ![](../.gitbook/assets/onepage-p2-team.jpg)
 
 |  | Role |
 | :-- | :-- |
-| Dato' Winsman | Co-founder · Chief Executive Officer |
-| Dato' Joseph | Co-founder · Chief Operating Officer |
-| Nick | Chief Marketing Officer |
+| Winsman | Co-founder · Chief Executive Officer |
+| Timson | Chief Marketing Officer |
 | Batter | Dean, Global Business School |
 | Robart | Director of Market Expansion, Europe and the Americas |
 
@@ -204,25 +203,45 @@ Referral rewards are calculated on each downline's daily static output, across u
 
 ![](../.gitbook/assets/onepage-11-twenty-generations.svg)
 
-| Generation | Rate |
-| :-- | --: |
-| Gen 1 | 15% |
-| Gen 2–3 | 10% |
-| Gen 4–8 | 5% |
-| Gen 9–12 | 2% |
-| Gen 13–20 | 1% |
+Each generation's rate, and what it takes to collect it, generation by generation:
 
-Unlocking depends on two numbers: how much you stake yourself, and how many people you refer directly.
+| Generation you collect | Rate for that generation | Own stake | Qualified direct referrals (cumulative) | Minimum stake of each added referral |
+| :-- | --: | --: | --: | --: |
+| Gen 1 | 15% | 100 USDT | 1 | ≥ 100 USDT |
+| Gen 2 | 10% | 100 USDT | 2 | ≥ 100 USDT |
+| Gen 3 | 10% | 100 USDT | 3 | ≥ 100 USDT |
+| Gen 4 | 5% | 100 USDT | 4 | ≥ 100 USDT |
+| Gen 5 | 5% | 500 USDT | 5 | ≥ 500 USDT |
+| Gen 6 | 5% | 500 USDT | 6 | ≥ 500 USDT |
+| Gen 7 | 5% | 500 USDT | 7 | ≥ 500 USDT |
+| Gen 8 | 5% | 500 USDT | 8 | ≥ 500 USDT |
+| Gen 9 | 2% | 1,000 USDT | 9 | ≥ 1,000 USDT |
+| Gen 10 | 2% | 1,000 USDT | 10 | ≥ 1,000 USDT |
+| Gen 11 | 2% | 1,000 USDT | 11 | ≥ 1,000 USDT |
+| Gen 12 | 2% | 1,000 USDT | 12 | ≥ 1,000 USDT |
+| Gen 13 | 1% | 2,000 USDT | 13 | ≥ 1,000 USDT |
+| Gen 14 | 1% | 2,000 USDT | 14 | ≥ 1,000 USDT |
+| Gen 15 | 1% | 2,000 USDT | 15 | ≥ 1,000 USDT |
+| Gen 16 | 1% | 2,000 USDT | 16 | ≥ 1,000 USDT |
+| Gen 17 | 1% | 5,000 USDT | 17 | ≥ 1,000 USDT |
+| Gen 18 | 1% | 5,000 USDT | 18 | ≥ 1,000 USDT |
+| Gen 19 | 1% | 5,000 USDT | 19 | ≥ 1,000 USDT |
+| Gen 20 | 1% | 5,000 USDT | 20 | ≥ 1,000 USDT |
 
-| Generations unlocked | Own stake | Direct referrals (cumulative) | Each referral's order |
-| :-- | --: | --: | --: |
-| 1 – 4 | 100 USDT | 4 | ≥ 100 USDT |
-| 5 – 8 | 500 USDT | 8 | ≥ 500 USDT |
-| 9 – 12 | 1,000 USDT | 12 | ≥ 1,000 USDT |
-| 13 – 16 | 2,000 USDT | 16 | ≥ 1,000 USDT |
-| 17 – 20 | 5,000 USDT | 20 | ≥ 1,000 USDT |
+Every condition in the table applies to **the person collecting the reward**: an own stake at the tier, enough qualified direct referrals, and each added referral staking at least the minimum. Downline members have no conditions to meet, and their own static yield is never reduced. Each rate applies only to the people in that generation: direct referrals are generation 1 and pay 15%; the people they refer are generation 2 and pay 10%; and so on down to 1% on generation 20.
 
-**Worked example:** refer 5 people who each stake 10,000 USDT, each of whom refers 5 more — 5 / 25 / 125 people across three generations. Generation 1 pays 30 – 90 USDT a day, generation 2 100 – 300 USDT, generation 3 500 – 1,500 USDT: **630 – 1,890 USDT a day across three generations**, unlocked with an own stake of 100 USDT and four direct referrals.
+**Unlocking, by example:** with an own stake of 500 USDT and 6 qualified direct referrals — 4 staking 100 USDT or more and 2 staking 500 USDT or more — generations 1 – 6 are open; add 2 more referrals staking 500 USDT or more and generations 7 and 8 open too.
+
+**Reward, worked through:** refer 5 people, each of whom refers 5 more; everyone stakes 10,000 USDT and produces 40 – 120 USDT of static yield a day:
+
+| Generation | People in it | Their combined daily static output | Rate | Your daily referral reward |
+| :-- | --: | --: | --: | --: |
+| Gen 1 | 5 | 200 – 600 USDT | 15% | 30 – 90 USDT |
+| Gen 2 | 25 | 1,000 – 3,000 USDT | 10% | 100 – 300 USDT |
+| Gen 3 | 125 | 5,000 – 15,000 USDT | 10% | 500 – 1,500 USDT |
+| **Three generations** |  |  |  | **630 – 1,890 USDT** |
+
+An own stake of 100 USDT and 4 qualified direct referrals already open generations 1 – 4. Rewards are paid in EXON; USDT in the table is the unit of account.
 
 Leadership bonuses V1 – V12 are paid on the differential (your rate minus your downline's rate). Assessment is cumulative on deposits, and a level once reached is never lost:
 
@@ -266,13 +285,13 @@ From V3, each level must meet its daily X Points spend to claim that day's platf
 
 **Example: V8 → V9.** Promotion grants 30 points, and the X Points balance is capped at 30; for the first 3 months V9 spends 7.5 points a day (50% of the V9 standard), then 15 points a day.
 
-## 9. Two months, three dates
+## 9. Three milestones
 
 ![](../.gitbook/assets/onepage-12-timeline.svg)
 
-- **15 September**　First private-sale round opens: subscribe at 0.1 USDT in three tiers — 1,000 / 5,000 / 10,000 USDT — with the XO stake paired alongside.
-- **14 October**　Studio City, Macau: XO staking goes live — static rewards settle every 12 hours, referral rewards and leadership bonuses settle alongside, and every withdrawal burns EXON.
-- **14 November**　EXON lists at 1.0 USDT with the first day's release, then 1,095 consecutive days of daily payouts, to hold or to sell on NEX.
+- **Early bird**　First private-sale round: subscribe at 0.1 USDT in three tiers — 1,000 / 5,000 / 10,000 USDT — with the XO stake paired alongside.
+- **Staking**　The Macau summit: XO staking goes live — static rewards settle every 12 hours, referral rewards and leadership bonuses settle alongside, and static withdrawals burn fuel EXON.
+- **Listing**　EXON lists at 1.0 USDT with the first day's release; from listing day, 1,095 consecutive days of daily payouts, to hold or to sell on NEX.
 
 ## 10. Parameters at a glance
 

@@ -52,15 +52,32 @@ Referral rewards are calculated on each downline's daily static output, across u
 
 <figure><img src="../.gitbook/assets/onepage-11-twenty-generations.svg" alt="Referral rates across 20 generations: generation 1 15%, generations 2–3 10%, 4–8 5%, 9–12 2%, 13–20 1%, 76% in total"><figcaption>15% on the first generation, all the way down to the twentieth</figcaption></figure>
 
-| Generation | Rate | Unlock: own stake | Unlock: direct referrals (cumulative) |
-|---|---:|---:|---:|
-| Gen 1 | 15% | 100 USDT | 4, each order ≥ 100 USDT |
-| Gen 2 – 3 | 10% | 100 USDT | 4 |
-| Gen 4 | 5% | 100 USDT | 4 |
-| Gen 5 – 8 | 5% | 500 USDT | 8, each order ≥ 500 USDT |
-| Gen 9 – 12 | 2% | 1,000 USDT | 12, each order ≥ 1,000 USDT |
-| Gen 13 – 16 | 1% | 2,000 USDT | 16, each order ≥ 1,000 USDT |
-| Gen 17 – 20 | 1% | 5,000 USDT | 20, each order ≥ 1,000 USDT |
+| Generation you collect | Rate for that generation | Own stake | Qualified direct referrals (cumulative) | Minimum stake of each added referral |
+|---|---:|---:|---:|---:|
+| Gen 1 | 15% | 100 USDT | 1 | ≥ 100 USDT |
+| Gen 2 | 10% | 100 USDT | 2 | ≥ 100 USDT |
+| Gen 3 | 10% | 100 USDT | 3 | ≥ 100 USDT |
+| Gen 4 | 5% | 100 USDT | 4 | ≥ 100 USDT |
+| Gen 5 | 5% | 500 USDT | 5 | ≥ 500 USDT |
+| Gen 6 | 5% | 500 USDT | 6 | ≥ 500 USDT |
+| Gen 7 | 5% | 500 USDT | 7 | ≥ 500 USDT |
+| Gen 8 | 5% | 500 USDT | 8 | ≥ 500 USDT |
+| Gen 9 | 2% | 1,000 USDT | 9 | ≥ 1,000 USDT |
+| Gen 10 | 2% | 1,000 USDT | 10 | ≥ 1,000 USDT |
+| Gen 11 | 2% | 1,000 USDT | 11 | ≥ 1,000 USDT |
+| Gen 12 | 2% | 1,000 USDT | 12 | ≥ 1,000 USDT |
+| Gen 13 | 1% | 2,000 USDT | 13 | ≥ 1,000 USDT |
+| Gen 14 | 1% | 2,000 USDT | 14 | ≥ 1,000 USDT |
+| Gen 15 | 1% | 2,000 USDT | 15 | ≥ 1,000 USDT |
+| Gen 16 | 1% | 2,000 USDT | 16 | ≥ 1,000 USDT |
+| Gen 17 | 1% | 5,000 USDT | 17 | ≥ 1,000 USDT |
+| Gen 18 | 1% | 5,000 USDT | 18 | ≥ 1,000 USDT |
+| Gen 19 | 1% | 5,000 USDT | 19 | ≥ 1,000 USDT |
+| Gen 20 | 1% | 5,000 USDT | 20 | ≥ 1,000 USDT |
+
+Every condition in the table applies to **the person collecting the reward**: an own stake at the tier, enough qualified direct referrals, and each added referral staking at least the minimum. Downline members have no conditions to meet, and their own static yield is never reduced. Each rate applies only to the people in that generation: direct referrals are generation 1 and pay 15%; the people they refer are generation 2 and pay 10%; and so on down to 1% on generation 20.
+
+**Unlocking, by example:** with an own stake of 500 USDT and 6 qualified direct referrals — 4 staking 100 USDT or more and 2 staking 500 USDT or more — generations 1 – 6 are open; add 2 more referrals staking 500 USDT or more and generations 7 and 8 open too. For how the reward itself is computed, see Example D in [Worked Examples](worked-examples.md).
 
 ## Leadership bonuses: V1 – V12 on the level differential <a href="#leadership-bonuses-v1-v12" id="leadership-bonuses-v1-v12"></a>
 

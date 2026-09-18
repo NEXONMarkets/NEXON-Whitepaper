@@ -62,15 +62,15 @@ The longer the term, the more it compounds: the 540-day term ends at **253,406 U
 
 ## Example D — a three-generation team <a href="#example-d-a-three-generation-team" id="example-d-a-three-generation-team"></a>
 
-Refer 5 people who each stake 10,000 USDT, each of whom refers 5 more — 5 / 25 / 125 people across three generations. Referral rewards are calculated on each downline's daily static output:
+Refer 5 people, each of whom refers 5 more: 5 / 25 / 125 people across three generations, everyone staking 10,000 USDT and producing 40 – 120 USDT of static yield a day. The referral reward is that generation's combined daily static output times that generation's rate:
 
-| Generation | People · total staked | Rate | Per day |
-|---|---|---:|---:|
-| Gen 1 | 5 · 50,000 USDT | 15% | 30 – 90 USDT |
-| Gen 2 | 25 · 250,000 USDT | 10% | 100 – 300 USDT |
-| Gen 3 | 125 · 1,250,000 USDT | 10% | 500 – 1,500 USDT |
-| **Total** | | | **630 – 1,890 USDT / day** |
+| Generation | People in it | Their combined daily static output | Rate | Your daily referral reward |
+|---|---:|---:|---:|---:|
+| Gen 1 | 5 | 200 – 600 USDT | 15% | 30 – 90 USDT |
+| Gen 2 | 25 | 1,000 – 3,000 USDT | 10% | 100 – 300 USDT |
+| Gen 3 | 125 | 5,000 – 15,000 USDT | 10% | 500 – 1,500 USDT |
+| **Three generations** | | | | **630 – 1,890 USDT / day** |
 
-An own stake of 100 USDT and four direct referrals unlock generations 1 – 4. As the team grows deeper, generation 4 pays 5% and the ladder runs to generation 20; each further block of generations opens as own stake and direct referrals reach the corresponding tier.
+An own stake of 100 USDT and 4 qualified direct referrals already open generations 1 – 4. As the team grows deeper, generation 4 pays 5% and the ladder runs to generation 20; each additional qualified direct referral opens one more generation, provided the own stake has reached the matching tier. Rewards are paid in EXON, with USDT as the unit of account, and the downline's own static yield is never reduced.
 
 *Previous: [Staking & Returns](staking-and-returns.md) · Next: [Value Flows](value-flows.md)*
