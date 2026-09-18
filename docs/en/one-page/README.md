@@ -95,13 +95,13 @@ The longer the term, the higher the bonus — set by term alone, never by amount
 
 ![](../.gitbook/assets/onepage-05-term-ladder.svg)
 
-| Term | Bonus | 10,000 USDT staked · per day | 10,000 USDT staked · per month | Cumulative lock |
-| :-- | --: | --: | --: | --: |
-| 30 days | base | 40 – 120 USDT | 1,200 – 3,600 USDT | 1,200 days |
-| 90 days | +10% | 44 – 132 USDT | 1,320 – 3,960 USDT | 1,170 days |
-| 180 days | +20% | 48 – 144 USDT | 1,440 – 4,320 USDT | 1,080 days |
-| 360 days | +30% | 52 – 156 USDT | 1,560 – 4,680 USDT | 900 days |
-| 540 days | +50% | 60 – 180 USDT | 1,800 – 5,400 USDT | 540 days |
+| Term | Bonus | 10,000 USDT staked · per day | 10,000 USDT staked · per month |
+| :-- | --: | --: | --: |
+| 30 days | base | 40 – 120 USDT | 1,200 – 3,600 USDT |
+| 90 days | +10% | 44 – 132 USDT | 1,320 – 3,960 USDT |
+| 180 days | +20% | 48 – 144 USDT | 1,440 – 4,320 USDT |
+| 360 days | +30% | 52 – 156 USDT | 1,560 – 4,680 USDT |
+| 540 days | +50% | 60 – 180 USDT | 1,800 – 5,400 USDT |
 
 Static yield arrives in XO and can be withdrawn at any time; rewards can be reinvested as they land, so the principal keeps compounding — time works for the staker.
 
