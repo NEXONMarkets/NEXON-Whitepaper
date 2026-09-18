@@ -39,9 +39,9 @@ The NEX core team, photographed on the summit main stage:
 | Batter | Dean, Global Business School |
 | Robart | Director of Market Expansion, Europe and the Americas |
 
-### Two awards, two officials on the same stage
+### Two awards
 
-The Macau Quality Brand International Certification League (MQBICL) presented NEXON with the Most Innovative Potential Award and the Best Design of the Year Award; Ho King Lun, member of the Macau Legislative Assembly, and Gao Jian, Vice Mayor of Yichun, spoke at the same event.
+The Macau Quality Brand International Certification League (MQBICL) presented NEXON with the Most Innovative Potential Award and the Best Design of the Year Award.
 
 ![](../.gitbook/assets/onepage-p3-awards.jpg)
 
