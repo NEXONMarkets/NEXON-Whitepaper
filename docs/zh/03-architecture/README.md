@@ -56,7 +56,7 @@ flowchart TB
 
 经济架构比产品 Roadmap 更窄，也更确定。NEX 交易所承载 XO 与 EXON 现货、以及 EXON 逐日释放呈现；Staking Platform 承载 XO 质押、期限加成、推广奖励、领导奖金与收益提取。两边可以共享身份、账户可见性和资金操作，但账本、权限与披露各自独立。
 
-一笔 Staking Platform 订单开单即分两份：28% 按当时 1 U 等值买入 EXON 存入燃料钱包（只能销毁），其余兑换 XO 进入质押、每 12 小时结算。**这是这个产品自己的规则**——不是通用架构模式，也不是未来应用的费率模型。
+一笔 Staking Platform 订单开单即分两份：28% 按当时 1 U 等值买入 EXON 存入燃料（只能销毁），其余兑换 XO 进入质押、每 12 小时结算。**这是这个产品自己的规则**——不是通用架构模式，也不是未来应用的费率模型。
 
 ## 一条跨越边界的路径 <a href="#one-route-across-the-boundaries" id="one-route-across-the-boundaries"></a>
 

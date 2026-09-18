@@ -56,7 +56,7 @@ They map one-to-one onto the six-stage path: **Intent → Route → Policy Check
 
 The economic architecture is narrower and more settled than the product roadmap. The NEX exchange carries XO and EXON spot trading and the daily EXON release display. The Staking Platform carries XO staking, term bonuses, referral rewards, leadership bonuses and reward withdrawal. They may share identity, account visibility and capital operations; their ledgers, permissions and disclosures stay distinct.
 
-A Staking Platform order splits the moment it opens: 28% buys EXON at 1 USDT each into the fuel wallet (burn only), and the rest is swapped into XO and staked, settling every 12 hours. **That is this product's own rule** — not a general architectural pattern, and not a fee model for future applications.
+A Staking Platform order splits the moment it opens: 28% buys EXON at 1 USDT each as fuel (burn only), and the rest is swapped into XO and staked, settling every 12 hours. **That is this product's own rule** — not a general architectural pattern, and not a fee model for future applications.
 
 ## One route across the boundaries
 

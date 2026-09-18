@@ -9,7 +9,7 @@ icon: chart-pie
 
 | Stage | Price | What happens |
 |---|---|---|
-| **Private sale** | Fixed `0.1 USDT`, limited by tier | The only route to EXON; each subscription is paired with an XO stake at 3:1, and both income lines start together |
+| **Private sale** | Fixed `0.1 USDT`, limited by tier | The first way into EXON (the second is dynamic rewards); each subscription is paired with an XO stake at 3:1, and both income lines start together |
 | **Listing** | `1.0 USDT`, ten times the subscription price | NEX spot opens with sell orders only, no buy orders; the first day's release lands on listing day |
 | **Release** | — | Daily for 1,095 days from listing day, one payout every 12 hours, 2,190 in total |
 

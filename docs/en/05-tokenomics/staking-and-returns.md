@@ -1,36 +1,36 @@
 ---
-description: "0.1% – 1.0% every 12 hours, term bonuses, the day-31 exit window, three settlement speeds with their burns, 20 generations of referrals and V1 – V12."
+description: "0.2% – 0.6% every 12 hours, term bonuses, maturity withdrawal and auto-renewal, three settlement speeds with their burns, 20 generations of referrals and V1 – V12."
 icon: chart-line
 ---
 
 # Staking & Returns
 
-A staking deposit is swapped into XO and starts earning at once. **Settlement every 12 hours, 0.1% – 1.0% each time, at 08:00 and 20:00 Beijing time, twice a day.** Rewards land directly in XO.
+A staking deposit is swapped into XO and starts earning at once. **Settlement every 12 hours, 0.2% – 0.6% each time, twice a day.** Static yield lands directly in XO.
 
 ```text
-Per settlement = staked amount × (0.1% – 1.0%) × (1 + term bonus)
+Per settlement = staked amount × (0.2% – 0.6%) × (1 + term bonus)
 Per day        = per settlement × 2
 ```
 
-10,000 USDT staked earns 20 – 200 USDT a day; on the 540-day term with its +50% bonus, 30 – 300 USDT a day. What maturity pays, and how far restaking every 100 USDT of rewards takes it, is Example B in [Worked Examples](worked-examples.md): up to 17.2× the principal on the 540-day term.
+10,000 USDT staked earns 40 – 120 USDT a day; on the 540-day term with its +50% bonus, 60 – 180 USDT a day. What maturity pays, and how far reinvesting the rewards takes it, is Example B in [Worked Examples](worked-examples.md): up to 10.7 × the principal on the 540-day term.
 
 ## Five terms <a href="#five-terms" id="five-terms"></a>
 
-<figure><img src="../.gitbook/assets/onepage-05-term-ladder.svg" alt="Term ladder: 30 days base, 90 days +10%, 180 days +20%, 360 days +30%, 540 days +50%; 10,000 USDT staked earns 20–200, 22–220, 24–240, 26–260 and 30–300 USDT a day"><figcaption>The longer the term, the higher the bonus — set by term alone, never by amount</figcaption></figure>
+<figure><img src="../.gitbook/assets/onepage-05-term-ladder.svg" alt="Term ladder: 30 days base, 90 days +10%, 180 days +20%, 360 days +30%, 540 days +50%; 10,000 USDT staked earns 40–120, 44–132, 48–144, 52–156 and 60–180 USDT a day"><figcaption>The longer the term, the higher the bonus — set by term alone, never by amount</figcaption></figure>
 
 | Term | Bonus | 10,000 USDT staked · per day | 10,000 USDT staked · per month | At maturity | Cumulative lock |
 |---:|---:|---:|---:|---|---:|
-| 30 days | base | 20 – 200 USDT | 600 – 6,000 USDT | Day-31 exit window | 1,200 days |
-| 90 days | +10% | 22 – 220 USDT | 660 – 6,600 USDT | Rolls into the next term | 1,170 days |
-| 180 days | +20% | 24 – 240 USDT | 720 – 7,200 USDT | Rolls into the next term | 1,080 days |
-| 360 days | +30% | 26 – 260 USDT | 780 – 7,800 USDT | Rolls into the next term | 900 days |
-| 540 days | +50% | 30 – 300 USDT | 900 – 9,000 USDT | Principal returned | 540 days |
+| 30 days | base | 40 – 120 USDT | 1,200 – 3,600 USDT | Back at maturity | 1,200 days |
+| 90 days | +10% | 44 – 132 USDT | 660 – 6,600 USDT | Rolls into the next term | 1,170 days |
+| 180 days | +20% | 48 – 144 USDT | 720 – 7,200 USDT | Rolls into the next term | 1,080 days |
+| 360 days | +30% | 52 – 156 USDT | 780 – 7,800 USDT | Rolls into the next term | 900 days |
+| 540 days | +50% | 60 – 180 USDT | 1,800 – 5,400 USDT | Principal returned | 540 days |
 
 ## Exit and renewal <a href="#exit-and-renewal" id="exit-and-renewal"></a>
 
-* **30-day term**: day 31 is the exit window — principal plus 30 days of rewards, no penalty. Miss the window and the order renews automatically, 90 → 180 → 360 → 540 days, for a cumulative lock of 1,200 days.
+* **30-day term**: principal plus 30 days of rewards come back at maturity, no penalty. Left in place, the order renews automatically, 90 → 180 → 360 → 540 days, for a cumulative lock of 1,200 days.
 * **540-day term**: one step, +50% bonus, and a cumulative lock of only 540 days — the shortest lock and the largest bonus.
-* Minimum order 100 USDT; once 100 USDT of rewards has accrued it can be staked as a new order, and the principal keeps compounding.
+* Minimum order 100 USDT; rewards can be reinvested as they land, and the principal keeps compounding.
 
 ## Withdrawal and burn <a href="#withdrawal-and-burn" id="withdrawal-and-burn"></a>
 
@@ -44,11 +44,11 @@ Rewards can be withdrawn at any time, through one of three settlement speeds —
 | 30-day linear | 20% | 2,000 |
 | 60-day linear | 10% | 1,000 |
 
-What burns is EXON from the fuel wallet, gone from circulation for good. If the fuel wallet holds enough, settle immediately; if not, pick a slower settlement or top up fuel through the private sale. Static rewards, referral rewards and leadership bonuses each burn on every withdrawal.
+What burns is fuel EXON, gone from circulation for good. If the fuel holds enough, settle immediately; if not, pick a slower settlement. Static yield burns on every withdrawal; referral and leadership rewards are paid in EXON and burn no fuel.
 
 ## Referral rewards: 20 generations, 76% in total <a href="#referral-rewards-20-generations" id="referral-rewards-20-generations"></a>
 
-Referral rewards are calculated on each downline's daily static output, across up to 20 generations, settled in the same cycle as static rewards and always paid in XO.
+Referral rewards are calculated on each downline's daily static output, across up to 20 generations, settled in the same cycle as static rewards and always paid in EXON.
 
 <figure><img src="../.gitbook/assets/onepage-11-twenty-generations.svg" alt="Referral rates across 20 generations: generation 1 15%, generations 2–3 10%, 4–8 5%, 9–12 2%, 13–20 1%, 76% in total"><figcaption>15% on the first generation, all the way down to the twentieth</figcaption></figure>
 
@@ -81,7 +81,19 @@ Leadership bonuses are paid as a **Differential Matching Bonus**: your rate minu
 | V11 | 17,000 USDT | 30,000,000 USDT | 2 × V10 teams | global pool 30% |
 | V12 | 20,000 USDT | 50,000,000 USDT | 2 × V11 teams | global pool 50% |
 
-V10 – V12 share a global pool of 3% of all XO deposits, weighted 20 / 30 / 50 and split equally within each level. Referral rewards and leadership bonuses burn EXON from the fuel wallet on withdrawal in the same way.
+V10 – V12 share a global pool of 3% of all XO deposits, weighted 20 / 30 / 50 and split equally within each level. Referral rewards and leadership bonuses are paid in EXON and burn no fuel on withdrawal.
+
+**X Points.** The daily condition for claiming dynamic rewards at each level, bought only with EXON at 1 point = 10 USD of EXON.
+
+| Level | V1 | V2 | V3 | V4 | V5 | V6 | V7 | V8 | V9 | V10 | V11 | V12 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Daily use (points) | 0 | 0 | 1 | 2 | 3 | 5 | 7 | 10 | 68 | 20 | 25 | 30 |
+
+* The quota refreshes every 24 hours; meet your level's daily quota to claim that day's platform rewards; miss it and that day's rewards cannot be claimed.
+* Every promotion grants 30 points; a newly promoted member gets a 3-month relief period at 50% of the level's standard rate, then the full 100% applies.
+* Example: V8 to V9 — 30 points granted on promotion; V9's standard rate is 15 a day, 7.5 a day during relief, back to 15 a day after 3 months.
+
+X Points govern dynamic rewards only — static yield and principal are untouched.
 
 {% hint style="info" %}
 **Every order and every settlement records the parameter version it ran under.** The per-settlement range, term bonuses and leadership execution rates are set by market stage; later adjustments never rewrite historical accruals, and the interface tells the user which version governs their order.

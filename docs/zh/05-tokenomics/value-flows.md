@@ -1,5 +1,5 @@
 ---
-description: "入金拆分、燃料钱包、时间与结算、线性释放、提取销毁、推广与领导奖金——六条流各自记账，最后汇成同一个飞轮。"
+description: "入金拆分、燃料、时间与结算、线性释放、静态提取销毁、以 EXON 发放的推广与领导奖金——六条流各自记账，最后汇成同一个飞轮。"
 icon: arrows-rotate
 ---
 
@@ -7,30 +7,30 @@ icon: arrows-rotate
 
 NEXON 的经济里有好几条流。**把它们分开记账，是读懂这套机制的前提；把它们放到一起看，就是 EXON 的上涨引擎。**
 
-<figure><img src="../.gitbook/assets/onepage-03-pipeline.svg" alt="一笔入金的六步：入金 → 燃料钱包 28% 买入 EXON → 其余兑换 XO 质押 → 每 12 小时结算 → 提取收益销毁 10% – 30% EXON → 满 100 U 再开单"><figcaption>一笔入金的动线：从质押到销毁，再到下一单</figcaption></figure>
+<figure><img src="../.gitbook/assets/onepage-03-pipeline.svg" alt="一笔入金的六步：入金 → 燃料 28% 买入 EXON → 其余兑换 XO 质押 → 每 12 小时结算 → 提取收益销毁 10% – 30% EXON → 收益复投"><figcaption>一笔入金的动线：从质押到销毁，再到下一单</figcaption></figure>
 
 ## 流 ①　入金拆分 <a href="#flow-1-the-deposit-split" id="flow-1-the-deposit-split"></a>
 
 ```text
-燃料 = 0.28 × P   → 按当时 1 U 等值买入 EXON → 燃料钱包
+燃料 = 0.28 × P   → 按当时 1 U 等值买入 EXON → 燃料
 质押 = 其余部分   → 兑换 XO → 质押，每 12 小时结算
 ```
 
-入金 10,000 U：2,800 枚 EXON 进燃料钱包，其余兑换 XO 开始计息，一天 20 – 200 U。**每一笔入金都在买入。**
+入金 10,000 U：2,800 枚 EXON 存为燃料，其余兑换 XO 开始计息，一天 40 – 120 U。**每一笔入金都在买入。**
 
-## 流 ②　燃料钱包 <a href="#flow-2-the-fuel-wallet" id="flow-2-the-fuel-wallet"></a>
+## 流 ②　燃料 <a href="#flow-2-the-fuel-wallet" id="flow-2-the-fuel-wallet"></a>
 
-燃料钱包只进不出：不能转出、不能交易，只能在提取收益时销毁。它与质押中的 XO 是两笔账——前者只能烧，后者计息并发放奖励。
+燃料只进不出：不能提现、不能转出，只能在提取静态收益时销毁。它与质押中的 XO 是两笔账——前者只能烧，后者计息并发放静态收益。
 
 ## 流 ③　时间与结算 <a href="#flow-3-time-and-settlement" id="flow-3-time-and-settlement"></a>
 
 XO 质押进入选定的 30 / 90 / 180 / 360 / 540 天期限，加成依次为基础 / +10% / +20% / +30% / +50%。每 12 小时结算一次：
 
 ```text
-单次结算 = 质押金额 × (0.1% – 1.0%) × (1 + 加成)
+单次结算 = 质押金额 × (0.2% – 0.6%) × (1 + 加成)
 ```
 
-收益以 XO 到账，随时可提取；到账满 100 U 就能再开一单——时间复利。
+静态收益以 XO 到账，随时可提取；到账即可复投——时间复利。
 
 ## 流 ④　线性释放 <a href="#flow-4-linear-release" id="flow-4-linear-release"></a>
 
@@ -49,7 +49,7 @@ R_epoch = A ÷ 2,190
 
 | 到账方式 | 销毁比例 `b` | 经济动作 |
 |---|---:|---|
-| 立即到账 | 30% | 收益立即到账，燃料钱包销毁等值 30% 的 EXON |
+| 立即到账 | 30% | 收益立即到账，燃料销毁等值 30% 的 EXON |
 | 30 天线性到账 | 20% | 30 天内逐日到账，销毁 20% |
 | 60 天线性到账 | 10% | 60 天内逐日到账，销毁 10% |
 
@@ -61,7 +61,7 @@ Burn = W × b ÷ P_EXON
 
 ## 流 ⑥　推广奖励与领导奖金 <a href="#flow-6-referral-rewards-and-leadership-bonuses" id="flow-6-referral-rewards-and-leadership-bonuses"></a>
 
-推广奖励按下级每日静态产出计算，最多 20 代、合计 76%；领导奖金 V1 – V12 按等级极差发放。两者与静态收益同一个周期、一律以 XO 发放，提取时同样销毁 EXON。
+推广奖励按下级每日静态产出计算，最多 20 代、合计 76%；领导奖金 V1 – V12 按等级极差发放。两者与静态收益同一个周期、一律以 EXON 发放，提取不销毁燃料。各等级每日以 EXON 兑换贡献值（V1、V2 为 0；1 点 = 价值 10 美元的 EXON），完成当日消耗方可领取当日平台奖励。
 
 ## 汇成一个飞轮 <a href="#one-flywheel" id="one-flywheel"></a>
 
@@ -69,12 +69,12 @@ Burn = W × b ÷ P_EXON
 flowchart LR
     P["质押入金 P"] --> B["28% 买入 EXON"]
     P --> S["其余兑换 XO 质押"]
-    B --> W["燃料钱包 · 只进不出"]
-    S --> R["每 12 小时结算 0.1% – 1.0%"]
+    B --> W["燃料 · 只进不出"]
+    S --> R["每 12 小时结算 0.2% – 0.6%"]
     R --> C{"提取方式"}
     C --> N["收益到账 XO"]
-    C --> X["燃料钱包销毁 EXON 10% – 30%"]
-    N -. "满 100 U 再开单" .-> P
+    C --> X["燃料销毁 EXON 10% – 30%"]
+    N -. "收益复投" .-> P
     V["私募 EXON 逐日释放"] --> M["NEX 现货 · 只卖不买"]
     classDef anchor fill:#047854,stroke:#047854,stroke-width:1.5px,color:#F5F3F0
     classDef engine fill:#8B5CF6,stroke:#8B5CF6,stroke-width:1.5px,color:#F5F3F0
@@ -84,9 +84,9 @@ flowchart LR
     class B,W,C,X engine
 ```
 
-<figure><img src="../.gitbook/assets/onepage-10-flywheel.svg" alt="销毁增值飞轮：质押入金买入 EXON → 燃料钱包只进不出 → 提取收益销毁 → 供给只减不增，中间是只能卖不能买"><figcaption>买入不停，销毁不停，释放表固定，流通盘只会越来越小</figcaption></figure>
+<figure><img src="../.gitbook/assets/onepage-10-flywheel.svg" alt="销毁增值飞轮：质押入金买入 EXON → 燃料只进不出 → 提取收益销毁 → 供给只减不增，中间是只能卖不能买"><figcaption>买入不停，销毁不停，释放表固定，流通盘只会越来越小</figcaption></figure>
 
-质押越多，买入越多；提取越多，烧得越多；释放表固定。质押总额到 5,000 万 U 起，一年烧掉的就超过一年释放出来的；到 1 亿 U，一天最多烧 60 万枚，是日释放的 3.3 倍。
+质押越多，买入越多；提取越多，烧得越多；释放表固定。质押总额到 1 亿 U，一天最多烧 36 万枚，是日释放的 2.0 倍；一年烧掉的接近两年的释放量。
 
 ## 长期的产品闭环 <a href="#the-long-term-product-loop" id="the-long-term-product-loop"></a>
 
@@ -96,11 +96,11 @@ flowchart LR
 
 任何一个时刻，一次审计都应该能答出来：
 
-1. 这笔资产是质押中的 XO，还是燃料钱包里的 EXON？
+1. 这笔资产是质押中的 XO，还是燃料里的 EXON？
 2. 适用哪个参数版本？
 3. 这笔收益是待提取，还是已到账？
 4. 选的是哪种到账方式，销毁了多少 EXON？
-5. 这笔 EXON 是私募释放的，还是燃料钱包买入的？
+5. 这笔 EXON 是私募释放的、动态奖励发放的，还是燃料买入的？
 6. 现实那一段是已付款，还是已履约？
 
 *上一节：[完整演算案例](worked-examples.md) · 下一节：[治理](../06-governance/README.md)*

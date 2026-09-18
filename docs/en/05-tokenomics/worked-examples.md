@@ -28,37 +28,37 @@ The release schedule is fixed: every doubling of the price doubles the monthly p
 
 ## Example B — staking 10,000 USDT <a href="#example-b-staking-10-000-usdt" id="example-b-staking-10-000-usdt"></a>
 
-Deposit `P = 10,000 USDT`. The order splits on opening: `2,800 USDT` of fuel buys `2,800 EXON` at 1 USDT each into the fuel wallet; the rest is swapped into XO and staked, settling every 12 hours at 0.1% – 1.0% — 20 – 200 USDT a day.
+Deposit `P = 10,000 USDT`. The order splits on opening: `2,800 USDT` of fuel buys `2,800 EXON` at 1 USDT each as fuel; the rest is swapped into XO and staked, settling every 12 hours at 0.2% – 0.6% — 40 – 120 USDT a day.
 
 **Rewards on the original order only**, at maturity:
 
 | Term | Term bonus | Daily output with bonus | Rewards at maturity | Principal + rewards at maturity | Multiple of principal |
 | :-- | --: | --: | --: | --: | --: |
-| 30 days | none | 20 – 200 USDT | 600 – 6,000 USDT | 10,600 – 16,000 USDT | 1.1× – 1.6× |
-| 90 days | +10% | 22 – 220 USDT | 1,980 – 19,800 USDT | 11,980 – 29,800 USDT | 1.2× – 3.0× |
-| 360 days | +30% | 26 – 260 USDT | 9,360 – 93,600 USDT | 19,360 – 103,600 USDT | 1.9× – 10.4× |
-| 540 days | +50% | 30 – 300 USDT | 16,200 – 162,000 USDT | 26,200 – 172,000 USDT | 2.6× – 17.2× |
+| 30 days | none | 40 – 120 USDT | 1,200 – 3,600 USDT | 11,200 – 13,600 USDT | 1.1× – 1.6× |
+| 90 days | +10% | 44 – 132 USDT | 3,960 – 11,880 USDT | 13,960 – 21,880 USDT | 1.2× – 3.0× |
+| 360 days | +30% | 52 – 156 USDT | 18,720 – 56,160 USDT | 28,720 – 66,160 USDT | 6.0 × – 10.4× |
+| 540 days | +50% | 60 – 180 USDT | 32,400 – 97,200 USDT | 42,400 – 107,200 USDT | 2.6× – 10.7 × |
 
-**Restake every 100 USDT of rewards.** Once rewards reach 100 USDT, they open a new order. The new order carries the same term bonus as the original, settles every 12 hours, and its own rewards open another order at 100 USDT — all the way to the original order's maturity. Total at maturity = principal + original order rewards + rewards from every new order. At 0.1% per settlement:
+**Reinvest and compound.** Rewards are reinvested as they land: a reinvested order carries the same term bonus as the original, settles every 12 hours, and its own rewards keep compounding — all the way to the original order's maturity. Total at maturity = principal + original order rewards + reinvested rewards. At 0.2% per settlement:
 
 | Term | Original order rewards | New order rewards | Principal + all rewards at maturity | Multiple of principal | Original order only |
 | :-- | --: | --: | --: | --: | --: |
-| 30 days | 600 USDT | 15.2 USDT | **10,615 USDT** | **1.1×** | 1.1× |
-| 90 days | 1,980 USDT | 198 USDT | **12,178 USDT** | **1.2×** | 1.2× |
-| 360 days | 9,360 USDT | 6,052 USDT | **25,412 USDT** | **2.5×** | 1.9× |
-| 540 days | 16,200 USDT | 24,098 USDT | **50,298 USDT** | **5.0×** | 2.6× |
+| 30 days | 1,200 USDT | 68 USDT | **11,268 USDT** | **1.1×** | 1.1× |
+| 90 days | 3,960 USDT | 871 USDT | **14,831 USDT** | **1.5×** | 1.4× |
+| 360 days | 18,720 USDT | 35,945 USDT | **64,665 USDT** | **6.5×** | 2.9× |
+| 540 days | 32,400 USDT | 211,006 USDT | **253,406 USDT** | **25.3×** | 4.2× |
 
-The longer the term, the more it compounds: the 540-day term ends at **50,298 USDT, 5.0× the principal**, against 2.6× on the original order alone. Time works for the staker.
+The longer the term, the more it compounds: the 540-day term ends at **253,406 USDT, 25.3 × the principal**, against 2.6× on the original order alone. Time works for the staker.
 
 ## Example C — withdrawing 10,000 USDT of rewards <a href="#example-c-withdrawing-10-000-usdt-of-rewards" id="example-c-withdrawing-10-000-usdt-of-rewards"></a>
 
-| Settlement | Burned | EXON burned (at 1.0 USDT) | Withdrawals a fuel wallet of 2,800 EXON supports |
+| Settlement | Burned | EXON burned (at 1.0 USDT) | Withdrawals a fuel balance of 2,800 EXON supports |
 |---|---:|---:|---:|
 | Immediate | 30% | 3,000 | 9,333 USDT |
 | 30-day linear | 20% | 2,000 | 14,000 USDT |
 | 60-day linear | 10% | 1,000 | 28,000 USDT |
 
-`Burn = W × b ÷ P_EXON`. What burns is EXON from the fuel wallet, gone from circulation for good; the only variable that changes between the three lanes is **how long you wait**. When fuel runs short, pick a slower settlement or top up through the private sale.
+`Burn = W × b ÷ P_EXON`. What burns is EXON from the fuel, gone from circulation for good; the only variable that changes between the three lanes is **how long you wait**. When fuel runs short, pick a slower settlement or top up through the private sale.
 
 ## Example D — a three-generation team <a href="#example-d-a-three-generation-team" id="example-d-a-three-generation-team"></a>
 
@@ -66,10 +66,10 @@ Refer 5 people who each stake 10,000 USDT, each of whom refers 5 more — 5 / 25
 
 | Generation | People · total staked | Rate | Per day |
 |---|---|---:|---:|
-| Gen 1 | 5 · 50,000 USDT | 15% | 15 – 150 USDT |
-| Gen 2 | 25 · 250,000 USDT | 10% | 50 – 500 USDT |
-| Gen 3 | 125 · 1,250,000 USDT | 10% | 250 – 2,500 USDT |
-| **Total** | | | **315 – 3,150 USDT / day** |
+| Gen 1 | 5 · 50,000 USDT | 15% | 30 – 90 USDT |
+| Gen 2 | 25 · 250,000 USDT | 10% | 100 – 300 USDT |
+| Gen 3 | 125 · 1,250,000 USDT | 10% | 500 – 1,500 USDT |
+| **Total** | | | **630 – 1,890 USDT / day** |
 
 An own stake of 100 USDT and four direct referrals unlock generations 1 – 4. As the team grows deeper, generation 4 pays 5% and the ladder runs to generation 20; each further block of generations opens as own stake and direct referrals reach the corresponding tier.
 

@@ -1,5 +1,5 @@
 ---
-description: "XO is the Value Anchor of the NEXON narrative and, today, the Staking Principal Token: settled every 12 hours, with all three reward streams paid in XO."
+description: "XO is the Value Anchor of the NEXON narrative and, today, the Staking Principal Token: settled every 12 hours, with static yield paid in XO."
 icon: circle-x
 ---
 
@@ -21,17 +21,17 @@ The second sentence defines what happens now; the first explains why that functi
 
 XO supply is 1 billion, trading freely on the NEX secondary market. When a deposit is staked, everything beyond the 28% fuel portion is swapped into XO and staked; earning starts on staking.
 
-**Settlement every 12 hours, 0.1% – 1.0% each time, at 08:00 and 20:00 Beijing time.** 10,000 USDT staked earns 20 – 200 USDT a day. The longer the term, the higher the bonus — set by term alone, never by amount:
+**Settlement every 12 hours, 0.2% – 0.6% each time.** 10,000 USDT staked earns 40 – 120 USDT a day. The longer the term, the higher the bonus — set by term alone, never by amount:
 
 | Term | 30 days | 90 days | 180 days | 360 days | 540 days |
 |---|---:|---:|---:|---:|---:|
 | Bonus | base | +10% | +20% | +30% | +50% |
-| 10,000 USDT staked · per day | 20 – 200 USDT | 22 – 220 USDT | 24 – 240 USDT | 26 – 260 USDT | 30 – 300 USDT |
+| 10,000 USDT staked · per day | 40 – 120 USDT | 44 – 132 USDT | 48 – 144 USDT | 52 – 156 USDT | 60 – 180 USDT |
 | Cumulative lock | 1,200 days | 1,170 days | 1,080 days | 900 days | 540 days |
 
-Static rewards, referral rewards and leadership bonuses are **all paid in XO**, settled in the same cycle as static rewards. Rewards can be withdrawn at any time; once 100 USDT has accrued it can be staked as a new order, and the principal keeps compounding.
+Static yield is **paid in XO**; referral rewards and leadership bonuses are paid in EXON, settled in the same cycle. Static yield can be withdrawn at any time; rewards can be reinvested as they land, and the principal keeps compounding.
 
-Day 31 is the exit window of the 30-day term: principal plus 30 days of rewards, no penalty. Miss the window and the order renews automatically, 90 → 180 → 360 → 540 days. Open a 540-day term directly and the bonus is +50% with a cumulative lock of only 540 days. Minimum order 100 USDT.
+On the 30-day term, principal plus 30 days of rewards come back at maturity, no penalty. Left in place, the order renews automatically, 90 → 180 → 360 → 540 days. Open a 540-day term directly and the bonus is +50% with a cumulative lock of only 540 days. Minimum order 100 USDT.
 
 ## Governance and wider rights (Roadmap) <a href="#governance-and-wider-rights" id="governance-and-wider-rights"></a>
 
@@ -52,7 +52,7 @@ The Wallet shows XO positions, terms, settlement history and withdrawal status; 
 ## XO in three sentences <a href="#xo-in-three-sentences" id="xo-in-three-sentences"></a>
 
 1. **Narrative**: XO is NEXON's Value Anchor, carrying long-term ecosystem value.
-2. **Current mechanism**: XO is the Staking Principal Token, settled every 12 hours at 0.1% – 1.0%, with all three reward streams paid in XO, trading freely on NEX.
+2. **Current mechanism**: XO is the Staking Principal Token, settled every 12 hours at 0.2% – 0.6%, with static yield paid in XO, trading freely on NEX.
 3. **Opening with each entry point**: governance and wider ecosystem rights, as their rules are published (Roadmap).
 
 *Previous: [Two Assets, Two Jobs](two-assets-two-jobs.md) · Next: [EXON — Circulation Engine](exon.md)*

@@ -12,8 +12,9 @@ icon: book
 | USDT | U | The unit of account |
 | NEX exchange / spot layer | NEX 交易所 / 现货层 | XO trades freely; EXON spot (sell only) and the daily release display; excludes the staking reward model |
 | Staking Platform | 质押与奖励层 | XO staking, settlement every 12 hours, term bonuses, referral rewards, leadership bonuses and reward withdrawal |
-| Epoch | 结算周期 | The 12-hour reward and release interval, twice a day at 08:00 and 20:00 Beijing time |
-| Fuel wallet | 燃料钱包 | Where the EXON bought with 28% of every deposit at 1 USDT each goes; burn only, no transfer, no trading |
+| Epoch | 结算周期 | The 12-hour reward and release interval, twice a day |
+| Fuel | 燃料 | The EXON bought with 28% of every deposit at 1 USDT each, shown as a balance; burned only on static withdrawal, no withdrawal, no transfer |
+| X Points | 贡献值 | Daily points consumed by level (V1 and V2 use 0); meet the day's quota to claim the day's platform rewards. 1 point = 10 USD of EXON, 30 points granted per promotion, 3-month relief at 50% after a promotion |
 | Listing | 上线 | EXON opening on NEX spot at 1.0 USDT, the start of the day-one release |
 
 ## Assets and roles
@@ -24,23 +25,23 @@ icon: book
 | Value Anchor | 价值锚 | XO's narrative role: staking, participation, governance and long-term value |
 | Circulation Engine | 流通引擎 | EXON's narrative role: connecting the exchange, payment, exchange, fees and consumption |
 | Staking Principal Token | 质押本金代币 | XO's current mechanical role: the principal earns on it, all three reward streams are paid in it, and it trades freely on NEX |
-| Core Value Token | 核心价值代币 | EXON's current mechanical role: private sale as the only route, sell only, bought into the fuel wallet, burned on withdrawal |
+| Core Value Token | 核心价值代币 | EXON's current mechanical role: subscribed or earned, sell only, bought as fuel, burned on static withdrawal, the currency of X Points |
 
 ## Economic mechanism
 
 | Term | 中文 | Definition |
 |---|---|---|
-| Deposit split | 入金拆分 | 28% of a deposit buys EXON into the fuel wallet; the rest is swapped into XO and staked |
-| Per-settlement yield | 单次产出 | 0.1% – 1.0% every 12 hours; 10,000 USDT staked earns 20 – 200 USDT a day |
+| Deposit split | 入金拆分 | 28% of a deposit buys EXON as fuel; the rest is swapped into XO and staked |
+| Per-settlement yield | 单次产出 | 0.2% – 0.6% every 12 hours; 10,000 USDT staked earns 40 – 120 USDT a day |
 | Term bonus | 期限加成 | base / +10% / +20% / +30% / +50% for 30 / 90 / 180 / 360 / 540 days, set by term alone |
-| Exit window | 退出窗口 | Day 31 of the 30-day term: principal plus rewards, no penalty; missed, the order renews |
+| Maturity withdrawal | 期满取回 | On the 30-day term, principal plus rewards come back at maturity, no penalty; left in place, the order renews |
 | Settlement speed | 到账方式 | The three withdrawal lanes: immediate with a 30% burn, 30-day with 20%, 60-day with 10% |
-| Private sale | 私募 | The only route to EXON: 0.1 USDT, three tiers of 1,000 / 5,000 / 10,000 USDT, 11,500 allocations |
+| Private sale | 私募 | The first way into EXON: 0.1 USDT, three tiers of 1,000 / 5,000 / 10,000 USDT, 11,500 allocations; the second way is dynamic rewards |
 | Subscription-to-stake ratio | 认购与质押配置 | 3:1 during the private sale (stake rounded down to the integer), 1:1 after listing |
 | Linear release | 线性释放 | Daily release over 1,095 days and 2,190 payouts from listing day |
-| Referral rewards | 推广奖励 | Up to 20 generations, 76% in total, on each downline's daily static output, paid in XO |
+| Referral rewards | 推广奖励 | Up to 20 generations, 76% in total, on each downline's daily static output, paid in EXON |
 | Differential Matching Bonus | 等级极差 | How leadership bonuses V1 – V12 are paid: your rate minus your downline's rate |
-| Burn | 永久销毁 | EXON permanently burned from the fuel wallet when rewards are withdrawn |
+| Burn | 永久销毁 | Fuel EXON permanently burned when static yield is withdrawn |
 
 ## The control path
 
@@ -69,8 +70,8 @@ icon: book
 
 When a narrative term and a mechanism term appear together, **say both layers**. Recommended form:
 
-> XO is the Value Anchor and, today, the Staking Principal Token: settled every 12 hours, with all three reward streams paid in XO.
+> XO is the Value Anchor and, today, the Staking Principal Token: settled every 12 hours, with static yield paid in XO.
 >
-> EXON is the Circulation Engine and, today, the Core Value Token: the private sale is its only route, it is sell-only, and it burns on withdrawal.
+> EXON is the Circulation Engine and, today, the Core Value Token: subscribed or earned, sell-only, burned on static withdrawal, and the currency of X Points.
 
 *Previous: [Roadmap](../09-roadmap/README.md) · Next: [Legal Disclaimer](../legal-disclaimer/README.md)*

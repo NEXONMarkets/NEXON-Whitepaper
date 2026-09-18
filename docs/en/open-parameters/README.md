@@ -5,7 +5,7 @@ icon: list-check
 
 # Open Parameters
 
-The current mechanism finalised on 10 September 2026 closes the principal economic questions: the two asset roles, the deposit split and fuel wallet, settlement every 12 hours at 0.1% – 1.0%, term bonuses, the exit window, three settlement speeds and their burns, the three sale tiers with the 3:1 pairing, the 1,095-day release, 20 generations of referral rewards and V1 – V12 leadership bonuses. The narrative addendum of 8 September closes the brand meaning, the two-asset narrative and the direction of the five products.
+The current mechanism finalised on 10 September 2026 closes the principal economic questions: the two asset roles, the deposit split and fuel, settlement every 12 hours at 0.2% – 0.6%, term bonuses, maturity withdrawal and auto-renewal, three settlement speeds and their burns, the three sale tiers with the 3:1 pairing, the 1,095-day release, 20 generations of referral rewards and V1 – V12 leadership bonuses. The narrative addendum of 8 September closes the brand meaning, the two-asset narrative and the direction of the five products.
 
 The implementation fields below **remain the project's to decide in writing**.
 
@@ -15,7 +15,7 @@ The implementation fields below **remain the project's to decide in writing**.
 |---|---|---|
 | OP-T01 | When the subscription-to-stake pairing switches from 3:1 to 1:1 after listing | Sets the end of the private-sale pairing |
 | OP-T02 | Execution rates for leadership bonuses V1 – V12 | Published externally as ranges; execution rates are set by market stage and recorded by parameter version |
-| OP-T03 | Stage adjustments to the per-settlement range | 0.1% – 1.0% is the current range; adjustments take effect by parameter version |
+| OP-T03 | Stage adjustments to the per-settlement range | 0.2% – 0.6% is the current range; adjustments take effect by parameter version |
 
 ## Legal and security
 

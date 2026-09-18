@@ -11,7 +11,7 @@ The systems NEXON connects **fail in different ways**. A unified experience can 
 
 | Risk | What it actually is |
 |---|---|
-| **Principal** | Day 31 is the only exit window of the 30-day term; missed, the order renews. Other failures can also impair principal or access |
+| **Principal** | On the 30-day term the principal comes back at maturity; left in place, the order renews. Other failures can also impair principal or access |
 | **Market and liquidity** | EXON can fall, lack buyers, or trade with material spread and slippage. Guide and early prices do not guarantee a later execution price |
 | **Parameter** | The per-settlement range, term bonuses and leadership execution rates are set by market stage where the mechanism permits |
 | **Release pressure** | Fixed supply does not prevent selling pressure: EXON keeps reaching spot accounts across 1,095 days |

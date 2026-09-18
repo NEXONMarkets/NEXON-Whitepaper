@@ -68,7 +68,7 @@ For a staking order, the recorded variables are:
 
 ```text
 P = qualifying order principal
-Fuel  = 0.28 × P   → buys EXON at 1 USDT each → fuel wallet (burn only)
+Fuel  = 0.28 × P   → buys EXON at 1 USDT each → fuel (burn only)
 Stake = the rest   → swapped into XO → staked, settled every 12 hours
 ```
 

@@ -70,9 +70,9 @@ Net  = W × (1 − b)
 Burn = W × b
 ```
 
-`W` is the reward withdrawn and `b` the burn share of the chosen settlement speed: 30% immediate, 20% for 30-day, 10% for 60-day. The system burns the equivalent EXON from the fuel wallet and writes a permanent destruction record before completing the withdrawal. **This mechanism belongs to the withdrawal choice itself** — it is not a PayFi route fee, a card fee or a marketplace charge.
+`W` is the reward withdrawn and `b` the burn share of the chosen settlement speed: 30% immediate, 20% for 30-day, 10% for 60-day. The system burns the equivalent EXON from the fuel and writes a permanent destruction record before completing the withdrawal. **This mechanism belongs to the withdrawal choice itself** — it is not a PayFi route fee, a card fee or a marketplace charge.
 
-The fuel wallet is likewise not custody transferred to an operator: it is the user's EXON, bought with 28% of the deposit, and it can only be burned. The ledger must keep **the EXON in the fuel wallet** and **the XO under stake** apart.
+The fuel is likewise not custody transferred to an operator: it is the user's EXON, bought with 28% of the deposit, and it can only be burned. The ledger must keep **the EXON in the fuel** and **the XO under stake** apart.
 
 ## Partial failure and recovery
 
