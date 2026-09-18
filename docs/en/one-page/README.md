@@ -33,7 +33,7 @@ The NEX core team:
 
 |  | Role |
 | :-- | :-- |
-| Winsman | Co-founder · Chief Executive Officer |
+| Winsman | Chief Executive Officer, NEX |
 | Timson | Chief Marketing Officer |
 | Batter | Dean, Global Business School |
 | Robart | Director of Market Expansion, Europe and the Americas |
