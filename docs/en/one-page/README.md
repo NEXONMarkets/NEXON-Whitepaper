@@ -290,7 +290,7 @@ From V3, each level must meet its daily X Points spend to claim that day's platf
 ![](../.gitbook/assets/onepage-12-timeline.svg)
 
 - **Early bird**　First private-sale round: subscribe at 0.1 USDT in three tiers — 1,000 / 5,000 / 10,000 USDT — with the XO stake paired alongside.
-- **Staking**　The Macau summit: XO staking goes live — static rewards settle every 12 hours, referral rewards and leadership bonuses settle alongside, and static withdrawals burn fuel EXON.
+- **Staking**　The summit: XO staking goes live — static rewards settle every 12 hours, referral rewards and leadership bonuses settle alongside, and static withdrawals burn fuel EXON.
 - **Listing**　EXON lists at 1.0 USDT with the first day's release; from listing day, 1,095 consecutive days of daily payouts, to hold or to sell on NEX.
 
 ## 10. Parameters at a glance
