@@ -20,7 +20,7 @@ NEXON uses two assets because **storing value and moving it are not the same job
 | How it is acquired today | Trades freely on NEX; swapped automatically when a deposit is staked | Private-sale subscription at 0.1 USDT, or earned as dynamic rewards |
 | Current market | Free buying and selling on NEX | Lists at 1.0 USDT; NEX lists sell orders only, no buy orders |
 | Current mechanical job | Carries the staking principal; static yield is paid in XO | Referral and leadership rewards are paid in EXON; 28% of every deposit buys EXON as fuel, burned on static withdrawal; X Points are bought with EXON |
-| Supply | 1 billion | 1 billion, of which only 200 million enters the private sale |
+| Supply | Not yet published | 1 billion, of which only 200 million enters the private sale |
 
 `USDT` is the unit of account. XO's market and EXON's market are **deliberately separate**: one trades both ways, the other is sell-only.
 

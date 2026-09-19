@@ -69,7 +69,7 @@ Four credentials across mainland China, Macau, the United States and Dubai:
 | How to acquire | Trades freely on NEX; swapped automatically when you stake | Private-sale subscription at 0.1 USDT, or earned: dynamic rewards pay in EXON |
 | Market | Free buying and selling on NEX | Lists at 1.0 USDT; sell orders only, no buy orders |
 | In the mechanism | Static yield is paid in XO | Dynamic rewards pay in EXON; 28% of every deposit buys EXON as fuel, burned on static withdrawal; X Points bought with EXON from V3 up |
-| Supply | 1 billion | 1 billion, of which only 200M enters the private sale |
+| Supply | — | 1 billion, of which only 200M enters the private sale |
 
 On the product side NEXON is a **super financial-social ecosystem**: AI-native PayFi is live; the Wallet, the Marketplace and the decentralized Social App are in mid-development; the Stablecoin Card is on the roadmap. Five entry points share one account and this pair of assets. Running today: staking fuel, burn on withdrawal, NEX spot and PayFi settlement. Opening with each entry point: trading, payment and exchange. Every unit of circulation moves through EXON.
 

@@ -19,7 +19,7 @@ The second sentence defines what happens now; the first explains why that functi
 
 ## The current mechanical role <a href="#the-current-mechanical-role" id="the-current-mechanical-role"></a>
 
-XO supply is 1 billion, trading freely on the NEX secondary market. When a deposit is staked, everything beyond the 28% fuel portion is swapped into XO and staked; earning starts on staking.
+XO trades freely on the NEX secondary market; its total supply has not been published. When a deposit is staked, everything beyond the 28% fuel portion is swapped into XO and staked; earning starts on staking.
 
 **Settlement every 12 hours, 0.2% – 0.6% each time.** 10,000 USDT staked earns 40 – 120 USDT a day. The longer the term, the higher the bonus — set by term alone, never by amount:
 
