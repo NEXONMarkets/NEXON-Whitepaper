@@ -34,7 +34,7 @@ NEX 核心团队：
 |  | 职务 |
 | :-- | :-- |
 | Winsman | NEX 首席执行官 CEO |
-| Timson | 首席市场总监 CMO |
+| Timson | 首席市场官 CMO |
 | Batter | 全球商学院院长 |
 | Robart | 欧美市场拓展总监 |
 
