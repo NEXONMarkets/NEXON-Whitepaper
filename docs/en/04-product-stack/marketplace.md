@@ -43,9 +43,9 @@ Supplier onboarding should include identity and business verification, product a
 
 ## Payment and token boundaries
 
-The approved Tokenomics **does not** define EXON as a current universal Marketplace payment asset, and does not define XO as merchant collateral. Accepted payment methods, conversion, spreads, fees, settlement timing and refunds are specified by the responsible product and provider before the user approves an order.
+The approved Tokenomics **does not** define NX as a current universal Marketplace payment asset, and does not define XO as merchant collateral. Accepted payment methods, conversion, spreads, fees, settlement timing and refunds are specified by the responsible product and provider before the user approves an order.
 
-EXON's broader trading, payment, exchange, fee and consumption function belongs to its long-term Circulation Engine role. **Where it becomes a real capability depends on what rules that product publishes.** Staking rewards and redemption burns stay inside the separate Staking Platform mechanism.
+NX's broader trading, payment, exchange, fee and consumption function belongs to its long-term Circulation Engine role. **Where it becomes a real capability depends on what rules that product publishes.** Staking rewards and redemption burns stay inside the separate Staking Platform mechanism.
 
 ## Data and privacy
 

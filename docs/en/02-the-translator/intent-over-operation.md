@@ -51,7 +51,7 @@ The route passes through four layers of rules, and a model's confidence score su
 * **Venue policy** — account status and jurisdictional eligibility;
 * **Supplier policy** — inventory and fulfillment conditions.
 
-Where the Staking Platform is involved, the check follows the real mechanism: 28% buys EXON at 1 USDT each as fuel, and the rest is swapped into XO and staked. The interface cannot present the fuel purchase as a fee, nor the fuel as a transferable balance.
+Where the Staking Platform is involved, the check follows the real mechanism: 28% buys NX at 1 USDT each as fuel, and the rest is swapped into XO and staked. The interface cannot present the fuel purchase as a fee, nor the fuel as a transferable balance.
 {% endtab %}
 
 {% tab title="4 · User Approval" %}
@@ -105,7 +105,7 @@ This table is why NEXON describes a connection network rather than one omnipoten
 
 ## Holding a token is not an authorization
 
-XO is the Value Anchor and currently carries staking principal. EXON is the Circulation Engine and is currently the spot, release, purchase, check and burn asset. Holding either grants an agent no standing right to spend from an account, skip a policy check or execute a regulated transaction. **Authority comes from the user and the responsible executor — never from a balance.**
+XO is the Value Anchor and currently carries staking principal. NX is the Circulation Engine and is currently the spot, release, purchase, check and burn asset. Holding either grants an agent no standing right to spend from an account, skip a policy check or execute a regulated transaction. **Authority comes from the user and the responsible executor — never from a balance.**
 
 Intent is the better abstraction precisely because it still ends in visible operations. It hides repetitive navigation, not consequence. It removes manual translation, not the user's say.
 

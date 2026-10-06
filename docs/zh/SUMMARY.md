@@ -38,8 +38,8 @@
 
 * [通证经济](05-tokenomics/README.md)
   * [双币，两份工作](05-tokenomics/two-assets-two-jobs.md "双币")
-  * [XO —— 价值锚](05-tokenomics/xo.md "XO")
-  * [EXON —— 流通引擎](05-tokenomics/exon.md "EXON")
+  * [XO —— 价值锚定](05-tokenomics/xo.md "XO")
+  * [NX —— 流通引擎](05-tokenomics/exon.md "NX")
   * [分配与释放](05-tokenomics/distribution.md)
   * [质押与收益](05-tokenomics/staking-and-returns.md)
   * [完整演算案例](05-tokenomics/worked-examples.md)

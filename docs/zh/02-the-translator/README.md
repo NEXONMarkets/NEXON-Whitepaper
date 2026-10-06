@@ -77,7 +77,7 @@ flowchart LR
 * **有权限 ≠ 已结算。** 指令发出去了，不等于对面已经成交。
 * **已结算 ≠ 已交付。** 钱到了商户账上，东西不一定交付了。
 
-用户可以批准一笔 EXON 现货操作，而完全没有批准那一笔消费；数字支付可能成功，商户仍未履约。把这三件事分开记，是这套结构最实际的一处收益。
+用户可以批准一笔 NX 现货操作，而完全没有批准那一笔消费；数字支付可能成功，商户仍未履约。把这三件事分开记，是这套结构最实际的一处收益。
 
 ## 连接不等于抹平边界 <a href="#connection-without-erasure" id="connection-without-erasure"></a>
 
@@ -94,9 +94,9 @@ flowchart LR
 
 ## 当前机制在这套结构里的位置 <a href="#where-today-s-mechanism-sits-inside-this" id="where-today-s-mechanism-sits-inside-this"></a>
 
-已经在跑的经济基础很具体：一套统一账户连着 NEX Main Exchange / CEX 与 Staking Platform。前者管 XO 与 EXON 现货和 EXON 的逐日释放呈现，后者管 XO 质押、期限加成、推广与领导奖金、收益提取。这是**当前机制**；「XO 价值锚、EXON 流通引擎」是覆盖在它上面的长期定位。
+已经在跑的经济基础很具体：一套统一账户连着 NEX Main Exchange / CEX 与 Staking Platform。前者管 XO 与 NX 现货和 NX 的逐日释放呈现，后者管 XO 质押、期限加成、推广与领导奖金、收益提取。这是**当前机制**；「XO 价值锚定、NX 流通引擎」是覆盖在它上面的长期定位。
 
-两者之间的关系是架构性的，不是权限性的：Agent 理解意图不需要用户先有质押仓位；持有 XO 不会给 Agent 任何执行权限；EXON 目前也不是通用的路径手续费。应用层帮用户理解和导航，经济层按自己发布的参数继续运行。
+两者之间的关系是架构性的，不是权限性的：Agent 理解意图不需要用户先有质押仓位；持有 XO 不会给 Agent 任何执行权限；NX 目前也不是通用的路径手续费。应用层帮用户理解和导航，经济层按自己发布的参数继续运行。
 
 <details>
 

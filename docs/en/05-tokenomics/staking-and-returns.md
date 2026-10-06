@@ -1,11 +1,11 @@
 ---
-description: "0.2% – 0.6% every 12 hours, term bonuses, maturity withdrawal and auto-renewal, three settlement speeds with their burns, 20 generations of referrals and V1 – V12."
+description: "0.2% – 0.6% every 12 hours (0.4% – 1.2% a day), term bonuses, maturity withdrawal and auto-renewal, three settlement speeds with their burns, 20 generations of referrals and V1 – V12."
 icon: chart-line
 ---
 
 # Staking & Returns
 
-A staking deposit is swapped into XO and starts earning at once. **Settlement every 12 hours, 0.2% – 0.6% each time, twice a day.** Static yield lands directly in XO.
+A staking deposit is swapped into XO and starts earning at once. **Settlement every 12 hours, 0.2% – 0.6% each time, twice a day — 0.4% – 1.2% across the day.** Static yield lands directly in XO.
 
 ```text
 Per settlement = staked amount × (0.2% – 0.6%) × (1 + term bonus)
@@ -36,19 +36,19 @@ Per day        = per settlement × 2
 
 Rewards can be withdrawn at any time, through one of three settlement speeds — the faster the settlement, the larger the burn:
 
-<figure><img src="../.gitbook/assets/onepage-08-withdrawal-lanes.svg" alt="Withdraw 10,000 USDT: immediate settlement burns 3,000 EXON, 30-day burns 2,000, 60-day burns 1,000 (at 1.0 USDT)"><figcaption>How much EXON each settlement speed burns on a 10,000 USDT withdrawal</figcaption></figure>
+<figure><img src="../.gitbook/assets/onepage-08-withdrawal-lanes.svg" alt="Withdraw 10,000 USDT: immediate settlement burns 3,000 NX, 30-day burns 2,000, 60-day burns 1,000 (at 1.0 USDT)"><figcaption>How much NX each settlement speed burns on a 10,000 USDT withdrawal</figcaption></figure>
 
-| Settlement | Burned | EXON burned on a 10,000 USDT withdrawal (at 1.0 USDT) |
+| Settlement | Burned | NX burned on a 10,000 USDT withdrawal (at 1.0 USDT) |
 |---|---:|---:|
 | Immediate | 30% | 3,000 |
 | 30-day linear | 20% | 2,000 |
 | 60-day linear | 10% | 1,000 |
 
-What burns is fuel EXON, gone from circulation for good. If the fuel holds enough, settle immediately; if not, pick a slower settlement. Static yield burns on every withdrawal; referral and leadership rewards are paid in EXON and burn no fuel.
+What burns is fuel NX, gone from circulation for good. If the fuel holds enough, settle immediately; if not, pick a slower settlement. Static yield burns on every withdrawal; referral and leadership rewards are paid in NX and burn no fuel.
 
 ## Referral rewards: 20 generations, 76% in total <a href="#referral-rewards-20-generations" id="referral-rewards-20-generations"></a>
 
-Referral rewards are calculated on each downline's daily static output, across up to 20 generations, settled in the same cycle as static rewards and always paid in EXON.
+Referral rewards are calculated on each downline's daily static output, across up to 20 generations, settled in the same cycle as static rewards and always paid in NX.
 
 <figure><img src="../.gitbook/assets/onepage-11-twenty-generations.svg" alt="Referral rates across 20 generations: generation 1 15%, generations 2–3 10%, 4–8 5%, 9–12 2%, 13–20 1%, 76% in total"><figcaption>15% on the first generation, all the way down to the twentieth</figcaption></figure>
 
@@ -81,7 +81,7 @@ Every condition in the table applies to **the person collecting the reward**: an
 
 ## Leadership bonuses: V1 – V12 on the level differential <a href="#leadership-bonuses-v1-v12" id="leadership-bonuses-v1-v12"></a>
 
-Leadership bonuses are paid as a **Differential Matching Bonus**: your rate minus your downline's rate. Assessment is cumulative on deposits — the largest leg plus all other legs combined — and a level once reached is never lost; from V6 upward, two separate legs must each produce the next level down.
+Leadership bonuses are paid as a **Differential Matching Bonus**: your rate minus your downline's rate. Assessment is cumulative on deposits — the largest leg plus all other legs combined — and a level once reached is never lost; from V6 upward, two different regions must each produce the next level down.
 
 | Level | Own stake | Largest leg | Other legs combined | Rate |
 |---|---:|---:|---:|---:|
@@ -94,20 +94,21 @@ Leadership bonuses are paid as a **Differential Matching Bonus**: your rate minu
 | V7 | 7,000 USDT | 5,000,000 USDT | 2 × V6 teams | 66% – 75% |
 | V8 | 8,000 USDT | 8,000,000 USDT | 2 × V7 teams | 76% – 85% |
 | V9 | 9,000 USDT | 10,000,000 USDT | 2 × V8 teams | 86% – 100% |
-| V10 | 13,000 USDT | 20,000,000 USDT | 2 × V9 teams | global pool 20% |
-| V11 | 17,000 USDT | 30,000,000 USDT | 2 × V10 teams | global pool 30% |
-| V12 | 20,000 USDT | 50,000,000 USDT | 2 × V11 teams | global pool 50% |
+| V10 | 13,000 USDT | 20,000,000 USDT | 2 × V9 teams | global pool (20% of 3%) |
+| V11 | 17,000 USDT | 30,000,000 USDT | 2 × V10 teams | global pool (30% of 3%) |
+| V12 | 20,000 USDT | 50,000,000 USDT | 2 × V11 teams | global pool (50% of 3%) |
 
-V10 – V12 share a global pool of 3% of all XO deposits, weighted 20 / 30 / 50 and split equally within each level. Referral rewards and leadership bonuses are paid in EXON and burn no fuel on withdrawal.
+V10 – V12 share a global pool of 3% of all XO deposits, weighted 20 / 30 / 50 and split equally within each level. Referral rewards and leadership bonuses are paid in NX and burn no fuel on withdrawal.
 
-**X Points.** The daily condition for claiming dynamic rewards at each level, bought only with EXON at 1 point = 10 USD of EXON.
+**X Points.** The daily condition for claiming dynamic rewards at each level, bought only with NX at 1 point = 10 USD of NX.
 
 | Level | V1 | V2 | V3 | V4 | V5 | V6 | V7 | V8 | V9 | V10 | V11 | V12 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Daily use (points) | 0 | 0 | 1 | 2 | 3 | 5 | 7 | 10 | 68 | 20 | 25 | 30 |
+| Daily use (points) | 0 | 0 | 1 | 2 | 3 | 5 | 7 | 10 | 15 | 20 | 25 | 30 |
 
 * The quota refreshes every 24 hours; meet your level's daily quota to claim that day's platform rewards; miss it and that day's rewards cannot be claimed.
-* Every promotion grants 30 points; a newly promoted member gets a 3-month relief period at 50% of the level's standard rate, then the full 100% applies.
+* Unused X Points burn on the spot that day; claiming the previous day's rewards later means making up the previous day's quota first.
+* Every promotion grants 30 points and the balance is capped at 30 points; a newly promoted member gets a 3-month relief period at 50% of the level's standard rate, then the full 100% applies.
 * Example: V8 to V9 — 30 points granted on promotion; V9's standard rate is 15 a day, 7.5 a day during relief, back to 15 a day after 3 months.
 
 X Points govern dynamic rewards only — static yield and principal are untouched.

@@ -1,5 +1,5 @@
 ---
-description: "质押与奖励层的边界：XO 质押、EXON 燃料、每 12 小时结算、三档到账与销毁、贡献值，各自独立于应用层。"
+description: "质押与奖励层的边界：XO 质押、NX 燃料、每 12 小时结算、三档到账与销毁、贡献值，各自独立于应用层。"
 icon: layer-group
 ---
 
@@ -7,7 +7,7 @@ icon: layer-group
 
 这一层的权威产品是独立的 **Staking Platform**，规则是 NEXON 现行的经济机制（2026 年 9 月 10 日定稿）。
 
-它有五件核心工作：**开立 XO 质押订单、把入金的 28% 买成 EXON 存为燃料、每 12 小时结算期限加成后的静态收益、以 EXON 结算 20 代推广奖励与 V1 – V12 领导奖金、按三档到账方式执行静态提取与销毁、按等级扣减每日贡献值。** 它可以与 NEX 交易所共享身份、账户可见性与资金操作，但它的奖励规则不属于交易所的现货规则书。
+它有五件核心工作：**开立 XO 质押订单、把入金的 28% 买成 NX 存为燃料、每 12 小时结算期限加成后的静态收益、以 NX 结算 20 代推广奖励与 V1 – V12 领导奖金、按三档到账方式执行静态提取与销毁、按等级扣减每日贡献值。** 它可以与 NEX 交易所共享身份、账户可见性与资金操作，但它的奖励规则不属于交易所的现货规则书。
 
 ## 一个账户，两个运营层 <a href="#one-account-two-operating-layers" id="one-account-two-operating-layers"></a>
 
@@ -15,9 +15,9 @@ icon: layer-group
 flowchart LR
     A["统一账户"] --> E["NEX 交易所 · 现货层"]
     A --> S["Staking Platform"]
-    E --> X["XO 自由交易 · EXON 只卖不买 · 逐日释放呈现"]
+    E --> X["XO 自由交易 · NX 只卖不买 · 逐日释放呈现"]
     S --> O["XO 质押订单"]
-    O --> F["28% 买入 EXON → 燃料"]
+    O --> F["28% 买入 NX → 燃料"]
     O --> R["每 12 小时结算 0.2% – 0.6% × 期限加成"]
     R --> D["立即 · 30 天 · 60 天到账"]
     D --> B["燃料销毁 30% · 20% · 10%"]
@@ -36,17 +36,17 @@ NEX 交易所**不发放**本节所述的质押奖励。Staking Platform 也**�
 对入金 `P`，当前机制记录两笔：
 
 ```text
-燃料 = 0.28 × P   → 按当时 1 U 等值买入 EXON → 燃料（只能销毁）
+燃料 = 0.28 × P   → 按当时 1 U 等值买入 NX → 燃料（只能销毁）
 质押 = 其余部分   → 兑换 XO → 质押，每 12 小时结算
 ```
 
-<figure><img src="../.gitbook/assets/onepage-04-fuel-wallet.svg" alt="入金 10,000 U：28% 即 2,800 U 按 1 U 等值买入 2,800 枚 EXON 存入燃料，只能销毁、不能转出、不能交易"><figcaption>入金 10,000 U：2,800 枚 EXON 进燃料，其余兑换 XO 开始计息</figcaption></figure>
+<figure><img src="../.gitbook/assets/onepage-04-fuel-wallet.svg" alt="入金 10,000 U：28% 即 2,800 U 按 1 U 等值买入 2,800 枚 NX 存入燃料，只能销毁、不能转出、不能交易"><figcaption>入金 10,000 U：2,800 枚 NX 进燃料，其余兑换 XO 开始计息</figcaption></figure>
 
-燃料只进不出：不能提现、不能转出，只能在提取静态收益时销毁。最低开单 100 U。EXON 的获取来自私募认购或动态奖励，各自承担价格与流动性。
+燃料只进不出：不能提现、不能转出，只能在提取静态收益时销毁。最低开单 100 U。NX 的获取来自私募认购或动态奖励，各自承担价格与流动性。
 
 ## 带参数的收益账本 <a href="#a-parameterized-reward-ledger" id="a-parameterized-reward-ledger"></a>
 
-**每 12 小时结算一次，单次 0.2% – 0.6%**，乘以期限加成：
+**每 12 小时结算一次，单次 0.2% – 0.6%，一天 0.4% – 1.2%**，乘以期限加成：
 
 ```text
 单次结算 = 质押金额 × (0.2% – 0.6%) × (1 + 加成)
@@ -68,7 +68,7 @@ NEX 交易所**不发放**本节所述的质押奖励。Staking Platform 也**�
 
 静态收益以 XO 到账，随时可提取，到账方式三选一：
 
-<figure><img src="../.gitbook/assets/onepage-08-withdrawal-lanes.svg" alt="提取 10,000 U：立即到账销毁 3,000 枚 EXON，30 天到账 2,000 枚，60 天到账 1,000 枚（按 1.0 U 计）"><figcaption>到账越快，销毁越多：提取 10,000 U 收益的三种结果</figcaption></figure>
+<figure><img src="../.gitbook/assets/onepage-08-withdrawal-lanes.svg" alt="提取 10,000 U：立即到账销毁 3,000 枚 NX，30 天到账 2,000 枚，60 天到账 1,000 枚（按 1.0 U 计）"><figcaption>到账越快，销毁越多：提取 10,000 U 收益的三种结果</figcaption></figure>
 
 | 到账方式 | 等待 | 燃料销毁 |
 |---|---:|---:|
@@ -76,17 +76,17 @@ NEX 交易所**不发放**本节所述的质押奖励。Staking Platform 也**�
 | 30 天线性到账 | 30 天 | 20% |
 | 60 天线性到账 | 60 天 | 10% |
 
-对提取额 `W` 与销毁比例 `b`：`Burn = W × b ÷ P_EXON`。销毁的 EXON 永久退出流通。燃料够就立即到账；不够就选更慢的到账方式，或去私募补燃料。**平台不会自动卖掉另一种资产去补燃料。**
+对提取额 `W` 与销毁比例 `b`：`Burn = W × b ÷ P_NX`。销毁的 NX 永久退出流通。燃料够就立即到账；不够就选更慢的到账方式，或去私募补燃料。**平台不会自动卖掉另一种资产去补燃料。**
 
 ## 推广奖励与领导奖金 <a href="#referral-rewards-and-leadership-bonuses" id="referral-rewards-and-leadership-bonuses"></a>
 
-推广奖励按下级每日静态产出计算，最多 20 代、合计 76%，解锁按本人质押与直推人数逐级打开；领导奖金 V1 – V12 按等级极差（Differential Matching Bonus）发放，考核按入金累计、永不降级，V10 – V12 分享全球 XO 入金 3% 的奖金池。两者与静态收益同一个周期、一律以 EXON 发放，提取不销毁燃料；各等级每日以 EXON 兑换贡献值（V1、V2 为 0），完成当日消耗方可领取当日平台奖励。完整比例表见[质押与收益](../05-tokenomics/staking-and-returns.md)。
+推广奖励按下级每日静态产出计算，最多 20 代、合计 76%，解锁按本人质押与直推人数逐级打开；领导奖金 V1 – V12 按等级极差（Differential Matching Bonus）发放，考核按入金累计、永不降级，V10 – V12 分享全球 XO 入金 3% 的奖金池。两者与静态收益同一个周期、一律以 NX 发放，提取不销毁燃料；各等级每日以 NX 兑换贡献值（V1、V2 为 0），完成当日消耗方可领取当日平台奖励。完整比例表见[质押与收益](../05-tokenomics/staking-and-returns.md)。
 
 ## 和产品生态的关系 <a href="#how-it-relates-to-the-product-ecosystem" id="how-it-relates-to-the-product-ecosystem"></a>
 
 Staking Platform 可以出现在钱包里，也可以通过 PayFi 界面被解释，但**界面不会创造新的收益来源**。AI 层可以解释期限选择，或者按用户给出的假设模拟公式；它改不了订单拆分，也动不了燃料。
 
-叙事上，XO 是价值锚，EXON 是流通引擎——这两个定位解释的是长期生态。当前的质押与提取操作，就是上面写的这些。
+叙事上，XO 是价值锚定，NX 是流通引擎——这两个定位解释的是长期生态。当前的质押与提取操作，就是上面写的这些。
 
 ## 实现层的六条控制 <a href="#six-implementation-controls" id="six-implementation-controls"></a>
 

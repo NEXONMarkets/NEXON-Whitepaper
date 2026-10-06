@@ -5,7 +5,7 @@ icon: scale-balanced
 
 # Governance
 
-Governance is one of the functions of XO (Roadmap). The current mechanism defines XO as the Staking Principal Token and EXON as the Core Value Token; the specific rules for proposals, voting and execution are published together with the governance framework.
+Governance is one of the functions of XO (Roadmap). The current mechanism defines XO as the Staking Principal Token and NX as the Core Value Token; the specific rules for proposals, voting and execution are published together with the governance framework.
 
 The narrative positions XO as the Value Anchor, associated with staking, participation, governance and long-term value. Until the governance framework is published, parameters are **administered** by accountable project operators under disclosed controls.
 

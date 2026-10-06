@@ -42,13 +42,13 @@ Comparisons follow the user's constraints. Any routing incentive that could affe
 {% tab title="3 · Apply policy checks" %}
 Hard controls sit outside model judgment: account status, identity references, allowlists, blocklists, spend limits, quote freshness, reserve floors and each product's own rules. **A high confidence score does not override a failed rule.**
 
-Where a current Staking Platform order is involved, PayFi can explain and validate the deposit split: 28% buys EXON at 1 USDT each as fuel, and the rest is swapped into XO and staked. The product interface does not alter these values and does not present the fuel purchase as a fee.
+Where a current Staking Platform order is involved, PayFi can explain and validate the deposit split: 28% buys NX at 1 USDT each as fuel, and the rest is swapped into XO and staked. The product interface does not alter these values and does not present the fuel purchase as a fee.
 {% endtab %}
 
 {% tab title="4 · Request scoped authority" %}
 Approval names the action, maximum amount, asset, destination, executor, expiry and the follow-on legs permitted. Unused authority is revocable before it is consumed. A standing rule needs its own amount and time ceilings and an obvious off switch.
 
-**XO and EXON balances give PayFi no standing authority.** Account permission comes from the user and the responsible execution system.
+**XO and NX balances give PayFi no standing authority.** Account permission comes from the user and the responsible execution system.
 {% endtab %}
 
 {% tab title="5 · Coordinate execution" %}

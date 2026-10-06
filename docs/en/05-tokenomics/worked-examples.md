@@ -9,15 +9,15 @@ Four cases, all computed from the current parameters; wherever a price assumptio
 
 ## Example A — the release value of a 30,000 USDT subscription <a href="#example-a-the-release-value-of-a-30-000-usdt-subscription" id="example-a-the-release-value-of-a-30-000-usdt-subscription"></a>
 
-Subscribe `30,000 USDT` in the private sale at `0.1 USDT` and receive `300,000 EXON`.
+Subscribe `30,000 USDT` in the private sale at `0.1 USDT` and receive `300,000 NX`.
 
 ```text
-D = 300,000 ÷ 1,095 = 273.97 EXON / day
-R_epoch = 273.97 ÷ 2 = 136.99 EXON / payout
+D = 300,000 ÷ 1,095 = 273.97 NX / day
+R_epoch = 273.97 ÷ 2 = 136.99 NX / payout
 ROI_month = (D × P_market × 30) ÷ P_in × 100%
 ```
 
-The release speed is fixed: **273.97 EXON a day, 136.99 every 12 hours.** Every day pays, and every payout can be sold on NEX.
+The release speed is fixed: **273.97 NX a day, 136.99 every 12 hours.** Every day pays, and every payout can be sold on NEX.
 
 | Market price | Monthly release value | Monthly ROI | Subscription recovered in |
 |---:|---:|---:|---:|
@@ -28,7 +28,7 @@ The release schedule is fixed: every doubling of the price doubles the monthly p
 
 ## Example B — staking 10,000 USDT <a href="#example-b-staking-10-000-usdt" id="example-b-staking-10-000-usdt"></a>
 
-Deposit `P = 10,000 USDT`. The order splits on opening: `2,800 USDT` of fuel buys `2,800 EXON` at 1 USDT each as fuel; the rest is swapped into XO and staked, settling every 12 hours at 0.2% – 0.6% — 40 – 120 USDT a day.
+Deposit `P = 10,000 USDT`. The order splits on opening: `2,800 USDT` of fuel buys `2,800 NX` at 1 USDT each as fuel; the rest is swapped into XO and staked, settling every 12 hours at 0.2% – 0.6% — 0.4% – 1.2% a day, or 40 – 120 USDT.
 
 **Rewards on the original order only**, at maturity:
 
@@ -52,13 +52,13 @@ The longer the term, the more it compounds: the 540-day term ends at **253,406 U
 
 ## Example C — withdrawing 10,000 USDT of rewards <a href="#example-c-withdrawing-10-000-usdt-of-rewards" id="example-c-withdrawing-10-000-usdt-of-rewards"></a>
 
-| Settlement | Burned | EXON burned (at 1.0 USDT) | Withdrawals a fuel balance of 2,800 EXON supports |
+| Settlement | Burned | NX burned (at 1.0 USDT) | Withdrawals a fuel balance of 2,800 NX supports |
 |---|---:|---:|---:|
 | Immediate | 30% | 3,000 | 9,333 USDT |
 | 30-day linear | 20% | 2,000 | 14,000 USDT |
 | 60-day linear | 10% | 1,000 | 28,000 USDT |
 
-`Burn = W × b ÷ P_EXON`. What burns is EXON from the fuel, gone from circulation for good; the only variable that changes between the three lanes is **how long you wait**. When fuel runs short, pick a slower settlement or top up through the private sale.
+`Burn = W × b ÷ P_NX`. What burns is NX from the fuel, gone from circulation for good; the only variable that changes between the three lanes is **how long you wait**. When fuel runs short, pick a slower settlement or top up through the private sale.
 
 ## Example D — a three-generation team <a href="#example-d-a-three-generation-team" id="example-d-a-three-generation-team"></a>
 
@@ -71,6 +71,6 @@ Refer 5 people, each of whom refers 5 more: 5 / 25 / 125 people across three gen
 | Gen 3 | 125 | 5,000 – 15,000 USDT | 10% | 500 – 1,500 USDT |
 | **Three generations** | | | | **630 – 1,890 USDT / day** |
 
-An own stake of 100 USDT and 4 qualified direct referrals already open generations 1 – 4. As the team grows deeper, generation 4 pays 5% and the ladder runs to generation 20; each additional qualified direct referral opens one more generation, provided the own stake has reached the matching tier. Rewards are paid in EXON, with USDT as the unit of account, and the downline's own static yield is never reduced.
+An own stake of 100 USDT and 4 qualified direct referrals already open generations 1 – 4. As the team grows deeper, generation 4 pays 5% and the ladder runs to generation 20; each additional qualified direct referral opens one more generation, provided the own stake has reached the matching tier. Rewards are paid in NX, with USDT as the unit of account, and the downline's own static yield is never reduced.
 
 *Previous: [Staking & Returns](staking-and-returns.md) · Next: [Value Flows](value-flows.md)*

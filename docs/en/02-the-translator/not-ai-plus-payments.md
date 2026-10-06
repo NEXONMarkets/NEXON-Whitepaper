@@ -52,7 +52,7 @@ In PayFi, that can look like:
 
 <summary>It does not inherit authority from a balance</summary>
 
-Holding XO does not mean the application may act for you. Holding EXON does not open a universal payment rail. Authority comes from exactly two places: what the user granted, and the account controls of the system that executes.
+Holding XO does not mean the application may act for you. Holding NX does not open a universal payment rail. Authority comes from exactly two places: what the user granted, and the account controls of the system that executes.
 
 </details>
 

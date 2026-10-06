@@ -44,9 +44,9 @@ The two assets in the ecosystem are built from the same morphology, and that is 
 | | Read it apart | What it carries |
 |---|---|---|
 | **XO** | `X` = cross-domain connection and possibility; `O` = the ecosystem loop and value accumulation | The Value Anchor. In the current mechanism, the Staking Principal Token |
-| **EXON** | `EX` = exchange / experience; `ON` = circulation enabled | The Circulation Engine. In the current mechanism, the Core Value Token and spot asset |
+| **NX** | `EX` = exchange / experience; `ON` = circulation enabled | The Circulation Engine. In the current mechanism, the Core Value Token and spot asset |
 
-The same `ON` appears in NEXON and in EXON, and it means the same thing in both: **switched on.** The ecosystem is switched on; circulation is switched on.
+The same `ON` appears in NEXON and in NX, and it means the same thing in both: **switched on.** The ecosystem is switched on; circulation is switched on.
 
 ## Where NEXON stands relative to NEX
 

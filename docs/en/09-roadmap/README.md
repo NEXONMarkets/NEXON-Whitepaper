@@ -24,7 +24,7 @@ flowchart LR
 
 **Goal:** implement the approved economic mechanism and verify it.
 
-The evidence of completion is a versioned rule set that reproduces: the order split into 28% fuel and the rest into XO, the 1,095-day release, settlement every 12 hours at 0.2% – 0.6%, term bonuses, maturity withdrawal and auto-renewal, three settlement speeds with fuel-wallet burns, 20 generations of referral rewards and V1 – V12 leadership bonuses.
+The evidence of completion is a versioned rule set that reproduces: the order split into 28% fuel and the rest into XO, the 1,095-day release, settlement every 12 hours at 0.2% – 0.6% (0.4% – 1.2% a day), term bonuses, maturity withdrawal and auto-renewal, three settlement speeds with fuel-wallet burns, 20 generations of referral rewards and V1 – V12 leadership bonuses.
 
 NEX Main Exchange / CEX and the Staking Platform hold **separable permissions, ledgers and disclosures**. Every order records principal, build, staking base, term, weight and parameter version.
 
@@ -46,7 +46,7 @@ AI does translation and orchestration in this phase. It does not modify the econ
 | Marketplace | Supplier onboarding, inventory, payment and refund terms, fulfillment receipts, privacy and disputes |
 | Stablecoin Card | Responsible licensed issuer/operator, jurisdiction coverage, accepted funding assets, fees, safeguarding, fraud controls, cardholder support |
 
-Any EXON payment, fee or consumption use, and any XO-based product benefit, requires **explicit product terms**. No universal utility is implied here.
+Any NX payment, fee or consumption use, and any XO-based product benefit, requires **explicit product terms**. No universal utility is implied here.
 
 ## Phase 4 — decentralized financial-social network
 

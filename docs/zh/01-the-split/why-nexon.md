@@ -43,10 +43,10 @@ NEX 取自 **Nexus**：一批原本不是按同一个系统设计的东西，在
 
 | | 拆开看 | 它承担什么 |
 |---|---|---|
-| **XO** | `X` = 跨域连接与可能性；`O` = 生态闭环与价值沉淀 | 价值锚。当前机制里是质押本金代币 |
-| **EXON** | `EX` = exchange / experience；`ON` = 流通开启 | 流通引擎。当前机制里是核心价值代币与现货标的 |
+| **XO** | `X` = 跨域连接与可能性；`O` = 生态闭环与价值沉淀 | 价值锚定。当前机制里是质押本金代币 |
+| **NX** | `EX` = exchange / experience；`ON` = 流通开启 | 流通引擎。当前机制里是核心价值代币与现货标的 |
 
-同一个 `ON` 出现在 NEXON 和 EXON 里，指的是同一件事：**开启**。生态被开启，流通被开启。
+同一个 `ON` 出现在 NEXON 和 NX 里，指的是同一件事：**开启**。生态被开启，流通被开启。
 
 ## NEXON 与 NEX 的关系 <a href="#where-nexon-stands-relative-to-nex" id="where-nexon-stands-relative-to-nex"></a>
 

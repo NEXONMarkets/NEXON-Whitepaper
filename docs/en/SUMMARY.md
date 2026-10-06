@@ -39,7 +39,7 @@
 * [Token Economics](05-tokenomics/README.md)
   * [Two Assets, Two Jobs](05-tokenomics/two-assets-two-jobs.md "Two Assets")
   * [XO — Value Anchor](05-tokenomics/xo.md "XO")
-  * [EXON — Circulation Engine](05-tokenomics/exon.md "EXON")
+  * [NX — Circulation Engine](05-tokenomics/exon.md "NX")
   * [Distribution & Release](05-tokenomics/distribution.md "Distribution")
   * [Staking & Returns](05-tokenomics/staking-and-returns.md)
   * [Worked Examples](05-tokenomics/worked-examples.md)

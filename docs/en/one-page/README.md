@@ -1,5 +1,5 @@
 ---
-description: "Private sale at 0.1 USDT, listing at 1.0 USDT; staking settles 0.2% – 0.6% every 12 hours; EXON is sell-only and burns on withdrawal. Every mechanism on one page."
+description: "Private sale at 0.1 USDT, listing at 1.0 USDT; staking settles 0.2% – 0.6% every 12 hours; NX is sell-only and burns on withdrawal. Every mechanism on one page."
 icon: bolt
 cover: ../.gitbook/assets/onepage-cover.jpg
 coverY: 0
@@ -8,14 +8,14 @@ coverY: 0
 # NEXON in One Page
 
 {% hint style="success" %}
-**The first EXON early-bird private sale:** subscription price 0.1 USDT, listing price 1.0 USDT — a 10× open. XO staking settles every 12 hours, twice a day. EXON can be sold on NEX but never bought there, and every reward withdrawal burns it. All amounts are in **USDT**.
+**The first NX early-bird private sale:** subscription price 0.1 USDT, listing price 1.0 USDT — a 10× open. XO staking settles every 12 hours, twice a day. NX can be sold on NEX but never bought there, and every reward withdrawal burns it. All amounts are in **USDT**.
 {% endhint %}
 
 ## 1. The first flagship project on the NEX exchange
 
 NEX is an AI-native asset exchange operating out of Macau, with seven strategic hubs: Macau as the Asia-Pacific operations and compliance centre, mainland China for domestic business, Australia for global capital markets, Malaysia for national-grade AI compute, Dubai for Gulf capital, Africa for emerging markets, and Europe and the Americas for FX clearing and derivatives.
 
-One exchange, two layers: the spot layer trades XO and EXON, and the staking platform carries NEXON's reward model. Both share one account system and one back office — open one account, move between the two.
+One exchange, two layers: the spot layer trades XO and NX, and the staking platform carries NEXON's reward model. Both share one account system and one back office — open one account, move between the two. NEX has been live since September 2025 and has passed 1 million registered users in its first year.
 
 ![](../.gitbook/assets/onepage-01-placement.svg)
 
@@ -57,21 +57,21 @@ Four credentials across mainland China, Macau, the United States and Dubai:
 
 ![](../.gitbook/assets/onepage-p4-certificates.jpg)
 
-**NEXON is the first flagship project on the NEX exchange**, launched on NEX's account system, spot market and ecosystem resources. Exchange, licences and team are all in place. On top of them sits an economic engine that puts money to work and only ever shrinks supply: stake XO for **time compounding**, subscribe to EXON for a 10× open, and burn on every withdrawal so that EXON moves in **one direction**.
+**NEXON is the first flagship project on the NEX exchange**, launched on NEX's account system, spot market and ecosystem resources. Exchange, licences and team are all in place. On top of them sits an economic engine that puts money to work and only ever shrinks supply: stake XO for **time compounding**, subscribe to NX for a 10× open, and burn on every withdrawal so that NX moves in **one direction**.
 
-## 2. NEXON is the ecosystem. XO carries value. EXON drives circulation.
+## 2. NEXON is the ecosystem. XO carries value. NX drives circulation.
 
 ![](../.gitbook/assets/onepage-02-two-assets.svg)
 
-|  | XO · value anchor | EXON · circulation engine |
+|  | XO · value anchor | NX · circulation engine |
 | :-- | :-- | :-- |
 | Role | Staking principal token; one of its functions is governance | Core value token; the circulation and settlement token of the whole ecosystem |
-| How to acquire | Trades freely on NEX; swapped automatically when you stake | Private-sale subscription at 0.1 USDT, or earned: dynamic rewards pay in EXON |
+| How to acquire | Trades freely on NEX; swapped automatically when you stake | Private-sale subscription at 0.1 USDT, or earned: dynamic rewards pay in NX |
 | Market | Free buying and selling on NEX | Lists at 1.0 USDT; sell orders only, no buy orders |
-| In the mechanism | Static yield is paid in XO | Dynamic rewards pay in EXON; 28% of every deposit buys EXON as fuel, burned on static withdrawal; X Points bought with EXON from V3 up |
+| In the mechanism | Static yield is paid in XO | Dynamic rewards pay in NX; 28% of every deposit buys NX as fuel, burned on static withdrawal; X Points bought with NX from V3 up |
 | Supply | Minted; no fixed cap | 1 billion, of which only 200M enters the private sale |
 
-On the product side NEXON is a **super financial-social ecosystem**: AI-native PayFi is live; the Wallet, the Marketplace and the decentralized Social App are in mid-development; the Stablecoin Card is on the roadmap. Five entry points share one account and this pair of assets. Running today: staking fuel, burn on withdrawal, NEX spot and PayFi settlement. Opening with each entry point: trading, payment and exchange. Every unit of circulation moves through EXON.
+On the product side NEXON is a **super financial-social ecosystem**: AI-native PayFi is live; the Wallet, the Marketplace and the decentralized Social App are in mid-development; the Stablecoin Card is on the roadmap. Five entry points share one account and this pair of assets. Running today: staking fuel, burn on withdrawal, NEX spot and PayFi settlement. Opening with each entry point: trading, payment and exchange. Every unit of circulation moves through NX.
 
 ## 3. One deposit, two income lines
 
@@ -79,16 +79,16 @@ On the product side NEXON is a **super financial-social ecosystem**: AI-native P
 
 Take a 10,000 USDT deposit. It is split in two the moment the order opens, automatically:
 
-- **28% buys EXON.** 2,800 EXON, bought at 1 USDT each, are held as fuel. Fuel only ever fills: nothing in it can be withdrawn or transferred, and it is spent in one way only — burned when static yield is withdrawn.
+- **28% buys NX.** 2,800 NX, bought at 1 USDT each, are held as fuel. Fuel only ever fills: nothing in it can be withdrawn or transferred, and it is spent in one way only — burned when static yield is withdrawn.
 - **The rest is swapped into XO and staked.** It settles every 12 hours — 40 – 120 USDT a day — and the static yield lands in XO, withdrawable at any time.
 
 ![](../.gitbook/assets/onepage-04-fuel-wallet.svg)
 
-Both lines run at once: the staking line pays XO every 12 hours; the fuel line burns EXON on every withdrawal. The more is staked, the more is bought; the more is withdrawn, the more is burned.
+Both lines run at once: the staking line pays XO every 12 hours; the fuel line burns NX on every withdrawal. The more is staked, the more is bought; the more is withdrawn, the more is burned.
 
 ## 4. Time compounding: settlement every 12 hours
 
-Each settlement pays 0.2% – 0.6%, every 12 hours, twice a day. **Stake 10,000 USDT and earn 40 – 120 USDT a day.**
+Each settlement pays 0.2% – 0.6%, every 12 hours, twice a day — 0.4% – 1.2% across the day. **Stake 10,000 USDT and earn 40 – 120 USDT a day.**
 
 The longer the term, the higher the bonus — set by term alone, never by amount. The 540-day term carries a flat +50%: 10,000 USDT staked earns 60 – 180 USDT a day.
 
@@ -136,33 +136,33 @@ The longer the term, the more it rolls: the 540-day term matures at **253,406 US
 
 ## 5. Yield projection: subscribe at 0.1 USDT, list at 1.0 USDT
 
-EXON supply is 1 billion. The private sale offers only 200 million — 20% of supply — in 11,500 allocations, closed once sold out. Each subscription is paired with an XO stake at 3:1: **the subscription earns the release, the stake earns the settlement, and both income lines start together.**
+NX supply is 1 billion. The private sale offers only 200 million — 20% of supply — in 11,500 allocations, closed once sold out. Each subscription is paired with an XO stake at 3:1: **the subscription earns the release, the stake earns the settlement, and both income lines start together.** **An XO stake comes first: it is what unlocks an early-bird allocation.**
 
 ![](../.gitbook/assets/onepage-06-sale-tiers.svg)
 
-| Tier | XO stake alongside | Total in | EXON received | Released per day | Per month at 1.0 USDT | Allocations |
+| Tier | XO stake alongside | Total in | NX received | Released per day | Per month at 1.0 USDT | Allocations |
 | :-- | --: | --: | --: | --: | --: | --: |
 | 1,000 USDT | 333 USDT | 1,333 USDT | 10,000 | 9.13 | 273.97 USDT | 10,000 |
 | 5,000 USDT | 1,666 USDT | 6,666 USDT | 50,000 | 45.66 | 1,369.86 USDT | 1,000 |
 | 10,000 USDT | 3,333 USDT | 13,333 USDT | 100,000 | 91.32 | 2,739.73 USDT | 500 |
 | **Total** |  |  | **200M** |  |  | **11,500** |
 
-From listing day EXON is released daily for 1,095 days, one payout every 12 hours, 2,190 payouts in total. Every day pays, and every payout can be sold on NEX.
+From listing day NX is released daily for 1,095 days, one payout every 12 hours, 2,190 payouts in total. Every day pays, and every payout can be sold on NEX.
 
 ![](../.gitbook/assets/onepage-07-linear-release.svg)
 
-**Subscribe 30,000 USDT → 300,000 EXON → 273.97 EXON a day.** At 1.0 USDT that is 8,219.18 USDT a month, and the subscription is recovered in 3.7 months; at 2.0 USDT it is 16,438.36 USDT a month. The release schedule is fixed: every doubling of the price doubles the monthly payout.
+**Subscribe 30,000 USDT → 300,000 NX → 273.97 NX a day.** At 1.0 USDT that is 8,219.18 USDT a month, and the subscription is recovered in 3.7 months; at 2.0 USDT it is 16,438.36 USDT a month. The release schedule is fixed: every doubling of the price doubles the monthly payout.
 
 ## 6. One direction: nobody can buy it — you subscribe or you earn it
 
 {% hint style="success" %}
-**Two ways to hold EXON: subscribe in the private sale, or earn it through referrals. No hot money in and out, no round-tripping — one direction only.**
+**Two ways to hold NX: subscribe in the private sale, or earn it through referrals. No hot money in and out, no round-tripping — one direction only.**
 {% endhint %}
 
-- The NEX secondary market lists sell orders only, never buy orders, and EXON is not listed on decentralized exchanges — there is no "buy EXON" route anywhere in the market.
-- EXON sits in three places: the accounts of private-sale participants, the accounts of leaders earning dynamic rewards, and the fuel of stakers. Fuel EXON can only be burned.
+- The NEX secondary market lists sell orders only, never buy orders, and NX is not listed on decentralized exchanges — there is no "buy NX" route anywhere in the market.
+- NX sits in three places: the accounts of private-sale participants, the accounts of leaders earning dynamic rewards, and the fuel of stakers. Fuel NX can only be burned.
 - Sell fee 5%.
-- The sale offers only 200 million EXON, paid out daily over 1,095 days after listing — 182.6k a day, a supply schedule that is fully predictable.
+- The sale offers only 200 million NX, paid out daily over 1,095 days after listing — 182.6k a day, a supply schedule that is fully predictable.
 
 ## 7. The burn-and-appreciate flywheel
 
@@ -172,34 +172,34 @@ Withdraw rewards through one of three settlement speeds — the faster the settl
 
 ![](../.gitbook/assets/onepage-08-withdrawal-lanes.svg)
 
-| Settlement | Burned | EXON burned on a 10,000 USDT withdrawal (at 1.0 USDT) |
+| Settlement | Burned | NX burned on a 10,000 USDT withdrawal (at 1.0 USDT) |
 | :-- | --: | --: |
 | Immediate | 30% | 3,000 |
 | 30-day | 20% | 2,000 |
 | 60-day | 10% | 1,000 |
 
-If the fuel holds enough, settle immediately; if not, pick a slower settlement. Static yield burns on every withdrawal, and what is burned leaves circulation for good; referral and leadership rewards are paid in EXON and burn nothing.
+If the fuel holds enough, settle immediately; if not, pick a slower settlement. Static yield burns on every withdrawal, and what is burned leaves circulation for good; referral and leadership rewards are paid in NX and burn nothing.
 
-**How much burns per day?** With all static yield withdrawn and settled immediately, EXON at 1.0 USDT:
+**How much burns per day?** With all static yield withdrawn and settled immediately, NX at 1.0 USDT:
 
 ![](../.gitbook/assets/onepage-09-burn-vs-release.svg)
 
 | Total staked | Daily output | Daily burn (immediate settlement) | Annual burn |
 | :-- | --: | --: | --: |
-| 10M USDT | 40k – 120k USDT | 12k – 36k EXON | 4.38M – 13.14M EXON |
-| 50M USDT | 200k – 600k USDT | 60k – 180k EXON | 21.9M – 65.7M EXON |
-| 100M USDT | 400k – 1.2M USDT | 120k – 360k EXON | 43.8M – 131.4M EXON |
-| **Reference: early-bird release** |  | **182.6k EXON** | **66.67M EXON** |
+| 10M USDT | 40k – 120k USDT | 12k – 36k NX | 4.38M – 13.14M NX |
+| 50M USDT | 200k – 600k USDT | 60k – 180k NX | 21.9M – 65.7M NX |
+| 100M USDT | 400k – 1.2M USDT | 120k – 360k NX | 43.8M – 131.4M NX |
+| **Reference: early-bird release** |  | **182.6k NX** | **66.67M NX** |
 
-At 100 million USDT staked, a year's burn approaches two years of release, and a single day burns up to 360k EXON — 2.0× the daily release.
+At 100 million USDT staked, a year's burn approaches two years of release, and a single day burns up to 360k NX — 2.0× the daily release.
 
 ![](../.gitbook/assets/onepage-10-flywheel.svg)
 
-Buying never stops, burning never stops, the release schedule is fixed, and the float only gets smaller — this is the engine behind EXON.
+Buying never stops, burning never stops, the release schedule is fixed, and the float only gets smaller — this is the engine behind NX.
 
 ## 8. Exponential reach: 20 generations of referral rewards, V1 – V12 leadership bonuses
 
-Referral rewards are calculated on each downline's daily static output, across up to 20 generations and 76% in total, settled in the same cycle as static rewards and always paid in EXON — the coin that appreciates.
+Referral rewards are calculated on each downline's daily static output, across up to 20 generations and 76% in total, settled in the same cycle as static rewards and always paid in NX — the coin that appreciates.
 
 ![](../.gitbook/assets/onepage-11-twenty-generations.svg)
 
@@ -241,9 +241,9 @@ Every condition in the table applies to **the person collecting the reward**: an
 | Gen 3 | 125 | 5,000 – 15,000 USDT | 10% | 500 – 1,500 USDT |
 | **Three generations** |  |  |  | **630 – 1,890 USDT** |
 
-An own stake of 100 USDT and 4 qualified direct referrals already open generations 1 – 4. Rewards are paid in EXON; USDT in the table is the unit of account.
+An own stake of 100 USDT and 4 qualified direct referrals already open generations 1 – 4. Rewards are paid in NX; USDT in the table is the unit of account.
 
-Leadership bonuses V1 – V12 are paid on the differential (your rate minus your downline's rate). Assessment is cumulative on deposits, and a level once reached is never lost:
+Leadership bonuses V1 – V12 are paid on the differential (your rate minus your downline's rate). Assessment is cumulative on deposits, and a level once reached is never lost. From V6 up, the next level down has to appear in **two different regions**, one in each:
 
 | Level | Own stake | Largest leg | Other legs combined | Rate |
 | :-- | --: | --: | --: | --: |
@@ -256,15 +256,15 @@ Leadership bonuses V1 – V12 are paid on the differential (your rate minus your
 | V7 | 7,000 USDT | 5,000,000 USDT | 2 × V6 teams | 66% – 75% |
 | V8 | 8,000 USDT | 8,000,000 USDT | 2 × V7 teams | 76% – 85% |
 | V9 | 9,000 USDT | 10,000,000 USDT | 2 × V8 teams | 86% – 100% |
-| V10 | 13,000 USDT | 20,000,000 USDT | 2 × V9 teams | global pool 20% |
-| V11 | 17,000 USDT | 30,000,000 USDT | 2 × V10 teams | global pool 30% |
-| V12 | 20,000 USDT | 50,000,000 USDT | 2 × V11 teams | global pool 50% |
+| V10 | 13,000 USDT | 20,000,000 USDT | 2 × V9 teams | global pool (20% of 3%) |
+| V11 | 17,000 USDT | 30,000,000 USDT | 2 × V10 teams | global pool (30% of 3%) |
+| V12 | 20,000 USDT | 50,000,000 USDT | 2 × V11 teams | global pool (50% of 3%) |
 
 V10 – V12 share a global pool of 3% of all XO deposits, weighted 20 / 30 / 50 and split equally within each level.
 
 ### X Points: meet the day's spend, claim the day's rewards
 
-From V3, each level must meet its daily X Points spend to claim that day's platform rewards. X Points are bought with EXON: **1 point = 10 USD worth of EXON** at the price at purchase, fixed pricing. X Points only concern dynamic rewards; static yield and principal follow their own rules.
+From V3, each level must meet its daily X Points spend to claim that day's platform rewards. X Points are bought with NX: **1 point = 10 USD worth of NX** at the price at purchase, fixed pricing. X Points only concern dynamic rewards; static yield and principal follow their own rules.
 
 | Level | V1 | V2 | V3 | V4 | V5 | V6 | V7 | V8 | V9 | V10 | V11 | V12 |
 | :-- | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: |
@@ -275,23 +275,25 @@ From V3, each level must meet its daily X Points spend to claim that day's platf
 - The system refreshes the X Points spend parameters every 24 hours
 - Meet your level's daily X Points spend to claim that day's platform rewards
 - Miss the day's spend and that day's rewards cannot be claimed
+- Unused X Points burn on the spot that day; claiming them later means making up the previous day's spend first
 
 **Level-up bonus**
 
 - Every level up grants 30 X Points automatically
+- X Points balance is capped at 30 points
 - Newly promoted members get a 3-month relief period
 - During relief, the spend is 50% of the level's standard
 - After 3 months, the level's full 100% standard applies
 
-**Example: V8 → V9.** Promotion grants 30 points, and the X Points balance is capped at 30; for the first 3 months V9 spends 7.5 points a day (50% of the V9 standard), then 15 points a day.
+**Example: V8 → V9.** Promotion grants 30 points; for the first 3 months V9 spends 7.5 points a day (50% of the V9 standard), then 15 points a day.
 
 ## 9. Three milestones
 
 ![](../.gitbook/assets/onepage-12-timeline.svg)
 
 - **Early bird**　First private-sale round: subscribe at 0.1 USDT in three tiers — 1,000 / 5,000 / 10,000 USDT — with the XO stake paired alongside.
-- **Staking**　The summit: XO staking goes live — static rewards settle every 12 hours, referral rewards and leadership bonuses settle alongside, and static withdrawals burn fuel EXON.
-- **Listing**　EXON lists at 1.0 USDT with the first day's release; from listing day, 1,095 consecutive days of daily payouts, to hold or to sell on NEX.
+- **Staking**　The summit: XO staking goes live — static rewards settle every 12 hours, referral rewards and leadership bonuses settle alongside, and static withdrawals burn fuel NX.
+- **Listing**　NX lists at 1.0 USDT with the first day's release; from listing day, 1,095 consecutive days of daily payouts, to hold or to sell on NEX.
 
 ## 10. Parameters at a glance
 
@@ -300,20 +302,20 @@ From V3, each level must meet its daily X Points spend to claim that day's platf
 | Sale price → listing price | 0.1 USDT → 1.0 USDT (10×) |
 | Tiers / allocations | 1,000 / 5,000 / 10,000 USDT; 10,000 / 1,000 / 500 allocations, 11,500 in total |
 | Subscription : stake | 3:1 (stake rounded down to the integer); 1:1 after listing |
-| EXON supply / sale allocation | 1 billion / 200M (20%) |
+| NX supply / sale allocation | 1 billion / 200M (20%) |
 | Linear release | 1,095 days from listing day, one release every 12 hours, 2,190 in total |
-| EXON secondary market | Sell only, never buy |
-| Static settlement | 0.2% – 0.6% every 12 hours |
+| NX secondary market | Sell only, never buy |
+| Static settlement | 0.2% – 0.6% every 12 hours, 0.4% – 1.2% a day |
 | Term bonus | base / +10% / +20% / +30% / +50% |
 | Minimum order / restake | 100 USDT / from 100 USDT of rewards |
-| Fuel wallet | 28% of every deposit buys EXON at 1 USDT; burn only |
+| Fuel wallet | 28% of every deposit buys NX at 1 USDT; burn only |
 | Burn on withdrawal | Immediate 30% / 30-day 20% / 60-day 10% |
 | Referral rewards | 20 generations, 76% in total, on each downline's daily static output |
 | Leadership bonuses | V1 – V12 differential; V10 – V12 share a global pool of 3% of XO deposits |
-| Dynamic payout | All paid in EXON, settled in the same 12-hour cycle as static rewards; withdrawal burns no fuel |
-| X Points | Daily use by level (V1 and V2 use 0); meet the day's quota to claim the day's rewards; 1 point = 10 USD of EXON, 30 granted per promotion, 3-month relief at 50% |
+| Dynamic payout | All paid in NX, settled in the same 12-hour cycle as static rewards; withdrawal burns no fuel |
+| X Points | Daily use by level (V1 and V2 use 0); meet the day's quota to claim the day's rewards; 1 point = 10 USD of NX, 30 granted per promotion, balance capped at 30, 3-month relief at 50% |
 
-What NEXON builds is one account that connects capital, digital assets and real-world consumption; XO carries the value in that account, and EXON drives every unit of circulation through it.
+What NEXON builds is one account that connects capital, digital assets and real-world consumption; XO carries the value in that account, and NX drives every unit of circulation through it.
 
 **Join the private sale in three steps:** open a NEX account through your referrer, choose a tier, and complete the subscription with its paired stake.
 

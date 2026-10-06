@@ -9,7 +9,7 @@ icon: layer-group
 
 NEXON's product direction is a **financial-social ecosystem** built from five connected surfaces: AI-Native PayFi, the Wallet, the Marketplace, the Stablecoin Card and a decentralized Social App. They are not five unrelated feature lists — each owns **one particular moment** in the user's value loop, and each carries its own set of responsibilities.
 
-AI-Native PayFi is the **second focus** of the overall narrative. The first remains NEXON's own thesis and dual-asset architecture: NEXON connects capital, digital finance and real consumption; XO carries value, EXON drives circulation. PayFi is what makes that thesis tangible — it turns an objective into a route that can be checked, approved, executed and receipted.
+AI-Native PayFi is the **second focus** of the overall narrative. The first remains NEXON's own thesis and dual-asset architecture: NEXON connects capital, digital finance and real consumption; XO carries value, NX drives circulation. PayFi is what makes that thesis tangible — it turns an objective into a route that can be checked, approved, executed and receipted.
 
 ## Five surfaces, one loop
 
@@ -75,7 +75,7 @@ flowchart LR
 
 ## The seams inside the loop
 
-The loop is a product narrative, not a circular guarantee. Both assets keep their confirmed mechanical roles. XO currently carries staking principal. EXON is currently the spot, release, purchase, check and burn asset.
+The loop is a product narrative, not a circular guarantee. Both assets keep their confirmed mechanical roles. XO currently carries staking principal. NX is currently the spot, release, purchase, check and burn asset.
 
 Every surface has to keep its **responsible executor** visible:
 

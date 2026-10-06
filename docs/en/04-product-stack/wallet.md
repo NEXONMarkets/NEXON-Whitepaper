@@ -11,7 +11,7 @@ The NEXON Wallet is designed as the user's **financial home**: the place to unde
 
 ## Unified state, without pretending the assets are unified
 
-A unified view has to say where value **actually is**. XO staking principal, pending rewards, redeemable amounts and external assets each have their own executor, liquidity and risk. EXON spot balances and vesting releases are exchange-side records.
+A unified view has to say where value **actually is**. XO staking principal, pending rewards, redeemable amounts and external assets each have their own executor, liquidity and risk. NX spot balances and vesting releases are exchange-side records.
 
 The wallet names the responsible venue, network, contract or custodian — rather than presenting every row as equivalent cash.
 
@@ -20,14 +20,14 @@ For the current Staking Platform mechanism, the wallet should show:
 | Display | Note |
 |---|---|
 | Qualifying principal `P` | What went into this order |
-| 28% fuel | Buys EXON at 1 USDT each as fuel |
+| 28% fuel | Buys NX at 1 USDT each as fuel |
 | The rest into XO | Staked, settled every 12 hours |
 | Fuel | Burned only when rewards are withdrawn; no transfer, no trading |
 | Selected term and weight | 30 / 90 / 180 / 360 / 540 days, 1.00 – 1.50 |
 | 12-hour epoch accruals and parameter version | Each accrual records the rule version in force |
 | Early-exit condition | Applies to the 30-day term only |
 | Pending reward and redemption choice | T+0 / 30D / 60D |
-| Equivalent EXON burn and net release | Shown when a burn-bearing lane is selected |
+| Equivalent NX burn and net release | Shown when a burn-bearing lane is selected |
 
 **A display is not an executable quote.** Prices and withdrawal conditions have to be refreshed from the responsible system.
 
@@ -37,7 +37,7 @@ The wallet makes agent authority legible at a glance. A user can inspect which a
 
 Revocation stops **future use**. It does not reverse a completed transfer or market order. Those are two separate sentences in the interface.
 
-Holding tokens does not widen any of this. XO's role as Value Anchor and EXON's as Circulation Engine are narrative positions, distinct from account authorization.
+Holding tokens does not widen any of this. XO's role as Value Anchor and NX's as Circulation Engine are narrative positions, distinct from account authorization.
 
 ## Decision support
 

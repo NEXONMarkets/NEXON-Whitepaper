@@ -14,7 +14,7 @@ NEXON is designed as a **coordination layer** above the chains, venues, account 
 | Domain | Owns | Where its edge is |
 |---|---|---|
 | Unified identity and account services | Session, account view, eligibility references, permissions, user policy | A unified view does not merge custody or legal obligation |
-| NEX exchange / spot layer | XO trades freely; EXON spot (sell only) and daily release display | Does not distribute the staking rewards described here |
+| NEX exchange / spot layer | XO trades freely; NX spot (sell only) and daily release display | Does not distribute the staking rewards described here |
 | Staking Platform | XO staking principal, order validation, term weighting, epoch rewards, redemption | Its rules never become universal PayFi or marketplace rules |
 | Application orchestration | Intent capture, route construction, policy checks, approval, receipts | It proposes and coordinates; it does not acquire custody or authority by doing so |
 | Licensed or third-party execution | Regulated settlement, card issuance, merchant supply, travel inventory | Each operator answers under its own terms and jurisdiction |
@@ -25,7 +25,7 @@ One account makes these five easier to navigate. It does not fuse them into one 
 flowchart TB
     U["User"] --> ACC["Unified identity and account services"]
     ACC --> APP["Application orchestration<br/><i>intent · route · policy · approval · receipt</i>"]
-    ACC --> CEX["NEX Main Exchange / CEX<br/><i>XO · EXON spot · release display</i>"]
+    ACC --> CEX["NEX Main Exchange / CEX<br/><i>XO · NX spot · release display</i>"]
     ACC --> STK["Staking Platform<br/><i>XO principal · term weight · epoch · redemption</i>"]
     APP --> EXT["Licensed / third-party execution<br/><i>settlement · issuing · merchants · travel inventory</i>"]
     APP -. "approved instructions only" .-> CEX
@@ -47,16 +47,16 @@ The application layer is divided by **responsibility**, not by screen.
 | [Intent Layer](intent-layer.md) | Turning an objective and its constraints into a structured, versioned request | Intent record |
 | [Agent Runtime](agent-runtime.md) | Proposing routes, applying policy, requesting approval, coordinating bounded execution | Route and authorization log |
 | [Settlement & Custody](settlement-and-custody.md) | Reconciling native execution without pretending all assets share one custodian | Venue, chain or supplier receipt |
-| [Staking & Reward Layer](trust-and-bonding.md) | Applying the approved XO/EXON order, epoch and redemption rules | Order and reward ledger |
+| [Staking & Reward Layer](trust-and-bonding.md) | Applying the approved XO/NX order, epoch and redemption rules | Order and reward ledger |
 | [Data & Oracles](data-and-oracles.md) | Supplying prices, eligibility signals, inventory and failure thresholds | Timestamped source record |
 
 They map one-to-one onto the six-stage path: **Intent → Route → Policy Check → User Approval → Execution → Receipt.** The Intent Layer owns the first structured object. The runtime owns route construction, checks and authorization. Native executors own settlement or delivery. Reconciliation owns the receipt.
 
 ## The economic boundary that exists now
 
-The economic architecture is narrower and more settled than the product roadmap. The NEX exchange carries XO and EXON spot trading and the daily EXON release display. The Staking Platform carries XO staking, term bonuses, referral rewards, leadership bonuses and reward withdrawal. They may share identity, account visibility and capital operations; their ledgers, permissions and disclosures stay distinct.
+The economic architecture is narrower and more settled than the product roadmap. The NEX exchange carries XO and NX spot trading and the daily NX release display. The Staking Platform carries XO staking, term bonuses, referral rewards, leadership bonuses and reward withdrawal. They may share identity, account visibility and capital operations; their ledgers, permissions and disclosures stay distinct.
 
-A Staking Platform order splits the moment it opens: 28% buys EXON at 1 USDT each as fuel (burn only), and the rest is swapped into XO and staked, settling every 12 hours. **That is this product's own rule** — not a general architectural pattern, and not a fee model for future applications.
+A Staking Platform order splits the moment it opens: 28% buys NX at 1 USDT each as fuel (burn only), and the rest is swapped into XO and staked, settling every 12 hours. **That is this product's own rule** — not a general architectural pattern, and not a fee model for future applications.
 
 ## One route across the boundaries
 
@@ -92,7 +92,7 @@ If the supplier fails after payment, the route is **not** marked successful. If 
 
 ## Six controls that do not bend
 
-<table><thead><tr><th width="200">Control</th><th>What it means</th></tr></thead><tbody><tr><td><strong>Least authority</strong></td><td>Every approval covers only the assets, destinations, amounts, actions and time it names</td></tr><tr><td><strong>No token-derived permission</strong></td><td>Holding XO or EXON authorizes no agent and widens no account access</td></tr><tr><td><strong>Versioned rules</strong></td><td>Every economic calculation and policy decision cites the rule version in force at the time</td></tr><tr><td><strong>Separable custody</strong></td><td>An orchestration interface names the real custodian or executor for every leg</td></tr><tr><td><strong>Failure is first-class</strong></td><td>Partial completion, pending delivery, dispute and reversal are states the interface can show</td></tr><tr><td><strong>No flattering states</strong></td><td>Submitted is not settled; an unreconciled state stays "unknown" until it genuinely reconciles</td></tr></tbody></table>
+<table><thead><tr><th width="200">Control</th><th>What it means</th></tr></thead><tbody><tr><td><strong>Least authority</strong></td><td>Every approval covers only the assets, destinations, amounts, actions and time it names</td></tr><tr><td><strong>No token-derived permission</strong></td><td>Holding XO or NX authorizes no agent and widens no account access</td></tr><tr><td><strong>Versioned rules</strong></td><td>Every economic calculation and policy decision cites the rule version in force at the time</td></tr><tr><td><strong>Separable custody</strong></td><td>An orchestration interface names the real custodian or executor for every leg</td></tr><tr><td><strong>Failure is first-class</strong></td><td>Partial completion, pending delivery, dispute and reversal are states the interface can show</td></tr><tr><td><strong>No flattering states</strong></td><td>Submitted is not settled; an unreconciled state stays "unknown" until it genuinely reconciles</td></tr></tbody></table>
 
 The result is not one monolithic protocol. It is a **controlled connection among distinct systems**, organized around a shared route model and a shared evidence model.
 

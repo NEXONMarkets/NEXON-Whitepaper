@@ -5,11 +5,11 @@ icon: building-shield
 
 # Compliance & Legal Posture
 
-NEXON is the first flagship project on the NEX exchange. XO and EXON are NEXON project assets. **A similar name, an integration or an account connection cannot be used to imply authorship, approval, liability or principal protection that no document supports.**
+NEXON is the first flagship project on the NEX exchange. XO and NX are NEXON project assets. **A similar name, an integration or an account connection cannot be used to imply authorship, approval, liability or principal protection that no document supports.**
 
 ## Operational separation today
 
-The NEX exchange is the compliant spot layer for XO and EXON spot activity and the daily EXON release display. The Staking Platform separately applies XO staking, term bonuses, referral rewards, leadership bonuses and reward withdrawal. **Exchange licences, controls or disclosures cannot be used to imply regulatory approval of a staking return.**
+The NEX exchange is the compliant spot layer for XO and NX spot activity and the daily NX release display. The Staking Platform separately applies XO staking, term bonuses, referral rewards, leadership bonuses and reward withdrawal. **Exchange licences, controls or disclosures cannot be used to imply regulatory approval of a staking return.**
 
 Every long-term product needs its own responsible-party analysis:
 
@@ -42,9 +42,9 @@ KYC, AML, sanctions screening, custody, exchange execution, payment, card issuan
 
 ## Token-language discipline
 
-XO's Value Anchor role establishes no equity, debt, deposit status, current voting right or income guarantee. EXON's Circulation Engine role does not make it a current universal payment or fee token. **Future rights and utilities require published product terms and jurisdictional review.**
+XO's Value Anchor role establishes no equity, debt, deposit status, current voting right or income guarantee. NX's Circulation Engine role does not make it a current universal payment or fee token. **Future rights and utilities require published product terms and jurisdictional review.**
 
-Likewise, "fixed supply," "programmatic purchase" and "burn" cannot be written as price assurance. The 0.2% – 0.6% per-settlement yield and the worked examples are mechanism parameters and arithmetic, never written as a promised return.
+Likewise, "fixed supply," "programmatic purchase" and "burn" cannot be written as price assurance. The 0.2% – 0.6% per-settlement yield (0.4% – 1.2% a day) and the worked examples are mechanism parameters and arithmetic, never written as a promised return.
 
 ## Data and AI
 

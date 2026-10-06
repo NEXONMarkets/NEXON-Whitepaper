@@ -43,7 +43,7 @@ The system should keep **education, personal opinion, promotion and regulated ad
 
 Future interactions might include permitted transfers, group purchasing, event access, marketplace discovery and community participation. Their payment assets, fees, limits and eligibility are defined by the responsible product terms.
 
-EXON's narrative role as Circulation Engine **does not** make it a universal social payment token, and XO's role as Value Anchor gives a community administrator no control over anyone else's position.
+NX's narrative role as Circulation Engine **does not** make it a universal social payment token, and XO's role as Value Anchor gives a community administrator no control over anyone else's position.
 
 Every value action leaves the conversation and enters the same six-stage path used everywhere else: Intent → Route → Policy Check → User Approval → Execution → Receipt. The interface can return a user-selected outcome to the conversation, while **balances and transaction detail stay private by default**.
 

@@ -7,7 +7,7 @@ icon: triangle-exclamation
 
 This paper describes a project under construction. It is not an offer, a solicitation, investment advice, a legal opinion or a tax opinion. Unless incorporated into separately binding product terms, it forms no contract.
 
-**The two assets.** XO is the Value Anchor in narrative and the staking principal token in mechanism; EXON is the Circulation Engine in narrative and the core value token and spot instrument in mechanism. Neither represents equity, debt or a deposit.
+**The two assets.** XO is the Value Anchor in narrative and the staking principal token in mechanism; NX is the Circulation Engine in narrative and the core value token and spot instrument in mechanism. Neither represents equity, debt or a deposit.
 
 **The numbers.** Per-settlement yield, reward, price, ROI and subscription-recovery figures are protocol parameters, or calculations made under the price assumption stated inside the sentence. Outcomes depend on price, liquidity, fees, rules and execution.
 

@@ -62,7 +62,7 @@ The runtime should never ask one component both to propose an action and to poli
 | Native contracts and venue APIs | Enforce the product mechanics themselves |
 | Independent telemetry | Record what actually happened |
 
-Applied to an approved Staking Platform order, the runtime **validates** the published fields rather than improvising them. It verifies the two records: 28% bought into EXON at 1 USDT each in the fuel, and the rest swapped into XO and staked. The fuel can only be burned; when fuel runs short at withdrawal, the order takes a slower settlement speed — the runtime never authorises selling another asset to cover it.
+Applied to an approved Staking Platform order, the runtime **validates** the published fields rather than improvising them. It verifies the two records: 28% bought into NX at 1 USDT each in the fuel, and the rest swapped into XO and staked. The fuel can only be burned; when fuel runs short at withdrawal, the order takes a slower settlement speed — the runtime never authorises selling another asset to cover it.
 
 ## Revocation and recovery
 
@@ -91,7 +91,7 @@ The audit trail also keeps **advice** and **execution** apart. Social content, m
 
 ## Six runtime invariants
 
-1. Holding XO or EXON never substitutes for account permission.
+1. Holding XO or NX never substitutes for account permission.
 2. After approval, the runtime cannot widen an amount, destination, asset scope or deadline.
 3. A later leg cannot execute when its required earlier receipt is absent or invalid.
 4. A model cannot change any economic parameter fixed by the approved Tokenomics.

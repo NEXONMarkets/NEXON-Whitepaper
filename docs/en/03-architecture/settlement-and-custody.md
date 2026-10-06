@@ -13,7 +13,7 @@ An agent's instruction is not custody. A route proposal moves no funds. A unifie
 
 Every leg settles in the system actually responsible for that asset or service:
 
-* EXON purchases, sales and release display → NEX Main Exchange / CEX records;
+* NX purchases, sales and release display → NEX Main Exchange / CEX records;
 * XO staking orders, epoch accruals and redemption → the Staking Platform ledger;
 * on-chain transfers → the relevant chain and wallet/custody arrangement;
 * card authorization and settlement → the responsible licensed issuer and its network;
@@ -59,9 +59,9 @@ The approved mechanism implies at least three separable record domains:
 
 | Record domain | Records |
 |---|---|
-| Exchange records | EXON purchases, sales and vesting release display |
+| Exchange records | NX purchases, sales and vesting release display |
 | Staking records | XO principal, the order parameter version, term weight, every 12-hour epoch, the selected redemption schedule |
-| Fuel-wallet records | EXON bought with 28% of each deposit at 1 USDT each; burn only |
+| Fuel-wallet records | NX bought with 28% of each deposit at 1 USDT each; burn only |
 
 When a burn-bearing lane is chosen, reward redemption produces two explicit outputs:
 
@@ -70,9 +70,9 @@ Net  = W × (1 − b)
 Burn = W × b
 ```
 
-`W` is the reward withdrawn and `b` the burn share of the chosen settlement speed: 30% immediate, 20% for 30-day, 10% for 60-day. The system burns the equivalent EXON from the fuel and writes a permanent destruction record before completing the withdrawal. **This mechanism belongs to the withdrawal choice itself** — it is not a PayFi route fee, a card fee or a marketplace charge.
+`W` is the reward withdrawn and `b` the burn share of the chosen settlement speed: 30% immediate, 20% for 30-day, 10% for 60-day. The system burns the equivalent NX from the fuel and writes a permanent destruction record before completing the withdrawal. **This mechanism belongs to the withdrawal choice itself** — it is not a PayFi route fee, a card fee or a marketplace charge.
 
-The fuel is likewise not custody transferred to an operator: it is the user's EXON, bought with 28% of the deposit, and it can only be burned. The ledger must keep **the EXON in the fuel** and **the XO under stake** apart.
+The fuel is likewise not custody transferred to an operator: it is the user's NX, bought with 28% of the deposit, and it can only be burned. The ledger must keep **the NX in the fuel** and **the XO under stake** apart.
 
 ## Partial failure and recovery
 

@@ -77,7 +77,7 @@ The order exists to prevent three very common confusions:
 * **Permission is not settlement.** An instruction sent is not an order filled.
 * **Settlement is not delivery.** Money reaching a merchant does not mean the room is booked.
 
-A user can authorize an EXON spot order without authorizing that purchase. A digital payment can settle while the merchant never fulfills. Keeping those three apart in the record is the most practical thing this structure buys.
+A user can authorize an NX spot order without authorizing that purchase. A digital payment can settle while the merchant never fulfills. Keeping those three apart in the record is the most practical thing this structure buys.
 
 ## Connection without erasure
 
@@ -94,9 +94,9 @@ The exchange owns its leg. The Staking Platform applies its published staking an
 
 ## Where today's mechanism sits inside this
 
-The economics already running are specific: one account system connecting NEX Main Exchange / CEX and the Staking Platform. The first carries XO and EXON spot and the daily EXON release display; the second carries XO staking, term bonuses, referral and leadership rewards and reward withdrawal. That is the **current mechanism**. "XO as Value Anchor, EXON as Circulation Engine" is the long-term position laid over it.
+The economics already running are specific: one account system connecting NEX Main Exchange / CEX and the Staking Platform. The first carries XO and NX spot and the daily NX release display; the second carries XO staking, term bonuses, referral and leadership rewards and reward withdrawal. That is the **current mechanism**. "XO as Value Anchor, NX as Circulation Engine" is the long-term position laid over it.
 
-The relationship between the two is architectural, not permissional. An agent does not need a staking position to read intent. Holding XO grants an agent no execution authority. EXON is not a general route fee. The application layer helps a user understand and navigate; the economic layer keeps running on its own published parameters.
+The relationship between the two is architectural, not permissional. An agent does not need a staking position to read intent. Holding XO grants an agent no execution authority. NX is not a general route fee. The application layer helps a user understand and navigate; the economic layer keeps running on its own published parameters.
 
 <details>
 

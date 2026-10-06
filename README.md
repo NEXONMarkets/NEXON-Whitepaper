@@ -74,8 +74,8 @@ comes from `tokenomics.authority.json`. Changing a number means regenerating and
    using the slug of the matching English heading. GitBook cannot generate a usable anchor
    from CJK text, so without this, cross-links into a Chinese section break.
 6. **Narrative and mechanical roles are both fixed.** In the narrative, NEXON is the ecosystem,
-   XO carries long-term value and EXON drives circulation. In the current mechanism, XO is the
-   Staking Principal Token and EXON is the Core Value Token. Both languages must preserve this
+   XO carries long-term value and NX drives circulation. In the current mechanism, XO is the
+   Staking Principal Token and NX is the Core Value Token. Both languages must preserve this
    distinction and stay structurally aligned.
 7. **Two linked sources of truth.** The economic source PDF is
    `../../../raw/NEXON项目方资料/NEXON_经济模型_Tokenomics.pdf`; its machine-readable registry is
