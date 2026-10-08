@@ -11,7 +11,7 @@ coverY: 0
 **The first NX early-bird private sale:** subscription price 0.1 USDT, listing price 1.0 USDT — a 10× open. XO staking settles every 12 hours, twice a day. NX can be sold on NEX but never bought there, and every reward withdrawal burns it. All amounts are in **USDT**.
 {% endhint %}
 
-## 1. The first flagship project on the NEX exchange
+## 1. The first flagship platform on the NEX exchange
 
 NEX is an AI-native asset exchange operating out of Macau, with seven strategic hubs: Macau as the Asia-Pacific operations and compliance centre, mainland China for domestic business, Australia for global capital markets, Malaysia for national-grade AI compute, Dubai for Gulf capital, Africa for emerging markets, and Europe and the Americas for FX clearing and derivatives.
 
@@ -57,7 +57,7 @@ Four credentials across mainland China, Macau, the United States and Dubai:
 
 ![](../.gitbook/assets/onepage-p4-certificates.jpg)
 
-**NEXON is the first flagship project on the NEX exchange**, launched on NEX's account system, spot market and ecosystem resources. Exchange, licences and team are all in place. On top of them sits an economic engine that puts money to work and only ever shrinks supply: stake XO for **time compounding**, subscribe to NX for a 10× open, and burn on every withdrawal so that NX moves in **one direction**.
+**NEXON is the first flagship platform on the NEX exchange**, launched on NEX's account system, spot market and ecosystem resources. Exchange, licences and team are all in place. On top of them sits an economic engine that puts money to work and only ever shrinks supply: stake XO for **time compounding**, subscribe to NX for a 10× open, and burn on every withdrawal so that NX moves in **one direction**.
 
 ## 2. NEXON is the ecosystem. XO carries value. NX drives circulation.
 

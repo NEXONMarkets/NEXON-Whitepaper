@@ -5,7 +5,7 @@ icon: building-shield
 
 # 合规立场
 
-NEXON 是 NEX 交易所的第一个明星项目。XO 与 NX 是 NEXON 的项目资产。**名称接近、集成关系或账户连接，都不能被用来暗示一份没有正式文件支撑的署名、批准、责任或本金保护。**
+NEXON 是 NEX 交易所的第一个明星平台。XO 与 NX 是 NEXON 的项目资产。**名称接近、集成关系或账户连接，都不能被用来暗示一份没有正式文件支撑的署名、批准、责任或本金保护。**
 
 ## 当前的运营分离 <a href="#operational-separation-today" id="operational-separation-today"></a>
 

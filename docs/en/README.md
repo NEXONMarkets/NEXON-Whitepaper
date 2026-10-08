@@ -106,6 +106,6 @@ If you want the arithmetic first, jump to [Worked Examples](05-tokenomics/worked
 
 Posters, one-pagers, PDFs and logos are available in [Project Materials](https://docbay.nexon.markets/).
 
-NEXON is the first flagship project on the NEX exchange.
+NEXON is the first flagship platform on the NEX exchange.
 
 *The economic parameters and calculations in this paper follow the current mechanism finalised on 10 September 2026; the legal and risk boundaries are in the [Legal Disclaimer](legal-disclaimer/README.md).*

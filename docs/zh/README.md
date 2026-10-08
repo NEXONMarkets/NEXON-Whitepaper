@@ -106,6 +106,6 @@ flowchart LR
 
 海报、一页图、PDF 与 Logo 等物料，可在[项目资料库](https://docbay.nexon.markets/)下载。
 
-NEXON 是 NEX 交易所的第一个明星项目。
+NEXON 是 NEX 交易所的第一个明星平台。
 
 *本文的经济参数与演算取自 2026 年 9 月 10 日定稿的现行机制；法律与风险边界见[法律声明](legal-disclaimer/README.md)。*

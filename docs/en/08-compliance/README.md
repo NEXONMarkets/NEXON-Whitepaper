@@ -5,7 +5,7 @@ icon: building-shield
 
 # Compliance & Legal Posture
 
-NEXON is the first flagship project on the NEX exchange. XO and NX are NEXON project assets. **A similar name, an integration or an account connection cannot be used to imply authorship, approval, liability or principal protection that no document supports.**
+NEXON is the first flagship platform on the NEX exchange. XO and NX are NEXON project assets. **A similar name, an integration or an account connection cannot be used to imply authorship, approval, liability or principal protection that no document supports.**
 
 ## Operational separation today
 
