@@ -8,7 +8,7 @@ coverY: 0
 # NEXON in One Page
 
 {% hint style="success" %}
-**The first NX early-bird private sale:** subscription price 0.1 USDT, listing price 1.0 USDT — a 10× open. XO staking settles every 12 hours, twice a day. NX can be sold on NEX but never bought there, and every reward withdrawal burns it. All amounts are in **USDT**.
+**The first NX Private sale:** subscription price 0.1 USDT, listing price 1.0 USDT — a 10× open. XO staking settles every 12 hours, twice a day. NX can be sold on NEX but never bought there, and every reward withdrawal burns it. All amounts are in **USDT**.
 {% endhint %}
 
 ## 1. The first flagship platform on the NEX exchange
@@ -136,7 +136,7 @@ The longer the term, the more it rolls: the 540-day term matures at **253,406 US
 
 ## 5. Yield projection: subscribe at 0.1 USDT, list at 1.0 USDT
 
-NX supply is 1 billion. The private sale offers only 200 million — 20% of supply — in 11,500 allocations, closed once sold out. Each subscription is paired with an XO stake at 3:1: **the subscription earns the release, the stake earns the settlement, and both income lines start together.** **An XO stake comes first: it is what unlocks an early-bird allocation.**
+NX supply is 1 billion. The private sale offers only 200 million — 20% of supply — in 11,500 allocations, closed once sold out. Each subscription is paired with an XO stake at 3:1: **the subscription earns the release, the stake earns the settlement, and both income lines start together.** **An XO stake comes first: it is what unlocks an private-sale allocation.**
 
 ![](../.gitbook/assets/onepage-06-sale-tiers.svg)
 
@@ -189,7 +189,7 @@ If the fuel holds enough, settle immediately; if not, pick a slower settlement. 
 | 10M USDT | 40k – 120k USDT | 12k – 36k NX | 4.38M – 13.14M NX |
 | 50M USDT | 200k – 600k USDT | 60k – 180k NX | 21.9M – 65.7M NX |
 | 100M USDT | 400k – 1.2M USDT | 120k – 360k NX | 43.8M – 131.4M NX |
-| **Reference: early-bird release** |  | **182.6k NX** | **66.67M NX** |
+| **Reference: private-sale release** |  | **182.6k NX** | **66.67M NX** |
 
 At 100 million USDT staked, a year's burn approaches two years of release, and a single day burns up to 360k NX — 2.0× the daily release.
 
@@ -291,7 +291,7 @@ From V3, each level must meet its daily X Points spend to claim that day's platf
 
 ![](../.gitbook/assets/onepage-12-timeline.svg)
 
-- **Early bird**　First private-sale round: subscribe at 0.1 USDT in three tiers — 1,000 / 5,000 / 10,000 USDT — with the XO stake paired alongside.
+- **Private-sale**　First private-sale round: subscribe at 0.1 USDT in three tiers — 1,000 / 5,000 / 10,000 USDT — with the XO stake paired alongside.
 - **Staking**　The summit: XO staking goes live — static rewards settle every 12 hours, referral rewards and leadership bonuses settle alongside, and static withdrawals burn fuel NX.
 - **Listing**　NX lists at 1.0 USDT with the first day's release; from listing day, 1,095 consecutive days of daily payouts, to hold or to sell on NEX.
 

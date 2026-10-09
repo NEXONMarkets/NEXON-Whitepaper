@@ -15,7 +15,7 @@ In the NEXON narrative, NX is the **Circulation Engine**, connecting digital fin
 
 ## Two ways in: subscribe, or earn it <a href="#the-only-route-the-private-sale" id="the-only-route-the-private-sale"></a>
 
-**There are two ways to hold NX: subscribe in the private sale, or earn it — referral and leadership rewards are paid in NX. Nobody can buy it on the market.** The sale: Subscription price 0.1 USDT, three tiers of 1,000 / 5,000 / 10,000 USDT with 10,000 / 1,000 / 500 allocations — 11,500 in total, closed once sold out. Each subscription is paired with an XO stake at 3:1: 1,000 USDT subscribed pairs with a 333 USDT stake, the subscription earns the release, the stake earns the settlement, and both income lines start together. **An XO stake comes first: it is what unlocks an early-bird allocation.**
+**There are two ways to hold NX: subscribe in the private sale, or earn it — referral and leadership rewards are paid in NX. Nobody can buy it on the market.** The sale: Subscription price 0.1 USDT, three tiers of 1,000 / 5,000 / 10,000 USDT with 10,000 / 1,000 / 500 allocations — 11,500 in total, closed once sold out. Each subscription is paired with an XO stake at 3:1: 1,000 USDT subscribed pairs with a 333 USDT stake, the subscription earns the release, the stake earns the settlement, and both income lines start together. **An XO stake comes first: it is what unlocks an private-sale allocation.**
 
 NX supply is 1 billion; the private sale offers only 200 million, 20% of supply. Listing is at 1.0 USDT, ten times the subscription price; from listing day NX is released daily for 1,095 days, one payout every 12 hours, each payout sellable on NEX.
 
@@ -44,13 +44,13 @@ Static yield burns on every withdrawal, and what is burned leaves circulation fo
 {% endtab %}
 
 {% tab title="③ Burn scenarios" %}
-With all rewards withdrawn immediately and NX at 1.0 USDT: 10 million USDT staked burns 12k – 36k NX a day; 50 million burns 60k – 180k; 100 million burns 120k – 360k. The early-bird release is 182.6k a day.
+With all rewards withdrawn immediately and NX at 1.0 USDT: 10 million USDT staked burns 12k – 36k NX a day; 50 million burns 60k – 180k; 100 million burns 120k – 360k. The private-sale release is 182.6k a day.
 
 At 100 million USDT staked, a single day burns up to 360k NX — 2.0× the daily release — and a year's burn approaches two years of release.
 {% endtab %}
 {% endtabs %}
 
-<figure><img src="../.gitbook/assets/onepage-09-burn-vs-release.svg" alt="Daily burn ranges at three staking totals: 10M USDT 12k–36k NX, 50M USDT 60k–180k, 100M USDT 120k–360k, against a daily early-bird release of 182.6k"><figcaption>The more is staked, the more burns every day; at 100M USDT the top of the range is 2.0× the daily release</figcaption></figure>
+<figure><img src="../.gitbook/assets/onepage-09-burn-vs-release.svg" alt="Daily burn ranges at three staking totals: 10M USDT 12k–36k NX, 50M USDT 60k–180k, 100M USDT 120k–360k, against a daily private-sale release of 182.6k"><figcaption>The more is staked, the more burns every day; at 100M USDT the top of the range is 2.0× the daily release</figcaption></figure>
 
 Buying never stops, burning never stops, the release schedule is fixed, and the float only gets smaller — this is the engine behind NX.
 

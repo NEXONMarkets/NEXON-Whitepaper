@@ -44,7 +44,7 @@ Stake = the rest   → swapped into XO → staked, settled every 12 hours
 
 **Withdrawal.** Static yield lands in XO and can be withdrawn at any time, through one of three settlement speeds: immediate with a 30% burn, 30-day with 20%, 60-day with 10%. What burns is the equivalent fuel NX, gone from circulation for good. Dynamic rewards land in NX and burn no fuel on withdrawal.
 
-**Private sale and release.** NX supply is 1 billion; the private sale offers only 200 million at 0.1 USDT, in three tiers of 1,000 / 5,000 / 10,000 USDT and 11,500 allocations, each paired with an XO stake at 3:1. **An XO stake comes first: it is what unlocks an early-bird allocation.** Listing is at 1.0 USDT, followed by 1,095 days of daily release — one payout every 12 hours, 2,190 in total.
+**Private sale and release.** NX supply is 1 billion; the private sale offers only 200 million at 0.1 USDT, in three tiers of 1,000 / 5,000 / 10,000 USDT and 11,500 allocations, each paired with an XO stake at 3:1. **An XO stake comes first: it is what unlocks an private-sale allocation.** Listing is at 1.0 USDT, followed by 1,095 days of daily release — one payout every 12 hours, 2,190 in total.
 
 **Dynamic rewards.** Referral rewards reach 20 generations and 76% in total, calculated on each downline's daily static output; leadership bonuses V1 – V12 are paid on the level differential, and V10 – V12 share a global pool of 3% of XO deposits, weighted 20 / 30 / 50. All are paid in **NX**, settled in the same cycle as static rewards, and burn no fuel on withdrawal. Each level buys X Points with NX daily (V1 and V2 use 0; 1 point = 10 USD of NX); meet the day's quota to claim the day's platform rewards.
 
