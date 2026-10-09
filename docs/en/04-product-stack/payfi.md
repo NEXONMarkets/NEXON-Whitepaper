@@ -42,7 +42,7 @@ Comparisons follow the user's constraints. Any routing incentive that could affe
 {% tab title="3 · Apply policy checks" %}
 Hard controls sit outside model judgment: account status, identity references, allowlists, blocklists, spend limits, quote freshness, reserve floors and each product's own rules. **A high confidence score does not override a failed rule.**
 
-Where a current Staking Platform order is involved, PayFi can explain and validate the deposit split: 28% buys NX at 1 USDT each as fuel, and the rest is swapped into XO and staked. The product interface does not alter these values and does not present the fuel purchase as a fee.
+Where a current Staking Platform order is involved, PayFi can explain and validate the deposit split: 28% buys NX at 1 USDT each as fuel, and the other 72% is swapped into XO and staked. The product interface does not alter these values and does not present the fuel purchase as a fee.
 {% endtab %}
 
 {% tab title="4 · Request scoped authority" %}

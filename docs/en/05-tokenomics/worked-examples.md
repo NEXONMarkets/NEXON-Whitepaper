@@ -28,7 +28,7 @@ The release schedule is fixed: every doubling of the price doubles the monthly p
 
 ## Example B — staking 10,000 USDT <a href="#example-b-staking-10-000-usdt" id="example-b-staking-10-000-usdt"></a>
 
-Deposit `P = 10,000 USDT`. The order splits on opening: `2,800 USDT` of fuel buys `2,800 NX` at 1 USDT each as fuel; the rest is swapped into XO and staked, settling every 12 hours at 0.2% – 0.6% — 0.4% – 1.2% a day, or 28.8 – 86.4 USDT.
+Deposit `P = 10,000 USDT`. The order splits on opening: `2,800 USDT` of fuel buys `2,800 NX` at 1 USDT each as fuel; the other `7,200 USDT` is swapped into XO and staked, settling every 12 hours at 0.2% – 0.6% — 0.4% – 1.2% a day, or 28.8 – 86.4 USDT.
 
 **Rewards on the original order only**, at maturity:
 

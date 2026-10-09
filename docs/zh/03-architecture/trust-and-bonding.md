@@ -37,10 +37,10 @@ NEX 交易所**不发放**本节所述的质押奖励。Staking Platform 也**�
 
 ```text
 燃料 = 0.28 × P   → 按当时 1 U 等值买入 NX → 燃料（只能销毁）
-质押 = 其余部分   → 兑换 XO → 质押，每 12 小时结算
+质押 = 入金 × 72% → 兑换 XO → 质押，每 12 小时结算
 ```
 
-<figure><img src="../.gitbook/assets/onepage-04-fuel-wallet.svg" alt="入金 10,000 U：28% 即 2,800 U 按 1 U 等值买入 2,800 枚 NX 存入燃料，只能销毁、不能转出、不能交易"><figcaption>入金 10,000 U：2,800 枚 NX 进燃料，其余兑换 XO 开始计息</figcaption></figure>
+<figure><img src="../.gitbook/assets/onepage-04-fuel-wallet.svg" alt="入金 10,000 U：28% 即 2,800 U 按 1 U 等值买入 2,800 枚 NX 存入燃料，只能销毁、不能转出、不能交易"><figcaption>入金 10,000 U：2,800 枚 NX 进燃料，7,200 U 兑换 XO 开始计息</figcaption></figure>
 
 燃料只进不出：不能提现、不能转出，只能在提取静态收益时销毁。最低开单 100 U。NX 的获取来自私募认购或动态奖励，各自承担价格与流动性。
 

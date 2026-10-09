@@ -80,7 +80,7 @@ On the product side NEXON is a **super financial-social ecosystem**: AI-native P
 Take a 10,000 USDT deposit. It is split in two the moment the order opens, automatically:
 
 - **28% buys NX.** 2,800 NX, bought at 1 USDT each, are held as fuel. Fuel only ever fills: nothing in it can be withdrawn or transferred, and it is spent in one way only — burned when static yield is withdrawn.
-- **The rest is swapped into XO and staked.** It settles every 12 hours — 28.8 – 86.4 USDT a day — and the static yield lands in XO, withdrawable at any time.
+- **The other 7,200 USDT is swapped into XO and staked.** It settles every 12 hours — 28.8 – 86.4 USDT a day — and the static yield lands in XO, withdrawable at any time.
 
 ![](../.gitbook/assets/onepage-04-fuel-wallet.svg)
 

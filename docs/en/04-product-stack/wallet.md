@@ -21,7 +21,7 @@ For the current Staking Platform mechanism, the wallet should show:
 |---|---|
 | Qualifying principal `P` | What went into this order |
 | 28% fuel | Buys NX at 1 USDT each as fuel |
-| The rest into XO | Staked, settled every 12 hours |
+| The other 72% into XO | Staked, settled every 12 hours |
 | Fuel | Burned only when rewards are withdrawn; no transfer, no trading |
 | Selected term and weight | 30 / 90 / 180 / 360 / 540 days, 1.00 – 1.50 |
 | 12-hour epoch accruals and parameter version | Each accrual records the rule version in force |

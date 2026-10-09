@@ -7,16 +7,16 @@ icon: arrows-rotate
 
 NEXON's economy has several flows. **Keeping them on separate ledgers is the precondition for reading the mechanism; seen together, they are the engine behind NX.**
 
-<figure><img src="../.gitbook/assets/onepage-03-pipeline.svg" alt="Six steps of a deposit: deposit → fuel buys NX with 28% → the rest is swapped into XO and staked → settlement every 12 hours → static withdrawal burns 10% – 30% NX → restake from 100 USDT"><figcaption>The path of a deposit: from staking to burn, and on to the next order</figcaption></figure>
+<figure><img src="../.gitbook/assets/onepage-03-pipeline.svg" alt="Six steps of a deposit: deposit → fuel buys NX with 28% → the other 72% is swapped into XO and staked → settlement every 12 hours → static withdrawal burns 10% – 30% NX → restake from 100 USDT"><figcaption>The path of a deposit: from staking to burn, and on to the next order</figcaption></figure>
 
 ## Flow ① The deposit split <a href="#flow-1-the-deposit-split" id="flow-1-the-deposit-split"></a>
 
 ```text
 Fuel  = 0.28 × P   → buys NX at 1 USDT each → fuel
-Stake = the rest   → swapped into XO → staked, settled every 12 hours
+Stake = 72%        → swapped into XO → staked, settled every 12 hours
 ```
 
-Deposit 10,000 USDT: 2,800 NX are held as fuel, the rest is swapped into XO and earns 28.8 – 86.4 USDT a day. **Every deposit buys.**
+Deposit 10,000 USDT: 2,800 NX are held as fuel, 7,200 USDT is swapped into XO and earns 28.8 – 86.4 USDT a day. **Every deposit buys.**
 
 ## Flow ② Fuel <a href="#flow-2-the-fuel-wallet" id="flow-2-the-fuel-wallet"></a>
 
@@ -68,7 +68,7 @@ Referral rewards are calculated on each downline's daily static output, up to 20
 ```mermaid
 flowchart LR
     P["Staking deposit P"] --> B["28% buys NX"]
-    P --> S["Rest swapped into XO and staked"]
+    P --> S["72% swapped into XO and staked"]
     B --> W["Fuel · in only"]
     S --> R["Settled every 12 h at 0.2% – 0.6%"]
     R --> C{"Settlement speed"}

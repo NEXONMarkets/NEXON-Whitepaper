@@ -7,16 +7,16 @@ icon: arrows-rotate
 
 NEXON 的经济里有好几条流。**把它们分开记账，是读懂这套机制的前提；把它们放到一起看，就是 NX 的上涨引擎。**
 
-<figure><img src="../.gitbook/assets/onepage-03-pipeline.svg" alt="一笔入金的六步：入金 → 燃料 28% 买入 NX → 其余兑换 XO 质押 → 每 12 小时结算 → 提取收益销毁 10% – 30% NX → 收益复投"><figcaption>一笔入金的动线：从质押到销毁，再到下一单</figcaption></figure>
+<figure><img src="../.gitbook/assets/onepage-03-pipeline.svg" alt="一笔入金的六步：入金 → 燃料 28% 买入 NX → 其余 72% 兑换 XO 质押 → 每 12 小时结算 → 提取收益销毁 10% – 30% NX → 收益复投"><figcaption>一笔入金的动线：从质押到销毁，再到下一单</figcaption></figure>
 
 ## 流 ①　入金拆分 <a href="#flow-1-the-deposit-split" id="flow-1-the-deposit-split"></a>
 
 ```text
 燃料 = 0.28 × P   → 按当时 1 U 等值买入 NX → 燃料
-质押 = 其余部分   → 兑换 XO → 质押，每 12 小时结算
+质押 = 入金 × 72% → 兑换 XO → 质押，每 12 小时结算
 ```
 
-入金 10,000 U：2,800 枚 NX 存为燃料，其余兑换 XO 开始计息，一天 28.8 – 86.4 U。**每一笔入金都在买入。**
+入金 10,000 U：2,800 枚 NX 存为燃料，7,200 U 兑换 XO 开始计息，一天 28.8 – 86.4 U。**每一笔入金都在买入。**
 
 ## 流 ②　燃料 <a href="#flow-2-the-fuel-wallet" id="flow-2-the-fuel-wallet"></a>
 
@@ -68,7 +68,7 @@ Burn = W × b ÷ P_NX
 ```mermaid
 flowchart LR
     P["质押入金 P"] --> B["28% 买入 NX"]
-    P --> S["其余兑换 XO 质押"]
+    P --> S["其余 72% 兑换 XO 质押"]
     B --> W["燃料 · 只进不出"]
     S --> R["每 12 小时结算 0.2% – 0.6%"]
     R --> C{"提取方式"}

@@ -37,10 +37,10 @@ For a deposit `P`, the current mechanism records two entries:
 
 ```text
 Fuel  = 0.28 × P   → buys NX at 1 USDT each → fuel (burn only)
-Stake = the rest   → swapped into XO → staked, settled every 12 hours
+Stake = 72%        → swapped into XO → staked, settled every 12 hours
 ```
 
-<figure><img src="../.gitbook/assets/onepage-04-fuel-wallet.svg" alt="A 10,000 USDT deposit: 28%, or 2,800 USDT, buys 2,800 NX at 1 USDT each as fuel — burn only, no transfer, no trading"><figcaption>A 10,000 USDT deposit: 2,800 NX as fuel, the rest swapped into XO and earning</figcaption></figure>
+<figure><img src="../.gitbook/assets/onepage-04-fuel-wallet.svg" alt="A 10,000 USDT deposit: 28%, or 2,800 USDT, buys 2,800 NX at 1 USDT each as fuel — burn only, no transfer, no trading"><figcaption>A 10,000 USDT deposit: 2,800 NX as fuel, 7,200 USDT swapped into XO and earning</figcaption></figure>
 
 Fuel only ever fills: no withdrawals, no transfers, burned only when static yield is withdrawn. Minimum order 100 USDT. NX is acquired through the private sale or as dynamic rewards, each carrying its own price and liquidity.
 
