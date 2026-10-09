@@ -86,7 +86,7 @@ flowchart LR
 
 <figure><img src="../.gitbook/assets/onepage-10-flywheel.svg" alt="销毁增值飞轮：质押入金买入 NX → 燃料只进不出 → 提取收益销毁 → 供给只减不增，中间是只能卖不能买"><figcaption>买入不停，销毁不停，释放表固定，流通盘只会越来越小</figcaption></figure>
 
-质押越多，买入越多；提取越多，烧得越多；释放表固定。质押总额到 1 亿 U，一天最多烧 36 万枚，是日释放的 2.0 倍；一年烧掉的接近两年的释放量。
+质押越多，买入越多；提取越多，烧得越多；释放表固定。质押总额到 1 亿 U，一天最多烧 25.92 万枚，是日释放的 1.4 倍；一年烧掉的接近两年的释放量。
 
 ## 长期的产品闭环 <a href="#the-long-term-product-loop" id="the-long-term-product-loop"></a>
 

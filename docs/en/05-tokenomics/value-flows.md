@@ -86,7 +86,7 @@ flowchart LR
 
 <figure><img src="../.gitbook/assets/onepage-10-flywheel.svg" alt="The burn-and-appreciate flywheel: a staking deposit buys NX → fuel only fills → static withdrawal burns → supply only shrinks; at the centre, sell only, never buy"><figcaption>Buying never stops, burning never stops, the release schedule is fixed, and the float only gets smaller</figcaption></figure>
 
-The more is staked, the more is bought; the more is withdrawn, the more is burned; the release schedule is fixed. At 100 million USDT staked, a single day burns up to 360K NX — 2.0× the daily release — and a year's burn approaches two years of release.
+The more is staked, the more is bought; the more is withdrawn, the more is burned; the release schedule is fixed. At 100 million USDT staked, a single day burns up to 259.2K NX — 1.4× the daily release — and a year's burn approaches two years of release.
 
 ## The long-term product loop <a href="#the-long-term-product-loop" id="the-long-term-product-loop"></a>
 

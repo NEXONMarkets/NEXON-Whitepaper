@@ -44,13 +44,13 @@ Static yield burns on every withdrawal, and what is burned leaves circulation fo
 {% endtab %}
 
 {% tab title="③ Burn scenarios" %}
-With all rewards withdrawn immediately and NX at 1.0 USDT: 10 million USDT staked burns 12k – 36k NX a day; 50 million burns 60k – 180k; 100 million burns 120k – 360k. The private-sale release is 182.6k a day.
+With all rewards withdrawn immediately and NX at 1.0 USDT: 10 million USDT staked burns 8.6k – 25.9k NX a day; 50 million burns 43.2k – 129.6k; 100 million burns 86.4k – 259.2k. The private-sale release is 182.6k a day.
 
-At 100 million USDT staked, a single day burns up to 360k NX — 2.0× the daily release — and a year's burn approaches two years of release.
+At 100 million USDT staked, a single day burns up to 259.2k NX — 1.4× the daily release — and a year's burn approaches two years of release.
 {% endtab %}
 {% endtabs %}
 
-<figure><img src="../.gitbook/assets/onepage-09-burn-vs-release.svg" alt="Daily burn ranges at three staking totals: 10M USDT 12k–36k NX, 50M USDT 60k–180k, 100M USDT 120k–360k, against a daily private-sale release of 182.6k"><figcaption>The more is staked, the more burns every day; at 100M USDT the top of the range is 2.0× the daily release</figcaption></figure>
+<figure><img src="../.gitbook/assets/onepage-09-burn-vs-release.svg" alt="Daily burn ranges at three staking totals: 10M USDT 8.6k–25.9k NX, 50M USDT 43.2k–129.6k, 100M USDT 86.4k–259.2k, against a daily private-sale release of 182.6k"><figcaption>The more is staked, the more burns every day; at 100M USDT the top of the range is 1.4× the daily release</figcaption></figure>
 
 Buying never stops, burning never stops, the release schedule is fixed, and the float only gets smaller — this is the engine behind NX.
 
