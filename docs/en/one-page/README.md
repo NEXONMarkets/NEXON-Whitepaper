@@ -80,7 +80,7 @@ On the product side NEXON is a **super financial-social ecosystem**: AI-native P
 Take a 10,000 USDT deposit. It is split in two the moment the order opens, automatically:
 
 - **28% buys NX.** 2,800 NX, bought at 1 USDT each, are held as fuel. Fuel only ever fills: nothing in it can be withdrawn or transferred, and it is spent in one way only — burned when static yield is withdrawn.
-- **The rest is swapped into XO and staked.** It settles every 12 hours — 40 – 120 USDT a day — and the static yield lands in XO, withdrawable at any time.
+- **The rest is swapped into XO and staked.** It settles every 12 hours — 28.8 – 86.4 USDT a day — and the static yield lands in XO, withdrawable at any time.
 
 ![](../.gitbook/assets/onepage-04-fuel-wallet.svg)
 
@@ -88,19 +88,19 @@ Both lines run at once: the staking line pays XO every 12 hours; the fuel line b
 
 ## 4. Time compounding: settlement every 12 hours
 
-Each settlement pays 0.2% – 0.6%, every 12 hours, twice a day — 0.4% – 1.2% across the day. **Stake 10,000 USDT and earn 40 – 120 USDT a day.**
+Each settlement pays 0.2% – 0.6%, every 12 hours, twice a day — 0.4% – 1.2% across the day. **Stake 10,000 USDT and earn 28.8 – 86.4 USDT a day.**
 
-The longer the term, the higher the bonus — set by term alone, never by amount. The 540-day term carries a flat +50%: 10,000 USDT staked earns 60 – 180 USDT a day.
+The longer the term, the higher the bonus — set by term alone, never by amount. The 540-day term carries a flat +50%: 10,000 USDT staked earns 43.2 – 129.6 USDT a day.
 
 ![](../.gitbook/assets/onepage-05-term-ladder.svg)
 
-| Term | Bonus | 10,000 USDT staked · per day | 10,000 USDT staked · per month |
+| Term | Bonus | 10,000 USDT deposited · per day | 10,000 USDT deposited · per month |
 | :-- | --: | --: | --: |
-| 30 days | base | 40 – 120 USDT | 1,200 – 3,600 USDT |
-| 90 days | +10% | 44 – 132 USDT | 1,320 – 3,960 USDT |
-| 180 days | +20% | 48 – 144 USDT | 1,440 – 4,320 USDT |
-| 360 days | +30% | 52 – 156 USDT | 1,560 – 4,680 USDT |
-| 540 days | +50% | 60 – 180 USDT | 1,800 – 5,400 USDT |
+| 30 days | base | 28.8 – 86.4 USDT | 864 – 2,592 USDT |
+| 90 days | +10% | 31.68 – 95.04 USDT | 950 – 2,851 USDT |
+| 180 days | +20% | 34.56 – 103.68 USDT | 1,037 – 3,110 USDT |
+| 360 days | +30% | 37.44 – 112.32 USDT | 1,123 – 3,370 USDT |
+| 540 days | +50% | 43.2 – 129.6 USDT | 1,296 – 3,888 USDT |
 
 Static yield arrives in XO and can be withdrawn at any time; rewards can be reinvested as they land, so the principal keeps compounding — time works for the staker.
 
@@ -116,10 +116,10 @@ Rewards on the original order only:
 
 | Term | Term bonus | Daily output with bonus | Rewards at maturity | Principal + rewards at maturity | Multiple of principal |
 | :-- | --: | --: | --: | --: | --: |
-| 30 days | none | 40 – 120 USDT | 1,200 – 3,600 USDT | 11,200 – 13,600 USDT | 1.1× – 1.4× |
-| 90 days | +10% | 44 – 132 USDT | 3,960 – 11,880 USDT | 13,960 – 21,880 USDT | 1.4× – 2.2× |
-| 360 days | +30% | 52 – 156 USDT | 18,720 – 56,160 USDT | 28,720 – 66,160 USDT | 2.9× – 6.6× |
-| 540 days | +50% | 60 – 180 USDT | 32,400 – 97,200 USDT | 42,400 – 107,200 USDT | 4.2× – 10.7× |
+| 30 days | none | 28.8 – 86.4 USDT | 864 – 2,592 USDT | 8,064 – 9,792 USDT | 0.8× – 1.0× |
+| 90 days | +10% | 31.7 – 95 USDT | 2,851 – 8,554 USDT | 10,051 – 15,754 USDT | 1.0× – 1.6× |
+| 360 days | +30% | 37.4 – 112 USDT | 13,478 – 40,435 USDT | 20,678 – 47,635 USDT | 2.1× – 4.8× |
+| 540 days | +50% | 43.2 – 130 USDT | 23,328 – 69,984 USDT | 30,528 – 77,184 USDT | 3.1× – 7.7× |
 
 ### Reinvest and compound
 
@@ -127,12 +127,12 @@ Rewards are reinvested as they land: a reinvested order carries the same term bo
 
 | Term | Original order rewards | New order rewards | Principal + all rewards at maturity | Multiple of principal | Original order only |
 | :-- | --: | --: | --: | --: | --: |
-| 30 days | 1,200 USDT | 68.2 USDT | **11,268 USDT** | **1.1×** | 1.1× |
-| 90 days | 3,960 USDT | 871 USDT | **14,831 USDT** | **1.5×** | 1.4× |
-| 360 days | 18,720 USDT | 35,945 USDT | **64,665 USDT** | **6.5×** | 2.9× |
-| 540 days | 32,400 USDT | 211,006 USDT | **253,406 USDT** | **25.3×** | 4.2× |
+| 30 days | 864 USDT | 47.4 USDT | **8,111 USDT** | **0.8×** | 0.8× |
+| 90 days | 2,851 USDT | 621 USDT | **10,672 USDT** | **1.1×** | 1.0× |
+| 360 days | 13,478 USDT | 25,799 USDT | **46,477 USDT** | **4.6×** | 2.1× |
+| 540 days | 23,328 USDT | 151,616 USDT | **182,144 USDT** | **18.2×** | 3.1× |
 
-The longer the term, the more it rolls: the 540-day term matures at **253,406 USDT, 25.3× the principal**, against 4.2× on the original order alone.
+The longer the term, the more it rolls: the 540-day term matures at **182,144 USDT, 18.2× the principal**, against 3.1× on the original order alone.
 
 ## 5. Yield projection: subscribe at 0.1 USDT, list at 1.0 USDT
 
@@ -186,12 +186,12 @@ If the fuel holds enough, settle immediately; if not, pick a slower settlement. 
 
 | Total staked | Daily output | Daily burn (immediate settlement) | Annual burn |
 | :-- | --: | --: | --: |
-| 10M USDT | 40k – 120k USDT | 12k – 36k NX | 4.38M – 13.14M NX |
-| 50M USDT | 200k – 600k USDT | 60k – 180k NX | 21.9M – 65.7M NX |
-| 100M USDT | 400k – 1.2M USDT | 120k – 360k NX | 43.8M – 131.4M NX |
+| 10M USDT | 40k – 120k USDT | 8.6k – 25.9k NX | 3.15M – 9.46M NX |
+| 50M USDT | 200k – 600k USDT | 43.2k – 129.6k NX | 15.77M – 47.3M NX |
+| 100M USDT | 400k – 1.2M USDT | 86.4k – 259.2k NX | 31.54M – 94.61M NX |
 | **Reference: private-sale release** |  | **182.6k NX** | **66.67M NX** |
 
-At 100 million USDT staked, a year's burn approaches two years of release, and a single day burns up to 360k NX — 2.0× the daily release.
+At 100 million USDT staked, a year's burn approaches two years of release, and a single day burns up to 259.2k NX — 1.4× the daily release.
 
 ![](../.gitbook/assets/onepage-10-flywheel.svg)
 
@@ -232,14 +232,14 @@ Every condition in the table applies to **the person collecting the reward**: an
 
 **Unlocking, by example:** with an own stake of 500 USDT and 6 qualified direct referrals — 4 staking 100 USDT or more and 2 staking 500 USDT or more — generations 1 – 6 are open; add 2 more referrals staking 500 USDT or more and generations 7 and 8 open too.
 
-**Reward, worked through:** refer 5 people, each of whom refers 5 more; everyone stakes 10,000 USDT and produces 40 – 120 USDT of static yield a day:
+**Reward, worked through:** refer 5 people, each of whom refers 5 more; everyone stakes 10,000 USDT and produces 28.8 – 86.4 USDT of static yield a day:
 
 | Generation | People in it | Their combined daily static output | Rate | Your daily referral reward |
 | :-- | --: | --: | --: | --: |
-| Gen 1 | 5 | 200 – 600 USDT | 15% | 30 – 90 USDT |
-| Gen 2 | 25 | 1,000 – 3,000 USDT | 10% | 100 – 300 USDT |
-| Gen 3 | 125 | 5,000 – 15,000 USDT | 10% | 500 – 1,500 USDT |
-| **Three generations** |  |  |  | **630 – 1,890 USDT** |
+| Gen 1 | 5 | 144 – 432 USDT | 15% | 21.6 – 64.8 USDT |
+| Gen 2 | 25 | 720 – 2,160 USDT | 10% | 72 – 216 USDT |
+| Gen 3 | 125 | 3,600 – 10,800 USDT | 10% | 360 – 1,080 USDT |
+| **Three generations** |  |  |  | **453.6 – 1,360.8 USDT** |
 
 An own stake of 100 USDT and 4 qualified direct referrals already open generations 1 – 4. Rewards are paid in NX; USDT in the table is the unit of account.
 

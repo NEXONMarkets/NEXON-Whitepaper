@@ -52,15 +52,15 @@ Fuel only ever fills: no withdrawals, no transfers, burned only when static yiel
 Per settlement = staked amount × (0.2% – 0.6%) × (1 + bonus)
 ```
 
-<figure><img src="../.gitbook/assets/onepage-05-term-ladder.svg" alt="Term ladder: 30 days base, 90 days +10%, 180 days +20%, 360 days +30%, 540 days +50%; 10,000 USDT staked earns from 40–120 to 60–180 USDT a day"><figcaption>The longer the term, the higher the bonus — set by term alone, never by amount</figcaption></figure>
+<figure><img src="../.gitbook/assets/onepage-05-term-ladder.svg" alt="Term ladder: 30 days base, 90 days +10%, 180 days +20%, 360 days +30%, 540 days +50%; 10,000 USDT deposited earns from 28.8–86.4 to 43.2–129.6 USDT a day"><figcaption>The longer the term, the higher the bonus — set by term alone, never by amount</figcaption></figure>
 
-| Term | Bonus | 10,000 USDT staked · per day | At maturity | Cumulative lock |
+| Term | Bonus | 10,000 USDT deposited · per day | At maturity | Cumulative lock |
 |---:|---:|---:|---|---:|
-| 30 days | base | 40 – 120 USDT | Back at maturity, no penalty | 1,200 days |
-| 90 days | +10% | 44 – 132 USDT | Rolls into the next term | 1,170 days |
-| 180 days | +20% | 48 – 144 USDT | Rolls into the next term | 1,080 days |
-| 360 days | +30% | 52 – 156 USDT | Rolls into the next term | 900 days |
-| 540 days | +50% | 60 – 180 USDT | Principal returned | 540 days |
+| 30 days | base | 28.8 – 86.4 USDT | Back at maturity, no penalty | 1,200 days |
+| 90 days | +10% | 31.7 – 95 USDT | Rolls into the next term | 1,170 days |
+| 180 days | +20% | 34.6 – 103.7 USDT | Rolls into the next term | 1,080 days |
+| 360 days | +30% | 37.4 – 112.3 USDT | Rolls into the next term | 900 days |
+| 540 days | +50% | 43.2 – 129.6 USDT | Principal returned | 540 days |
 
 Every order and every settlement records the **parameter version** it ran under. A later parameter change cannot quietly rewrite a historical accrual. The ledger keeps the deposit, term, bonus, settlement time, total rewards, and any correction or reversal with its stated reason.
 

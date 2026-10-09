@@ -21,12 +21,12 @@ The second sentence defines what happens now; the first explains why that functi
 
 XO is minted by the treasury with no fixed cap, and trades freely on the NEX secondary market. When a deposit is staked, everything beyond the 28% fuel portion is swapped into XO and staked; earning starts on staking.
 
-**Settlement every 12 hours, 0.2% – 0.6% each time — 0.4% – 1.2% a day.** 10,000 USDT staked earns 40 – 120 USDT a day. The longer the term, the higher the bonus — set by term alone, never by amount:
+**Settlement every 12 hours, 0.2% – 0.6% each time — 0.4% – 1.2% a day.** 10,000 USDT deposited earns 28.8 – 86.4 USDT a day. The longer the term, the higher the bonus — set by term alone, never by amount:
 
 | Term | 30 days | 90 days | 180 days | 360 days | 540 days |
 |---|---:|---:|---:|---:|---:|
 | Bonus | base | +10% | +20% | +30% | +50% |
-| 10,000 USDT staked · per day | 40 – 120 USDT | 44 – 132 USDT | 48 – 144 USDT | 52 – 156 USDT | 60 – 180 USDT |
+| 10,000 USDT deposited · per day | 28.8 – 86.4 USDT | 31.7 – 95 USDT | 34.6 – 103.7 USDT | 37.4 – 112.3 USDT | 43.2 – 129.6 USDT |
 | Cumulative lock | 1,200 days | 1,170 days | 1,080 days | 900 days | 540 days |
 
 Static yield is **paid in XO**; referral rewards and leadership bonuses are paid in NX, settled in the same cycle. Static yield can be withdrawn at any time; rewards can be reinvested as they land, and the principal keeps compounding.

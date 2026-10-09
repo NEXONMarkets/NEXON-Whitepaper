@@ -1,5 +1,5 @@
 ---
-description: "Four worked examples — release value, 10,000 USDT staked with and without restaking, withdrawal burn, team rewards — all from the current parameters."
+description: "Four worked examples — release value, 10,000 USDT deposited with and without restaking, withdrawal burn, team rewards — all from the current parameters."
 icon: calculator
 ---
 
@@ -28,27 +28,27 @@ The release schedule is fixed: every doubling of the price doubles the monthly p
 
 ## Example B — staking 10,000 USDT <a href="#example-b-staking-10-000-usdt" id="example-b-staking-10-000-usdt"></a>
 
-Deposit `P = 10,000 USDT`. The order splits on opening: `2,800 USDT` of fuel buys `2,800 NX` at 1 USDT each as fuel; the rest is swapped into XO and staked, settling every 12 hours at 0.2% – 0.6% — 0.4% – 1.2% a day, or 40 – 120 USDT.
+Deposit `P = 10,000 USDT`. The order splits on opening: `2,800 USDT` of fuel buys `2,800 NX` at 1 USDT each as fuel; the rest is swapped into XO and staked, settling every 12 hours at 0.2% – 0.6% — 0.4% – 1.2% a day, or 28.8 – 86.4 USDT.
 
 **Rewards on the original order only**, at maturity:
 
 | Term | Term bonus | Daily output with bonus | Rewards at maturity | Principal + rewards at maturity | Multiple of principal |
 | :-- | --: | --: | --: | --: | --: |
-| 30 days | none | 40 – 120 USDT | 1,200 – 3,600 USDT | 11,200 – 13,600 USDT | 1.1× – 1.4× |
-| 90 days | +10% | 44 – 132 USDT | 3,960 – 11,880 USDT | 13,960 – 21,880 USDT | 1.4× – 2.2× |
-| 360 days | +30% | 52 – 156 USDT | 18,720 – 56,160 USDT | 28,720 – 66,160 USDT | 2.9× – 6.6× |
-| 540 days | +50% | 60 – 180 USDT | 32,400 – 97,200 USDT | 42,400 – 107,200 USDT | 4.2× – 10.7× |
+| 30 days | none | 28.8 – 86.4 USDT | 864 – 2,592 USDT | 8,064 – 9,792 USDT | 1.1× – 1.4× |
+| 90 days | +10% | 31.7 – 95 USDT | 2,851.2 – 8,553.6 USDT | 10,051.2 – 15,753.6 USDT | 1.4× – 2.2× |
+| 360 days | +30% | 37.4 – 112.3 USDT | 13,478.4 – 40,435.2 USDT | 20,678.4 – 47,635.2 USDT | 2.9× – 6.6× |
+| 540 days | +50% | 43.2 – 129.6 USDT | 23,328 – 69,984 USDT | 30,528 – 77,184 USDT | 4.2× – 10.7× |
 
 **Reinvest and compound.** Rewards are reinvested as they land: a reinvested order carries the same term bonus as the original, settles every 12 hours, and its own rewards keep compounding — all the way to the original order's maturity. Total at maturity = principal + original order rewards + reinvested rewards. At 0.2% per settlement:
 
 | Term | Original order rewards | New order rewards | Principal + all rewards at maturity | Multiple of principal | Original order only |
 | :-- | --: | --: | --: | --: | --: |
-| 30 days | 1,200 USDT | 68 USDT | **11,268 USDT** | **1.1×** | 1.1× |
-| 90 days | 3,960 USDT | 871 USDT | **14,831 USDT** | **1.5×** | 1.4× |
-| 360 days | 18,720 USDT | 35,945 USDT | **64,665 USDT** | **6.5×** | 2.9× |
-| 540 days | 32,400 USDT | 211,006 USDT | **253,406 USDT** | **25.3×** | 4.2× |
+| 30 days | 864 USDT | 47 USDT | **8,111 USDT** | **1.1×** | 1.1× |
+| 90 days | 2,851 USDT | 621 USDT | **10,672 USDT** | **1.5×** | 1.4× |
+| 360 days | 13,478 USDT | 25,799 USDT | **46,477 USDT** | **6.5×** | 2.9× |
+| 540 days | 23,328 USDT | 151,616 USDT | **182,144 USDT** | **25.3×** | 4.2× |
 
-The longer the term, the more it compounds: the 540-day term ends at **253,406 USDT, 25.3× the principal**, against 4.2× on the original order alone. Time works for the staker.
+The longer the term, the more it compounds: the 540-day term ends at **182,144 USDT, 25.3× the principal**, against 4.2× on the original order alone. Time works for the staker.
 
 ## Example C — withdrawing 10,000 USDT of rewards <a href="#example-c-withdrawing-10-000-usdt-of-rewards" id="example-c-withdrawing-10-000-usdt-of-rewards"></a>
 
@@ -62,11 +62,11 @@ The longer the term, the more it compounds: the 540-day term ends at **253,406 U
 
 ## Example D — a three-generation team <a href="#example-d-a-three-generation-team" id="example-d-a-three-generation-team"></a>
 
-Refer 5 people, each of whom refers 5 more: 5 / 25 / 125 people across three generations, everyone staking 10,000 USDT and producing 40 – 120 USDT of static yield a day. The referral reward is that generation's combined daily static output times that generation's rate:
+Refer 5 people, each of whom refers 5 more: 5 / 25 / 125 people across three generations, everyone staking 10,000 USDT and producing 28.8 – 86.4 USDT of static yield a day. The referral reward is that generation's combined daily static output times that generation's rate:
 
 | Generation | People in it | Their combined daily static output | Rate | Your daily referral reward |
 |---|---:|---:|---:|---:|
-| Gen 1 | 5 | 200 – 600 USDT | 15% | 30 – 90 USDT |
+| Gen 1 | 5 | 200 – 600 USDT | 15% | 21.6 – 64.8 USDT |
 | Gen 2 | 25 | 1,000 – 3,000 USDT | 10% | 100 – 300 USDT |
 | Gen 3 | 125 | 5,000 – 15,000 USDT | 10% | 500 – 1,500 USDT |
 | **Three generations** | | | | **630 – 1,890 USDT / day** |

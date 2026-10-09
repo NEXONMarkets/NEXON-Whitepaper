@@ -5,26 +5,27 @@ icon: chart-line
 
 # Staking & Returns
 
-A staking deposit is swapped into XO and starts earning at once. **Settlement every 12 hours, 0.2% – 0.6% each time, twice a day — 0.4% – 1.2% across the day.** Static yield lands directly in XO.
+28% of a staking deposit buys NX at the 1 USDT equivalent and is held as fuel; the other **72% is swapped into XO and enters staking — that 72% is the interest base**. **Settlement every 12 hours, 0.2% – 0.6% each time, twice a day — 0.4% – 1.2% across the day.** Static yield lands directly in XO.
 
 ```text
-Per settlement = staked amount × (0.2% – 0.6%) × (1 + term bonus)
+Interest base  = deposit × 72%
+Per settlement = interest base × (0.2% – 0.6%) × (1 + term bonus)
 Per day        = per settlement × 2
 ```
 
-10,000 USDT staked earns 40 – 120 USDT a day; on the 540-day term with its +50% bonus, 60 – 180 USDT a day. What maturity pays, and how far reinvesting the rewards takes it, is Example B in [Worked Examples](worked-examples.md): up to 10.7 × the principal on the 540-day term.
+10,000 USDT deposited gives a 7,200 USDT interest base and earns 28.8 – 86.4 USDT a day; on the 540-day term with its +50% bonus, 43.2 – 129.6 USDT a day. What maturity pays, and how far reinvesting the rewards takes it, is Example B in [Worked Examples](worked-examples.md): up to 10.7 × the principal on the 540-day term.
 
 ## Five terms <a href="#five-terms" id="five-terms"></a>
 
-<figure><img src="../.gitbook/assets/onepage-05-term-ladder.svg" alt="Term ladder: 30 days base, 90 days +10%, 180 days +20%, 360 days +30%, 540 days +50%; 10,000 USDT staked earns 40–120, 44–132, 48–144, 52–156 and 60–180 USDT a day"><figcaption>The longer the term, the higher the bonus — set by term alone, never by amount</figcaption></figure>
+<figure><img src="../.gitbook/assets/onepage-05-term-ladder.svg" alt="Term ladder: 30 days base, 90 days +10%, 180 days +20%, 360 days +30%, 540 days +50%; 10,000 USDT deposited earns 28.8–86.4, 31.7–95, 34.6–103.7, 37.4–112.3 and 43.2–129.6 USDT a day"><figcaption>The longer the term, the higher the bonus — set by term alone, never by amount</figcaption></figure>
 
-| Term | Bonus | 10,000 USDT staked · per day | 10,000 USDT staked · per month | At maturity | Cumulative lock |
+| Term | Bonus | 10,000 USDT deposited · per day | 10,000 USDT deposited · per month | At maturity | Cumulative lock |
 |---:|---:|---:|---:|---|---:|
-| 30 days | base | 40 – 120 USDT | 1,200 – 3,600 USDT | Back at maturity | 1,200 days |
-| 90 days | +10% | 44 – 132 USDT | 660 – 6,600 USDT | Rolls into the next term | 1,170 days |
-| 180 days | +20% | 48 – 144 USDT | 720 – 7,200 USDT | Rolls into the next term | 1,080 days |
-| 360 days | +30% | 52 – 156 USDT | 780 – 7,800 USDT | Rolls into the next term | 900 days |
-| 540 days | +50% | 60 – 180 USDT | 1,800 – 5,400 USDT | Principal returned | 540 days |
+| 30 days | base | 28.8 – 86.4 USDT | 864 – 2,592 USDT | Back at maturity | 1,200 days |
+| 90 days | +10% | 31.7 – 95 USDT | 950 – 2,851 USDT | Rolls into the next term | 1,170 days |
+| 180 days | +20% | 34.6 – 103.7 USDT | 1,037 – 3,110 USDT | Rolls into the next term | 1,080 days |
+| 360 days | +30% | 37.4 – 112.3 USDT | 1,123 – 3,370 USDT | Rolls into the next term | 900 days |
+| 540 days | +50% | 43.2 – 129.6 USDT | 1,296 – 3,888 USDT | Principal returned | 540 days |
 
 ## Exit and renewal <a href="#exit-and-renewal" id="exit-and-renewal"></a>
 

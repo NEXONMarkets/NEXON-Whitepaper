@@ -16,7 +16,7 @@ Fuel  = 0.28 × P   → buys NX at 1 USDT each → fuel
 Stake = the rest   → swapped into XO → staked, settled every 12 hours
 ```
 
-Deposit 10,000 USDT: 2,800 NX are held as fuel, the rest is swapped into XO and earns 40 – 120 USDT a day. **Every deposit buys.**
+Deposit 10,000 USDT: 2,800 NX are held as fuel, the rest is swapped into XO and earns 28.8 – 86.4 USDT a day. **Every deposit buys.**
 
 ## Flow ② Fuel <a href="#flow-2-the-fuel-wallet" id="flow-2-the-fuel-wallet"></a>
 

@@ -34,7 +34,7 @@ The two-asset structure keeps four questions apart:
 {% step %}
 ### What earns?
 
-The XO that a staking deposit is swapped into. It settles every 12 hours at 0.2% – 0.6% — 0.4% – 1.2% a day; 10,000 USDT staked earns 40 – 120 USDT a day.
+The XO that a staking deposit is swapped into. It settles every 12 hours at 0.2% – 0.6% — 0.4% – 1.2% a day; 10,000 USDT deposited earns 28.8 – 86.4 USDT a day.
 {% endstep %}
 
 {% step %}

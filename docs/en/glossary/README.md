@@ -32,7 +32,7 @@ icon: book
 | Term | 中文 | Definition |
 |---|---|---|
 | Deposit split | 入金拆分 | 28% of a deposit buys NX as fuel; the rest is swapped into XO and staked |
-| Per-settlement yield | 单次产出 | 0.2% – 0.6% every 12 hours, 0.4% – 1.2% a day; 10,000 USDT staked earns 40 – 120 USDT a day |
+| Per-settlement yield | 单次产出 | 0.2% – 0.6% every 12 hours, 0.4% – 1.2% a day; 10,000 USDT deposited earns 28.8 – 86.4 USDT a day |
 | Term bonus | 期限加成 | base / +10% / +20% / +30% / +50% for 30 / 90 / 180 / 360 / 540 days, set by term alone |
 | Maturity withdrawal | 期满取回 | On the 30-day term, principal plus rewards come back at maturity, no penalty; left in place, the order renews |
 | Settlement speed | 到账方式 | The three withdrawal lanes: immediate with a 30% burn, 30-day with 20%, 60-day with 10% |

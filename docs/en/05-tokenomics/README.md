@@ -40,7 +40,7 @@ Stake = the rest   → swapped into XO → staked, settled every 12 hours
 
 ## The economic lifecycle <a href="#the-economic-lifecycle" id="the-economic-lifecycle"></a>
 
-**Staking.** XO staking settles every 12 hours at 0.2% – 0.6% per settlement — 0.4% – 1.2% across the day; 10,000 USDT staked earns 40 – 120 USDT a day. Terms of 30 / 90 / 180 / 360 / 540 days carry bonuses of base / +10% / +20% / +30% / +50%, set by term alone. On the 30-day term, principal plus rewards come back at maturity, no penalty; left in place, the order renews 90 → 180 → 360 → 540 days.
+**Staking.** XO staking settles every 12 hours at 0.2% – 0.6% per settlement — 0.4% – 1.2% across the day; 10,000 USDT deposited earns 28.8 – 86.4 USDT a day. Terms of 30 / 90 / 180 / 360 / 540 days carry bonuses of base / +10% / +20% / +30% / +50%, set by term alone. On the 30-day term, principal plus rewards come back at maturity, no penalty; left in place, the order renews 90 → 180 → 360 → 540 days.
 
 **Withdrawal.** Static yield lands in XO and can be withdrawn at any time, through one of three settlement speeds: immediate with a 30% burn, 30-day with 20%, 60-day with 10%. What burns is the equivalent fuel NX, gone from circulation for good. Dynamic rewards land in NX and burn no fuel on withdrawal.
 
